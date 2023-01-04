@@ -1,0 +1,13 @@
+{
+    "ClassName": "Folder",
+    "Children": [
+        {
+            "Name": "PlayerReset",
+            "ClassName": "RemoteEvent"
+        },
+        {
+            "Name": "ValidCodeCheck",
+            "ClassName": "RemoteFunction"
+        }
+    ]
+}

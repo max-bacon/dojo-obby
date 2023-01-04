@@ -1,0 +1,13 @@
+{
+    "ClassName": "Folder",
+    "Children": [
+        {
+            "Name": "AllSettingsUpdated",
+            "ClassName": "RemoteEvent"
+        },
+        {
+            "Name": "SettingUpdated",
+            "ClassName": "RemoteEvent"
+        }
+    ]
+}

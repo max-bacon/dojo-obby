@@ -1,0 +1,13 @@
+{
+    "ClassName": "Folder",
+    "Children": [
+        {
+            "Name": "PlayerLoaded",
+            "ClassName": "RemoteEvent"
+        },
+        {
+            "Name": "NotifyPlayer",
+            "ClassName": "RemoteEvent"
+        }
+    ]
+}

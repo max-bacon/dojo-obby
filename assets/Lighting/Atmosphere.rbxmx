@@ -1,0 +1,27 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitAutoJoints">true</Meta>
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Atmosphere" referent="RBXA71C18CE475B46E2A9C889E67CEF0C0F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<Color3 name="Color">
+				<R>0.78039217</R>
+				<G>0.78039217</G>
+				<B>0.78039217</B>
+			</Color3>
+			<Color3 name="Decay">
+				<R>0.41568628</R>
+				<G>0.43921569</G>
+				<B>0.490196079</B>
+			</Color3>
+			<float name="Density">0.308999985</float>
+			<float name="Glare">0</float>
+			<float name="Haze">0</float>
+			<string name="Name">Atmosphere</string>
+			<float name="Offset">0</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+</roblox>

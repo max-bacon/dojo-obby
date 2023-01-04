@@ -1,0 +1,17 @@
+{
+    "ClassName": "Folder",
+    "Children": [
+        {
+            "Name": "PlayerDied",
+            "ClassName": "RemoteEvent"
+        },
+		{
+            "Name": "PlayerSpawned",
+            "ClassName": "RemoteEvent"
+        },
+        {
+            "Name": "PlayerReloaded",
+            "ClassName": "RemoteEvent"
+        }
+    ]
+}
