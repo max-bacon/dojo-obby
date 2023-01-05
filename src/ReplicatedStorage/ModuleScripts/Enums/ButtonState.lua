@@ -1,7 +1,7 @@
 --[[
     Handle the different button states, specifically for images in fusion
 ]]
-
+--testcase
 local RestrictedTable = require(script.Parent.RestrictedTable)
 
 local ButtonState = RestrictedTable{
