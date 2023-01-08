@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - prod
+    - stable
+    - dev
+  pull_request:
+    branches:
+    - prod
+    - stable
+    - dev
+
+jobs:
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - uses: Roblox/setup-forman@v1
+      name: Install Foreman
+      with:
+        vestion: "^1.0.0"
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Lint
+      run: |
+        selene ./src
+    
+  style: 
+    name: Styling
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: JohnnyMorganz/stylua-action@1.0.0
+      with:
+        token: ${{ secrets.GITHUB_TOKEN}}
+        args: --check .
