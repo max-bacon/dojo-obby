@@ -3,6 +3,11 @@
 registry = "test"
 
 [[package]]
+name = "elttob/fusion"
+version = "0.1.1-beta"
+dependencies = []
+
+[[package]]
 name = "evaera/promise"
 version = "4.0.0"
 dependencies = []
@@ -10,7 +15,7 @@ dependencies = []
 [[package]]
 name = "maxba/rojo-template"
 version = "0.1.0"
-dependencies = [["Knit", "sleitnick/knit@1.4.7"]]
+dependencies = [["Fusion", "elttob/fusion@0.1.1-beta"], ["Knit", "sleitnick/knit@1.4.7"]]
 
 [[package]]
 name = "sleitnick/comm"
