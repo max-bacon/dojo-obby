@@ -21,6 +21,8 @@ jobs:
       name: Install Aftman
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    - run: wally install
     
     - run: rojo build -o game.rbxl
 
