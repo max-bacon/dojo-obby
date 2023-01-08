@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v3
 
     - uses: ok-nick/setup-aftman@v0.3.0
-      name: Install Foreman
+      name: Install Aftman
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
@@ -35,7 +35,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: JohnnyMorganz/stylua-action@1.0.0
+    - uses: JohnnyMorganz/stylua-action@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN}}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        version: latest
         args: --check .
