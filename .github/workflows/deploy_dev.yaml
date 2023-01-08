@@ -22,6 +22,6 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
-    - run: rojo build -o game.rbxlx
+    - run: rojo build -o game.rbxl
 
-    - run: rbxcloud experience publish -f game.rbxlx -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
+    - run: rbxcloud experience publish -f game.rbxl -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
