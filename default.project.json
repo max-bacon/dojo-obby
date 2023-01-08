@@ -1,127 +1,37 @@
 {
-	"name": "src",
-	"tree": {
-		"$className": "DataModel",
+  "name": "rojo-template",
+  "tree": {
+    "$className": "DataModel",
 
-		"HttpService": {
-			"$className": "HttpService",
-			"$ignoreUnknownInstances": true,
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Client": {
+        "$path": "src/ReplicatedStorage"
+      },
+      "Packages": 
+      {
+        "$path": "Packages"
+      }
+    },
 
-			"$properties": {
-				"HttpEnabled": true
-			}
-		},
-	
-		"Workspace": {
-			"$className": "Workspace",
-			"$ignoreUnknownInstances": true,
-			"$path": "assets/Workspace",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
 
-			"$properties": {
-				"StreamingEnabled": false
-			}
-		},
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Server": {
+        "$path": "src/ServerStorage"
+      }
+    },
 
-		"SoundService": {
-			"$className": "SoundService",
-			"$ignoreUnknownInstances": true,
-			"$path": "assets/SoundService"
-		},
-
-		"Lighting": {
-			"$className": "Lighting",
-			"$path": "assets/Lighting",
-
-			"$properties": {
-				"Ambient": [0, 0, 0],
-				"Brightness": 2,
-				"ColorShift_Bottom": [0, 0, 0],
-				"ColorShift_Top": [0.84705882352, 0.70588235294, 0.45490196078],
-				"EnvironmentDiffuseScale": 1,
-				"EnvironmentSpecularScale": 1,
-				"GlobalShadows": true,
-				"OutdoorAmbient": [0.46274509803, 0.5725490196, 0.7294117647],
-				"ShadowSoftness": 0,
-				"Technology": "ShadowMap",
-
-				"ClockTime": 8.021,
-				"GeographicLatitude" : 48.184,
-				"TimeOfDay": "08:01:14",
-
-				"ExposureCompensation": 0
-			}
-		},
-
-		"ReplicatedFirst": {
-			"$className": "ReplicatedFirst",
-			"$ignoreUnknownInstances": true,
-			"$path": "src/ReplicatedFirst",
-
-			"Assets": {
-				"$className": "Folder",
-				"$path": "assets/ReplicatedFirst"
-			}
-		},
-
-		"ReplicatedStorage": {
-			"$className": "ReplicatedStorage",
-			"$ignoreUnknownInstances": true,
-			"$path": "src/ReplicatedStorage",
-
-			"Assets": {
-				"$className": "Folder",
-				"$path": "assets/ReplicatedStorage"
-			},
-
-			"Vendor": {
-				"$className": "Folder",
-				"$path": "vendor/ReplicatedStorage"
-			}
-		},
-
-		"ServerScriptService": {
-			"$className": "ServerScriptService",
-			"$ignoreUnknownInstances": true,
-			"$path": "src/ServerScriptService"
-		},
-
-		"Players":{
-			"$className": "Players",
-
-			"$properties": {
-				"CharacterAutoLoads" : true
-			}
-		},
-
-		"Chat":{
-			"$className": "Chat",
-
-			"$properties": {
-				"BubbleChatEnabled" : true
-			}
-		},
-
-		"StarterPlayer": {
-			"$className": "StarterPlayer",
-			"$ignoreUnknownInstances": true,
-
-			"StarterCharacterScripts": {
-				"$className": "StarterCharacterScripts",
-				"$ignoreUnknownInstances": true,
-				"$path": "src/StarterPlayer/StarterCharacterScripts"
-			},
-
-			"StarterPlayerScripts": {
-				"$className": "StarterPlayerScripts",
-				"$ignoreUnknownInstances": true,
-				"$path": "src/StarterPlayer/StarterPlayerScripts"
-			}
-		},
-
-		"ServerStorage": {
-			"$className": "ServerStorage",
-			"$ignoreUnknownInstances": true,
-			"$path": "src/ServerStorage"
-		}
-  	}
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayerScripts"
+      }
+    }
+  }
 }
