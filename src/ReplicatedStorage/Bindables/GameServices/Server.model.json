@@ -1,9 +1,0 @@
-{
-    "ClassName": "Folder",
-    "Children": [
-        {
-            "Name": "StatUpdated",
-            "ClassName": "BindableEvent"
-        }
-    ]
-}
