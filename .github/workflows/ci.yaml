@@ -21,10 +21,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - uses: Roblox/setup-forman@v1
+    - uses: Roblox/setup-foreman@v1
       name: Install Foreman
       with:
-        vestion: "^1.0.0"
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Lint
@@ -35,8 +34,7 @@ jobs:
     name: Styling
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: JohnnyMorganz/stylua-action@1.0.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN}}
-        args: --check .
+    uses: JohnnyMorganz/stylua-action@v2
+    with:
+      token: ${{ secrets.GITHUB_TOKEN }}
+      args: --check .
