@@ -4,9 +4,6 @@ on:
   push:
     branches:
     - prod
-  merge:
-    branches:
-    - prod
 
 jobs:
 
