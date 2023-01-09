@@ -1,0 +1,29 @@
+name: Deploy Stage
+
+on:
+  push:
+    branches:
+    - stage
+  pull_request:
+    branches:
+    - stage
+
+jobs:
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - uses: ok-nick/setup-aftman@v0.3.0
+      name: Install Aftman
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - run: wally install
+    
+    - run: rojo build -o game.rbxlx
+
+    - run: rbxcloud experience publish -f game.rbxlx -p ${{ secrets.STAGE_PLACE_ID }} -u ${{ secrets.STAGE_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
