@@ -1,9 +1,13 @@
 [package]
-name = "maxba/rojo-template"
+name = "maxba/dojo-obby"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
-realm = "shared"
+realm = "server"
 
 [dependencies]
 Knit = "sleitnick/knit@^1.4"
-Fusion = "elttob/fusion@^0.1.1-beta"
+Fusion = "elttob/fusion@^0.2.0"
+ReplicaService = "autonomousethan/replicaservice@0.1.0"
+
+[server-dependencies]
+ProfileService = "itsnuaz/profileservice@1.0.2"

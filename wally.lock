@@ -3,8 +3,13 @@
 registry = "test"
 
 [[package]]
+name = "autonomousethan/replicaservice"
+version = "0.1.0"
+dependencies = []
+
+[[package]]
 name = "elttob/fusion"
-version = "0.1.1-beta"
+version = "0.2.0"
 dependencies = []
 
 [[package]]
@@ -13,9 +18,14 @@ version = "4.0.0"
 dependencies = []
 
 [[package]]
-name = "maxba/rojo-template"
+name = "itsnuaz/profileservice"
+version = "1.0.2"
+dependencies = []
+
+[[package]]
+name = "maxba/dojo-obby"
 version = "0.1.0"
-dependencies = [["Fusion", "elttob/fusion@0.1.1-beta"], ["Knit", "sleitnick/knit@1.4.7"]]
+dependencies = [["Fusion", "elttob/fusion@0.2.0"], ["Knit", "sleitnick/knit@1.4.7"], ["ReplicaService", "autonomousethan/replicaservice@0.1.0"]]
 
 [[package]]
 name = "sleitnick/comm"

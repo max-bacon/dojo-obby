@@ -1,5 +1,5 @@
 {
-  "name": "rojo-template",
+  "name": "dojo-obby",
   "tree": {
     "$className": "DataModel",
 
@@ -23,6 +23,10 @@
       "$className": "ServerStorage",
       "Server": {
         "$path": "src/ServerStorage"
+      },
+      "Packages": 
+      {
+        "$path": "ServerPackages"
       }
     },
 
