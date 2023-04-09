@@ -36,7 +36,7 @@ end
 
 local DataService = Knit.CreateService({ Name = "DataService" })
 
-function DataService:_getData(player: Player): Promise
+function DataService:_getData(player: Player)
 	return Promise.new(function(resolve, reject)
 		local PlayerProfile = Profiles[player]
 
@@ -47,7 +47,7 @@ function DataService:_getData(player: Player): Promise
 	end)
 end
 
-function DataService:GetData(player: Player, key: string): Promise
+function DataService:GetData(player: Player, key: string)
 	return Promise.new(function(resolve, reject)
 		self:_getData(player)
 			:andThen(function(data)
@@ -62,7 +62,7 @@ function DataService:GetData(player: Player, key: string): Promise
 	end)
 end
 
-function DataService:SaveData(player: Player, key: string, value: any): Promise
+function DataService:SaveData(player: Player, key: string, value: any)
 	return Promise.new(function(resolve, reject)
 		self:GetData(player, key)
 			:andThen(function(old)
@@ -77,7 +77,7 @@ function DataService:SaveData(player: Player, key: string, value: any): Promise
 	end)
 end
 
-function DataService:Increment(player: Player, key: string, value: number): Promise
+function DataService:Increment(player: Player, key: string, value: number)
 	return Promise.new(function(resolve, reject)
 		local current = self:GetData(player, key)
 			:andThen(function(val)
