@@ -2,9 +2,11 @@
   "name": "dojo-obby",
   "tree": {
     "$className": "DataModel",
+    
 
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
       "Shared": {
         "$path": "src/Shared"
       },
@@ -16,11 +18,13 @@
 
     "ServerScriptService": {
       "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
       "$path": "exec/ServerScriptService"
     },
 
     "ServerStorage": {
       "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
       "Server": {
         "$path": "src/Server"
       },
@@ -32,6 +36,7 @@
 
     "StarterPlayer": {
       "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
         "$path": "exec/StarterPlayerScripts",
@@ -56,8 +61,8 @@
 			"$path": "assets/Workspace",
 
 			"$properties": {
-				"StreamingEnabled": false
-			}
+        "Gravity": 67.3
+      }
 		},
 
 		"SoundService": {
@@ -68,6 +73,7 @@
 
 		"Lighting": {
 			"$className": "Lighting",
+      "$ignoreUnknownInstances": true,
 			"$path": "assets/Lighting",
 
 			"$properties": {

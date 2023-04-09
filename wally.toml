@@ -6,8 +6,7 @@ realm = "server"
 
 [dependencies]
 Knit = "sleitnick/knit@^1.4"
-Roact = "roblox/roact@1.4.4"
-Rodux = "roblox/rodux@4.0.0-rc.0"
+Fusion = "elttob/fusion@0.2.0"
 ReplicaService = "brittonfischer/replicaservice@0.1.0"
 
 [server-dependencies]
