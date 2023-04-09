@@ -7,3 +7,4 @@ Knit.AddServices(ServerStorage.Server.Services)
 
 Knit.Start():catch(warn)
 
+Knit.GetService("DataService")

@@ -5,8 +5,8 @@
 
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "Client": {
-        "$path": "src/ReplicatedStorage"
+      "Shared": {
+        "$path": "src/Shared"
       },
       "Packages": 
       {
@@ -16,13 +16,13 @@
 
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "$path": "src/ServerScriptService"
+      "$path": "exec/ServerScriptService"
     },
 
     "ServerStorage": {
       "$className": "ServerStorage",
       "Server": {
-        "$path": "src/ServerStorage"
+        "$path": "src/Server"
       },
       "Packages": 
       {
@@ -34,8 +34,60 @@
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "$path": "src/StarterPlayerScripts"
+        "$path": "exec/StarterPlayerScripts",
+        "Client": {
+          "$path": "src/Client"
+        }
       }
-    }
+    },
+
+    "HttpService": {
+			"$className": "HttpService",
+			"$ignoreUnknownInstances": true,
+
+			"$properties": {
+				"HttpEnabled": true
+			}
+		},
+	
+		"Workspace": {
+			"$className": "Workspace",
+			"$ignoreUnknownInstances": true,
+			"$path": "assets/Workspace",
+
+			"$properties": {
+				"StreamingEnabled": false
+			}
+		},
+
+		"SoundService": {
+			"$className": "SoundService",
+			"$ignoreUnknownInstances": true,
+			"$path": "assets/SoundService"
+		},
+
+		"Lighting": {
+			"$className": "Lighting",
+			"$path": "assets/Lighting",
+
+			"$properties": {
+				"Ambient": [0, 0, 0],
+				"Brightness": 2,
+				"ColorShift_Bottom": [0, 0, 0],
+				"ColorShift_Top": [0.84705882352, 0.70588235294, 0.45490196078],
+				"EnvironmentDiffuseScale": 1,
+				"EnvironmentSpecularScale": 1,
+				"GlobalShadows": true,
+				"OutdoorAmbient": [0.46274509803, 0.5725490196, 0.7294117647],
+				"ShadowSoftness": 0,
+				"Technology": "ShadowMap",
+
+				"ClockTime": 8.021,
+				"GeographicLatitude" : 48.184,
+				"TimeOfDay": "08:01:14",
+
+				"ExposureCompensation": 0
+			}
+		}
   }
 }
