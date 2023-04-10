@@ -13,7 +13,7 @@ function KillBrick:_onTouched(hit)
 	if not hum then
 		return
 	end
-	
+
 	if hum.Health > 0 then
 		hum:TakeDamage(hum.MaxHealth)
 	end
