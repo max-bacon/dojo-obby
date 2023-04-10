@@ -13,18 +13,18 @@
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
       <CoordinateFrame name="CFrame">
-        <X>-395.20966</X>
-        <Y>19.909916</Y>
-        <Z>52.423004</Z>
-        <R00>0</R00>
-        <R01>0</R01>
-        <R02>1</R02>
-        <R10>0</R10>
-        <R11>1</R11>
-        <R12>0</R12>
-        <R20>-1</R20>
-        <R21>0</R21>
-        <R22>0</R22>
+        <X>-217.84297</X>
+        <Y>8.747587</Y>
+        <Z>114.08803</Z>
+        <R00>0.6293202</R00>
+        <R01>-0.38857308</R01>
+        <R02>0.67302823</R02>
+        <R10>-0.00000006794027</R10>
+        <R11>-0.8660254</R11>
+        <R12>-0.5</R12>
+        <R20>0.7771461</R20>
+        <R21>0.31466</R21>
+        <R22>-0.5450072</R22>
       </CoordinateFrame>
       <bool name="CanCollide">true</bool>
       <bool name="CanQuery">true</bool>
@@ -32,7 +32,7 @@
       <bool name="CastShadow">true</bool>
       <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
       <int name="CollisionGroupId">0</int>
-      <Color3uint8 name="Color3uint8">10724005</Color3uint8>
+      <Color3uint8 name="Color3uint8">10796359</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
       </PhysicalProperties>
@@ -47,7 +47,7 @@
       <token name="LeftSurfaceInput">0</token>
       <bool name="Locked">false</bool>
       <bool name="Massless">false</bool>
-      <token name="Material">256</token>
+      <token name="Material">1280</token>
       <BinaryString name="MaterialVariantSerialized">
       </BinaryString>
       <CoordinateFrame name="PivotOffset">
@@ -77,9 +77,9 @@
       </Vector3>
       <token name="shape">1</token>
       <Vector3 name="size">
-        <X>9.211774</X>
-        <Y>2.1102788</Y>
-        <Z>7.3761625</Z>
+        <X>3.527</X>
+        <Y>0.65360004</Y>
+        <Z>1.4296014</Z>
       </Vector3>
       <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>

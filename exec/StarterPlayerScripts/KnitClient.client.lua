@@ -1,7 +1,21 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Knit = require(ReplicatedStorage.Packages.Knit)
+local Knit = require(ReplicatedStorage.Utils.Knit)
 
-Knit.AddControllers(ReplicatedStorage.Client.Controllers)
+local Controllers = ReplicatedStorage.Client.Controllers
 
-Knit.Start():catch(warn)
+local ClientComponents = ReplicatedStorage.Client.Components:GetChildren()
+
+Knit.AddControllers(Controllers)
+
+local function load(comp)
+	require(comp)
+end
+
+Knit.Start()
+	:andThen(function()
+		for _, comp in pairs(ClientComponents) do
+			load(comp)
+		end
+	end)
+	:catch(warn)

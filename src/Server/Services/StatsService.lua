@@ -1,6 +1,6 @@
 local Players = game:GetService("Players")
 
-local Knit = require(game:GetService("ReplicatedStorage").Packages.Knit)
+local Knit = require(game:GetService("ReplicatedStorage").Utils.Knit)
 
 local Stats = {
 	{
@@ -15,7 +15,9 @@ local Stats = {
 
 local StatsService = Knit.CreateService({
 	Name = "StatsService",
-	Client = {},
+	Client = {
+		Knit.CreateSignal("Checkpoint")
+	},
 })
 
 local function OnPlayerAdded(player: Player)
@@ -39,7 +41,6 @@ function StatsService:Set(player: Player, stat: string, new: any)
 end
 
 function StatsService:GetInstance(player: Player, stat: string)
-	print(stat)
 	local ins = player.leaderstats:FindFirstChild(stat)
 
 	if ins then
@@ -49,7 +50,7 @@ function StatsService:GetInstance(player: Player, stat: string)
 	end
 end
 
-function StatsService:GetValue(player: Player, stat: string)
+function StatsService:Get(player: Player, stat: string)
 	return self:GetInstance(player, stat).Value
 end
 

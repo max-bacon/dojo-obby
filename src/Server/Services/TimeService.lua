@@ -1,4 +1,4 @@
-local Knit = require(game:GetService("ReplicatedStorage").Packages.Knit)
+local Knit = require(game:GetService("ReplicatedStorage").Utils.Knit)
 local Promise = require(Knit.Util.Promise)
 
 local Players = game:GetService("Players")

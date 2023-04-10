@@ -13,7 +13,7 @@
       "Client": {
         "$path": "src/Client"
       },
-      "Packages": 
+      "Utils": 
       {
         "$path": "Packages"
       }
@@ -31,7 +31,7 @@
       "Server": {
         "$path": "src/Server"
       },
-      "Packages": 
+      "Utils": 
       {
         "$path": "ServerPackages"
       }
@@ -61,7 +61,7 @@
 			"$path": "assets/Workspace",
 
 			"$properties": {
-        "Gravity": 67.3
+        "Gravity": 196.2
       }
 		},
 
