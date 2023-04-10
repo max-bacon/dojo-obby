@@ -10,6 +10,9 @@
       "Shared": {
         "$path": "src/Shared"
       },
+      "Client": {
+        "$path": "src/Client"
+      },
       "Packages": 
       {
         "$path": "Packages"
@@ -39,10 +42,7 @@
       "$ignoreUnknownInstances": true,
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "$path": "exec/StarterPlayerScripts",
-        "Client": {
-          "$path": "src/Client"
-        }
+        "$path": "exec/StarterPlayerScripts"
       }
     },
 

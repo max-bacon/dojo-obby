@@ -3,30 +3,42 @@ local Players = game:GetService("Players")
 local Knit = require(game:GetService("ReplicatedStorage").Packages.Knit)
 local Promise = require(Knit.Util.Promise)
 local SaveStructure = require(script.Parent.Parent.Modules.SaveStructure)
-local ProfileService = require(game:GetService("ServerStorage").Packages.Knit)
+local ProfileService = require(game:GetService("ServerStorage").Packages.ProfileService)
 
 local Profiles = {}
 local ProfileStore = ProfileService.GetProfileStore("PlayerData", SaveStructure)
 
-local function OnPlayerAdded(player: Player)
-	local PlayerProfile = ProfileStore:LoadProfileAsync("Player" .. player.UserId, "ForceLoad")
+local DataService = Knit.CreateService({ Name = "DataService" })
 
-	if PlayerProfile == nil then
-		player:Kick("Unable to load your data. Please rejoin.")
-	end
+local function LoadProfilePromise(player: Player)
+	return Promise.new(function(resolve, reject)
+		local PlayerProfile = ProfileStore:LoadProfileAsync("Player_" .. player.UserId, "ForceLoad")
 
-	PlayerProfile:ListenToRelease(function()
-		Profiles[player] = nil
+		if PlayerProfile == nil then
+			player:Kick("Unable to load your data. Please rejoin.")
+			reject("Could not load data for " .. player.Name)
+		end
+
+		resolve(PlayerProfile)
 	end)
-	if not player:IsDescendantOf(Players) then
-		PlayerProfile:Release()
-	end
-
-	PlayerProfile:Reconcile()
-	Profiles[player] = PlayerProfile
 end
 
-local function OnPlayerRemoved(player: Player)
+local function OnPlayerAdded(player: Player)
+	LoadProfilePromise(player):andThen(function(PlayerProfile)
+		PlayerProfile:ListenToRelease(function()
+			Profiles[player] = nil
+		end)
+		if not player:IsDescendantOf(Players) then
+			PlayerProfile:Release()
+			return
+		end
+
+		PlayerProfile:Reconcile()
+		Profiles[player] = PlayerProfile
+	end)
+end
+
+local function OnPlayerRemoving(player: Player)
 	local PlayerProfile = Profiles[player]
 
 	if PlayerProfile then
@@ -34,78 +46,61 @@ local function OnPlayerRemoved(player: Player)
 	end
 end
 
-local DataService = Knit.CreateService({ Name = "DataService" })
+function DataService:GetDataArray(player: Player)
+	local PlayerProfile = Profiles[player]
 
-function DataService:_getData(player: Player)
-	return Promise.new(function(resolve, reject)
-		local PlayerProfile = Profiles[player]
-
-		if PlayerProfile then
-			return resolve(PlayerProfile.Data)
-		end
-		return reject("[DataService]: CANNOT GET DATA FROM " .. player.Name .. ".")
-	end)
+	if PlayerProfile then
+		return PlayerProfile.Data
+	end
+	error("[DataService]: CANNOT GET DATA FROM " .. player.Name .. ".")
 end
 
 function DataService:GetData(player: Player, key: string)
-	return Promise.new(function(resolve, reject)
-		self:_getData(player)
-			:andThen(function(data)
-				local value = data[key]
+	local data = self:GetDataArray(player)
 
-				if value then
-					return resolve(value)
-				end
-				return reject("[DataService]: CANNOT FIND KEY " .. key .. " IN " .. player.Name .. ".")
-			end)
-			:catch(reject)
-	end)
+	local value = data[key]
+
+	if value then
+		return value
+	end
+	error("[DataService]: CANNOT FIND KEY " .. key .. " IN " .. player.Name .. ".")
 end
 
 function DataService:SaveData(player: Player, key: string, value: any)
-	return Promise.new(function(resolve, reject)
-		self:GetData(player, key)
-			:andThen(function(old)
-				if typeof(old) ~= typeof(value) then
-					return reject(
-						"[DataService]: INVALID SAVE TYPE " .. typeof(value) .. " TO REPLACE " .. typeof(old) .. "."
-					)
-				end
-				return resolve()
-			end)
-			:catch(reject)
-	end)
+	local old = self:GetData(player, key)
+	if typeof(old) ~= typeof(value) then
+		return error("[DataService]: INVALID SAVE TYPE " .. typeof(value) .. " TO REPLACE " .. typeof(old) .. ".")
+	end
+
+	Profiles[player][key] = value
 end
 
 function DataService:Increment(player: Player, key: string, value: number)
-	return Promise.new(function(resolve, reject)
-		local current = self:GetData(player, key)
-			:andThen(function(val)
-				return val
-			end)
-			:catch(reject)
+	local current = self:GetData(player, key)
 
-		if typeof(current) ~= "number" then
-			return reject("[DataService]: PASSED A(N) " .. typeof(current) .. "INSTEAD OF A number.")
-		end
+	if typeof(current) ~= "number" then
+		error("[DataService]: PASSED A(N) " .. typeof(current) .. "INSTEAD OF A number.")
+	end
 
-		self:SaveData(player, key, value + current)
-			:andThen(function()
-				resolve()
-			end)
-			:catch(reject)
-	end)
+	self:SaveData(player, key, value + current)
 end
 
-function DataService:KnitStart() end
+function DataService:IsValidKey(check: string)
+	for _, key in pairs(SaveStructure) do
+		if key == check then
+			return true
+		end
+	end
+	return false
+end
 
-function DataService:KnitInit()
+function DataService:KnitStart()
 	Players.PlayerAdded:Connect(OnPlayerAdded)
-	Players.PlayerRemoving:Connect(OnPlayerRemoved)
+	Players.PlayerRemoving:Connect(OnPlayerRemoving)
 
 	game:BindToClose(function()
 		for _, player: Player in pairs(Players:GetPlayers()) do
-			OnPlayerRemoved(player)
+			OnPlayerRemoving(player)
 		end
 	end)
 end

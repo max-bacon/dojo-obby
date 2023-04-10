@@ -32,18 +32,18 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-273.4775</X>
-          <Y>32.864643</Y>
-          <Z>106.03236</Z>
-          <R00>0.93358016</R00>
-          <R01>-0.00000011920929</R01>
-          <R02>0.3583681</R02>
-          <R10>0.000000029802322</R10>
-          <R11>-0.9999999</R11>
-          <R12>0.000000022351742</R12>
+          <X>-239.3847</X>
+          <Y>6.1087737</Y>
+          <Z>117.36012</Z>
+          <R00>0.93358034</R00>
+          <R01>-0.00000004371139</R01>
+          <R02>0.35836813</R02>
+          <R10>-0.00000006794027</R10>
+          <R11>-1</R11>
+          <R12>0.00000005501692</R12>
           <R20>0.35836813</R20>
-          <R21>-0.00000011920929</R21>
-          <R22>-0.9335803</R22>
+          <R21>-0.000000075710346</R21>
+          <R22>-0.93358034</R22>
         </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
@@ -80,18 +80,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-273.60928</X>
-            <Y>32.52124</Y>
-            <Z>103.8028</Z>
-            <R00>-0.48480996</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.87461936</R02>
-            <R10>-0.000000040978193</R10>
-            <R11>-0.9999999</R11>
-            <R12>0</R12>
-            <R20>0.8746194</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.48481</R22>
+            <X>-239.51646</X>
+            <Y>5.7653785</Y>
+            <Z>115.130554</Z>
+            <R00>-0.48481005</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.8746195</R02>
+            <R10>-0.00000004502602</R10>
+            <R11>-1</R11>
+            <R12>-0.00000007493597</R12>
+            <R20>0.8746195</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>0.48481005</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -109,24 +109,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-263.63937</X>
-            <Y>32.258553</Y>
-            <Z>73.235825</Z>
-            <R00>0.9659256</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.25881952</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000044703484</R12>
+            <X>-234.30783</X>
+            <Y>5.7653794</Y>
+            <Z>104.840225</Z>
+            <R00>0.9659257</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.2588195</R02>
+            <R10>-0.00000006181727</R10>
+            <R11>-1</R11>
+            <R12>0.000000061817204</R12>
             <R20>0.2588195</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.96592563</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.9659257</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -144,7 +144,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -172,9 +173,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -204,24 +205,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-282.62003</X>
-            <Y>32.25856</Y>
-            <Z>73.48509</Z>
-            <R00>0.93358016</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.3583681</R02>
-            <R10>0.000000029802322</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000022351742</R12>
+            <X>-245.06195</X>
+            <Y>5.7653804</Y>
+            <Z>104.98146</Z>
+            <R00>0.93358034</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.35836813</R02>
+            <R10>-0.00000006794027</R10>
+            <R11>-1</R11>
+            <R12>0.00000005501692</R12>
             <R20>0.35836813</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.9335803</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.93358034</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -239,7 +240,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -267,9 +269,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>3.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -299,24 +301,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-265.56638</X>
-            <Y>32.258568</Y>
-            <Z>116.591774</Z>
-            <R00>-0.19080944</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.9816269</R02>
-            <R10>-0.000000044703484</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000029802322</R12>
+            <X>-235.39961</X>
+            <Y>5.7653785</Y>
+            <Z>129.405</Z>
+            <R00>-0.19080946</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.9816271</R02>
+            <R10>-0.00000006597878</R10>
+            <R11>-1</R11>
+            <R12>-0.000000057354534</R12>
             <R20>0.9816271</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.19080944</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>0.19080946</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -334,7 +336,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -362,9 +365,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>3.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -394,24 +397,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-256.4566</X>
-            <Y>32.25856</Y>
-            <Z>77.3829</Z>
-            <R00>0.7071063</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.707107</R02>
-            <R10>0</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000029802322</R12>
-            <R20>0.70710707</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.70710635</R22>
+            <X>-230.23817</X>
+            <Y>5.7653794</Y>
+            <Z>107.18988</Z>
+            <R00>0.7071064</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.7071071</R02>
+            <R10>-0.000000084443926</R10>
+            <R11>-1</R11>
+            <R12>0.000000022626635</R12>
+            <R20>0.7071071</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.7071064</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -429,7 +432,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -457,9 +461,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -489,24 +493,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-277.05435</X>
-            <Y>32.25856</Y>
-            <Z>74.168495</Z>
-            <R00>0.9925459</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>-0.12186909</R02>
-            <R10>0.000000059604645</R10>
-            <R11>-0.9999999</R11>
-            <R12>0</R12>
-            <R20>-0.12186915</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.9925461</R22>
+            <X>-241.90852</X>
+            <Y>5.7653804</Y>
+            <Z>105.36866</Z>
+            <R00>0.99254614</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>-0.12186912</R02>
+            <R10>-0.00000003415882</R10>
+            <R11>-1</R11>
+            <R12>0.00000008047308</R12>
+            <R20>-0.12186912</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.99254614</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -524,7 +528,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -552,9 +557,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>3.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -584,24 +589,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-253.65398</X>
-            <Y>32.25856</Y>
-            <Z>96.90086</Z>
-            <R00>-0.43837154</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.89879364</R02>
-            <R10>-0.000000037252903</R10>
-            <R11>-0.9999999</R11>
-            <R12>0</R12>
-            <R20>0.8987937</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-228.65027</X>
+            <Y>5.7653785</Y>
+            <Z>118.24844</Z>
+            <R00>-0.4383716</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.89879376</R02>
+            <R10>-0.000000048886154</R10>
+            <R11>-1</R11>
+            <R12>-0.00000007247679</R12>
+            <R20>0.89879376</R20>
+            <R21>-0.000000075710346</R21>
             <R22>0.4383716</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -619,7 +624,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -647,9 +653,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -679,24 +685,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-267.7864</X>
-            <Y>32.25856</Y>
-            <Z>72.68984</Z>
-            <R00>0.9999998</R00>
-            <R01>-0.00000011920929</R01>
+            <X>-236.65746</X>
+            <Y>5.7653804</Y>
+            <Z>104.530876</Z>
+            <R00>1</R00>
+            <R01>-0.00000004371139</R01>
             <R02>0.00000020861626</R02>
-            <R10>0.000000059604645</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000014901161</R12>
-            <R20>0.00000023841858</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.99999994</R22>
+            <R10>-0.000000043711402</R10>
+            <R11>-1</R11>
+            <R12>0.00000007571033</R12>
+            <R20>0.00000020861626</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-1</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -714,7 +720,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -742,9 +749,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -774,24 +781,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-259.77496</X>
-            <Y>32.258568</Y>
-            <Z>74.83654</Z>
-            <R00>0.866025</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.50000036</R02>
-            <R10>0</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000037252903</R12>
-            <R20>0.50000036</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.866025</R22>
+            <X>-232.11833</X>
+            <Y>5.7653794</Y>
+            <Z>105.747154</Z>
+            <R00>0.8660251</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.5000004</R02>
+            <R10>-0.00000007571037</R10>
+            <R11>-1</R11>
+            <R12>0.000000043711346</R12>
+            <R20>0.5000004</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.8660251</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -809,7 +816,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -837,9 +845,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -869,24 +877,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-253.91026</X>
-            <Y>32.258568</Y>
-            <Z>80.701294</Z>
-            <R00>0.4999994</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.86602545</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000014901161</R12>
-            <R20>0.8660255</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.49999946</R22>
+            <X>-228.79547</X>
+            <Y>5.7653785</Y>
+            <Z>109.07004</Z>
+            <R00>0.49999952</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.86602557</R02>
+            <R10>-0.00000008742277</R10>
+            <R11>-1</R11>
+            <R12>-0.00000000000004559453</R12>
+            <R20>0.86602557</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.49999952</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -904,7 +912,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -932,9 +941,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -964,24 +973,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-256.34567</X>
-            <Y>32.258575</Y>
-            <Z>101.33391</Z>
-            <R00>-0.5735767</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.81915164</R02>
-            <R10>-0.000000040939177</R10>
-            <R11>-0.9999999</R11>
-            <R12>0</R12>
-            <R20>0.81915164</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-230.17534</X>
+            <Y>5.7653785</Y>
+            <Z>120.76014</Z>
+            <R00>-0.5735768</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.81915176</R02>
+            <R10>-0.00000003694642</R10>
+            <R11>-1</R11>
+            <R12>-0.00000007923196</R12>
+            <R20>0.81915176</R20>
+            <R21>-0.000000075710346</R21>
             <R22>0.5735768</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -999,7 +1008,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1027,9 +1037,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>3.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1059,24 +1069,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-263.5591</X>
-            <Y>32.258575</Y>
-            <Z>111.07705</Z>
-            <R00>-0.48480996</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.87461936</R02>
-            <R10>-0.000000040978193</R10>
-            <R11>-0.9999999</R11>
-            <R12>0</R12>
-            <R20>0.8746194</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.48481</R22>
+            <X>-234.26234</X>
+            <Y>5.7653785</Y>
+            <Z>126.28045</Z>
+            <R00>-0.48481005</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.8746195</R02>
+            <R10>-0.00000004502602</R10>
+            <R11>-1</R11>
+            <R12>-0.00000007493597</R12>
+            <R20>0.8746195</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>0.48481005</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1094,7 +1104,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1122,9 +1133,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>3.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1154,24 +1165,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-271.9335</X>
-            <Y>32.258568</Y>
-            <Z>73.235756</Z>
-            <R00>0.9659257</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>-0.25881875</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000059604645</R12>
-            <R20>-0.25881878</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-239.00711</X>
+            <Y>5.7653804</Y>
+            <Z>104.8402</Z>
+            <R00>0.9659258</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>-0.25881884</R02>
+            <R10>-0.000000022626697</R10>
+            <R11>-1</R11>
+            <R12>0.00000008444391</R12>
+            <R20>-0.25881884</R20>
+            <R21>-0.000000075710346</R21>
             <R22>-0.9659258</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1189,7 +1200,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1217,9 +1229,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1249,24 +1261,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-252.3096</X>
-            <Y>32.25856</Y>
-            <Z>84.56568</Z>
-            <R00>0.2588185</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.9659257</R02>
-            <R10>0</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000059604645</R12>
-            <R20>0.96592575</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.2588185</R22>
+            <X>-227.88855</X>
+            <Y>5.7653785</Y>
+            <Z>111.25953</Z>
+            <R00>0.25881854</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.96592593</R02>
+            <R10>-0.000000084443904</R10>
+            <R11>-1</R11>
+            <R12>-0.000000022626722</R12>
+            <R20>0.96592593</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.25881854</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1284,7 +1296,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1312,9 +1325,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1344,24 +1357,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-260.1154</X>
-            <Y>32.25858</Y>
-            <Z>106.15886</Z>
-            <R00>-0.6560594</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.7547092</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.9999999</R11>
-            <R12>0</R12>
-            <R20>0.7547091</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-232.31117</X>
+            <Y>5.7653785</Y>
+            <Z>123.49387</Z>
+            <R00>-0.6560595</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.75470924</R02>
+            <R10>-0.000000028462026</R10>
+            <R11>-1</R11>
+            <R12>-0.00000008265988</R12>
+            <R20>0.75470924</R20>
+            <R21>-0.000000075710346</R21>
             <R22>0.6560595</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1379,7 +1392,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1407,9 +1421,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>3.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1439,24 +1453,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-251.76364</X>
-            <Y>32.25856</Y>
-            <Z>88.71271</Z>
+            <X>-227.57922</X>
+            <Y>5.7653785</Y>
+            <Z>113.60917</Z>
             <R00>-0.0000005066395</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.9999997</R02>
-            <R10>-0.000000014901161</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000059604645</R12>
-            <R20>0.99999976</R20>
-            <R21>-0.00000011920929</R21>
+            <R01>-0.00000004371139</R01>
+            <R02>0.9999999</R02>
+            <R10>-0.00000007571032</R10>
+            <R11>-1</R11>
+            <R12>-0.000000043711424</R12>
+            <R20>0.9999999</R20>
+            <R21>-0.000000075710346</R21>
             <R22>0.0000005066395</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1474,7 +1488,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1502,9 +1517,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1534,24 +1549,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-252.24232</X>
-            <Y>32.258568</Y>
-            <Z>92.91445</Z>
+            <X>-227.85045</X>
+            <Y>5.7653785</Y>
+            <Z>115.989815</Z>
             <R00>-0.22495154</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.9743698</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.9999999</R11>
-            <R12>-0.000000029802322</R12>
-            <R20>0.9743699</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.2249516</R22>
+            <R01>-0.00000004371139</R01>
+            <R02>0.97436994</R02>
+            <R10>-0.00000006393694</R10>
+            <R11>-1</R11>
+            <R12>-0.000000059622224</R12>
+            <R20>0.97436994</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>0.22495154</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1569,7 +1584,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">800</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1597,9 +1613,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>14.280672</Y>
-            <Z>1.7882612</Z>
+            <X>2.527</X>
+            <Y>8.0912</Y>
+            <Z>1.0132</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1649,18 +1665,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-273.4775</X>
-            <Y>36.613228</Y>
-            <Z>106.03235</Z>
-            <R00>0.93358016</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.3583681</R02>
-            <R10>0.000000029802322</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000022351742</R12>
+            <X>-239.3847</X>
+            <Y>9.85735</Y>
+            <Z>117.360115</Z>
+            <R00>0.93358034</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.35836813</R02>
+            <R10>-0.00000006794027</R10>
+            <R11>-1</R11>
+            <R12>0.00000005501692</R12>
             <R20>0.35836813</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.9335803</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.93358034</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -1678,24 +1694,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.43796</X>
-            <Y>39.94306</Y>
-            <Z>89.364235</Z>
-            <R00>0.7071063</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.707107</R02>
-            <R10>0</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000029802322</R12>
-            <R20>0.70710707</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.70710635</R22>
+            <X>-237.02663</X>
+            <Y>10.119298</Y>
+            <Z>113.978325</Z>
+            <R00>0.7071064</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.7071071</R02>
+            <R10>-0.000000084443926</R10>
+            <R11>-1</R11>
+            <R12>0.000000022626635</R12>
+            <R20>0.7071071</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.7071064</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1713,7 +1729,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1741,9 +1758,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>33.71751</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.1038</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1773,24 +1790,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-288.65146</X>
-            <Y>39.94308</Y>
-            <Z>89.19761</Z>
-            <R00>0.9335802</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.35836816</R02>
-            <R10>0</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000029802322</R12>
-            <R20>0.3583681</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-248.47926</X>
+            <Y>10.1193</Y>
+            <Z>113.88391</Z>
+            <R00>0.93358034</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.35836813</R02>
+            <R10>-0.00000006794027</R10>
+            <R11>-1</R11>
+            <R12>0.00000005501692</R12>
+            <R20>0.35836813</R20>
+            <R21>-0.000000075710346</R21>
             <R22>-0.93358034</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1808,7 +1825,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1836,9 +1854,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>33.945194</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.232801</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1868,24 +1886,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.9609</X>
-            <Y>39.943058</Y>
-            <Z>89.43516</Z>
-            <R00>-0.43837157</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.8987937</R02>
-            <R10>-0.000000044703484</R10>
-            <R11>-0.99999994</R11>
-            <R12>-0.000000029802322</R12>
+            <X>-237.32292</X>
+            <Y>10.119298</Y>
+            <Z>114.01849</Z>
+            <R00>-0.4383716</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.89879376</R02>
+            <R10>-0.000000048886154</R10>
+            <R11>-1</R11>
+            <R12>-0.00000007247679</R12>
             <R20>0.89879376</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.43837157</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>0.4383716</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1903,7 +1921,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -1931,9 +1950,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -1963,24 +1982,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-263.84225</X>
-            <Y>39.48074</Y>
-            <Z>72.285995</Z>
-            <R00>0.9659256</R00>
-            <R01>-0.12940988</R01>
-            <R02>0.22414422</R02>
-            <R10>-0.000000029802322</R10>
+            <X>-234.42276</X>
+            <Y>9.85735</Y>
+            <Z>104.30206</Z>
+            <R00>0.9659257</R00>
+            <R01>-0.12940985</R01>
+            <R02>0.22414425</R02>
+            <R10>-0.00000006181727</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.49999994</R12>
+            <R12>-0.5</R12>
             <R20>0.2588195</R20>
-            <R21>0.4829628</R21>
+            <R21>0.48296285</R21>
             <R22>-0.83651614</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -1998,7 +2017,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2026,9 +2046,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2058,24 +2078,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.2262</X>
-            <Y>39.480732</Y>
-            <Z>71.70882</Z>
-            <R00>0.9999998</R00>
-            <R01>-0.00000023841858</R01>
-            <R02>0.00000013411045</R02>
-            <R10>0.000000059604645</R10>
-            <R11>-0.8660252</R11>
-            <R12>-0.50000006</R12>
-            <R20>0.00000023841858</R20>
-            <R21>0.49999988</R21>
-            <R22>-0.8660252</R22>
+            <X>-236.90662</X>
+            <Y>9.85735</Y>
+            <Z>103.975044</Z>
+            <R00>1</R00>
+            <R01>-0.00000014901161</R01>
+            <R02>0.00000014901161</R02>
+            <R10>-0.000000043711402</R10>
+            <R11>-0.8660253</R11>
+            <R12>-0.5</R12>
+            <R20>0.00000020861626</R20>
+            <R21>0.49999997</R21>
+            <R22>-0.8660254</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2093,7 +2113,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2121,9 +2142,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2153,24 +2174,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-267.7864</X>
-            <Y>39.943058</Y>
-            <Z>89.42592</Z>
-            <R00>0.9999999</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.00000023841858</R02>
-            <R10>0</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000044703484</R12>
-            <R20>0.00000017881393</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-236.65746</X>
+            <Y>10.119298</Y>
+            <Z>114.01327</Z>
+            <R00>1</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.00000020861626</R02>
+            <R10>-0.000000043711402</R10>
+            <R11>-1</R11>
+            <R12>0.00000007571033</R12>
+            <R20>0.00000020861626</R20>
+            <R21>-0.000000075710346</R21>
             <R22>-1</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2188,7 +2209,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2216,9 +2238,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>34.13369</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.3396</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2248,24 +2270,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-275.0032</X>
-            <Y>39.943058</Y>
-            <Z>90.87343</Z>
-            <R00>0.99254596</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>-0.12186906</R02>
-            <R10>0</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000029802322</R12>
-            <R20>-0.12186915</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-240.74638</X>
+            <Y>10.119298</Y>
+            <Z>114.83339</Z>
+            <R00>0.99254614</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>-0.12186912</R02>
+            <R10>-0.00000003415882</R10>
+            <R11>-1</R11>
+            <R12>0.00000008047308</R12>
+            <R20>-0.12186912</R20>
+            <R21>-0.000000075710346</R21>
             <R22>-0.99254614</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2283,7 +2305,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2311,9 +2334,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>33.945194</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.232801</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2343,24 +2366,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-251.86554</X>
-            <Y>39.480732</Y>
-            <Z>84.262794</Z>
-            <R00>0.2588185</R00>
+            <X>-227.63695</X>
+            <Y>9.85735</Y>
+            <Z>111.08793</Z>
+            <R00>0.25881854</R00>
             <R01>-0.48296303</R01>
-            <R02>0.83651614</R02>
-            <R10>-0.000000059604645</R10>
+            <R02>0.8365162</R02>
+            <R10>-0.000000084443904</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.5</R12>
-            <R20>0.9659259</R20>
-            <R21>0.1294092</R21>
-            <R22>-0.22414342</R22>
+            <R12>-0.50000006</R12>
+            <R20>0.96592593</R20>
+            <R21>0.12940921</R21>
+            <R22>-0.22414343</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2378,7 +2401,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2406,9 +2430,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2438,24 +2462,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-263.19864</X>
-            <Y>39.48075</Y>
-            <Z>111.4545</Z>
-            <R00>-0.48480996</R00>
+            <X>-234.05809</X>
+            <Y>9.857348</Y>
+            <Z>126.494316</Z>
+            <R00>-0.48481005</R00>
             <R01>-0.43730983</R01>
-            <R02>0.7574424</R02>
-            <R10>-0.000000040978193</R10>
+            <R02>0.7574426</R02>
+            <R10>-0.00000004502602</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.5</R12>
-            <R20>0.8746194</R20>
-            <R21>-0.24240515</R21>
+            <R12>-0.5000001</R12>
+            <R20>0.8746195</R20>
+            <R21>-0.24240513</R21>
             <R22>0.41985774</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2473,7 +2497,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2501,9 +2526,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2533,24 +2558,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-278.45438</X>
-            <Y>39.94307</Y>
-            <Z>102.82046</Z>
-            <R00>-0.48481</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.8746194</R02>
-            <R10>-0.000000048428774</R10>
-            <R11>-0.99999994</R11>
-            <R12>-0.000000029802322</R12>
+            <X>-242.70175</X>
+            <Y>10.119298</Y>
+            <Z>121.60241</Z>
+            <R00>-0.48481005</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.8746195</R02>
+            <R10>-0.00000004502602</R10>
+            <R11>-1</R11>
+            <R12>-0.00000007493597</R12>
             <R20>0.8746195</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.48481</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>0.48481005</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2568,7 +2593,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2596,9 +2622,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2628,24 +2654,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-251.28844</X>
-            <Y>39.480743</Y>
-            <Z>88.64659</Z>
+            <X>-227.30997</X>
+            <Y>9.85735</Y>
+            <Z>113.57171</Z>
             <R00>-0.0000005066395</R00>
             <R01>-0.5000001</R01>
-            <R02>0.86602503</R02>
-            <R10>-0.000000014901161</R10>
+            <R02>0.8660252</R02>
+            <R10>-0.00000007571032</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.49999997</R12>
-            <R20>0.99999976</R20>
-            <R21>-0.00000028684735</R21>
-            <R22>0.0000003874302</R22>
+            <R12>-0.50000006</R12>
+            <R20>0.9999999</R20>
+            <R21>-0.00000025331974</R21>
+            <R22>0.00000035762787</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2663,7 +2689,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2691,9 +2718,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2723,24 +2750,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.65915</X>
-            <Y>39.943058</Y>
-            <Z>89.21655</Z>
-            <R00>0.4999994</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.86602545</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000014901161</R12>
-            <R20>0.8660255</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.49999946</R22>
+            <X>-237.15192</X>
+            <Y>10.119298</Y>
+            <Z>113.89464</Z>
+            <R00>0.49999952</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.86602557</R02>
+            <R10>-0.00000008742277</R10>
+            <R11>-1</R11>
+            <R12>-0.00000000000004559453</R12>
+            <R20>0.86602557</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.49999952</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2758,7 +2785,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2786,9 +2814,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2818,24 +2846,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-267.60184</X>
-            <Y>39.943058</Y>
-            <Z>89.401634</Z>
-            <R00>0.9659257</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>-0.25881875</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000059604645</R12>
-            <R20>-0.25881878</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-236.55287</X>
+            <Y>10.119298</Y>
+            <Z>113.999504</Z>
+            <R00>0.9659258</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>-0.25881884</R02>
+            <R10>-0.000000022626697</R10>
+            <R11>-1</R11>
+            <R12>0.00000008444391</R12>
+            <R20>-0.25881884</R20>
+            <R21>-0.000000075710346</R21>
             <R22>-0.9659258</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2853,7 +2881,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2881,9 +2910,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>34.13369</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.3396</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -2913,24 +2942,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-270.29623</X>
-            <Y>39.94306</Y>
-            <Z>91.565636</Z>
-            <R00>-0.5735767</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.81915164</R02>
-            <R10>-0.000000040939177</R10>
-            <R11>-0.9999999</R11>
-            <R12>0</R12>
-            <R20>0.81915164</R20>
-            <R21>-0.00000011920929</R21>
+            <X>-238.07948</X>
+            <Y>10.119298</Y>
+            <Z>115.2256</Z>
+            <R00>-0.5735768</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.81915176</R02>
+            <R10>-0.00000003694642</R10>
+            <R11>-1</R11>
+            <R12>-0.00000007923196</R12>
+            <R20>0.81915176</R20>
+            <R21>-0.000000075710346</R21>
             <R22>0.5735768</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -2948,7 +2977,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -2976,9 +3006,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3008,24 +3038,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-256.2494</X>
-            <Y>39.48074</Y>
-            <Z>76.66987</Z>
-            <R00>0.7071063</R00>
+            <X>-230.12077</X>
+            <Y>9.85735</Y>
+            <Z>106.78589</Z>
+            <R00>0.7071064</R00>
             <R01>-0.35355362</R01>
-            <R02>0.6123724</R02>
-            <R10>0</R10>
-            <R11>-0.86602527</R11>
-            <R12>-0.5</R12>
-            <R20>0.70710707</R20>
-            <R21>0.35355315</R21>
+            <R02>0.6123726</R02>
+            <R10>-0.000000084443926</R10>
+            <R11>-0.8660253</R11>
+            <R12>-0.50000006</R12>
+            <R20>0.7071071</R20>
+            <R21>0.3535532</R21>
             <R22>-0.61237204</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3043,7 +3073,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3071,9 +3102,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3103,24 +3134,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-259.75714</X>
-            <Y>39.480743</Y>
-            <Z>73.978096</Z>
-            <R00>0.866025</R00>
-            <R01>-0.2500003</R01>
-            <R02>0.43301296</R02>
-            <R10>0</R10>
+            <X>-232.10822</X>
+            <Y>9.85735</Y>
+            <Z>105.26078</Z>
+            <R00>0.8660251</R00>
+            <R01>-0.25000027</R01>
+            <R02>0.43301302</R02>
+            <R10>-0.00000007571037</R10>
             <R11>-0.8660254</R11>
             <R12>-0.5</R12>
-            <R20>0.50000036</R20>
-            <R21>0.43301246</R21>
+            <R20>0.5000004</R20>
+            <R21>0.43301255</R21>
             <R22>-0.74999964</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3138,7 +3169,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3166,9 +3198,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3198,24 +3230,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-272.96848</X>
-            <Y>39.943058</Y>
-            <Z>94.985825</Z>
-            <R00>-0.65605944</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.7547092</R02>
-            <R10>-0.000000022351742</R10>
-            <R11>-0.99999994</R11>
-            <R12>-0.000000029802322</R12>
+            <X>-239.5935</X>
+            <Y>10.119298</Y>
+            <Z>117.16342</Z>
+            <R00>-0.6560595</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.75470924</R02>
+            <R10>-0.000000028462026</R10>
+            <R11>-1</R11>
+            <R12>-0.00000008265988</R12>
             <R20>0.75470924</R20>
-            <R21>-0.00000011920929</R21>
+            <R21>-0.000000075710346</R21>
             <R22>0.6560595</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3233,7 +3265,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3261,9 +3294,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3293,24 +3326,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-253.2714</X>
-            <Y>39.48074</Y>
-            <Z>97.23586</Z>
-            <R00>-0.43837154</R00>
-            <R01>-0.44939706</R01>
-            <R02>0.778378</R02>
-            <R10>-0.000000037252903</R10>
+            <X>-228.4335</X>
+            <Y>9.857348</Y>
+            <Z>118.43826</Z>
+            <R00>-0.4383716</R00>
+            <R01>-0.44939703</R01>
+            <R02>0.7783781</R02>
+            <R10>-0.000000048886154</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.5</R12>
-            <R20>0.8987937</R20>
-            <R21>-0.21918596</R21>
+            <R12>-0.5000001</R12>
+            <R20>0.89879376</R20>
+            <R21>-0.21918592</R21>
             <R22>0.3796409</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3328,7 +3361,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3356,9 +3390,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3388,24 +3422,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-265.10794</X>
-            <Y>39.480743</Y>
-            <Z>116.70028</Z>
-            <R00>-0.19080944</R00>
-            <R01>-0.49081355</R01>
-            <R02>0.85011375</R02>
-            <R10>-0.000000044703484</R10>
+            <X>-235.13986</X>
+            <Y>9.857348</Y>
+            <Z>129.46649</Z>
+            <R00>-0.19080946</R00>
+            <R01>-0.49081358</R01>
+            <R02>0.85011387</R02>
+            <R10>-0.00000006597878</R10>
             <R11>-0.86602527</R11>
             <R12>-0.50000006</R12>
             <R20>0.9816271</R20>
-            <R21>-0.09540486</R21>
-            <R22>0.16524574</R22>
+            <R21>-0.09540483</R21>
+            <R22>0.16524577</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3423,7 +3457,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3451,9 +3486,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3483,24 +3518,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.79416</X>
-            <Y>39.94307</Y>
-            <Z>88.71267</Z>
+            <X>-237.22842</X>
+            <Y>10.119298</Y>
+            <Z>113.60915</Z>
             <R00>-0.0000005066395</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.99999976</R02>
-            <R10>-0.000000044703484</R10>
-            <R11>-0.99999994</R11>
-            <R12>0</R12>
+            <R01>-0.00000004371139</R01>
+            <R02>0.9999999</R02>
+            <R10>-0.00000007571032</R10>
+            <R11>-1</R11>
+            <R12>-0.000000043711424</R12>
             <R20>0.9999999</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.00000047683716</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>0.0000005066395</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3518,7 +3553,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3546,9 +3582,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3578,24 +3614,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.7598</X>
-            <Y>39.943066</Y>
-            <Z>88.97351</Z>
-            <R00>0.2588185</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.9659258</R02>
-            <R10>-0.000000059604645</R10>
-            <R11>-0.99999994</R11>
-            <R12>0.000000029802322</R12>
-            <R20>0.9659259</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.25881857</R22>
+            <X>-237.20897</X>
+            <Y>10.119298</Y>
+            <Z>113.756935</Z>
+            <R00>0.25881854</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.96592593</R02>
+            <R10>-0.000000084443904</R10>
+            <R11>-1</R11>
+            <R12>-0.000000022626722</R12>
+            <R20>0.96592593</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.25881854</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3613,7 +3649,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3641,9 +3678,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3673,24 +3710,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-253.55757</X>
-            <Y>39.480732</Y>
-            <Z>80.177795</Z>
-            <R00>0.49999946</R00>
-            <R01>-0.4330129</R01>
-            <R02>0.75</R02>
-            <R10>-0.000000059604645</R10>
+            <X>-228.59564</X>
+            <Y>9.85735</Y>
+            <Z>108.77343</Z>
+            <R00>0.49999952</R00>
+            <R01>-0.43301293</R01>
+            <R02>0.7500001</R02>
+            <R10>-0.00000008742277</R10>
             <R11>-0.8660253</R11>
             <R12>-0.50000006</R12>
             <R20>0.86602557</R20>
-            <R21>0.24999967</R21>
+            <R21>0.24999973</R21>
             <R22>-0.4330123</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3708,7 +3745,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3736,9 +3774,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3768,16 +3806,16 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-256.03586</X>
-            <Y>39.48074</Y>
-            <Z>101.79266</Z>
-            <R00>-0.57357675</R00>
+            <X>-229.9998</X>
+            <Y>9.857348</Y>
+            <Z>121.02007</Z>
+            <R00>-0.5735768</R00>
             <R01>-0.40957597</R01>
-            <R02>0.7094061</R02>
-            <R10>-0.0000000389428</R10>
+            <R02>0.70940614</R02>
+            <R10>-0.00000003694642</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.50000006</R12>
-            <R20>0.8191517</R20>
+            <R12>-0.5000001</R12>
+            <R20>0.81915176</R20>
             <R21>-0.28678852</R21>
             <R22>0.49673203</R22>
           </CoordinateFrame>
@@ -3785,7 +3823,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3803,7 +3841,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3831,9 +3870,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3863,24 +3902,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-277.60556</X>
-            <Y>39.48074</Y>
-            <Z>73.19432</Z>
-            <R00>0.9925459</R00>
-            <R01>0.060934395</R01>
-            <R02>-0.105541795</R02>
-            <R10>0.000000059604645</R10>
-            <R11>-0.86602527</R11>
-            <R12>-0.50000006</R12>
-            <R20>-0.12186915</R20>
-            <R21>0.49627298</R21>
+            <X>-242.22084</X>
+            <Y>9.85735</Y>
+            <Z>104.81671</Z>
+            <R00>0.99254614</R00>
+            <R01>0.0609345</R01>
+            <R02>-0.105541766</R02>
+            <R10>-0.00000003415882</R10>
+            <R11>-0.8660253</R11>
+            <R12>-0.5</R12>
+            <R20>-0.12186912</R20>
+            <R21>0.49627304</R21>
             <R22>-0.8595701</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3898,7 +3937,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -3926,9 +3966,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -3958,24 +3998,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.83633</X>
-            <Y>39.94307</Y>
-            <Z>89.08345</Z>
-            <R00>-0.22495157</R00>
-            <R01>-0.00000008940697</R01>
-            <R02>0.9743699</R02>
-            <R10>-0.000000059604645</R10>
-            <R11>-0.99999994</R11>
-            <R12>-0.000000059604645</R12>
+            <X>-237.25233</X>
+            <Y>10.119298</Y>
+            <Z>113.81922</Z>
+            <R00>-0.22495154</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.97436994</R02>
+            <R10>-0.00000006393694</R10>
+            <R11>-1</R11>
+            <R12>-0.000000059622224</R12>
             <R20>0.97436994</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.22495157</R22>
+            <R21>-0.000000075710346</R21>
+            <R22>0.22495154</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -3993,7 +4033,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -4021,9 +4062,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -4053,24 +4094,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-268.2471</X>
-            <Y>39.943058</Y>
-            <Z>89.510635</Z>
-            <R00>0.866025</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.50000036</R02>
-            <R10>0</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000037252903</R12>
-            <R20>0.50000036</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.866025</R22>
+            <X>-236.91847</X>
+            <Y>10.119298</Y>
+            <Z>114.06126</Z>
+            <R00>0.8660251</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.5000004</R02>
+            <R10>-0.00000007571037</R10>
+            <R11>-1</R11>
+            <R12>0.000000043711346</R12>
+            <R20>0.5000004</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.8660251</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -4088,7 +4129,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -4116,9 +4158,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>33.71751</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.1038</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -4148,24 +4190,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-272.60995</X>
-            <Y>39.48074</Y>
-            <Z>72.28595</Z>
-            <R00>0.9659257</R00>
-            <R01>0.12940931</R01>
-            <R02>-0.22414367</R02>
-            <R10>-0.000000029802322</R10>
+            <X>-239.39041</X>
+            <Y>9.85735</Y>
+            <Z>104.30204</Z>
+            <R00>0.9659258</R00>
+            <R01>0.12940939</R01>
+            <R02>-0.22414368</R02>
+            <R10>-0.000000022626697</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.50000006</R12>
-            <R20>-0.25881878</R20>
-            <R21>0.48296285</R21>
+            <R12>-0.5</R12>
+            <R20>-0.25881884</R20>
+            <R21>0.4829629</R21>
             <R22>-0.83651626</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -4183,7 +4225,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -4211,9 +4254,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -4243,16 +4286,16 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-251.7905</X>
-            <Y>39.480743</Y>
-            <Z>93.05417</Z>
+            <X>-227.59445</X>
+            <Y>9.857348</Y>
+            <Z>116.068985</Z>
             <R00>-0.22495154</R00>
-            <R01>-0.48718503</R01>
-            <R02>0.8438289</R02>
-            <R10>-0.000000029802322</R10>
-            <R11>-0.8660254</R11>
-            <R12>-0.5</R12>
-            <R20>0.9743699</R20>
+            <R01>-0.4871851</R01>
+            <R02>0.84382904</R02>
+            <R10>-0.00000006393694</R10>
+            <R11>-0.8660253</R11>
+            <R12>-0.5000001</R12>
+            <R20>0.97436994</R20>
             <R21>-0.11247584</R21>
             <R22>0.19481373</R22>
           </CoordinateFrame>
@@ -4260,7 +4303,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -4278,7 +4321,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -4306,9 +4350,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -4338,24 +4382,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-282.2839</X>
-            <Y>39.94307</Y>
-            <Z>113.342125</Z>
-            <R00>-0.1908094</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.98162687</R02>
-            <R10>-0.000000014901161</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000059604645</R12>
-            <R20>0.98162705</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>0.19080944</R22>
+            <X>-244.87152</X>
+            <Y>10.119298</Y>
+            <Z>127.56382</Z>
+            <R00>-0.19080946</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.9816271</R02>
+            <R10>-0.00000006597878</R10>
+            <R11>-1</R11>
+            <R12>-0.000000057354534</R12>
+            <R20>0.9816271</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>0.19080946</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -4373,7 +4417,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -4401,9 +4446,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>33.5449</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.006</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -4433,16 +4478,16 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-259.86456</X>
-            <Y>39.48075</Y>
-            <Z>106.693016</Z>
-            <R00>-0.6560594</R00>
+            <X>-232.16907</X>
+            <Y>9.857348</Y>
+            <Z>123.79653</Z>
+            <R00>-0.6560595</R00>
             <R01>-0.3773547</R01>
-            <R02>0.6535971</R02>
-            <R10>-0.000000029802322</R10>
+            <R02>0.65359724</R02>
+            <R10>-0.000000028462026</R10>
             <R11>-0.8660253</R11>
-            <R12>-0.5</R12>
-            <R20>0.7547091</R20>
+            <R12>-0.5000001</R12>
+            <R20>0.75470924</R20>
             <R21>-0.32802987</R21>
             <R22>0.56816405</R22>
           </CoordinateFrame>
@@ -4450,7 +4495,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -4468,7 +4513,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -4496,9 +4542,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>6.2250276</X>
-            <Y>1.1535802</Y>
-            <Z>2.5231943</Z>
+            <X>3.527</X>
+            <Y>0.65360004</Y>
+            <Z>1.4296014</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
@@ -4528,24 +4574,24 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-267.97098</X>
-            <Y>39.943077</Y>
-            <Z>89.4016</Z>
-            <R00>0.9659255</R00>
-            <R01>-0.00000011920929</R01>
-            <R02>0.25881946</R02>
-            <R10>0</R10>
-            <R11>-0.9999999</R11>
-            <R12>0.000000029802322</R12>
-            <R20>0.25881952</R20>
-            <R21>-0.00000011920929</R21>
-            <R22>-0.96592563</R22>
+            <X>-236.76204</X>
+            <Y>10.119298</Y>
+            <Z>113.9995</Z>
+            <R00>0.9659257</R00>
+            <R01>-0.00000004371139</R01>
+            <R02>0.2588195</R02>
+            <R10>-0.00000006181727</R10>
+            <R11>-1</R11>
+            <R12>0.000000061817204</R12>
+            <R20>0.2588195</R20>
+            <R21>-0.000000075710346</R21>
+            <R22>-0.9659257</R22>
           </CoordinateFrame>
           <bool name="CanCollide">true</bool>
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <string name="CollisionGroup">Default</string>
+          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10796359</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -4563,7 +4609,8 @@
           <bool name="Locked">false</bool>
           <bool name="Massless">false</bool>
           <token name="Material">1280</token>
-          <string name="MaterialVariantSerialized"></string>
+          <BinaryString name="MaterialVariantSerialized">
+          </BinaryString>
           <CoordinateFrame name="PivotOffset">
             <X>0</X>
             <Y>0</Y>
@@ -4591,9 +4638,9 @@
           </Vector3>
           <token name="shape">1</token>
           <Vector3 name="size">
-            <X>4.460064</X>
-            <Y>1.1535802</Y>
-            <Z>34.13369</Z>
+            <X>2.527</X>
+            <Y>0.65360004</Y>
+            <Z>19.3396</Z>
           </Vector3>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>

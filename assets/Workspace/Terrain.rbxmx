@@ -31,7 +31,7 @@
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <string name="CollisionGroup">Default</string>
+      <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
       <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">10724005</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
@@ -50,7 +50,8 @@
       <bool name="Massless">false</bool>
       <token name="Material">256</token>
       <BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHtagcLgc4RKxr21zq2UlJSM]]></BinaryString>
-      <string name="MaterialVariantSerialized"></string>
+      <BinaryString name="MaterialVariantSerialized">
+      </BinaryString>
       <BinaryString name="PhysicsGrid"><![CDATA[AgMAAAAAAAAAAAAAAAA=]]></BinaryString>
       <CoordinateFrame name="PivotOffset">
         <X>0</X>

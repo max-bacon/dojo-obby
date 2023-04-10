@@ -13,24 +13,24 @@
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
       <CoordinateFrame name="CFrame">
-        <X>-376.03314</X>
-        <Y>1.0551395</Y>
-        <Z>107.96326</Z>
+        <X>-329.97546</X>
+        <Y>0.019615173</Y>
+        <Z>13.761322</Z>
         <R00>-1</R00>
         <R01>0</R01>
         <R02>0</R02>
         <R10>0</R10>
-        <R11>1</R11>
-        <R12>0</R12>
+        <R11>0</R11>
+        <R12>-1</R12>
         <R20>0</R20>
-        <R21>0</R21>
-        <R22>-1</R22>
+        <R21>-1</R21>
+        <R22>0</R22>
       </CoordinateFrame>
       <bool name="CanCollide">true</bool>
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <string name="CollisionGroup">Default</string>
+      <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
       <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">16756736</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
@@ -47,8 +47,9 @@
       <token name="LeftSurfaceInput">0</token>
       <bool name="Locked">false</bool>
       <bool name="Massless">false</bool>
-      <token name="Material">256</token>
-      <string name="MaterialVariantSerialized"></string>
+      <token name="Material">788</token>
+      <BinaryString name="MaterialVariantSerialized">
+      </BinaryString>
       <CoordinateFrame name="PivotOffset">
         <X>0</X>
         <Y>0</Y>
@@ -76,9 +77,9 @@
       </Vector3>
       <token name="shape">1</token>
       <Vector3 name="size">
-        <X>9.211774</X>
-        <Y>2.1102788</Y>
-        <Z>7.3761625</Z>
+        <X>17.742352</X>
+        <Y>136.43893</Y>
+        <Z>0.039231777</Z>
       </Vector3>
       <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>
@@ -103,7 +104,7 @@
           </null>
         </Content>
         <token name="RunContext">0</token>
-        <string name="ScriptGuid">{BB685111-F184-4890-B830-3D3EE6ADC596}</string>
+        <BinaryString name="ScriptGuid"><![CDATA[e0JCNjg1MTExLUYxODQtNDg5MC1CODMwLTNEM0VFNkFEQzU5Nn0=]]></BinaryString>
         <string name="Source">while true do
 	task.wait(0.2)
 	script.Parent.BrickColor = BrickColor.new("Really red")

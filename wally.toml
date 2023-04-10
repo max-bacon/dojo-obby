@@ -7,7 +7,7 @@ realm = "server"
 [dependencies]
 Knit = "sleitnick/knit@^1.4"
 Fusion = "elttob/fusion@0.2.0"
-ReplicaService = "brittonfischer/replicaservice@0.1.0"
+Trove = "sleitnick/trove@0.5.0"
 
 [server-dependencies]
 ProfileService = "firecam702/profileservice@1.0.0"

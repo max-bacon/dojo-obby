@@ -3,8 +3,17 @@ local ServerStorage = game:GetService("ServerStorage")
 
 local Knit = require(ReplicatedStorage.Packages.Knit)
 
-Knit.AddServices(ServerStorage.Server.Services)
+local Services = ServerStorage.Server.Services
 
-Knit.Start():catch(warn)
+local ServerComponents = ServerStorage.Server.Components:GetChildren()
+local SharedComponents = ReplicatedStorage.Shared.Components:GetChildren()
 
-Knit.GetService("DataService")
+Knit.AddServices(Services)
+
+Knit.Start()
+	:andThen(function()
+		for _, comp in pairs({ table.unpack(ServerComponents), table.unpack(SharedComponents) }) do
+			require(comp)
+		end
+	end)
+	:catch(warn)
