@@ -16,7 +16,7 @@ local Stats = {
 local StatsService = Knit.CreateService({
 	Name = "StatsService",
 	Client = {
-		Knit.CreateSignal("Checkpoint"),
+		CheckpointReached = Knit.CreateSignal(),
 	},
 })
 

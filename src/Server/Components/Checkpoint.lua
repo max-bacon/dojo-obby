@@ -19,10 +19,11 @@ function Checkpoint:_onTouched(hit)
 
 	local Player = game:GetService("Players"):GetPlayerFromCharacter(hum.Parent)
 
-	if StatsService:Get(Player, "Level") == self.Level then
+	if StatsService:Get(Player, "Level") >= self.Level then
 		return
 	end
 
+	StatsService.Client.CheckpointReached:Fire(Player)
 	StatsService:Set(Player, "Level", self.Level)
 end
 
