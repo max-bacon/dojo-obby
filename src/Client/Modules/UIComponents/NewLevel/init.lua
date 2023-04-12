@@ -12,23 +12,18 @@ local Tween, Spring = Fusion.Tween, Fusion.Spring
 
 local FlyingKatana = require(script.FlyingKatana)
 
-local function katanaAnimStarted()
-
-end
+local function katanaAnimStarted() end
 
 local function newLevel(props)
-
-
 	local level = New("Frame")({
 		Name = "NewLevel",
 		BackgroundTransparency = 1,
-		Size = UDim2.fromScale(1,1),
+		Size = UDim2.fromScale(1, 1),
 
 		[Children] = {
-			FlyingKatana(props)
-		}
+			FlyingKatana(props),
+		},
 	})
-
 
 	return level
 end
