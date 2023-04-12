@@ -18,9 +18,14 @@ version = "1.0.0"
 dependencies = []
 
 [[package]]
+name = "max-bacon/bezier-tweens"
+version = "1.1.1"
+dependencies = [["Signal", "sleitnick/signal@1.5.0"]]
+
+[[package]]
 name = "maxba/dojo-obby"
 version = "0.1.0"
-dependencies = [["Component", "sleitnick/component@2.4.6"], ["Fusion", "elttob/fusion@0.2.0"], ["Knit", "sleitnick/knit@1.4.7"], ["Signal", "sleitnick/signal@1.5.0"], ["Trove", "sleitnick/trove@0.5.0"]]
+dependencies = [["BezierTween", "max-bacon/bezier-tweens@1.1.1"], ["Component", "sleitnick/component@2.4.6"], ["Fusion", "elttob/fusion@0.2.0"], ["Knit", "sleitnick/knit@1.4.7"], ["Signal", "sleitnick/signal@1.5.0"], ["Trove", "sleitnick/trove@0.5.0"]]
 
 [[package]]
 name = "sleitnick/comm"

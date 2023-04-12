@@ -5,4 +5,4 @@ upload-to-group-id = 7293733
 glob = "images/**/*.png"
 codegen = true
 codegen-path = "src/shared/Modules/Images.lua"
-codegen-base-path = ""
+codegen-base-path = "images"
