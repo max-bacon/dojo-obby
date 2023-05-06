@@ -37,8 +37,13 @@ function Checkpoint:Construct()
 		error("Level attribute is a(n) " .. typeof(self.Level))
 	end
 
+	self.Hitbox = self.Instance
 	self._trove:Add(self.Instance.Touched:Connect(function(hit)
 		self:_onTouched(hit)
+	end))
+
+	self._trove:Add(StatsService.Client.CheckpointReached:Connect(function(plr)
+		print(plr)
 	end))
 end
 

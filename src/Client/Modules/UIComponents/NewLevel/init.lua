@@ -1,27 +1,35 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Fusion = require(ReplicatedStorage.Utils.Fusion)
-local BezierTween = require(ReplicatedStorage.Utils.BezierTween)
-local Images = require(ReplicatedStorage.Shared.Modules.Images)
 
-local Value, Observer, Computed, ForKeys, ForValues, ForPairs =
-	Fusion.Value, Fusion.Observer, Fusion.Computed, Fusion.ForKeys, Fusion.ForValues, Fusion.ForPairs
-local New, Children, OnEvent, OnChange, Out, Ref, Cleanup =
-	Fusion.New, Fusion.Children, Fusion.OnEvent, Fusion.OnChange, Fusion.Out, Fusion.Ref, Fusion.Cleanup
-local Tween, Spring = Fusion.Tween, Fusion.Spring
+local Value = Fusion.Value
+local New, Children = Fusion.New, Fusion.Children
 
 local FlyingKatana = require(script.FlyingKatana)
+local CheckpointLabel = require(script.CheckpointLabel)
 
-local function katanaAnimStarted() end
+local Time = 5
+local delayTime = 0.8
 
 local function newLevel(props)
+	local katanaXPos = Value(Vector2.new())
 	local level = New("Frame")({
 		Name = "NewLevel",
 		BackgroundTransparency = 1,
 		Size = UDim2.fromScale(1, 1),
 
 		[Children] = {
-			FlyingKatana(props),
+			FlyingKatana({
+				Event = props.Event,
+				Position = katanaXPos,
+				Time = Time,
+			}),
+			CheckpointLabel({
+				Event = props.Event,
+				KatanaXPos = katanaXPos,
+				Time = Time,
+				DelayTime = delayTime,
+			}),
 		},
 	})
 

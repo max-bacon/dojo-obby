@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model1</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -32,18 +32,18 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-375.1464</X>
-          <Y>12.878429</Y>
-          <Z>148.83197</Z>
-          <R00>0.9998448</R00>
+          <X>-376.6713</X>
+          <Y>7.9082456</Y>
+          <Z>168.4208</Z>
+          <R00>0.99984473</R00>
           <R01>0.00054295955</R01>
-          <R02>-0.017676823</R02>
-          <R10>0.0005502778</R10>
+          <R02>-0.017676808</R02>
+          <R10>0.00055027776</R10>
           <R11>-0.99999976</R11>
-          <R12>0.00040910838</R12>
-          <R20>-0.01767657</R20>
+          <R12>0.00040910832</R12>
+          <R20>-0.017676584</R20>
           <R21>-0.00041877115</R21>
-          <R22>-0.9998447</R22>
+          <R22>-0.99984455</R22>
         </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
@@ -78,7 +78,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">6432551</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -197,7 +197,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">13290449</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -592,7 +592,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">6432551</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -690,18 +690,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-375.19617</X>
-            <Y>19.119247</Y>
-            <Z>146.21635</Z>
-            <R00>0.99984485</R00>
-            <R01>-0.009308606</R01>
-            <R02>0.015037216</R02>
-            <R10>0.0005502778</R10>
+            <X>-376.7281</X>
+            <Y>15.037083</Y>
+            <Z>165.43301</Z>
+            <R00>0.99984473</R00>
+            <R01>-0.009308584</R01>
+            <R02>0.015037224</R02>
+            <R10>0.0005502777</R10>
             <R11>0.86623096</R11>
-            <R12>0.49964377</R12>
-            <R20>-0.0176766</R20>
-            <R21>-0.49955788</R21>
-            <R22>0.8661014</R22>
+            <R12>0.49964383</R12>
+            <R20>-0.017676584</R20>
+            <R21>-0.49955776</R21>
+            <R22>0.8661012</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -736,7 +736,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">7170923</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -972,18 +972,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.16672</X>
-              <Y>17.629967</Y>
-              <Z>144.50583</Z>
-              <R00>0.9998446</R00>
-              <R01>-0.0005427375</R01>
+              <X>-376.76672</X>
+              <Y>13.344428</Y>
+              <Z>163.19748</Z>
+              <R00>0.9998445</R00>
+              <R01>-0.00054272264</R01>
               <R02>0.017676927</R02>
-              <R10>0.0005500989</R10>
+              <R10>0.00055008393</R10>
               <R11>0.99999976</R11>
-              <R12>-0.00041155412</R12>
-              <R20>-0.017676689</R20>
-              <R21>0.0004212135</R21>
-              <R22>0.99984455</R22>
+              <R12>-0.00041155398</R12>
+              <R20>-0.017676674</R20>
+              <R21>0.00042121316</R21>
+              <R22>0.9998445</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -1018,7 +1018,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -1146,7 +1146,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -1415,18 +1415,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.11392</X>
-              <Y>19.059002</Y>
-              <Z>147.53645</Z>
-              <R00>0.9998446</R00>
-              <R01>-0.0005427375</R01>
+              <X>-376.70636</X>
+              <Y>14.976986</Y>
+              <Z>166.65964</Z>
+              <R00>0.9998445</R00>
+              <R01>-0.0005427263</R01>
               <R02>0.017676927</R02>
-              <R10>0.0005500989</R10>
+              <R10>0.00055008393</R10>
               <R11>0.99999976</R11>
-              <R12>-0.00041155412</R12>
-              <R20>-0.017676689</R20>
-              <R21>0.0004212135</R21>
-              <R22>0.99984455</R22>
+              <R12>-0.0004113454</R12>
+              <R20>-0.017676674</R20>
+              <R21>0.00042100472</R21>
+              <R22>0.9998445</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -1461,7 +1461,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -1589,7 +1589,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -1858,18 +1858,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.14862</X>
-              <Y>17.867962</Y>
-              <Z>145.53601</Z>
-              <R00>0.9998446</R00>
-              <R01>-0.0005427375</R01>
+              <X>-376.74606</X>
+              <Y>13.616336</Y>
+              <Z>164.37447</Z>
+              <R00>0.9998445</R00>
+              <R01>-0.0005427263</R01>
               <R02>0.017676927</R02>
-              <R10>0.0005500989</R10>
+              <R10>0.00055008393</R10>
               <R11>0.99999976</R11>
-              <R12>-0.00041155412</R12>
-              <R20>-0.017676689</R20>
-              <R21>0.0004212135</R21>
-              <R22>0.99984455</R22>
+              <R12>-0.0004113454</R12>
+              <R20>-0.017676674</R20>
+              <R21>0.00042100472</R21>
+              <R22>0.9998445</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -1904,7 +1904,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -2032,7 +2032,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -2301,9 +2301,9 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.38608</X>
-              <Y>19.26865</Y>
-              <Z>146.31516</Z>
+              <X>-392.93863</X>
+              <Y>15.207715</Y>
+              <Z>165.54588</Z>
               <R00>0.01504124</R00>
               <R01>-0.009311851</R01>
               <R02>-0.9998446</R02>
@@ -2347,7 +2347,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -2613,7 +2613,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -2879,7 +2879,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -3007,7 +3007,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -3276,18 +3276,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-362.78653</X>
-              <Y>19.283293</Y>
-              <Z>145.84485</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
+              <X>-362.55142</X>
+              <Y>15.224435</Y>
+              <Z>165.00842</Z>
+              <R00>0.015041284</R00>
+              <R01>-0.009311844</R01>
+              <R02>-0.99984443</R02>
               <R10>0.49964678</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.00055100216</R12>
+              <R20>0.8660994</R20>
+              <R21>-0.4995607</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -3322,7 +3322,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -3588,7 +3588,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -3854,7 +3854,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -3982,7 +3982,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -4251,18 +4251,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-361.019</X>
-              <Y>19.284264</Y>
-              <Z>145.8136</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <X>-360.53226</X>
+              <Y>15.225481</Y>
+              <Z>164.97284</Z>
+              <R00>0.0150413215</R00>
+              <R01>-0.009311821</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.49964684</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.0005509614</R12>
+              <R20>0.8660995</R20>
+              <R21>-0.49956074</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -4297,7 +4297,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -4563,7 +4563,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -4829,7 +4829,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -4957,7 +4957,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -5226,18 +5226,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-369.85062</X>
-              <Y>19.279408</Y>
-              <Z>145.96974</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
-              <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <X>-370.6214</X>
+              <Y>15.220006</Y>
+              <Z>165.15132</Z>
+              <R00>0.015039258</R00>
+              <R01>-0.009310659</R01>
+              <R02>-0.99984455</R02>
+              <R10>0.499646</R10>
+              <R11>0.86622965</R11>
+              <R12>-0.00055100315</R12>
+              <R20>0.86609983</R20>
+              <R21>-0.49955997</R21>
+              <R22>0.017679423</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -5272,7 +5272,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -5538,7 +5538,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -5804,7 +5804,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -5932,7 +5932,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -6199,7 +6199,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">7170923</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -6435,18 +6435,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-371.61813</X>
-              <Y>19.278435</Y>
-              <Z>146.00096</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
-              <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <X>-372.64087</X>
+              <Y>15.218948</Y>
+              <Z>165.18678</Z>
+              <R00>0.015041299</R00>
+              <R01>-0.009311847</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.49964565</R10>
+              <R11>0.8662299</R11>
+              <R12>-0.00055100344</R12>
+              <R20>0.86610025</R20>
+              <R21>-0.49955952</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -6481,7 +6481,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -6747,7 +6747,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -7013,7 +7013,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -7141,7 +7141,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -7410,18 +7410,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-385.85074</X>
-              <Y>19.2706</Y>
-              <Z>146.25262</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <X>-388.90002</X>
+              <Y>15.209933</Y>
+              <Z>165.47427</Z>
+              <R00>0.0150413215</R00>
+              <R01>-0.009311821</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.49964684</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.0005509614</R12>
+              <R20>0.8660995</R20>
+              <R21>-0.49956074</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -7456,7 +7456,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -7722,7 +7722,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -7988,7 +7988,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -8116,7 +8116,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -8383,7 +8383,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">7170923</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -8619,18 +8619,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-373.39236</X>
-              <Y>19.277454</Y>
-              <Z>146.03235</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <X>-374.66763</X>
+              <Y>15.217772</Y>
+              <Z>165.22264</Z>
+              <R00>0.0150413215</R00>
+              <R01>-0.009311821</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.49964684</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.0005509614</R12>
+              <R20>0.8660995</R20>
+              <R21>-0.49956074</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -8665,7 +8665,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -8931,7 +8931,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -9197,7 +9197,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -9325,7 +9325,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -9594,18 +9594,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.13156</X>
-              <Y>18.447914</Y>
-              <Z>146.51897</Z>
-              <R00>0.9998446</R00>
-              <R01>-0.0005427375</R01>
+              <X>-376.7265</X>
+              <Y>14.278854</Y>
+              <Z>165.49731</Z>
+              <R00>0.9998445</R00>
+              <R01>-0.00054272264</R01>
               <R02>0.017676927</R02>
-              <R10>0.0005500989</R10>
+              <R10>0.00055008393</R10>
               <R11>0.99999976</R11>
-              <R12>-0.00041155412</R12>
-              <R20>-0.017676689</R20>
-              <R21>0.0004212135</R21>
-              <R22>0.99984455</R22>
+              <R12>-0.00041155398</R12>
+              <R20>-0.017676674</R20>
+              <R21>0.00042121316</R21>
+              <R22>0.9998445</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -9640,7 +9640,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -9768,7 +9768,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -10037,18 +10037,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.1007</X>
-              <Y>19.93725</Y>
-              <Z>148.31133</Z>
-              <R00>0.9998446</R00>
-              <R01>-0.0005427375</R01>
+              <X>-376.69128</X>
+              <Y>15.980278</Y>
+              <Z>167.54494</Z>
+              <R00>0.9998445</R00>
+              <R01>-0.00054272264</R01>
               <R02>0.017676927</R02>
-              <R10>0.0005500989</R10>
+              <R10>0.00055008393</R10>
               <R11>0.99999976</R11>
-              <R12>-0.00041155412</R12>
-              <R20>-0.017676689</R20>
-              <R21>0.0004212135</R21>
-              <R22>0.99984455</R22>
+              <R12>-0.00041155398</R12>
+              <R20>-0.017676674</R20>
+              <R21>0.00042121316</R21>
+              <R22>0.9998445</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -10083,7 +10083,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -10211,7 +10211,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -10480,18 +10480,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-364.56076</X>
-              <Y>19.282322</Y>
-              <Z>145.87617</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
-              <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <X>-364.57843</X>
+              <Y>15.223329</Y>
+              <Z>165.04428</Z>
+              <R00>0.015039213</R00>
+              <R01>-0.009310629</R01>
+              <R02>-0.9998447</R02>
+              <R10>0.49964485</R10>
+              <R11>0.86623037</R11>
+              <R12>-0.00055100647</R12>
+              <R20>0.8661006</R20>
+              <R21>-0.4995588</R21>
+              <R22>0.017679393</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -10526,7 +10526,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -10792,7 +10792,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -11058,7 +11058,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -11186,7 +11186,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -11455,18 +11455,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.09134</X>
-              <Y>20.912436</Y>
-              <Z>148.87035</Z>
-              <R00>0.9998446</R00>
-              <R01>-0.0005427375</R01>
-              <R02>0.017676927</R02>
-              <R10>0.0005500989</R10>
+              <X>-376.6806</X>
+              <Y>17.094301</Y>
+              <Z>168.18324</Z>
+              <R00>0.99984485</R00>
+              <R01>-0.00054270757</R01>
+              <R02>0.017672189</R02>
+              <R10>0.00055006705</R10>
               <R11>0.99999976</R11>
-              <R12>-0.00041155412</R12>
-              <R20>-0.017676689</R20>
-              <R21>0.0004212135</R21>
-              <R22>0.99984455</R22>
+              <R12>-0.0004115457</R12>
+              <R20>-0.017671965</R20>
+              <R21>0.00042120198</R21>
+              <R22>0.9998447</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -11501,7 +11501,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -11629,7 +11629,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -11898,18 +11898,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-368.13684</X>
-              <Y>19.280354</Y>
-              <Z>145.93942</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <X>-368.6636</X>
+              <Y>15.221061</Y>
+              <Z>165.1167</Z>
+              <R00>0.0150413215</R00>
+              <R01>-0.009311821</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.49964684</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.0005509614</R12>
+              <R20>0.8660995</R20>
+              <R21>-0.49956074</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -11944,7 +11944,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -12210,7 +12210,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -12476,7 +12476,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -12604,7 +12604,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -12873,18 +12873,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-384.06647</X>
-              <Y>19.271587</Y>
-              <Z>146.22107</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
-              <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <X>-386.86157</X>
+              <Y>15.2110405</Y>
+              <Z>165.43835</Z>
+              <R00>0.015039235</R00>
+              <R01>-0.0093106665</R01>
+              <R02>-0.9998445</R02>
+              <R10>0.49964613</R10>
+              <R11>0.86622965</R11>
+              <R12>-0.0005509774</R12>
+              <R20>0.8660999</R20>
+              <R21>-0.49956003</R21>
+              <R22>0.017679393</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -12919,7 +12919,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -13185,7 +13185,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -13451,7 +13451,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -13579,7 +13579,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -13848,18 +13848,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-378.73288</X>
-              <Y>19.274513</Y>
-              <Z>146.12675</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
+              <X>-380.76868</X>
+              <Y>15.214414</Y>
+              <Z>165.33072</Z>
+              <R00>0.015041284</R00>
+              <R01>-0.009311844</R01>
+              <R02>-0.99984443</R02>
               <R10>0.49964678</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.00055100216</R12>
+              <R20>0.8660994</R20>
+              <R21>-0.4995607</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -13894,7 +13894,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -14160,7 +14160,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -14426,7 +14426,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -14554,7 +14554,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -14823,18 +14823,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-366.35254</X>
-              <Y>19.28133</Y>
-              <Z>145.90787</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <X>-366.62524</X>
+              <Y>15.222201</Y>
+              <Z>165.08067</Z>
+              <R00>0.0150413215</R00>
+              <R01>-0.009311821</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.49964684</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.0005509614</R12>
+              <R20>0.8660995</R20>
+              <R21>-0.49956074</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -14869,7 +14869,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -15135,7 +15135,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -15401,7 +15401,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -15529,7 +15529,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -15798,18 +15798,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-375.18417</X>
-              <Y>19.276466</Y>
-              <Z>146.06401</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
+              <X>-376.71457</X>
+              <Y>15.216554</Y>
+              <Z>165.25893</Z>
+              <R00>0.015041284</R00>
+              <R01>-0.009311844</R01>
+              <R02>-0.99984443</R02>
               <R10>0.49964678</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.00055100216</R12>
+              <R20>0.8660994</R20>
+              <R21>-0.4995607</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -15844,7 +15844,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -16110,7 +16110,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -16376,7 +16376,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -16504,7 +16504,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -16773,17 +16773,17 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-387.61853</X>
-              <Y>19.269627</Y>
-              <Z>146.2839</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
+              <X>-390.91943</X>
+              <Y>15.208825</Y>
+              <Z>165.5102</Z>
+              <R00>0.015041277</R00>
+              <R01>-0.009311836</R01>
               <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <R10>0.49964684</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
+              <R12>-0.00055096165</R12>
               <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
+              <R21>-0.49956083</R21>
               <R22>0.017681777</R22>
             </CFrame>
           </OptionalCoordinateFrame>
@@ -16821,17 +16821,17 @@
             <BinaryString name="Tags"></BinaryString>
             <OptionalCoordinateFrame name="WorldPivotData">
               <CFrame>
-                <X>-387.6312</X>
-                <Y>18.605549</Y>
-                <Z>145.54863</Z>
-                <R00>0.01504124</R00>
-                <R01>-0.009311851</R01>
+                <X>-390.93387</X>
+                <Y>14.450188</Y>
+                <Z>164.67027</Z>
+                <R00>0.015041277</R00>
+                <R01>-0.009311836</R01>
                 <R02>-0.9998446</R02>
-                <R10>0.49964678</R10>
+                <R10>0.49964684</R10>
                 <R11>0.86622924</R11>
-                <R12>-0.0005510024</R12>
+                <R12>-0.00055096165</R12>
                 <R20>0.8660996</R20>
-                <R21>-0.49956077</R21>
+                <R21>-0.49956083</R21>
                 <R22>0.017681777</R22>
               </CFrame>
             </OptionalCoordinateFrame>
@@ -16867,7 +16867,7 @@
               <bool name="CanQuery">true</bool>
               <bool name="CanTouch">true</bool>
               <bool name="CastShadow">true</bool>
-              <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+              <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
               <int name="CollisionGroupId">0</int>
               <Color3uint8 name="Color3uint8">7170923</Color3uint8>
               <PhysicalProperties name="CustomPhysicalProperties">
@@ -17133,7 +17133,7 @@
               <bool name="CanQuery">true</bool>
               <bool name="CanTouch">true</bool>
               <bool name="CastShadow">true</bool>
-              <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+              <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
               <int name="CollisionGroupId">0</int>
               <Color3uint8 name="Color3uint8">7170923</Color3uint8>
               <PhysicalProperties name="CustomPhysicalProperties">
@@ -17399,7 +17399,7 @@
               <bool name="CanQuery">true</bool>
               <bool name="CanTouch">true</bool>
               <bool name="CastShadow">true</bool>
-              <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+              <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
               <int name="CollisionGroupId">0</int>
               <Color3uint8 name="Color3uint8">8750215</Color3uint8>
               <PhysicalProperties name="CustomPhysicalProperties">
@@ -17528,7 +17528,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -17797,18 +17797,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-382.27475</X>
-              <Y>19.272568</Y>
-              <Z>146.18936</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
-              <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <X>-384.81482</X>
+              <Y>15.212201</Y>
+              <Z>165.4019</Z>
+              <R00>0.015041299</R00>
+              <R01>-0.009311847</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.49964565</R10>
+              <R11>0.8662299</R11>
+              <R12>-0.00055100344</R12>
+              <R20>0.86610025</R20>
+              <R21>-0.49955952</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -17843,7 +17843,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -18109,7 +18109,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -18375,7 +18375,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -18503,7 +18503,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -18772,18 +18772,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-380.50037</X>
-              <Y>19.273544</Y>
-              <Z>146.15802</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
-              <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <X>-382.78778</X>
+              <Y>15.21313</Y>
+              <Z>165.3661</Z>
+              <R00>0.015041284</R00>
+              <R01>-0.009311821</R01>
+              <R02>-0.99984443</R02>
+              <R10>0.4996469</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
-              <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
-              <R22>0.017681777</R22>
+              <R12>-0.0005509634</R12>
+              <R20>0.8660994</R20>
+              <R21>-0.49956074</R21>
+              <R22>0.017681748</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -18818,7 +18818,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -19084,7 +19084,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -19350,7 +19350,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -19478,7 +19478,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -19747,17 +19747,17 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-376.96835</X>
-              <Y>19.27549</Y>
-              <Z>146.09554</Z>
-              <R00>0.01504124</R00>
-              <R01>-0.009311851</R01>
+              <X>-378.7528</X>
+              <Y>15.215521</Y>
+              <Z>165.29512</Z>
+              <R00>0.015041277</R00>
+              <R01>-0.009311836</R01>
               <R02>-0.9998446</R02>
-              <R10>0.49964678</R10>
+              <R10>0.49964684</R10>
               <R11>0.86622924</R11>
-              <R12>-0.0005510024</R12>
+              <R12>-0.00055096165</R12>
               <R20>0.8660996</R20>
-              <R21>-0.49956077</R21>
+              <R21>-0.49956083</R21>
               <R22>0.017681777</R22>
             </CFrame>
           </OptionalCoordinateFrame>
@@ -19793,7 +19793,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -20059,7 +20059,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -20325,7 +20325,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -20453,7 +20453,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -20721,7 +20721,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">7170923</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -20955,7 +20955,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">7170923</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -21189,7 +21189,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">13290449</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -21584,7 +21584,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">7170923</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -21818,7 +21818,7 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
         <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">6432551</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
@@ -21916,18 +21916,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-374.9106</X>
-            <Y>18.278744</Y>
-            <Z>150.17987</Z>
+            <X>-376.4021</X>
+            <Y>14.076936</Y>
+            <Z>169.9609</Z>
             <R00>-0.99984485</R00>
-            <R01>0.008368224</R01>
-            <R02>-0.0155802</R02>
-            <R10>-0.0005502778</R10>
-            <R11>0.8658218</R11>
-            <R12>0.50035226</R12>
+            <R01>0.008368257</R01>
+            <R02>-0.015580177</R02>
+            <R10>-0.00055027654</R10>
+            <R11>0.8658211</R11>
+            <R12>0.50035334</R12>
             <R20>0.017676748</R20>
-            <R21>0.500283</R21>
-            <R22>-0.86568254</R22>
+            <R21>0.5002842</R21>
+            <R22>-0.86568195</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -21962,7 +21962,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">6432551</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -22058,7 +22058,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">6432551</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -22154,7 +22154,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">6432551</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -22253,18 +22253,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-374.96136</X>
-            <Y>18.279911</Y>
-            <Z>147.31879</Z>
-            <R00>0.99984485</R00>
-            <R01>-0.009308606</R01>
-            <R02>0.015037276</R02>
-            <R10>0.0005502778</R10>
+            <X>-376.45996</X>
+            <Y>14.078195</Y>
+            <Z>166.69221</Z>
+            <R00>0.99984473</R00>
+            <R01>-0.009308584</R01>
+            <R02>0.015037224</R02>
+            <R10>0.0005502777</R10>
             <R11>0.86623096</R11>
             <R12>0.49964383</R12>
-            <R20>-0.0176766</R20>
-            <R21>-0.49955788</R21>
-            <R22>0.8661014</R22>
+            <R20>-0.017676584</R20>
+            <R21>-0.49955776</R21>
+            <R22>0.8661012</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -22299,7 +22299,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">6432551</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -22395,7 +22395,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">6432551</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -22491,7 +22491,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">6432551</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -22590,18 +22590,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-375.10352</X>
-            <Y>19.117104</Y>
-            <Z>151.4527</Z>
+            <X>-376.62228</X>
+            <Y>15.034679</Y>
+            <Z>171.41493</Z>
             <R00>-0.99984485</R00>
-            <R01>0.008368224</R01>
-            <R02>-0.0155802</R02>
-            <R10>-0.0005502778</R10>
-            <R11>0.8658218</R11>
-            <R12>0.50035226</R12>
+            <R01>0.008368257</R01>
+            <R02>-0.015580177</R02>
+            <R10>-0.00055027654</R10>
+            <R11>0.8658211</R11>
+            <R12>0.50035334</R12>
             <R20>0.017676748</R20>
-            <R21>0.500283</R21>
-            <R22>-0.86568254</R22>
+            <R21>0.5002842</R21>
+            <R22>-0.86568195</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -22636,7 +22636,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">7170923</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -22872,18 +22872,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-361.13132</X>
-              <Y>17.641563</Y>
-              <Z>153.16197</Z>
-              <R00>-0.99984455</R00>
-              <R01>-0.00054318446</R01>
-              <R02>-0.017677061</R02>
-              <R10>-0.00055045646</R10>
+              <X>-376.58185</X>
+              <Y>13.340157</Y>
+              <Z>173.6492</Z>
+              <R00>-0.9998445</R00>
+              <R01>-0.0005431994</R01>
+              <R02>-0.017677046</R02>
+              <R10>-0.00055047125</R10>
               <R11>0.99999976</R11>
-              <R12>0.00040648764</R12>
-              <R20>0.017676808</R20>
-              <R21>0.0004161541</R21>
-              <R22>-0.9998446</R22>
+              <R12>0.00040648767</R12>
+              <R20>0.017676733</R20>
+              <R21>0.00041615445</R21>
+              <R22>-0.99984455</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -22918,7 +22918,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -23046,7 +23046,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -23315,17 +23315,17 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-361.18564</X>
-              <Y>19.073074</Y>
-              <Z>150.13252</Z>
+              <X>-376.64392</X>
+              <Y>14.975535</Y>
+              <Z>170.18849</Z>
               <R00>-0.99984455</R00>
-              <R01>-0.00054318446</R01>
+              <R01>-0.0005431957</R01>
               <R02>-0.017677061</R02>
-              <R10>-0.00055045646</R10>
+              <R10>-0.00055047136</R10>
               <R11>0.99999976</R11>
-              <R12>0.00040648764</R12>
+              <R12>0.00040669623</R12>
               <R20>0.017676808</R20>
-              <R21>0.0004161541</R21>
+              <R21>0.00041636298</R21>
               <R22>-0.9998446</R22>
             </CFrame>
           </OptionalCoordinateFrame>
@@ -23361,7 +23361,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -23489,7 +23489,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -23758,18 +23758,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-361.14966</X>
-              <Y>17.880394</Y>
-              <Z>152.13203</Z>
-              <R00>-0.99984455</R00>
-              <R01>-0.00054318446</R01>
-              <R02>-0.017677061</R02>
-              <R10>-0.00055045646</R10>
+              <X>-376.60278</X>
+              <Y>13.613027</Y>
+              <Z>172.4726</Z>
+              <R00>-0.9998445</R00>
+              <R01>-0.0005431957</R01>
+              <R02>-0.017677046</R02>
+              <R10>-0.00055047125</R10>
               <R11>0.99999976</R11>
-              <R12>0.00040648764</R12>
-              <R20>0.017676808</R20>
-              <R21>0.0004161541</R21>
-              <R22>-0.9998446</R22>
+              <R12>0.0004066962</R12>
+              <R20>0.017676733</R20>
+              <R21>0.00041636298</R21>
+              <R22>-0.99984455</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -23804,7 +23804,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -23932,7 +23932,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -24201,18 +24201,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-360.9138</X>
-              <Y>19.282005</Y>
-              <Z>151.35414</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <X>-360.41205</X>
+              <Y>15.22297</Y>
+              <Z>171.30228</Z>
+              <R00>-0.015584312</R00>
+              <R01>0.008371424</R01>
+              <R02>0.9998446</R02>
+              <R10>0.50035405</R10>
+              <R11>0.86582077</R11>
+              <R12>0.00054963486</R12>
+              <R20>-0.8656814</R20>
+              <R21>0.5002848</R21>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -24247,7 +24247,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -24513,7 +24513,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -24779,7 +24779,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -24907,7 +24907,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -25176,18 +25176,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-387.51337</X>
-              <Y>19.267365</Y>
-              <Z>151.82439</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
+              <X>-390.79935</X>
+              <Y>15.2062435</Y>
+              <Z>171.8395</Z>
+              <R00>-0.015584327</R00>
+              <R01>0.008371469</R01>
+              <R02>0.9998446</R02>
               <R10>0.5003552</R10>
               <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R12>0.0005496038</R12>
+              <R20>-0.8656807</R20>
+              <R21>0.50028586</R21>
+              <R22>-0.017681897</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -25222,7 +25222,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -25488,7 +25488,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -25754,7 +25754,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -25882,7 +25882,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -26151,18 +26151,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-389.28082</X>
-              <Y>19.266388</Y>
-              <Z>151.85558</Z>
-              <R00>-0.015584379</R00>
+              <X>-392.8184</X>
+              <Y>15.205138</Y>
+              <Z>171.87543</Z>
+              <R00>-0.015584327</R00>
               <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
+              <R02>0.9998446</R02>
+              <R10>0.50035524</R10>
+              <R11>0.86582005</R11>
+              <R12>0.0005496317</R12>
+              <R20>-0.8656807</R20>
               <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -26197,7 +26197,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -26463,7 +26463,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -26729,7 +26729,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -26857,7 +26857,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -27126,18 +27126,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-380.44925</X>
-              <Y>19.271248</Y>
-              <Z>151.69951</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
+              <X>-382.72934</X>
+              <Y>15.210687</Y>
+              <Z>171.6968</Z>
+              <R00>-0.015584327</R00>
+              <R01>0.008371469</R01>
+              <R02>0.9998446</R02>
               <R10>0.5003552</R10>
               <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R12>0.0005496038</R12>
+              <R20>-0.8656807</R20>
+              <R21>0.50028586</R21>
+              <R22>-0.017681897</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -27172,7 +27172,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -27438,7 +27438,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -27704,7 +27704,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -27832,7 +27832,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -28099,7 +28099,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">7170923</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -28335,18 +28335,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-378.68176</X>
-              <Y>19.272224</Y>
-              <Z>151.66826</Z>
+              <X>-380.71017</X>
+              <Y>15.211844</Y>
+              <Z>171.6612</Z>
               <R00>-0.015584379</R00>
               <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
+              <R02>0.9998448</R02>
+              <R10>0.50035524</R10>
+              <R11>0.86582005</R11>
+              <R12>0.0005496318</R12>
               <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R21>0.50028604</R21>
+              <R22>-0.017681941</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -28381,7 +28381,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -28647,7 +28647,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -28913,7 +28913,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -29041,7 +29041,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -29310,18 +29310,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-364.44907</X>
-              <Y>19.28006</Y>
-              <Z>151.41664</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <X>-364.45084</X>
+              <Y>15.220649</Y>
+              <Z>171.37349</Z>
+              <R00>-0.015584439</R00>
+              <R01>0.0083714165</R01>
+              <R02>0.9998446</R02>
+              <R10>0.50035405</R10>
+              <R11>0.86582077</R11>
+              <R12>0.000549635</R12>
+              <R20>-0.86568147</R20>
+              <R21>0.50028485</R21>
+              <R22>-0.017681956</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -29356,7 +29356,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -29622,7 +29622,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -29888,7 +29888,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -30016,7 +30016,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -30283,7 +30283,7 @@
           <bool name="CanQuery">true</bool>
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
-          <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+          <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
           <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">7170923</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
@@ -30519,18 +30519,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-376.90738</X>
-              <Y>19.273201</Y>
-              <Z>151.63686</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <X>-378.68323</X>
+              <Y>15.212839</Y>
+              <Z>171.62521</Z>
+              <R00>-0.015584439</R00>
+              <R01>0.0083714165</R01>
+              <R02>0.9998446</R02>
+              <R10>0.50035405</R10>
+              <R11>0.86582077</R11>
+              <R12>0.000549635</R12>
+              <R20>-0.86568147</R20>
+              <R21>0.50028485</R21>
+              <R22>-0.017681956</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -30565,7 +30565,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -30831,7 +30831,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -31097,7 +31097,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -31225,7 +31225,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -31494,18 +31494,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-361.16736</X>
-              <Y>18.461151</Y>
-              <Z>151.14955</Z>
-              <R00>-0.99984455</R00>
-              <R01>-0.00054318446</R01>
-              <R02>-0.017677061</R02>
-              <R10>-0.00055045646</R10>
+              <X>-376.62302</X>
+              <Y>14.2764435</Y>
+              <Z>171.34996</Z>
+              <R00>-0.99984473</R00>
+              <R01>-0.00054319814</R01>
+              <R02>-0.017676957</R02>
+              <R10>-0.00055047014</R10>
               <R11>0.99999976</R11>
-              <R12>0.00040648764</R12>
-              <R20>0.017676808</R20>
-              <R21>0.0004161541</R21>
-              <R22>-0.9998446</R22>
+              <R12>0.00040648977</R12>
+              <R20>0.017676763</R20>
+              <R21>0.00041615646</R21>
+              <R22>-0.99984455</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -31540,7 +31540,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -31668,7 +31668,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -31937,18 +31937,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-361.19983</X>
-              <Y>19.95195</Y>
-              <Z>149.35837</Z>
-              <R00>-0.99984455</R00>
-              <R01>-0.00054318446</R01>
-              <R02>-0.017677061</R02>
-              <R10>-0.00055045646</R10>
+              <X>-376.6602</X>
+              <Y>15.979532</Y>
+              <Z>169.30406</Z>
+              <R00>-0.9998445</R00>
+              <R01>-0.0005431994</R01>
+              <R02>-0.017677046</R02>
+              <R10>-0.00055047125</R10>
               <R11>0.99999976</R11>
-              <R12>0.00040648764</R12>
-              <R20>0.017676808</R20>
-              <R21>0.0004161541</R21>
-              <R22>-0.9998446</R22>
+              <R12>0.00040648767</R12>
+              <R20>0.017676733</R20>
+              <R21>0.00041615445</R21>
+              <R22>-0.99984455</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -31983,7 +31983,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -32111,7 +32111,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -32380,18 +32380,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-385.739</X>
-              <Y>19.268341</Y>
-              <Z>151.79303</Z>
-              <R00>-0.015584379</R00>
+              <X>-388.77246</X>
+              <Y>15.207389</Y>
+              <Z>171.80376</Z>
+              <R00>-0.015584327</R00>
               <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
+              <R02>0.9998446</R02>
+              <R10>0.50035524</R10>
+              <R11>0.86582005</R11>
+              <R12>0.0005496317</R12>
+              <R20>-0.8656807</R20>
               <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -32426,7 +32426,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -32692,7 +32692,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -32958,7 +32958,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -33086,7 +33086,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -33355,18 +33355,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-361.2102</X>
-              <Y>20.927603</Y>
-              <Z>148.80025</Z>
-              <R00>-0.99984455</R00>
-              <R01>-0.00054318446</R01>
-              <R02>-0.017677061</R02>
-              <R10>-0.00055045646</R10>
+              <X>-376.67194</X>
+              <Y>17.094135</Y>
+              <Z>168.66609</Z>
+              <R00>-0.99984473</R00>
+              <R01>-0.00054319814</R01>
+              <R02>-0.017676957</R02>
+              <R10>-0.00055047014</R10>
               <R11>0.99999976</R11>
-              <R12>0.00040648764</R12>
-              <R20>0.017676808</R20>
-              <R21>0.0004161541</R21>
-              <R22>-0.9998446</R22>
+              <R12>0.00040648977</R12>
+              <R20>0.017676763</R20>
+              <R21>0.00041615646</R21>
+              <R22>-0.99984455</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -33401,7 +33401,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">10262937</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -33529,7 +33529,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -33798,18 +33798,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-382.16293</X>
-              <Y>19.27031</Y>
-              <Z>151.72978</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <X>-384.68716</X>
+              <Y>15.209516</Y>
+              <Z>171.73135</Z>
+              <R00>-0.015584424</R00>
+              <R01>0.008371424</R01>
+              <R02>0.9998446</R02>
+              <R10>0.50035405</R10>
+              <R11>0.86582077</R11>
+              <R12>0.00054963486</R12>
+              <R20>-0.86568135</R20>
+              <R21>0.5002848</R21>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -33844,7 +33844,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -34110,7 +34110,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -34376,7 +34376,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -34504,7 +34504,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -34773,18 +34773,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-366.2333</X>
-              <Y>19.279076</Y>
-              <Z>151.44815</Z>
-              <R00>-0.015584379</R00>
+              <X>-366.48917</X>
+              <Y>15.219645</Y>
+              <Z>171.40968</Z>
+              <R00>-0.015584327</R00>
               <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
+              <R02>0.9998446</R02>
+              <R10>0.50035524</R10>
+              <R11>0.86582005</R11>
+              <R12>0.0005496317</R12>
+              <R20>-0.8656807</R20>
               <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -34819,7 +34819,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -35085,7 +35085,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -35351,7 +35351,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -35479,7 +35479,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -35748,9 +35748,9 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-371.56693</X>
-              <Y>19.276142</Y>
-              <Z>151.54248</Z>
+              <X>-372.58218</X>
+              <Y>15.216341</Y>
+              <Z>171.5173</Z>
               <R00>-0.015584379</R00>
               <R01>0.008371454</R01>
               <R02>0.99984473</R02>
@@ -35794,7 +35794,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -36060,7 +36060,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -36326,7 +36326,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -36454,7 +36454,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -36723,18 +36723,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-383.9473</X>
-              <Y>19.269321</Y>
-              <Z>151.76135</Z>
-              <R00>-0.015584379</R00>
+              <X>-386.7256</X>
+              <Y>15.208496</Y>
+              <Z>171.76764</Z>
+              <R00>-0.015584327</R00>
               <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
+              <R02>0.9998446</R02>
+              <R10>0.50035524</R10>
+              <R11>0.86582005</R11>
+              <R12>0.0005496317</R12>
+              <R20>-0.8656807</R20>
               <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -36769,7 +36769,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -37035,7 +37035,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -37301,7 +37301,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -37429,7 +37429,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -37698,18 +37698,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-375.11566</X>
-              <Y>19.274185</Y>
-              <Z>151.60522</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <X>-376.63632</X>
+              <Y>15.214026</Y>
+              <Z>171.58913</Z>
+              <R00>-0.015584312</R00>
+              <R01>0.008371424</R01>
+              <R02>0.9998446</R02>
+              <R10>0.50035405</R10>
+              <R11>0.86582077</R11>
+              <R12>0.00054963486</R12>
+              <R20>-0.8656814</R20>
+              <R21>0.5002848</R21>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -37744,7 +37744,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -38010,7 +38010,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -38276,7 +38276,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -38404,7 +38404,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -38673,18 +38673,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-362.6812</X>
-              <Y>19.281033</Y>
-              <Z>151.38535</Z>
-              <R00>-0.015584379</R00>
+              <X>-362.43112</X>
+              <Y>15.221938</Y>
+              <Z>171.33801</Z>
+              <R00>-0.015584327</R00>
               <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
+              <R02>0.9998446</R02>
+              <R10>0.50035524</R10>
+              <R11>0.86582005</R11>
+              <R12>0.0005496317</R12>
+              <R20>-0.8656807</R20>
               <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -38721,18 +38721,18 @@
             <BinaryString name="Tags"></BinaryString>
             <OptionalCoordinateFrame name="WorldPivotData">
               <CFrame>
-                <X>-362.66788</X>
-                <Y>18.616354</Y>
-                <Z>152.11996</Z>
-                <R00>-0.015584379</R00>
+                <X>-362.41586</X>
+                <Y>14.462529</Y>
+                <Z>172.17722</Z>
+                <R00>-0.015584327</R00>
                 <R01>0.008371454</R01>
-                <R02>0.99984473</R02>
-                <R10>0.5003552</R10>
-                <R11>0.8658201</R11>
-                <R12>0.00054960384</R12>
-                <R20>-0.8656808</R20>
+                <R02>0.9998446</R02>
+                <R10>0.50035524</R10>
+                <R11>0.86582005</R11>
+                <R12>0.0005496317</R12>
+                <R20>-0.8656807</R20>
                 <R21>0.5002859</R21>
-                <R22>-0.017681912</R22>
+                <R22>-0.017681926</R22>
               </CFrame>
             </OptionalCoordinateFrame>
           </Properties>
@@ -38767,7 +38767,7 @@
               <bool name="CanQuery">true</bool>
               <bool name="CanTouch">true</bool>
               <bool name="CastShadow">true</bool>
-              <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+              <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
               <int name="CollisionGroupId">0</int>
               <Color3uint8 name="Color3uint8">7170923</Color3uint8>
               <PhysicalProperties name="CustomPhysicalProperties">
@@ -39033,7 +39033,7 @@
               <bool name="CanQuery">true</bool>
               <bool name="CanTouch">true</bool>
               <bool name="CastShadow">true</bool>
-              <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+              <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
               <int name="CollisionGroupId">0</int>
               <Color3uint8 name="Color3uint8">7170923</Color3uint8>
               <PhysicalProperties name="CustomPhysicalProperties">
@@ -39299,7 +39299,7 @@
               <bool name="CanQuery">true</bool>
               <bool name="CanTouch">true</bool>
               <bool name="CastShadow">true</bool>
-              <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+              <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
               <int name="CollisionGroupId">0</int>
               <Color3uint8 name="Color3uint8">8750215</Color3uint8>
               <PhysicalProperties name="CustomPhysicalProperties">
@@ -39428,7 +39428,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -39697,18 +39697,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-368.02512</X>
-              <Y>19.278091</Y>
-              <Z>151.47983</Z>
-              <R00>-0.015584379</R00>
+              <X>-368.53607</X>
+              <Y>15.218475</Y>
+              <Z>171.44608</Z>
+              <R00>-0.015584327</R00>
               <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
+              <R02>0.9998446</R02>
+              <R10>0.50035524</R10>
+              <R11>0.86582005</R11>
+              <R12>0.0005496317</R12>
+              <R20>-0.8656807</R20>
               <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <R22>-0.017681926</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -39743,7 +39743,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -40009,7 +40009,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -40275,7 +40275,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -40403,7 +40403,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -40672,18 +40672,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-369.7994</X>
-              <Y>19.277111</Y>
-              <Z>151.51118</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <X>-370.56308</X>
+              <Y>15.217336</Y>
+              <Z>171.48167</Z>
+              <R00>-0.0155822635</R00>
+              <R01>0.008370206</R01>
+              <R02>0.9998448</R02>
+              <R10>0.5003545</R10>
+              <R11>0.86582047</R11>
+              <R12>0.0005496372</R12>
+              <R20>-0.8656812</R20>
+              <R21>0.5002853</R21>
+              <R22>-0.01767952</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -40718,7 +40718,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -40984,7 +40984,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -41250,7 +41250,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -41378,7 +41378,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -41647,18 +41647,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-373.33142</X>
-              <Y>19.275173</Y>
-              <Z>151.57365</Z>
-              <R00>-0.015584379</R00>
-              <R01>0.008371454</R01>
-              <R02>0.99984473</R02>
-              <R10>0.5003552</R10>
-              <R11>0.8658201</R11>
-              <R12>0.00054960384</R12>
-              <R20>-0.8656808</R20>
-              <R21>0.5002859</R21>
-              <R22>-0.017681912</R22>
+              <X>-374.59793</X>
+              <Y>15.215098</Y>
+              <Z>171.55322</Z>
+              <R00>-0.0155822635</R00>
+              <R01>0.00837025</R01>
+              <R02>0.99984455</R02>
+              <R10>0.50035447</R10>
+              <R11>0.8658205</R11>
+              <R12>0.0005496241</R12>
+              <R20>-0.8656812</R20>
+              <R21>0.5002852</R21>
+              <R22>-0.017679535</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -41693,7 +41693,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -41959,7 +41959,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -42225,7 +42225,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">8750215</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">
@@ -42353,7 +42353,7 @@
             <bool name="CanQuery">true</bool>
             <bool name="CanTouch">true</bool>
             <bool name="CastShadow">true</bool>
-            <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+            <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
             <int name="CollisionGroupId">0</int>
             <Color3uint8 name="Color3uint8">7170923</Color3uint8>
             <PhysicalProperties name="CustomPhysicalProperties">

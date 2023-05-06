@@ -8,23 +8,23 @@ local UIComponentsFolder = script.Parent.Parent.Modules.UIComponents
 
 local UIController = Knit.CreateController({ Name = "UIController", UIComponents = {} })
 
-local New, Children, Value = Fusion.New, Fusion.Children, Fusion.Value
+local New, Children = Fusion.New, Fusion.Children
 
 function UIController:Get(name: string)
 	return self.UIComponents[name]
 end
 
 function UIController:KnitStart()
-    local StatsService = Knit.GetService("StatsService")
-    self.Gui = New("ScreenGui")({
+	local StatsService = Knit.GetService("StatsService")
+	self.Gui = New("ScreenGui")({
 		Name = "Main",
 		Parent = game.Players.LocalPlayer.PlayerGui,
 
-        [Children] = {
-            self:Get("NewLevel")({
-                Event = StatsService.CheckpointReached
-            })
-        }
+		[Children] = {
+			self:Get("NewLevel")({
+				Event = StatsService.CheckpointReached,
+			}),
+		},
 	})
 end
 

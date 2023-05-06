@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Part" referent="0">
     <Properties>
-      <string name="Name">Part</string>
+      <string name="Name">Part73</string>
       <bool name="Anchored">true</bool>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <float name="BackParamA">-0.5</float>
@@ -30,7 +30,7 @@
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
+      <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
       <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">8411972</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">

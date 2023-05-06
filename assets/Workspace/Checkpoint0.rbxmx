@@ -1,10 +1,10 @@
 <roblox version="4">
   <Item class="SpawnLocation" referent="0">
     <Properties>
-      <string name="Name">SpawnLocation</string>
+      <string name="Name">Checkpoint0</string>
       <bool name="AllowTeamChangeOnTouch">false</bool>
       <bool name="Anchored">true</bool>
-      <BinaryString name="AttributesSerialize"></BinaryString>
+      <BinaryString name="AttributesSerialize">AQAAAAUAAABMZXZlbAYAAAAAAAAAAA==</BinaryString>
       <float name="BackParamA">-0.5</float>
       <float name="BackParamB">0.5</float>
       <token name="BackSurface">0</token>
@@ -14,9 +14,9 @@
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
       <CoordinateFrame name="CFrame">
-        <X>-367.95126</X>
+        <X>-368.74765</X>
         <Y>0.5</Y>
-        <Z>131.97147</Z>
+        <Z>134.48398</Z>
         <R00>1</R00>
         <R01>0</R01>
         <R02>0</R02>
@@ -31,14 +31,14 @@
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <BinaryString name="CollisionGroup"><![CDATA[RGVmYXVsdA==]]></BinaryString>
-      <int name="CollisionGroupId">0</int>
-      <Color3uint8 name="Color3uint8">10724005</Color3uint8>
+      <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
+      <int name="CollisionGroupId">-1</int>
+      <Color3uint8 name="Color3uint8">9895936</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
       </PhysicalProperties>
       <int name="Duration">0</int>
-      <bool name="Enabled">true</bool>
+      <bool name="Enabled">false</bool>
       <token name="formFactorRaw">1</token>
       <float name="FrontParamA">-0.5</float>
       <float name="FrontParamB">0.5</float>
@@ -86,7 +86,7 @@
         <Z>12</Z>
       </Vector3>
       <int64 name="SourceAssetId">-1</int64>
-      <BinaryString name="Tags"></BinaryString>
+      <BinaryString name="Tags">Q2hlY2twb2ludA==</BinaryString>
       <int name="TeamColor">194</int>
       <float name="TopParamA">-0.5</float>
       <float name="TopParamB">0.5</float>
