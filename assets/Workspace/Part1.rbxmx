@@ -30,8 +30,8 @@
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-      <int name="CollisionGroupId">0</int>
+      <string name="CollisionGroup">Default</string>
+      <int name="CollisionGroupId">-1</int>
       <Color3uint8 name="Color3uint8">16756736</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
@@ -104,7 +104,7 @@
           </null>
         </Content>
         <token name="RunContext">0</token>
-        <BinaryString name="ScriptGuid"><![CDATA[ezMxQ0UwMTQ0LUM5OTMtNDE2Ni1CRkIzLTk5MjZGRkJCQTEwMn0=]]></BinaryString>
+        <BinaryString name="ScriptGuid"><![CDATA[e0M5ODY0QUY0LTlBQTItNEZCRC04MzhGLUI0MDY5NTg2N0E5MH0=]]></BinaryString>
         <string name="Source">while true do
 	task.wait(0.2)
 	script.Parent.BrickColor = BrickColor.new("Really red")

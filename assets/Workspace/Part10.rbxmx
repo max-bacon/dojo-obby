@@ -30,8 +30,8 @@
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-      <int name="CollisionGroupId">0</int>
+      <string name="CollisionGroup">Default</string>
+      <int name="CollisionGroupId">-1</int>
       <Color3uint8 name="Color3uint8">16316664</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
@@ -140,6 +140,7 @@
         <float name="TimeScale">1</float>
         <NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
         <float name="VelocityInheritance">0</float>
+        <bool name="WindAffectsDrag">false</bool>
         <float name="ZOffset">0</float>
       </Properties>
     </Item>

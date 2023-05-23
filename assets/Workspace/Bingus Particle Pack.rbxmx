@@ -28,23 +28,9 @@
       <bool name="NeedsPivotMigration">false</bool>
       <Ref name="PrimaryPart">null</Ref>
       <float name="ScaleFactor">1</float>
-      <int64 name="SourceAssetId">10737839583</int64>
+      <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
-        <CFrame>
-          <X>-452.4408</X>
-          <Y>0.2500019</Y>
-          <Z>-104.856094</Z>
-          <R00>0</R00>
-          <R01>0</R01>
-          <R02>1</R02>
-          <R10>0</R10>
-          <R11>1</R11>
-          <R12>0</R12>
-          <R20>-1</R20>
-          <R21>0</R21>
-          <R22>0</R22>
-        </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
     <Item class="Part" referent="1">
@@ -78,8 +64,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -193,8 +179,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -308,8 +294,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -423,8 +409,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -497,7 +483,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">626588939</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=626588936</url>
@@ -538,8 +524,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -612,7 +598,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">1058335871</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=1058335870</url>
@@ -653,8 +639,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -768,8 +754,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -883,8 +869,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -998,8 +984,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1113,8 +1099,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1228,8 +1214,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1343,8 +1329,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1458,8 +1444,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1532,7 +1518,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">4998425442</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>rbxassetid://243432382</url>
@@ -1573,8 +1559,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1647,7 +1633,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">4998425442</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>rbxassetid://1084996536</url>
@@ -1688,8 +1674,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1762,7 +1748,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">5872447116</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=5872447086</url>
@@ -1803,8 +1789,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1877,7 +1863,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">7848213238</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=242911609</url>
@@ -1918,8 +1904,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1992,7 +1978,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">3318493519</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=3318493505</url>
@@ -2033,8 +2019,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2148,8 +2134,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2222,7 +2208,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">6119272037</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=6119272027</url>
@@ -2263,8 +2249,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2378,8 +2364,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2493,8 +2479,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2608,8 +2594,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2723,8 +2709,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2838,8 +2824,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2953,8 +2939,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3068,8 +3054,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3183,8 +3169,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3298,8 +3284,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3413,8 +3399,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3528,8 +3514,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3643,8 +3629,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3758,8 +3744,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3873,8 +3859,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -3988,8 +3974,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4103,8 +4089,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4218,8 +4204,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4333,8 +4319,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4448,8 +4434,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4522,7 +4508,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">253188733</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=253188732</url>
@@ -4563,8 +4549,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4637,7 +4623,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">341277532</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=341277531</url>
@@ -4678,8 +4664,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4752,7 +4738,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">7848213238</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=7848213224</url>
@@ -4793,8 +4779,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4908,8 +4894,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4982,7 +4968,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">265788039</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=265788038</url>
@@ -5023,8 +5009,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5138,8 +5124,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5253,8 +5239,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5368,8 +5354,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5483,8 +5469,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5598,8 +5584,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5713,8 +5699,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5828,8 +5814,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -5943,8 +5929,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6058,8 +6044,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6173,8 +6159,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6288,8 +6274,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6403,8 +6389,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6518,8 +6504,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6633,8 +6619,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6748,8 +6734,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6863,8 +6849,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -6978,8 +6964,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7093,8 +7079,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7208,8 +7194,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7323,8 +7309,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7438,8 +7424,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7553,8 +7539,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7668,8 +7654,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7783,8 +7769,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -7898,8 +7884,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8013,8 +7999,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8128,8 +8114,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8243,8 +8229,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8358,8 +8344,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8473,8 +8459,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8547,7 +8533,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">4976779949</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=4976779930</url>
@@ -8588,8 +8574,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8703,8 +8689,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8818,8 +8804,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -8933,8 +8919,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9048,8 +9034,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9163,8 +9149,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9278,8 +9264,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9393,8 +9379,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9508,8 +9494,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9623,8 +9609,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9738,8 +9724,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9853,8 +9839,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -9968,8 +9954,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10083,8 +10069,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10198,8 +10184,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10313,8 +10299,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10428,8 +10414,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10543,8 +10529,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10658,8 +10644,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10773,8 +10759,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -10888,8 +10874,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11003,8 +10989,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11118,8 +11104,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11233,8 +11219,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11348,8 +11334,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11463,8 +11449,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11578,8 +11564,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11693,8 +11679,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11808,8 +11794,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -11923,8 +11909,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12038,8 +12024,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12153,8 +12139,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12268,8 +12254,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12383,8 +12369,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12498,8 +12484,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12613,8 +12599,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12728,8 +12714,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12843,8 +12829,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -12958,8 +12944,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13073,8 +13059,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13188,8 +13174,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13303,8 +13289,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13418,8 +13404,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13533,8 +13519,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13648,8 +13634,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13763,8 +13749,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13878,8 +13864,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -13993,8 +13979,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14108,8 +14094,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14223,8 +14209,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14338,8 +14324,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14453,8 +14439,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14568,8 +14554,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14683,8 +14669,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14798,8 +14784,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -14913,8 +14899,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15028,8 +15014,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15143,8 +15129,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15258,8 +15244,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15373,8 +15359,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15488,8 +15474,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15603,8 +15589,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15718,8 +15704,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15792,7 +15778,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">3916143240</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=3916143220</url>
@@ -15833,8 +15819,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -15907,7 +15893,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">528280948</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=528280947</url>
@@ -15948,8 +15934,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16063,8 +16049,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16178,8 +16164,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16293,8 +16279,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16408,8 +16394,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16523,8 +16509,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16638,8 +16624,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16753,8 +16739,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16868,8 +16854,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -16983,8 +16969,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17098,8 +17084,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17213,8 +17199,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17328,8 +17314,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17443,8 +17429,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17558,8 +17544,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17673,8 +17659,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17788,8 +17774,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -17903,8 +17889,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18018,8 +18004,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18133,8 +18119,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18248,8 +18234,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18363,8 +18349,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18478,8 +18464,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18593,8 +18579,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18708,8 +18694,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18823,8 +18809,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -18938,8 +18924,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19053,8 +19039,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19168,8 +19154,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19283,8 +19269,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19398,8 +19384,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19513,8 +19499,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19628,8 +19614,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19743,8 +19729,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19858,8 +19844,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -19973,8 +19959,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20088,8 +20074,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20203,8 +20189,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20318,8 +20304,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20433,8 +20419,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20548,8 +20534,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20663,8 +20649,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20778,8 +20764,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -20893,8 +20879,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21008,8 +20994,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21123,8 +21109,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21238,8 +21224,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21353,8 +21339,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21468,8 +21454,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21583,8 +21569,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21698,8 +21684,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21813,8 +21799,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -21928,8 +21914,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22043,8 +22029,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22158,8 +22144,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22273,8 +22259,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22388,8 +22374,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22503,8 +22489,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22618,8 +22604,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22733,8 +22719,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22848,8 +22834,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -22963,8 +22949,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23078,8 +23064,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23193,8 +23179,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23308,8 +23294,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23423,8 +23409,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23538,8 +23524,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23653,8 +23639,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23768,8 +23754,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23883,8 +23869,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -23998,8 +23984,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24113,8 +24099,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24228,8 +24214,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24302,7 +24288,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">7405798514</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=7405798505</url>
@@ -24343,8 +24329,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24417,7 +24403,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">8553497059</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=8553497052</url>
@@ -24458,8 +24444,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24532,7 +24518,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9573351666</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9573351641</url>
@@ -24573,8 +24559,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24647,7 +24633,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9345352913</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9345352897</url>
@@ -24688,8 +24674,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24762,7 +24748,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9377181463</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9377181444</url>
@@ -24803,8 +24789,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24877,7 +24863,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9376967348</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9376967285</url>
@@ -24918,8 +24904,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -24992,7 +24978,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9263377651</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9263377611</url>
@@ -25033,8 +25019,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25107,7 +25093,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">1012159671</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=1012159668</url>
@@ -25148,8 +25134,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25222,7 +25208,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">8779210271</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=8779210242</url>
@@ -25263,8 +25249,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25337,7 +25323,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">321556992</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=321556991</url>
@@ -25378,8 +25364,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25452,7 +25438,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">6900421171</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=6900421146</url>
@@ -25493,8 +25479,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25567,7 +25553,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9449395090</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9449395070</url>
@@ -25608,8 +25594,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25682,7 +25668,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9344416920</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9344416903</url>
@@ -25723,8 +25709,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25797,7 +25783,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">6700005270</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=6700005265</url>
@@ -25838,8 +25824,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -25912,7 +25898,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">4539934224</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=4539934217</url>
@@ -25953,8 +25939,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26027,7 +26013,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">7648565942</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=7648565918</url>
@@ -26068,8 +26054,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26142,7 +26128,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">507021723</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=507021722</url>
@@ -26183,8 +26169,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26257,7 +26243,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">6561027091</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=6561027080</url>
@@ -26298,8 +26284,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26372,7 +26358,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">4231233499</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=4231233461</url>
@@ -26413,8 +26399,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26487,7 +26473,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">7150932731</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=7150932717</url>
@@ -26528,8 +26514,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26602,7 +26588,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">7150933379</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=7150933366</url>
@@ -26643,8 +26629,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26717,7 +26703,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">6700009090</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=6700009083</url>
@@ -26758,8 +26744,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26832,7 +26818,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">6700008777</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=346519018</url>
@@ -26873,8 +26859,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -26947,7 +26933,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">9409091729</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=9409091712</url>
@@ -26988,8 +26974,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -27062,7 +27048,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">564938810</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=564938805</url>
@@ -27103,8 +27089,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -27177,7 +27163,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">567497796</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=567497792</url>
@@ -27218,8 +27204,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -27292,7 +27278,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">3339218906</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=3339218899</url>
@@ -27333,8 +27319,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -27407,7 +27393,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">965116974</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=965116971</url>
@@ -27448,8 +27434,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -27522,7 +27508,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">5098383977</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=5098383956</url>
@@ -27563,8 +27549,8 @@
         <bool name="CanQuery">true</bool>
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
-        <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-        <int name="CollisionGroupId">0</int>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">-1</int>
         <Color3uint8 name="Color3uint8">4405</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -27637,7 +27623,7 @@
             <B>1</B>
           </Color3>
           <token name="Face">1</token>
-          <int64 name="SourceAssetId">7447854962</int64>
+          <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags"></BinaryString>
           <Content name="Texture">
             <url>http://www.roblox.com/asset/?id=7447854952</url>

@@ -25,7 +25,7 @@ local function checkpointText(props)
 		Name = "CheckpointLabel",
 		Image = CheckpointTextImage,
 		BackgroundTransparency = 1,
-		Position = UDim2.fromScale(0.277, 0.2),
+		Position = UDim2.fromScale(0.276, 0.2),
 		Size = UDim2.fromScale(0, 0.191),
 		AnchorPoint = Vector2.new(0, 0.5),
 		ImageRectSize = Vector2.new(0, OGImageDim.Y),

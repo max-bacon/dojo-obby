@@ -35,7 +35,7 @@ function SoundController:CheckpointSound()
 
 	local Tween = TweenService:Create(
 		sound,
-		TweenInfo.new(1.5, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, true),
+		TweenInfo.new(2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, true),
 		{ Volume = 1 }
 	)
 	Tween:Play()

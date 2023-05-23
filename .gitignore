@@ -5,5 +5,5 @@ temp/
 /*.rbxlx
 /*.rbxl
 
-/*.rbxlx.lock
-/*.rbxl.lock
+*.rbxlx.lock
+*.rbxl.lock

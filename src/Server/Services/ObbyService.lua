@@ -24,7 +24,7 @@ function ObbyService:KnitStart()
 			local point = self:GetCurrentCheckpoint(player)
 
 			char.PrimaryPart:GetPropertyChangedSignal("Position"):Wait()
-			char.PrimaryPart.CFrame = point.CFrame * CFrame.new(0, 3, 0)
+			char.PrimaryPart.CFrame = point.Spawn.CFrame * CFrame.new(0, 3, 0)
 		end)
 	end)
 end

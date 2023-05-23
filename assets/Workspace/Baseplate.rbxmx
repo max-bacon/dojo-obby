@@ -30,13 +30,13 @@
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <BinaryString name="CollisionGroup"><![CDATA[UkdWbVlYVnNkQT09]]></BinaryString>
-      <int name="CollisionGroupId">0</int>
+      <string name="CollisionGroup">Default</string>
+      <int name="CollisionGroupId">-1</int>
       <Color3uint8 name="Color3uint8">6446690</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
       </PhysicalProperties>
-      <token name="formFactorRaw">0</token>
+      <token name="formFactorRaw">1</token>
       <float name="FrontParamA">-0.5</float>
       <float name="FrontParamB">0.5</float>
       <token name="FrontSurface">0</token>

@@ -36,9 +36,14 @@ function Checkpoint:Construct()
 	elseif typeof(self.Level) ~= "number" then
 		error("Level attribute is a(n) " .. typeof(self.Level))
 	end
+	self.Spawn = self.Instance.Spawn
+	if self.Level == 0 then
+		return
+	end
 
-	self.Hitbox = self.Instance
-	self._trove:Add(self.Instance.Touched:Connect(function(hit)
+	self.Touch = self.Instance.Touch
+
+	self._trove:Add(self.Touch.Touched:Connect(function(hit)
 		self:_onTouched(hit)
 	end))
 
