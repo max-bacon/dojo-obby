@@ -1,11 +1,10 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Knit = require(game:GetService("ReplicatedStorage").Utils.Knit)
+local Knit = require(game:GetService("ReplicatedStorage").Packages.Knit)
 
-local Fusion = require(ReplicatedStorage.Utils.Fusion)
+local Fusion = require(ReplicatedStorage.Packages.Fusion)
 
 local UIComponentsFolder = script.Parent.Parent.Modules.UIComponents
-
 local UIController = Knit.CreateController({ Name = "UIController", UIComponents = {} })
 
 local New, Children = Fusion.New, Fusion.Children
@@ -21,7 +20,7 @@ function UIController:KnitStart()
 		Parent = game.Players.LocalPlayer.PlayerGui,
 
 		[Children] = {
-			self:Get("NewLevel")({
+			self:Get("NewLevelNotification")({
 				Event = StatsService.CheckpointReached,
 			}),
 		},

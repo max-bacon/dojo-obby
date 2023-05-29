@@ -2,10 +2,10 @@ local Players = game:GetService("Players")
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Knit = require(ReplicatedStorage.Utils.Knit)
-local Promise = require(ReplicatedStorage.Utils.Promise)
+local Knit = require(ReplicatedStorage.Packages.Knit)
+local Promise = require(ReplicatedStorage.Packages.Promise)
 local SaveStructure = require(script.Parent.Parent.Modules.SaveStructure)
-local ProfileService = require(game:GetService("ServerStorage").Utils.ProfileService)
+local ProfileService = require(game:GetService("ServerStorage").Packages.ProfileService)
 
 local Profiles = {}
 local ProfileStore = ProfileService.GetProfileStore("PlayerData", SaveStructure)

@@ -2,13 +2,13 @@ local StartPosition = UDim2.fromScale(-0.3, 0.7)
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Fusion = require(ReplicatedStorage.Utils.Fusion)
-local BezierTween = require(ReplicatedStorage.Utils.BezierTween)
+local Fusion = require(ReplicatedStorage.Packages.Fusion)
+local BezierTween = require(ReplicatedStorage.Packages.BezierTween)
 local TweenService = game:GetService("TweenService")
 local Waypoints = BezierTween.Waypoints
 local Images = require(ReplicatedStorage.Shared.Modules.Images)
-local Trove = require(ReplicatedStorage.Utils.Trove)
-local Promise = require(ReplicatedStorage.Utils.Promise)
+local Trove = require(ReplicatedStorage.Packages.Trove)
+local Promise = require(ReplicatedStorage.Packages.Promise)
 
 local New, Children, Out, Cleanup = Fusion.New, Fusion.Children, Fusion.Out, Fusion.Cleanup
 

@@ -1,6 +1,6 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Knit = require(ReplicatedStorage.Utils.Knit)
+local Knit = require(ReplicatedStorage.Packages.Knit)
 
 local SoundController = Knit.CreateController({ Name = "SoundController" })
 local TweenService = game:GetService("TweenService")

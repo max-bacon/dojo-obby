@@ -1,10 +1,10 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Fusion = require(ReplicatedStorage.Utils.Fusion)
+local Fusion = require(ReplicatedStorage.Packages.Fusion)
 local TweenService = game:GetService("TweenService")
 local Images = require(ReplicatedStorage.Shared.Modules.Images)
-local Trove = require(ReplicatedStorage.Utils.Trove)
-local Promise = require(ReplicatedStorage.Utils.Promise)
+local Trove = require(ReplicatedStorage.Packages.Trove)
+local Promise = require(ReplicatedStorage.Packages.Promise)
 
 local Observer = Fusion.Observer
 local New, Cleanup = Fusion.New, Fusion.Cleanup
@@ -30,11 +30,7 @@ local function checkpointText(props)
 		AnchorPoint = Vector2.new(0, 0.5),
 		ImageRectSize = Vector2.new(0, OGImageDim.Y),
 		ImageColor3 = Color3.fromRGB(67, 0, 0),
-		ZIndex = 2,
-
-		[Cleanup] = function()
-			trove:Clean()
-		end,
+		ZIndex = 2
 	})
 
 	local checkShadow = New("ImageLabel")({
@@ -46,11 +42,7 @@ local function checkpointText(props)
 		AnchorPoint = Vector2.new(0, 0.5),
 		ImageRectSize = Vector2.new(0, OGImageDim.Y),
 		ImageColor3 = Color3.fromRGB(0, 0, 0),
-		ZIndex = 1,
-
-		[Cleanup] = function()
-			trove:Clean()
-		end,
+		ZIndex = 1
 	})
 
 	local last

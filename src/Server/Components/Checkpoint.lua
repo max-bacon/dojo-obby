@@ -1,8 +1,8 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Knit = require(ReplicatedStorage.Utils.Knit)
-local Component = require(ReplicatedStorage.Utils.Component)
-local Trove = require(ReplicatedStorage.Utils.Trove)
+local Knit = require(ReplicatedStorage.Packages.Knit)
+local Component = require(ReplicatedStorage.Packages.Component)
+local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local StatsService = Knit.GetService("StatsService")
 

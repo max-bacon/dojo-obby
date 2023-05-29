@@ -1,6 +1,6 @@
 local Players = game:GetService("Players")
 
-local Knit = require(game:GetService("ReplicatedStorage").Utils.Knit)
+local Knit = require(game:GetService("ReplicatedStorage").Packages.Knit)
 
 local Stats = {
 	{

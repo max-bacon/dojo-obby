@@ -7,13 +7,8 @@
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
       "$ignoreUnknownInstances": true,
-      "Shared": {
-        "$path": "src/Shared"
-      },
-      "Client": {
-        "$path": "src/Client"
-      },
-      "Utils": 
+      "$path": "src/shared",
+      "Packages": 
       {
         "$path": "Packages"
       }
@@ -22,19 +17,16 @@
     "ServerScriptService": {
       "$className": "ServerScriptService",
       "$ignoreUnknownInstances": true,
-      "$path": "exec/ServerScriptService"
+      "$path": "src/server",
+      "Packages": 
+      {
+        "$path": "ServerPackages"
+      }
     },
 
     "ServerStorage": {
       "$className": "ServerStorage",
-      "$ignoreUnknownInstances": true,
-      "Server": {
-        "$path": "src/Server"
-      },
-      "Utils": 
-      {
-        "$path": "ServerPackages"
-      }
+      "$ignoreUnknownInstances": true
     },
 
     "StarterPlayer": {
@@ -42,7 +34,7 @@
       "$ignoreUnknownInstances": true,
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "$path": "exec/StarterPlayerScripts"
+        "$path": "src/client"
       }
     },
 
@@ -63,12 +55,6 @@
 			"$properties": {
         "Gravity": 196.2
       }
-		},
-
-		"SoundService": {
-			"$className": "SoundService",
-			"$ignoreUnknownInstances": true,
-			"$path": "assets/SoundService"
 		},
 
 		"Lighting": {

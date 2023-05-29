@@ -12,6 +12,7 @@ Signal = "sleitnick/signal@1.5.0"
 Component = "sleitnick/component@2.4.6"
 BezierTween = "max-bacon/bezier-tweens@1.2.1"
 Promise = "evaera/promise@4.0.0"
+Rewire = "sayhisam1/rewire@0.3.0"
 
 [server-dependencies]
 ProfileService = "firecam702/profileservice@1.0.0"
