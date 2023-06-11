@@ -1,48 +1,57 @@
-local Player = game:GetService("Players").LocalPlayer
-
--- Target
-local targetUI = { Player.PlayerScripts:WaitForChild("FusionMaterial").NewLevelNotification }
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local target = ReplicatedStorage:WaitForChild("FusionMaterial")
 
 local Packages = ReplicatedStorage.Packages
 
-local State = require(script.Parent.State)
-
 local Trove = require(Packages.Trove)
 local Rewire = require(Packages.Rewire)
+local State = require(ReplicatedStorage.State)
+
+type State = State.State
+
+local Interface = ReplicatedStorage.Interface
 
 local hotReloader = Rewire.HotReloader.new()
 
+local components = {}
+for _, mod in target:GetChildren() do
+	components[mod.Name] = mod
+end
+
 local state
-local ui = {}
+local ui: (state: State, components: { [string]: () -> () }) -> ()
 
 local maid = Trove.new()
 
-local function blankFunction() end
+local function cleanupFunction(module, context): ()
+	print(module)
+	--context.originalModule:Destroy()
+end
 
 local function hotReload()
-    print(state, ui)
+	print(state, ui)
 	if not state or not ui then
 		return
 	end
 	print("Change")
 	maid:Clean()
-	for _, s in ui do
-		maid:Add(s.Construct(state()))
-	end
+	maid:Add(ui(state(), components))
 end
 
-for i, s in targetUI do
-	hotReloader:listen(s, function(module)
-		ui[i] = require(s)
+hotReloader:listen(Interface, function(module)
+	ui = require(module)
 
-		hotReload()
-	end, blankFunction)
-end
+	hotReload()
+end, cleanupFunction)
 
-hotReloader:listen(script.Parent.State, function(module)
+hotReloader:scan(target, function(module)
+	components[module.Name] = require(module)
+
+	hotReload()
+end, cleanupFunction)
+
+hotReloader:listen(ReplicatedStorage.State, function(module)
 	state = require(module)
 
 	hotReload()
-end, blankFunction)
+end, cleanupFunction)
