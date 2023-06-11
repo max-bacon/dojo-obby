@@ -1,13 +1,10 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local ServerScriptService = game:GetService("ServerScriptService")
 
+local Knit = require(ReplicatedStorage.Packages.Knit)
 local Component = require(ReplicatedStorage.Packages.Component)
 local Trove = require(ReplicatedStorage.Packages.Trove)
-local Red = require(ReplicatedStorage.Packages.Red)
 
-local CheckpointReachedNet = Red.Server("CheckpointReached")
-
-local StatsModule = require(ServerScriptService.Modules.StatsModule)
+local StatsService = Knit.GetService("StatsService")
 
 local Checkpoint = Component.new({
 	Tag = "Checkpoint",
@@ -21,20 +18,22 @@ function Checkpoint:_onTouched(hit)
 
 	local Player = game:GetService("Players"):GetPlayerFromCharacter(hum.Parent)
 
-	if StatsModule.get(Player, "Stage") >= self.Stage then
+	if StatsService:Get(Player, "Stage") >= self.Stage then
 		return
 	end
 
-	CheckpointReachedNet:Fire(Player)
-	StatsModule.set(Player, "Stage", self.Stage)
+	StatsService.Client.CheckpointReached:Fire(Player)
+	StatsService:Set(Player, "Stage", self.Stage)
 end
 
 function Checkpoint:Construct()
 	self._trove = Trove.new()
 
-	self.Stage = tonumber(self.Instance.Name:sub(11))
+	self.Stage = self.Instance:GetAttribute("Stage")
 	if not self.Stage then
-		error("Invalid checkpoint name for " .. self.Instance.Name)
+		error("Invalid level attribute for " .. self.Instance.Name)
+	elseif typeof(self.Stage) ~= "number" then
+		error("Stage attribute is a(n) " .. typeof(self.Stage))
 	end
 	self.Spawn = self.Instance.Spawn
 	if self.Stage == 0 then
@@ -45,6 +44,10 @@ function Checkpoint:Construct()
 
 	self._trove:Add(self.Touch.Touched:Connect(function(hit)
 		self:_onTouched(hit)
+	end))
+
+	self._trove:Add(StatsService.Client.CheckpointReached:Connect(function(plr)
+		print(plr)
 	end))
 end
 

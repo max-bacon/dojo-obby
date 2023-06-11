@@ -1,7 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local Component = require(ReplicatedStorage.Utils.Component)
-local Trove = require(ReplicatedStorage.Utils.Trove)
+local Component = require(ReplicatedStorage.Packages.Component)
+local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local KillBrick = Component.new({
 	Tag = "KillBrick",
