@@ -1,0 +1,31 @@
+<roblox version="4">
+  <Item class="Beam" referent="0">
+    <Properties>
+      <string name="Name">Water</string>
+      <Ref name="Attachment0">null</Ref>
+      <Ref name="Attachment1">null</Ref>
+      <BinaryString name="AttributesSerialize"></BinaryString>
+      <float name="Brightness">1</float>
+      <ColorSequence name="Color">0 0 0.8352941 1 0 1 0 0.8352941 1 0 </ColorSequence>
+      <float name="CurveSize0">13</float>
+      <float name="CurveSize1">-3</float>
+      <bool name="Enabled">true</bool>
+      <bool name="FaceCamera">false</bool>
+      <float name="LightEmission">0</float>
+      <float name="LightInfluence">0</float>
+      <int name="Segments">7</int>
+      <int64 name="SourceAssetId">-1</int64>
+      <BinaryString name="Tags"></BinaryString>
+      <Content name="Texture">
+        <url>rbxassetid://1</url>
+      </Content>
+      <float name="TextureLength">1</float>
+      <token name="TextureMode">0</token>
+      <float name="TextureSpeed">1.6108774</float>
+      <NumberSequence name="Transparency">0 0.12 0 1 0.12 0 </NumberSequence>
+      <float name="Width0">20.923077</float>
+      <float name="Width1">21.538462</float>
+      <float name="ZOffset">0</float>
+    </Properties>
+  </Item>
+</roblox>

@@ -28,15 +28,29 @@
       <bool name="NeedsPivotMigration">false</bool>
       <Ref name="PrimaryPart">null</Ref>
       <float name="ScaleFactor">1</float>
-      <int64 name="SourceAssetId">-1</int64>
+      <int64 name="SourceAssetId">754925880</int64>
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
+        <CFrame>
+          <X>-387.39148</X>
+          <Y>2.5</Y>
+          <Z>151.9656</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
     <Item class="Part" referent="1">
       <Properties>
         <string name="Name">HumanoidRootPart</string>
-        <bool name="Anchored">false</bool>
+        <bool name="Anchored">true</bool>
         <BinaryString name="AttributesSerialize"></BinaryString>
         <float name="BackParamA">-0.5</float>
         <float name="BackParamB">0.5</float>
@@ -65,12 +79,12 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10724005</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
-        <token name="formFactorRaw">1</token>
+        <token name="formFactorRaw">0</token>
         <float name="FrontParamA">-0.5</float>
         <float name="FrontParamB">0.5</float>
         <token name="FrontSurface">0</token>
@@ -173,7 +187,7 @@
     <Item class="Part" referent="3">
       <Properties>
         <string name="Name">Torso</string>
-        <bool name="Anchored">false</bool>
+        <bool name="Anchored">true</bool>
         <BinaryString name="AttributesSerialize"></BinaryString>
         <float name="BackParamA">-0.5</float>
         <float name="BackParamB">0.5</float>
@@ -202,12 +216,12 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">16764057</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
-        <token name="formFactorRaw">1</token>
+        <token name="formFactorRaw">0</token>
         <float name="FrontParamA">-0.5</float>
         <float name="FrontParamB">0.5</float>
         <token name="FrontSurface">0</token>
@@ -474,7 +488,7 @@
     <Item class="Part" referent="5">
       <Properties>
         <string name="Name">Left Leg</string>
-        <bool name="Anchored">false</bool>
+        <bool name="Anchored">true</bool>
         <BinaryString name="AttributesSerialize"></BinaryString>
         <float name="BackParamA">-0.5</float>
         <float name="BackParamB">0.5</float>
@@ -503,12 +517,12 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">16764057</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
-        <token name="formFactorRaw">1</token>
+        <token name="formFactorRaw">0</token>
         <float name="FrontParamA">-0.5</float>
         <float name="FrontParamB">0.5</float>
         <token name="FrontSurface">0</token>
@@ -570,7 +584,7 @@
     <Item class="Part" referent="7">
       <Properties>
         <string name="Name">Right Leg</string>
-        <bool name="Anchored">false</bool>
+        <bool name="Anchored">true</bool>
         <BinaryString name="AttributesSerialize"></BinaryString>
         <float name="BackParamA">-0.5</float>
         <float name="BackParamB">0.5</float>
@@ -599,12 +613,12 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">16764057</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
-        <token name="formFactorRaw">1</token>
+        <token name="formFactorRaw">0</token>
         <float name="FrontParamA">-0.5</float>
         <float name="FrontParamB">0.5</float>
         <token name="FrontSurface">0</token>
@@ -666,7 +680,7 @@
     <Item class="Part" referent="9">
       <Properties>
         <string name="Name">Left Arm</string>
-        <bool name="Anchored">false</bool>
+        <bool name="Anchored">true</bool>
         <BinaryString name="AttributesSerialize"></BinaryString>
         <float name="BackParamA">-0.5</float>
         <float name="BackParamB">0.5</float>
@@ -695,12 +709,12 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">16764057</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
-        <token name="formFactorRaw">1</token>
+        <token name="formFactorRaw">0</token>
         <float name="FrontParamA">-0.5</float>
         <float name="FrontParamB">0.5</float>
         <token name="FrontSurface">0</token>
@@ -762,7 +776,7 @@
     <Item class="Part" referent="11">
       <Properties>
         <string name="Name">Right Arm</string>
-        <bool name="Anchored">false</bool>
+        <bool name="Anchored">true</bool>
         <BinaryString name="AttributesSerialize"></BinaryString>
         <float name="BackParamA">-0.5</float>
         <float name="BackParamB">0.5</float>
@@ -791,12 +805,12 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">16764057</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
-        <token name="formFactorRaw">1</token>
+        <token name="formFactorRaw">0</token>
         <float name="FrontParamA">-0.5</float>
         <float name="FrontParamB">0.5</float>
         <token name="FrontSurface">0</token>
@@ -858,7 +872,7 @@
     <Item class="Part" referent="13">
       <Properties>
         <string name="Name">Head</string>
-        <bool name="Anchored">false</bool>
+        <bool name="Anchored">true</bool>
         <BinaryString name="AttributesSerialize"></BinaryString>
         <float name="BackParamA">-0.5</float>
         <float name="BackParamB">0.5</float>
@@ -887,12 +901,12 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">16764057</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
-        <token name="formFactorRaw">1</token>
+        <token name="formFactorRaw">0</token>
         <float name="FrontParamA">-0.5</float>
         <float name="FrontParamB">0.5</float>
         <token name="FrontSurface">0</token>
@@ -1237,7 +1251,7 @@
       <Item class="Part" referent="17">
         <Properties>
           <string name="Name">Handle</string>
-          <bool name="Anchored">false</bool>
+          <bool name="Anchored">true</bool>
           <BinaryString name="AttributesSerialize"></BinaryString>
           <float name="BackParamA">-0.5</float>
           <float name="BackParamB">0.5</float>
@@ -1266,12 +1280,12 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">8454146</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
           </PhysicalProperties>
-          <token name="formFactorRaw">1</token>
+          <token name="formFactorRaw">2</token>
           <float name="FrontParamA">-0.5</float>
           <float name="FrontParamB">0.5</float>
           <token name="FrontSurface">0</token>
@@ -1423,7 +1437,7 @@
       <Item class="Part" referent="19">
         <Properties>
           <string name="Name">Handle</string>
-          <bool name="Anchored">false</bool>
+          <bool name="Anchored">true</bool>
           <BinaryString name="AttributesSerialize"></BinaryString>
           <float name="BackParamA">-0.5</float>
           <float name="BackParamB">0.5</float>
@@ -1452,12 +1466,12 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">10724005</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
           </PhysicalProperties>
-          <token name="formFactorRaw">1</token>
+          <token name="formFactorRaw">3</token>
           <float name="FrontParamA">-0.5</float>
           <float name="FrontParamB">0.5</float>
           <token name="FrontSurface">0</token>

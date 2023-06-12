@@ -1,8 +1,8 @@
 <roblox version="4">
   <Item class="Part" referent="0">
     <Properties>
-      <string name="Name">Part31</string>
-      <bool name="Anchored">false</bool>
+      <string name="Name">Part3</string>
+      <bool name="Anchored">true</bool>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <float name="BackParamA">-0.5</float>
       <float name="BackParamB">0.5</float>
@@ -31,7 +31,7 @@
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
-      <int name="CollisionGroupId">-1</int>
+      <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">16756736</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
@@ -104,7 +104,7 @@
           </null>
         </Content>
         <token name="RunContext">0</token>
-        <BinaryString name="ScriptGuid"><![CDATA[ezdCMzRBRDRFLThBM0QtNEE0QS04QkVBLTFCMjhEOURFRDI4NH0=]]></BinaryString>
+        <BinaryString name="ScriptGuid"><![CDATA[ezkzNzEzOUU0LUE4MkEtNEVBNC04MzI1LUNDNUQzRUNCMEJBQX0=]]></BinaryString>
         <string name="Source">while true do
 	task.wait(0.2)
 	script.Parent.BrickColor = BrickColor.new("Really red")

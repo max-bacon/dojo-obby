@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Part" referent="0">
     <Properties>
-      <string name="Name">Part107</string>
+      <string name="Name">Part</string>
       <bool name="Anchored">true</bool>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <float name="BackParamA">-0.5</float>
@@ -13,25 +13,25 @@
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
       <CoordinateFrame name="CFrame">
-        <X>-470.46222</X>
-        <Y>14.81</Y>
-        <Z>139.8301</Z>
-        <R00>1</R00>
+        <X>-477.64108</X>
+        <Y>1.3148956</Y>
+        <Z>222.50333</Z>
+        <R00>0</R00>
         <R01>0</R01>
-        <R02>0</R02>
+        <R02>-1</R02>
         <R10>0</R10>
         <R11>1</R11>
         <R12>0</R12>
-        <R20>0</R20>
+        <R20>1</R20>
         <R21>0</R21>
-        <R22>1</R22>
+        <R22>0</R22>
       </CoordinateFrame>
       <bool name="CanCollide">true</bool>
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
-      <int name="CollisionGroupId">-1</int>
+      <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">5653046</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
@@ -77,9 +77,9 @@
       </Vector3>
       <token name="shape">1</token>
       <Vector3 name="size">
-        <X>1.6000061</X>
-        <Y>0.72</Y>
-        <Z>55.010006</Z>
+        <X>23.140005</X>
+        <Y>1.72</Y>
+        <Z>0.46000138</Z>
       </Vector3>
       <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>

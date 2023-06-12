@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Part" referent="0">
     <Properties>
-      <string name="Name">Part106</string>
+      <string name="Name">Part</string>
       <bool name="Anchored">true</bool>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <float name="BackParamA">-0.5</float>
@@ -13,26 +13,26 @@
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
       <CoordinateFrame name="CFrame">
-        <X>-522.5122</X>
-        <Y>14.81</Y>
-        <Z>138.70511</Z>
-        <R00>1</R00>
-        <R01>0</R01>
-        <R02>0</R02>
-        <R10>0</R10>
-        <R11>1</R11>
-        <R12>0</R12>
-        <R20>0</R20>
-        <R21>0</R21>
-        <R22>1</R22>
+        <X>-376.3968</X>
+        <Y>12.753891</Y>
+        <Z>190.8262</Z>
+        <R00>0.99984473</R00>
+        <R01>-0.0005429597</R01>
+        <R02>0.017676853</R02>
+        <R10>0.00055027637</R10>
+        <R11>0.9999999</R11>
+        <R12>-0.0004090232</R12>
+        <R20>-0.017676584</R20>
+        <R21>0.00041868602</R21>
+        <R22>0.9998447</R22>
       </CoordinateFrame>
       <bool name="CanCollide">true</bool>
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
-      <int name="CollisionGroupId">-1</int>
-      <Color3uint8 name="Color3uint8">5653046</Color3uint8>
+      <int name="CollisionGroupId">0</int>
+      <Color3uint8 name="Color3uint8">6432551</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
       </PhysicalProperties>
@@ -47,7 +47,7 @@
       <token name="LeftSurfaceInput">0</token>
       <bool name="Locked">false</bool>
       <bool name="Massless">false</bool>
-      <token name="Material">272</token>
+      <token name="Material">800</token>
       <BinaryString name="MaterialVariantSerialized">
       </BinaryString>
       <CoordinateFrame name="PivotOffset">
@@ -77,9 +77,9 @@
       </Vector3>
       <token name="shape">1</token>
       <Vector3 name="size">
-        <X>1.9000053</X>
-        <Y>0.72</Y>
-        <Z>57.36001</Z>
+        <X>30.139462</X>
+        <Y>1.7296962</Y>
+        <Z>8.812115</Z>
       </Vector3>
       <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>

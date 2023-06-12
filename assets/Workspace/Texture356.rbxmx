@@ -1,0 +1,25 @@
+<roblox version="4">
+  <Item class="Texture" referent="0">
+    <Properties>
+      <string name="Name">Texture</string>
+      <BinaryString name="AttributesSerialize"></BinaryString>
+      <Color3 name="Color3">
+        <R>1</R>
+        <G>1</G>
+        <B>1</B>
+      </Color3>
+      <token name="Face">5</token>
+      <float name="OffsetStudsU">0</float>
+      <float name="OffsetStudsV">0</float>
+      <int64 name="SourceAssetId">-1</int64>
+      <float name="StudsPerTileU">8</float>
+      <float name="StudsPerTileV">8</float>
+      <BinaryString name="Tags"></BinaryString>
+      <Content name="Texture">
+        <url>http://www.roblox.com/asset/?id=319943057</url>
+      </Content>
+      <float name="Transparency">0</float>
+      <int name="ZIndex">1</int>
+    </Properties>
+  </Item>
+</roblox>

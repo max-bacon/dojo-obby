@@ -15,7 +15,7 @@ return function(state: State, components: { [string]: (...any) -> () })
 		Parent = Player:WaitForChild("PlayerGui"),
 		Name = "Main",
 		[Fusion.Children] = {
-			components.NewStageNotification(state.CheckpointTransparency),
+			components.CheckpointNotification(state.CheckpointTransparency),
 		},
 	})
 end

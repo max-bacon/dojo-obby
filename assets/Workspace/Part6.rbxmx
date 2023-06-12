@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Part" referent="0">
     <Properties>
-      <string name="Name">Part6</string>
+      <string name="Name">Part</string>
       <bool name="Anchored">true</bool>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <float name="BackParamA">-0.5</float>
@@ -13,9 +13,9 @@
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
       <CoordinateFrame name="CFrame">
-        <X>-379.06555</X>
-        <Y>17.683792</Y>
-        <Z>63.02835</Z>
+        <X>-380.12567</X>
+        <Y>9.247214</Y>
+        <Z>83.92384</Z>
         <R00>0</R00>
         <R01>0</R01>
         <R02>1</R02>
@@ -31,7 +31,7 @@
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
-      <int name="CollisionGroupId">-1</int>
+      <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">10724005</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>

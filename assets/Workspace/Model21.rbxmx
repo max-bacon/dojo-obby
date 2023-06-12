@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model21</string>
+      <string name="Name">Model2</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -31,6 +31,20 @@
       <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
+        <CFrame>
+          <X>-79.77392</X>
+          <Y>608.19714</Y>
+          <Z>124.4892</Z>
+          <R00>-0.69465876</R00>
+          <R01>0</R01>
+          <R02>0.7193395</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>-0.7193395</R20>
+          <R21>0</R21>
+          <R22>-0.69465876</R22>
+        </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
     <Item class="Part" referent="1">
@@ -47,9 +61,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-304.50504</X>
-          <Y>8.3674</Y>
-          <Z>118.67818</Z>
+          <X>-86.48406</X>
+          <Y>612.2139</Y>
+          <Z>115.757195</Z>
           <R00>-0.4383716</R00>
           <R01>0</R01>
           <R02>0.8987939</R02>
@@ -65,7 +79,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -143,9 +157,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-300.86627</X>
-          <Y>8.3674</Y>
-          <Z>123.874886</Z>
+          <X>-82.8453</X>
+          <Y>612.2139</Y>
+          <Z>120.9539</Z>
           <R00>-0.69465876</R00>
           <R01>0</R01>
           <R02>0.7193395</R02>
@@ -161,7 +175,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -239,9 +253,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-297.2256</X>
-          <Y>8.3674</Y>
-          <Z>129.90718</Z>
+          <X>-79.20461</X>
+          <Y>612.2139</Y>
+          <Z>126.9862</Z>
           <R00>0.99026805</R00>
           <R01>0</R01>
           <R02>0.13917331</R02>
@@ -257,7 +271,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -335,9 +349,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.51062</X>
-          <Y>8.3674</Y>
-          <Z>129.88362</Z>
+          <X>-75.48965</X>
+          <Y>612.2139</Y>
+          <Z>126.96264</Z>
           <R00>0.25881854</R00>
           <R01>0</R01>
           <R02>0.96592593</R02>
@@ -353,7 +367,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -431,9 +445,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-284.84158</X>
-          <Y>8.060798</Y>
-          <Z>125.30971</Z>
+          <X>-66.82061</X>
+          <Y>611.90735</Y>
+          <Z>122.388725</Z>
           <R00>-0.469472</R00>
           <R01>0.44147366</R01>
           <R02>0.7646549</R02>
@@ -449,7 +463,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -527,9 +541,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-294.75107</X>
-          <Y>8.3674</Y>
-          <Z>128.83809</Z>
+          <X>-76.730095</X>
+          <Y>612.2139</Y>
+          <Z>125.91711</Z>
           <R00>-0.7660448</R00>
           <R01>0</R01>
           <R02>0.6427872</R02>
@@ -545,7 +559,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -623,9 +637,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.1901</X>
-          <Y>8.060798</Y>
-          <Z>139.72873</Z>
+          <X>-75.16912</X>
+          <Y>611.90735</Y>
+          <Z>136.80775</Z>
           <R00>1</R00>
           <R01>0.00000010430813</R01>
           <R02>0.00000018066697</R02>
@@ -641,7 +655,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -719,9 +733,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-288.39172</X>
-          <Y>8.060798</Y>
-          <Z>138.443</Z>
+          <X>-70.37075</X>
+          <Y>611.90735</Y>
+          <Z>135.52202</Z>
           <R00>0.86602515</R00>
           <R01>0.2500002</R01>
           <R02>0.43301308</R02>
@@ -737,7 +751,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -815,9 +829,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-298.77045</X>
-          <Y>8.060798</Y>
-          <Z>141.0604</Z>
+          <X>-80.74947</X>
+          <Y>611.90735</Y>
+          <Z>138.13942</Z>
           <R00>0.8090169</R00>
           <R01>0.2938927</R01>
           <R02>0.5090371</R02>
@@ -833,7 +847,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -911,9 +925,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-288.4464</X>
-          <Y>8.060798</Y>
-          <Z>121.14989</Z>
+          <X>-70.42544</X>
+          <Y>611.90735</Y>
+          <Z>118.228905</Z>
           <R00>-0.7660448</R00>
           <R01>0.3213936</R01>
           <R02>0.55667007</R02>
@@ -929,7 +943,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1007,9 +1021,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-292.95914</X>
-          <Y>8.3674</Y>
-          <Z>129.62729</Z>
+          <X>-74.93816</X>
+          <Y>612.2139</Y>
+          <Z>126.70631</Z>
           <R00>1</R00>
           <R01>0</R01>
           <R02>0.00000020861626</R02>
@@ -1025,7 +1039,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1103,9 +1117,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-284.87918</X>
-          <Y>8.060798</Y>
-          <Z>134.93036</Z>
+          <X>-66.85821</X>
+          <Y>611.90735</Y>
+          <Z>132.00938</Z>
           <R00>0.49999952</R00>
           <R01>0.4330128</R01>
           <R02>0.7500002</R02>
@@ -1121,7 +1135,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1199,9 +1213,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.06372</X>
-          <Y>8.3674</Y>
-          <Z>129.64107</Z>
+          <X>-75.04275</X>
+          <Y>612.2139</Y>
+          <Z>126.720085</Z>
           <R00>0.96592575</R00>
           <R01>0</R01>
           <R02>0.25881925</R02>
@@ -1217,7 +1231,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1295,9 +1309,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-296.05728</X>
-          <Y>8.060798</Y>
-          <Z>139.96417</Z>
+          <X>-78.03631</X>
+          <Y>611.90735</Y>
+          <Z>137.0432</Z>
           <R00>0.99026805</R00>
           <R01>0.06958666</R01>
           <R02>0.12052762</R02>
@@ -1313,7 +1327,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1391,9 +1405,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-286.26526</X>
-          <Y>8.060798</Y>
-          <Z>123.238335</Z>
+          <X>-68.244286</X>
+          <Y>611.90735</Y>
+          <Z>120.31735</Z>
           <R00>-0.6560594</R00>
           <R01>0.37735462</R01>
           <R02>0.65359735</R02>
@@ -1409,7 +1423,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1487,9 +1501,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-304.44922</X>
-          <Y>8.3674</Y>
-          <Z>132.82573</Z>
+          <X>-86.428246</X>
+          <Y>612.2139</Y>
+          <Z>129.90475</Z>
           <R00>0.8090169</R00>
           <R01>0</R01>
           <R02>0.5877854</R02>
@@ -1505,7 +1519,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1583,9 +1597,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-291.26035</X>
-          <Y>8.060798</Y>
-          <Z>119.02947</Z>
+          <X>-73.23937</X>
+          <Y>611.90735</Y>
+          <Z>116.10849</Z>
           <R00>-0.8290379</R00>
           <R01>0.2795962</R01>
           <R02>0.48427486</R02>
@@ -1601,7 +1615,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1679,9 +1693,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-286.40417</X>
-          <Y>8.060798</Y>
-          <Z>136.9179</Z>
+          <X>-68.3832</X>
+          <Y>611.90735</Y>
+          <Z>133.99692</Z>
           <R00>0.7071064</R00>
           <R01>0.35355353</R01>
           <R02>0.6123727</R02>
@@ -1697,7 +1711,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1775,9 +1789,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-296.71503</X>
-          <Y>8.3674</Y>
-          <Z>127.358154</Z>
+          <X>-78.69405</X>
+          <Y>612.2139</Y>
+          <Z>124.43717</Z>
           <R00>-0.8290379</R00>
           <R01>0</R01>
           <R02>0.5591925</R02>
@@ -1793,7 +1807,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1871,9 +1885,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.5301</X>
-          <Y>8.3674</Y>
-          <Z>130.0314</Z>
+          <X>-75.50912</X>
+          <Y>612.2139</Y>
+          <Z>127.11042</Z>
           <R00>-0.00000052154064</R00>
           <R01>0</R01>
           <R02>0.99999994</R02>
@@ -1889,7 +1903,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -1967,9 +1981,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.5881</X>
-          <Y>8.3674</Y>
-          <Z>129.98247</Z>
+          <X>-75.56713</X>
+          <Y>612.2139</Y>
+          <Z>127.061485</Z>
           <R00>-0.469472</R00>
           <R01>0</R01>
           <R02>0.8829473</R02>
@@ -1985,7 +1999,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2063,9 +2077,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.78326</X>
-          <Y>8.060798</Y>
-          <Z>116.91251</Z>
+          <X>-75.76229</X>
+          <Y>611.90735</Y>
+          <Z>113.99153</Z>
           <R00>-0.69465876</R00>
           <R01>0.35966974</R01>
           <R02>0.62296623</R02>
@@ -2081,7 +2095,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2159,9 +2173,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-290.7063</X>
-          <Y>8.060798</Y>
-          <Z>139.40173</Z>
+          <X>-72.685326</X>
+          <Y>611.90735</Y>
+          <Z>136.48076</Z>
           <R00>0.96592575</R00>
           <R01>0.12940963</R01>
           <R02>0.22414406</R02>
@@ -2177,7 +2191,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2255,9 +2269,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.32825</X>
-          <Y>8.3674</Y>
-          <Z>129.66226</Z>
+          <X>-75.307274</X>
+          <Y>612.2139</Y>
+          <Z>126.74128</Z>
           <R00>0.7071064</R00>
           <R01>0</R01>
           <R02>0.7071071</R02>
@@ -2273,7 +2287,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2351,9 +2365,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.70786</X>
-          <Y>8.3674</Y>
-          <Z>129.80824</Z>
+          <X>-75.68688</X>
+          <Y>612.2139</Y>
+          <Z>126.88726</Z>
           <R00>-0.6560594</R00>
           <R01>0</R01>
           <R02>0.75470924</R02>
@@ -2369,7 +2383,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2447,9 +2461,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.51062</X>
-          <Y>8.3674</Y>
-          <Z>130.17918</Z>
+          <X>-75.48965</X>
+          <Y>612.2139</Y>
+          <Z>127.2582</Z>
           <R00>-0.25881952</R00>
           <R01>0</R01>
           <R02>0.96592563</R02>
@@ -2465,7 +2479,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2543,9 +2557,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-283.92044</X>
-          <Y>8.060798</Y>
-          <Z>132.61581</Z>
+          <X>-65.89947</X>
+          <Y>611.90735</Y>
+          <Z>129.69484</Z>
           <R00>0.25881854</R00>
           <R01>0.48296297</R01>
           <R02>0.8365164</R02>
@@ -2561,7 +2575,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -2657,6 +2671,20 @@
         <int64 name="SourceAssetId">-1</int64>
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
+          <CFrame>
+            <X>-78.0935</X>
+            <Y>607.89215</Y>
+            <Z>126.38084</Z>
+            <R00>-0.69465876</R00>
+            <R01>0</R01>
+            <R02>0.7193395</R02>
+            <R10>0</R10>
+            <R11>1</R11>
+            <R12>0</R12>
+            <R20>-0.7193395</R20>
+            <R21>0</R21>
+            <R22>-0.69465876</R22>
+          </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
       <Item class="Part" referent="29">
@@ -2673,9 +2701,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-288.41998</X>
-            <Y>4.0456</Y>
-            <Z>137.89342</Z>
+            <X>-70.39901</X>
+            <Y>607.89215</Y>
+            <Z>134.97244</Z>
             <R00>0.86602515</R00>
             <R01>0</R01>
             <R02>0.5000004</R02>
@@ -2691,7 +2719,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -2769,9 +2797,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-298.84424</X>
-            <Y>4.0456</Y>
-            <Z>140.54036</Z>
+            <X>-80.823265</X>
+            <Y>607.89215</Y>
+            <Z>137.61938</Z>
             <R00>0.8090169</R00>
             <R01>0</R01>
             <R02>0.5877854</R02>
@@ -2787,7 +2815,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -2865,9 +2893,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-295.8324</X>
-            <Y>4.0456</Y>
-            <Z>114.44824</Z>
+            <X>-77.811424</X>
+            <Y>607.89215</Y>
+            <Z>111.52726</Z>
             <R00>-0.4383716</R00>
             <R01>0</R01>
             <R02>0.8987939</R02>
@@ -2883,7 +2911,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -2961,9 +2989,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-285.09714</X>
-            <Y>4.0456</Y>
-            <Z>134.57053</Z>
+            <X>-67.076164</X>
+            <Y>607.89215</Y>
+            <Z>131.64955</Z>
             <R00>0.49999952</R00>
             <R01>0</R01>
             <R02>0.8660256</R02>
@@ -2979,7 +3007,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3057,9 +3085,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-295.89847</X>
-            <Y>4.0456</Y>
-            <Z>139.35019</Z>
+            <X>-77.877495</X>
+            <Y>607.89215</Y>
+            <Z>136.42921</Z>
             <R00>0.99026805</R00>
             <R01>0</R01>
             <R02>0.13917331</R02>
@@ -3075,7 +3103,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3153,9 +3181,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-286.4255</X>
-            <Y>4.0456</Y>
-            <Z>123.47779</Z>
+            <X>-68.40453</X>
+            <Y>607.89215</Y>
+            <Z>120.55681</Z>
             <R00>-0.6560594</R00>
             <R01>0</R01>
             <R02>0.75470924</R02>
@@ -3171,7 +3199,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3249,9 +3277,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-290.6095</X>
-            <Y>4.0456</Y>
-            <Z>138.80035</Z>
+            <X>-72.588524</X>
+            <Y>607.89215</Y>
+            <Z>135.87938</Z>
             <R00>0.96592575</R00>
             <R01>0</R01>
             <R02>0.25881925</R02>
@@ -3267,7 +3295,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3345,9 +3373,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-286.53983</X>
-            <Y>4.0456</Y>
-            <Z>136.4507</Z>
+            <X>-68.51885</X>
+            <Y>607.89215</Y>
+            <Z>133.52972</Z>
             <R00>0.7071064</R00>
             <R01>0</R01>
             <R02>0.7071071</R02>
@@ -3363,7 +3391,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3441,9 +3469,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-284.19022</X>
-            <Y>4.0456</Y>
-            <Z>132.38103</Z>
+            <X>-66.16924</X>
+            <Y>607.89215</Y>
+            <Z>129.46005</Z>
             <R00>0.25881854</R00>
             <R01>0</R01>
             <R02>0.96592593</R02>
@@ -3459,7 +3487,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3537,9 +3565,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-288.54868</X>
-            <Y>4.0456</Y>
-            <Z>121.44638</Z>
+            <X>-70.5277</X>
+            <Y>607.89215</Y>
+            <Z>118.5254</Z>
             <R00>-0.7660448</R00>
             <R01>0</R01>
             <R02>0.6427872</R02>
@@ -3555,7 +3583,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3633,9 +3661,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-293.9252</X>
-            <Y>4.0456</Y>
-            <Z>117.17198</Z>
+            <X>-75.90423</X>
+            <Y>607.89215</Y>
+            <Z>114.251</Z>
             <R00>-0.69465876</R00>
             <R01>0</R01>
             <R02>0.7193395</R02>
@@ -3651,7 +3679,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3729,9 +3757,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-292.95914</X>
-            <Y>4.0456</Y>
-            <Z>139.1097</Z>
+            <X>-74.93816</X>
+            <Y>607.89215</Y>
+            <Z>136.18872</Z>
             <R00>1</R00>
             <R01>0</R01>
             <R02>0.00000020861626</R02>
@@ -3747,7 +3775,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3825,9 +3853,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-283.8809</X>
-            <Y>4.0456</Y>
-            <Z>130.0314</Z>
+            <X>-65.85992</X>
+            <Y>607.89215</Y>
+            <Z>127.11042</Z>
             <R00>-0.00000052154064</R00>
             <R01>0</R01>
             <R02>0.99999994</R02>
@@ -3843,7 +3871,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -3921,9 +3949,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-291.31927</X>
-            <Y>4.0456</Y>
-            <Z>119.3586</Z>
+            <X>-73.2983</X>
+            <Y>607.89215</Y>
+            <Z>116.437614</Z>
             <R00>-0.8290379</R00>
             <R01>0</R01>
             <R02>0.5591925</R02>
@@ -3939,7 +3967,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -4017,9 +4045,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-284.19022</X>
-            <Y>4.0456</Y>
-            <Z>127.68178</Z>
+            <X>-66.16924</X>
+            <Y>607.89215</Y>
+            <Z>124.760796</Z>
             <R00>-0.25881952</R00>
             <R01>0</R01>
             <R02>0.96592563</R02>
@@ -4035,7 +4063,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -4113,9 +4141,9 @@
           <token name="BottomSurface">0</token>
           <token name="BottomSurfaceInput">0</token>
           <CoordinateFrame name="CFrame">
-            <X>-285.06836</X>
-            <Y>4.0456</Y>
-            <Z>125.452446</Z>
+            <X>-67.047386</X>
+            <Y>607.89215</Y>
+            <Z>122.53146</Z>
             <R00>-0.469472</R00>
             <R01>0</R01>
             <R02>0.8829473</R02>
@@ -4131,7 +4159,7 @@
           <bool name="CanTouch">true</bool>
           <bool name="CastShadow">true</bool>
           <string name="CollisionGroup">Default</string>
-          <int name="CollisionGroupId">-1</int>
+          <int name="CollisionGroupId">0</int>
           <Color3uint8 name="Color3uint8">11843003</Color3uint8>
           <PhysicalProperties name="CustomPhysicalProperties">
             <CustomPhysics>false</CustomPhysics>
@@ -4210,9 +4238,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.41125</X>
-          <Y>8.3674</Y>
-          <Z>129.77037</Z>
+          <X>-75.39028</X>
+          <Y>612.2139</Y>
+          <Z>126.84939</Z>
           <R00>0.49999952</R00>
           <R01>0</R01>
           <R02>0.8660256</R02>
@@ -4228,7 +4256,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4306,9 +4334,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-293.16116</X>
-          <Y>8.3674</Y>
-          <Z>129.68143</Z>
+          <X>-75.14019</X>
+          <Y>612.2139</Y>
+          <Z>126.760445</Z>
           <R00>0.86602515</R00>
           <R01>0</R01>
           <R02>0.5000004</R02>
@@ -4324,7 +4352,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4402,9 +4430,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-283.59344</X>
-          <Y>8.060798</Y>
-          <Z>130.13203</Z>
+          <X>-65.57247</X>
+          <Y>611.90735</Y>
+          <Z>127.21105</Z>
           <R00>-0.00000052154064</R00>
           <R01>0.49999994</R01>
           <R02>0.8660253</R02>
@@ -4420,7 +4448,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4498,9 +4526,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-283.92044</X>
-          <Y>8.060798</Y>
-          <Z>127.648254</Z>
+          <X>-65.89947</X>
+          <Y>611.90735</Y>
+          <Z>124.72727</Z>
           <R00>-0.25881952</R00>
           <R01>0.4829628</R01>
           <R02>0.83651614</R02>
@@ -4516,7 +4544,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
@@ -4594,9 +4622,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-295.5974</X>
-          <Y>8.060798</Y>
-          <Z>114.32163</Z>
+          <X>-77.57644</X>
+          <Y>611.90735</Y>
+          <Z>111.40065</Z>
           <R00>-0.4383716</R00>
           <R01>0.44939694</R01>
           <R02>0.7783783</R02>
@@ -4612,7 +4640,7 @@
         <bool name="CanTouch">true</bool>
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
-        <int name="CollisionGroupId">-1</int>
+        <int name="CollisionGroupId">0</int>
         <Color3uint8 name="Color3uint8">10796359</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>

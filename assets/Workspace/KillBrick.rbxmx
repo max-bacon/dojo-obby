@@ -2,7 +2,7 @@
   <Item class="Part" referent="0">
     <Properties>
       <string name="Name">KillBrick</string>
-      <bool name="Anchored">false</bool>
+      <bool name="Anchored">true</bool>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <float name="BackParamA">-0.5</float>
       <float name="BackParamB">0.5</float>
@@ -31,7 +31,7 @@
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
-      <int name="CollisionGroupId">-1</int>
+      <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">16711680</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>

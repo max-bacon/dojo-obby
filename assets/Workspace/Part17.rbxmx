@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Part" referent="0">
     <Properties>
-      <string name="Name">Part17</string>
+      <string name="Name">Part</string>
       <bool name="Anchored">true</bool>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <float name="BackParamA">-0.5</float>
@@ -13,26 +13,26 @@
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
       <CoordinateFrame name="CFrame">
-        <X>-472.3972</X>
-        <Y>10.72</Y>
-        <Z>138.8051</Z>
-        <R00>1</R00>
+        <X>-321.14145</X>
+        <Y>0.095630646</Y>
+        <Z>13.761322</Z>
+        <R00>-1</R00>
         <R01>0</R01>
         <R02>0</R02>
         <R10>0</R10>
-        <R11>1</R11>
-        <R12>0</R12>
+        <R11>0</R11>
+        <R12>-1</R12>
         <R20>0</R20>
-        <R21>0</R21>
-        <R22>1</R22>
+        <R21>-1</R21>
+        <R22>0</R22>
       </CoordinateFrame>
       <bool name="CanCollide">true</bool>
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
-      <int name="CollisionGroupId">-1</int>
-      <Color3uint8 name="Color3uint8">8411972</Color3uint8>
+      <int name="CollisionGroupId">0</int>
+      <Color3uint8 name="Color3uint8">16316664</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
       </PhysicalProperties>
@@ -47,7 +47,7 @@
       <token name="LeftSurfaceInput">0</token>
       <bool name="Locked">false</bool>
       <bool name="Massless">false</bool>
-      <token name="Material">272</token>
+      <token name="Material">788</token>
       <BinaryString name="MaterialVariantSerialized">
       </BinaryString>
       <CoordinateFrame name="PivotOffset">
@@ -77,9 +77,9 @@
       </Vector3>
       <token name="shape">1</token>
       <Vector3 name="size">
-        <X>0.670002</X>
-        <Y>0.72</Y>
-        <Z>52.16</Z>
+        <X>1.4311028</X>
+        <Y>136.43893</Y>
+        <Z>0.19126272</Z>
       </Vector3>
       <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>
@@ -94,5 +94,55 @@
         <Z>0</Z>
       </Vector3>
     </Properties>
+    <Item class="ParticleEmitter" referent="1">
+      <Properties>
+        <string name="Name">ParticleEmitter</string>
+        <Vector3 name="Acceleration">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <float name="Brightness">1</float>
+        <ColorSequence name="Color">0 1 1 1 0 0.3615917 0.8392157 0.6745098 1 0 0.70242214 1 0.8509804 0.9019608 0 1 1 1 1 0 </ColorSequence>
+        <float name="Drag">0</float>
+        <token name="EmissionDirection">5</token>
+        <bool name="Enabled">true</bool>
+        <NumberRange name="FlipbookFramerate">1 1 </NumberRange>
+        <string name="FlipbookIncompatible">Particle texture must be 1024 by 1024 to use flipbooks.</string>
+        <token name="FlipbookLayout">0</token>
+        <token name="FlipbookMode">0</token>
+        <bool name="FlipbookStartRandom">false</bool>
+        <NumberRange name="Lifetime">2 2 </NumberRange>
+        <float name="LightEmission">0</float>
+        <float name="LightInfluence">1</float>
+        <bool name="LockedToPart">false</bool>
+        <token name="Orientation">0</token>
+        <float name="Rate">100</float>
+        <NumberRange name="RotSpeed">0 0 </NumberRange>
+        <NumberRange name="Rotation">0 0 </NumberRange>
+        <token name="Shape">0</token>
+        <token name="ShapeInOut">0</token>
+        <float name="ShapePartial">1</float>
+        <token name="ShapeStyle">0</token>
+        <NumberSequence name="Size">0 2 0 1 2 0 </NumberSequence>
+        <int64 name="SourceAssetId">-1</int64>
+        <NumberRange name="Speed">1 1 </NumberRange>
+        <Vector2 name="SpreadAngle">
+          <X>3</X>
+          <Y>3</Y>
+        </Vector2>
+        <NumberSequence name="Squash">0 0 0 1 0 0 </NumberSequence>
+        <BinaryString name="Tags"></BinaryString>
+        <Content name="Texture">
+          <url>rbxassetid://7216851093</url>
+        </Content>
+        <float name="TimeScale">1</float>
+        <NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+        <float name="VelocityInheritance">0</float>
+        <bool name="WindAffectsDrag">false</bool>
+        <float name="ZOffset">0</float>
+      </Properties>
+    </Item>
   </Item>
 </roblox>

@@ -31,8 +31,8 @@
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <bool name="CastShadow">true</bool>
-      <string name="CollisionGroup">UkdWbVlYVnNkQT09</string>
-      <int name="CollisionGroupId">-1</int>
+      <string name="CollisionGroup">Default</string>
+      <int name="CollisionGroupId">0</int>
       <Color3uint8 name="Color3uint8">10724005</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
@@ -78,7 +78,7 @@
         <Y>0</Y>
         <Z>0</Z>
       </Vector3>
-      <bool name="ShorelinesUpgraded">false</bool>
+      <bool name="ShorelinesUpgraded">true</bool>
       <Vector3 name="size">
         <X>2044</X>
         <Y>252</Y>
