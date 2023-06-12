@@ -32,18 +32,18 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-374.9106</X>
-          <Y>18.278744</Y>
-          <Z>172.56683</Z>
-          <R00>-0.99984485</R00>
-          <R01>0.008368224</R01>
-          <R02>-0.0155802</R02>
-          <R10>-0.0005502778</R10>
-          <R11>0.8658218</R11>
-          <R12>0.50035226</R12>
-          <R20>0.017676748</R20>
-          <R21>0.500283</R21>
-          <R22>-0.86568254</R22>
+          <X>-2997.5503</X>
+          <Y>629.2537</Y>
+          <Z>-227.29321</Z>
+          <R00>-0.00000013113416</R00>
+          <R01>0.70710677</R01>
+          <R02>0.70710677</R02>
+          <R10>-0.00000008742277</R10>
+          <R11>0.7071067</R11>
+          <R12>-0.7071067</R12>
+          <R20>-1</R20>
+          <R21>-0.0000001545431</R21>
+          <R22>-0.00000003090862</R22>
         </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
@@ -61,18 +61,720 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-376.42514</X>
-          <Y>14.821127</Y>
-          <Z>191.06032</Z>
-          <R00>-0.99984473</R00>
-          <R01>0.015037209</R01>
-          <R02>-0.009308692</R02>
-          <R10>-0.0005502778</R10>
-          <R11>0.4996463</R11>
-          <R12>0.8662296</R12>
-          <R20>0.017676733</R20>
-          <R21>0.86609983</R21>
-          <R22>-0.4995603</R22>
+          <X>-2997.5264</X>
+          <Y>635.07794</Y>
+          <Z>-216.09673</Z>
+          <R00>-0.00000004371139</R00>
+          <R01>0</R01>
+          <R02>1</R02>
+          <R10>0</R10>
+          <R11>0.99999994</R11>
+          <R12>0</R12>
+          <R20>-1</R20>
+          <R21>0</R21>
+          <R22>-0.00000004371139</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanQuery">true</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CastShadow">true</bool>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">13290449</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <token name="formFactorRaw">1</token>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">800</token>
+        <BinaryString name="MaterialVariantSerialized">
+        </BinaryString>
+        <CoordinateFrame name="PivotOffset">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <token name="shape">1</token>
+        <Vector3 name="size">
+          <X>15.419285</X>
+          <Y>0.5036571</Y>
+          <Z>1.5569376</Z>
+        </Vector3>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">0</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+      </Properties>
+      <Item class="Texture" referent="2">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">1</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="3">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">2</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="4">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">4</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="5">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">5</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="6">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">3</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="7">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">0</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="8">
+      <Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">0</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>-2997.5266</X>
+          <Y>623.7152</Y>
+          <Z>-216.09721</Z>
+          <R00>-0.00000004371139</R00>
+          <R01>0</R01>
+          <R02>1</R02>
+          <R10>0</R10>
+          <R11>0.99999994</R11>
+          <R12>0</R12>
+          <R20>-1</R20>
+          <R21>0</R21>
+          <R22>-0.00000004371139</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanQuery">true</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CastShadow">true</bool>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">13290449</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <token name="formFactorRaw">1</token>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">800</token>
+        <BinaryString name="MaterialVariantSerialized">
+        </BinaryString>
+        <CoordinateFrame name="PivotOffset">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <token name="shape">1</token>
+        <Vector3 name="size">
+          <X>15.419285</X>
+          <Y>1.757477</Y>
+          <Z>1.5569376</Z>
+        </Vector3>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">0</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+      </Properties>
+      <Item class="Texture" referent="9">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">1</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="10">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">2</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="11">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">4</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="12">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">5</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="13">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">3</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="14">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">0</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="15">
+      <Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">0</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>-2996.8318</X>
+          <Y>635.4452</Y>
+          <Z>-216.1082</Z>
+          <R00>-0.00000013113416</R00>
+          <R01>0.70710677</R01>
+          <R02>0.70710677</R02>
+          <R10>-0.00000008742277</R10>
+          <R11>0.7071067</R11>
+          <R12>-0.7071067</R12>
+          <R20>-1</R20>
+          <R21>-0.0000001545431</R21>
+          <R22>-0.00000003090862</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="CanQuery">true</bool>
+        <bool name="CanTouch">true</bool>
+        <bool name="CastShadow">true</bool>
+        <string name="CollisionGroup">Default</string>
+        <int name="CollisionGroupId">0</int>
+        <Color3uint8 name="Color3uint8">7170923</Color3uint8>
+        <PhysicalProperties name="CustomPhysicalProperties">
+          <CustomPhysics>false</CustomPhysics>
+        </PhysicalProperties>
+        <token name="formFactorRaw">1</token>
+        <float name="FrontParamA">-0.5</float>
+        <float name="FrontParamB">0.5</float>
+        <token name="FrontSurface">0</token>
+        <token name="FrontSurfaceInput">0</token>
+        <float name="LeftParamA">-0.5</float>
+        <float name="LeftParamB">0.5</float>
+        <token name="LeftSurface">0</token>
+        <token name="LeftSurfaceInput">0</token>
+        <bool name="Locked">false</bool>
+        <bool name="Massless">false</bool>
+        <token name="Material">800</token>
+        <BinaryString name="MaterialVariantSerialized">
+        </BinaryString>
+        <CoordinateFrame name="PivotOffset">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <float name="Reflectance">0</float>
+        <float name="RightParamA">-0.5</float>
+        <float name="RightParamB">0.5</float>
+        <token name="RightSurface">0</token>
+        <token name="RightSurfaceInput">0</token>
+        <int name="RootPriority">0</int>
+        <Vector3 name="RotVelocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+        <token name="shape">1</token>
+        <Vector3 name="size">
+          <X>16.086605</X>
+          <Y>0.37040862</Y>
+          <Z>2.469869</Z>
+        </Vector3>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags"></BinaryString>
+        <float name="TopParamA">-0.5</float>
+        <float name="TopParamB">0.5</float>
+        <token name="TopSurface">0</token>
+        <token name="TopSurfaceInput">0</token>
+        <float name="Transparency">0</float>
+        <Vector3 name="Velocity">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+        </Vector3>
+      </Properties>
+      <Item class="Texture" referent="16">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">2</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="17">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">5</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="18">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">4</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="19">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">0</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="20">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">1</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="21">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">3</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="22">
+      <Properties>
+        <string name="Name">Part</string>
+        <bool name="Anchored">true</bool>
+        <BinaryString name="AttributesSerialize"></BinaryString>
+        <float name="BackParamA">-0.5</float>
+        <float name="BackParamB">0.5</float>
+        <token name="BackSurface">0</token>
+        <token name="BackSurfaceInput">0</token>
+        <float name="BottomParamA">-0.5</float>
+        <float name="BottomParamB">0.5</float>
+        <token name="BottomSurface">0</token>
+        <token name="BottomSurfaceInput">0</token>
+        <CoordinateFrame name="CFrame">
+          <X>-2997.499</X>
+          <Y>629.2684</Y>
+          <Z>-216.06108</Z>
+          <R00>-0.00000004371139</R00>
+          <R01>0</R01>
+          <R02>1</R02>
+          <R10>0</R10>
+          <R11>0.99999994</R11>
+          <R12>0</R12>
+          <R20>-1</R20>
+          <R21>0</R21>
+          <R22>-0.00000004371139</R22>
         </CoordinateFrame>
         <bool name="CanCollide">true</bool>
         <bool name="CanQuery">true</bool>
@@ -125,9 +827,9 @@
         </Vector3>
         <token name="shape">1</token>
         <Vector3 name="size">
-          <X>30.12816</X>
-          <Y>2.0730305</Y>
-          <Z>2.8892493</Z>
+          <X>15.021427</X>
+          <Y>12.863837</Y>
+          <Z>1.2620976</Z>
         </Vector3>
         <int64 name="SourceAssetId">-1</int64>
         <BinaryString name="Tags"></BinaryString>
@@ -143,7 +845,7 @@
         </Vector3>
       </Properties>
     </Item>
-    <Item class="Part" referent="2">
+    <Item class="Part" referent="23">
       <Properties>
         <string name="Name">Part</string>
         <bool name="Anchored">true</bool>
@@ -157,18 +859,18 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-376.36218</X>
-          <Y>12.494258</Y>
-          <Z>194.56238</Z>
-          <R00>-0.99984473</R00>
-          <R01>0.0040506646</R01>
-          <R02>-0.017215155</R02>
-          <R10>-0.00055027654</R10>
-          <R11>0.9658201</R11>
-          <R12>0.25921297</R12>
-          <R20>0.017676733</R20>
-          <R21>0.2591821</R21>
-          <R22>-0.9656678</R22>
+          <X>-2997.5383</X>
+          <Y>624.6689</Y>
+          <Z>-216.10356</Z>
+          <R00>-0.00000004371139</R00>
+          <R01>0</R01>
+          <R02>1</R02>
+          <R10>0</R10>
+          <R11>0.99999994</R11>
+          <R12>0</R12>
+          <R20>-1</R20>
+          <R21>0</R21>
+          <R22>-0.00000004371139</R22>
         </CoordinateFrame>
         <bool name="CanCollide">true</bool>
         <bool name="CanQuery">true</bool>
@@ -176,7 +878,7 @@
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
         <int name="CollisionGroupId">0</int>
-        <Color3uint8 name="Color3uint8">6432551</Color3uint8>
+        <Color3uint8 name="Color3uint8">8816523</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
@@ -221,9 +923,9 @@
         </Vector3>
         <token name="shape">1</token>
         <Vector3 name="size">
-          <X>30.12816</X>
-          <Y>2.0730305</Y>
-          <Z>0.5773271</Z>
+          <X>15.867367</X>
+          <Y>0.24997705</Y>
+          <Z>1.9181976</Z>
         </Vector3>
         <int64 name="SourceAssetId">-1</int64>
         <BinaryString name="Tags"></BinaryString>
@@ -238,8 +940,146 @@
           <Z>0</Z>
         </Vector3>
       </Properties>
+      <Item class="Texture" referent="24">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">1</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="25">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">2</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="26">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">4</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="27">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">5</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="28">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">3</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="29">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">0</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">8</float>
+          <float name="StudsPerTileV">8</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=319943057</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
     </Item>
-    <Item class="Part" referent="3">
+    <Item class="Part" referent="30">
       <Properties>
         <string name="Name">Part</string>
         <bool name="Anchored">true</bool>
@@ -253,18 +1093,18 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-376.39227</X>
-          <Y>13.399747</Y>
-          <Z>192.88385</Z>
-          <R00>-0.99984485</R00>
-          <R01>0.008368257</R01>
-          <R02>-0.015580177</R02>
-          <R10>-0.00055027654</R10>
-          <R11>0.8658211</R11>
-          <R12>0.50035334</R12>
-          <R20>0.017676748</R20>
-          <R21>0.5002842</R21>
-          <R22>-0.86568195</R22>
+          <X>-2998.341</X>
+          <Y>635.4192</Y>
+          <Z>-216.1082</Z>
+          <R00>-0.00000004371139</R00>
+          <R01>-0.70710677</R01>
+          <R02>0.70710677</R02>
+          <R10>0</R10>
+          <R11>0.7071067</R11>
+          <R12>0.7071067</R12>
+          <R20>-1</R20>
+          <R21>0.00000003090862</R21>
+          <R22>-0.00000003090862</R22>
         </CoordinateFrame>
         <bool name="CanCollide">true</bool>
         <bool name="CanQuery">true</bool>
@@ -272,7 +1112,7 @@
         <bool name="CastShadow">true</bool>
         <string name="CollisionGroup">Default</string>
         <int name="CollisionGroupId">0</int>
-        <Color3uint8 name="Color3uint8">6432551</Color3uint8>
+        <Color3uint8 name="Color3uint8">7170923</Color3uint8>
         <PhysicalProperties name="CustomPhysicalProperties">
           <CustomPhysics>false</CustomPhysics>
         </PhysicalProperties>
@@ -317,9 +1157,9 @@
         </Vector3>
         <token name="shape">1</token>
         <Vector3 name="size">
-          <X>30.12816</X>
-          <Y>2.0730305</Y>
-          <Z>3.0854428</Z>
+          <X>16.086605</X>
+          <Y>0.37040862</Y>
+          <Z>2.3962488</Z>
         </Vector3>
         <int64 name="SourceAssetId">-1</int64>
         <BinaryString name="Tags"></BinaryString>
@@ -334,6 +1174,144 @@
           <Z>0</Z>
         </Vector3>
       </Properties>
+      <Item class="Texture" referent="31">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">2</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="32">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">5</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="33">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">4</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="34">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">0</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="35">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">1</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
+      <Item class="Texture" referent="36">
+        <Properties>
+          <string name="Name">Texture</string>
+          <BinaryString name="AttributesSerialize"></BinaryString>
+          <Color3 name="Color3">
+            <R>1</R>
+            <G>1</G>
+            <B>1</B>
+          </Color3>
+          <token name="Face">3</token>
+          <float name="OffsetStudsU">0</float>
+          <float name="OffsetStudsV">0</float>
+          <int64 name="SourceAssetId">-1</int64>
+          <float name="StudsPerTileU">5</float>
+          <float name="StudsPerTileV">4</float>
+          <BinaryString name="Tags"></BinaryString>
+          <Content name="Texture">
+            <url>http://www.roblox.com/asset/?id=296397676</url>
+          </Content>
+          <float name="Transparency">0</float>
+          <int name="ZIndex">1</int>
+        </Properties>
+      </Item>
     </Item>
   </Item>
   <SharedStrings>

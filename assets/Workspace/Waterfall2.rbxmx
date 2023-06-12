@@ -47,18 +47,18 @@
         <token name="BottomSurface">4</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-3208.6235</X>
-          <Y>610.8508</Y>
-          <Z>-249.22505</Z>
-          <R00>-0.9995586</R00>
+          <X>-3095.9858</X>
+          <Y>611.7394</Y>
+          <Z>-249.206</Z>
+          <R00>-0.9998747</R00>
           <R01>0</R01>
-          <R02>0.029707026</R02>
+          <R02>0.015828576</R02>
           <R10>0</R10>
           <R11>1</R11>
           <R12>0</R12>
-          <R20>-0.029707026</R20>
+          <R20>-0.015828576</R20>
           <R21>0</R21>
-          <R22>-0.9995586</R22>
+          <R22>-0.9998747</R22>
         </CoordinateFrame>
         <bool name="CanCollide">false</bool>
         <bool name="CanQuery">true</bool>
@@ -166,18 +166,18 @@
         <token name="BottomSurface">4</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-3208.9094</X>
+          <X>-3096.1296</X>
           <Y>575.2676</Y>
-          <Z>-239.6057</Z>
-          <R00>-0.9995586</R00>
+          <Z>-240.12231</Z>
+          <R00>-0.9998747</R00>
           <R01>0</R01>
-          <R02>0.029707026</R02>
+          <R02>0.015828576</R02>
           <R10>0</R10>
           <R11>1</R11>
           <R12>0</R12>
-          <R20>-0.029707026</R20>
+          <R20>-0.015828576</R20>
           <R21>0</R21>
-          <R22>-0.9995586</R22>
+          <R22>-0.9998747</R22>
         </CoordinateFrame>
         <bool name="CanCollide">false</bool>
         <bool name="CanQuery">true</bool>
@@ -366,7 +366,7 @@
         </Content>
         <float name="TextureLength">1</float>
         <token name="TextureMode">0</token>
-        <float name="TextureSpeed">1.356423</float>
+        <float name="TextureSpeed">1.3302737</float>
         <NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
         <float name="Width0">0</float>
         <float name="Width1">42.76923</float>

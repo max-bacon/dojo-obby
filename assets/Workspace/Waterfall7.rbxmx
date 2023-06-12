@@ -47,18 +47,18 @@
         <token name="BottomSurface">4</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-3061.6365</X>
-          <Y>611.48846</Y>
-          <Z>-249.66522</Z>
-          <R00>-0.999891</R00>
+          <X>-3169.3225</X>
+          <Y>611.5507</Y>
+          <Z>-249.61497</Z>
+          <R00>-0.99962074</R00>
           <R01>0</R01>
-          <R02>0.014765354</R02>
+          <R02>0.027539022</R02>
           <R10>0</R10>
           <R11>1</R11>
           <R12>0</R12>
-          <R20>-0.014765354</R20>
+          <R20>-0.027539022</R20>
           <R21>0</R21>
-          <R22>-0.999891</R22>
+          <R22>-0.99962074</R22>
         </CoordinateFrame>
         <bool name="CanCollide">false</bool>
         <bool name="CanQuery">true</bool>
@@ -166,18 +166,18 @@
         <token name="BottomSurface">4</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-3061.7285</X>
-          <Y>576.9851</Y>
-          <Z>-243.43231</Z>
-          <R00>-0.999891</R00>
+          <X>-3169.5144</X>
+          <Y>576.4307</Y>
+          <Z>-242.64955</Z>
+          <R00>-0.99962074</R00>
           <R01>0</R01>
-          <R02>0.014765354</R02>
+          <R02>0.027539022</R02>
           <R10>0</R10>
           <R11>1</R11>
           <R12>0</R12>
-          <R20>-0.014765354</R20>
+          <R20>-0.027539022</R20>
           <R21>0</R21>
-          <R22>-0.999891</R22>
+          <R22>-0.99962074</R22>
         </CoordinateFrame>
         <bool name="CanCollide">false</bool>
         <bool name="CanQuery">true</bool>
@@ -366,7 +366,7 @@
         </Content>
         <float name="TextureLength">1</float>
         <token name="TextureMode">0</token>
-        <float name="TextureSpeed">1.4260479</float>
+        <float name="TextureSpeed">1.3964694</float>
         <NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
         <float name="Width0">0</float>
         <float name="Width1">10.153846</float>

@@ -32,9 +32,9 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-3375.253</X>
-          <Y>638.34656</Y>
-          <Z>-273.48444</Z>
+          <X>-3354.0007</X>
+          <Y>648.3821</Y>
+          <Z>-281.1071</Z>
           <R00>1</R00>
           <R01>0</R01>
           <R02>0</R02>
@@ -64,9 +64,9 @@
         <token name="BottomSurface">0</token>
         <token name="BottomSurfaceInput">0</token>
         <CoordinateFrame name="CFrame">
-          <X>-3380.9968</X>
-          <Y>638.3465</Y>
-          <Z>-282.72562</Z>
+          <X>-3359.7446</X>
+          <Y>648.382</Y>
+          <Z>-290.34827</Z>
           <R00>1</R00>
           <R01>0</R01>
           <R02>0</R02>
