@@ -1,8 +1,9 @@
 Packages/
+ServerPackages/
+temp/
 
+/*.rbxlx
+/*.rbxl
 
-/build.rbxlx
-/build.rbxl
-
-/*.rbxlx.lock
-/*.rbxl.lock
+*.rbxlx.lock
+*.rbxl.lock

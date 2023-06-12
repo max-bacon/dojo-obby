@@ -4,8 +4,10 @@
 # To add a new tool, add an entry to this table.
 [tools]
 rojo = "rojo-rbx/rojo@7.2.1"
-remodel = "rojo-rbx/remodel@0.11.0"
 wally = "UpliftGames/wally@0.3.1"
 selene = "Kampfkarren/selene@0.23.1"
 stylua = "johnnymorganz/stylua@0.14.2"
 rbxcloud = "Sleitnick/rbxcloud@0.2.1"
+tarmac = "vorlias/tarmac@0.7.3"
+lune = "filiptibell/lune@0.6.7"
+wally-package-types = "JohnnyMorganz/wally-package-types@1.2.1"
