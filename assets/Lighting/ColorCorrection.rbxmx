@@ -1,0 +1,19 @@
+<roblox version="4">
+  <Item class="ColorCorrectionEffect" referent="0">
+    <Properties>
+      <string name="Name">ColorCorrection</string>
+      <BinaryString name="AttributesSerialize"></BinaryString>
+      <float name="Brightness">0.07</float>
+      <float name="Contrast">0.03</float>
+      <bool name="Enabled">true</bool>
+      <float name="Saturation">0.25</float>
+      <int64 name="SourceAssetId">-1</int64>
+      <BinaryString name="Tags"></BinaryString>
+      <Color3 name="TintColor">
+        <R>1</R>
+        <G>1</G>
+        <B>1</B>
+      </Color3>
+    </Properties>
+  </Item>
+</roblox>

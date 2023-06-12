@@ -1,0 +1,38 @@
+<roblox version="4">
+  <Item class="Sky" referent="0">
+    <Properties>
+      <string name="Name">Sky</string>
+      <BinaryString name="AttributesSerialize"></BinaryString>
+      <bool name="CelestialBodiesShown">true</bool>
+      <float name="MoonAngularSize">11</float>
+      <Content name="MoonTextureId">
+        <url>rbxasset://sky/moon.jpg</url>
+      </Content>
+      <Content name="SkyboxBk">
+        <url>http://www.roblox.com/asset/?id=282551628</url>
+      </Content>
+      <Content name="SkyboxDn">
+        <url>http://www.roblox.com/asset/?id=282551628</url>
+      </Content>
+      <Content name="SkyboxFt">
+        <url>http://www.roblox.com/asset/?id=282551628</url>
+      </Content>
+      <Content name="SkyboxLf">
+        <url>http://www.roblox.com/asset/?id=282551628</url>
+      </Content>
+      <Content name="SkyboxRt">
+        <url>http://www.roblox.com/asset/?id=282551628</url>
+      </Content>
+      <Content name="SkyboxUp">
+        <url>http://www.roblox.com/asset/?id=282551628</url>
+      </Content>
+      <int64 name="SourceAssetId">-1</int64>
+      <int name="StarCount">3000</int>
+      <float name="SunAngularSize">21</float>
+      <Content name="SunTextureId">
+        <url>rbxasset://sky/sun.jpg</url>
+      </Content>
+      <BinaryString name="Tags"></BinaryString>
+    </Properties>
+  </Item>
+</roblox>

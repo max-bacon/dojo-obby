@@ -1,0 +1,19 @@
+<roblox version="4">
+  <Item class="ColorCorrectionEffect" referent="0">
+    <Properties>
+      <string name="Name">GhostColorCorrection</string>
+      <BinaryString name="AttributesSerialize"></BinaryString>
+      <float name="Brightness">0</float>
+      <float name="Contrast">0</float>
+      <bool name="Enabled">false</bool>
+      <float name="Saturation">-0.2</float>
+      <int64 name="SourceAssetId">-1</int64>
+      <BinaryString name="Tags"></BinaryString>
+      <Color3 name="TintColor">
+        <R>0.8705883</R>
+        <G>0.8705883</G>
+        <B>0.8705883</B>
+      </Color3>
+    </Properties>
+  </Item>
+</roblox>
