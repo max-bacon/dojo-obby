@@ -1,0 +1,8 @@
+name = "dojo-obby"
+upload-to-group-id = 7293733
+
+[[inputs]]
+glob = "images/**/*.png"
+codegen = true
+codegen-path = "src/shared/Assets/Images.lua"
+codegen-base-path = "images"
