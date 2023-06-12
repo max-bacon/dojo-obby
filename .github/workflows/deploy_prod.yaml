@@ -20,10 +20,6 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - run: wally install
-
-    - run: wally-package-types --sourcemap sourcemap.json Packages
-
-    - run: wally-package-types --sourcemap sourcemap.json ServerPackages
     
     - run: rojo build -o game.rbxlx
 
