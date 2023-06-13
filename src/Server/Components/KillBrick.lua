@@ -5,7 +5,6 @@ local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local KillBrick = Component.new({
 	Tag = "KillBrick",
-	Ancestors = { workspace },
 })
 
 function KillBrick:_onTouched(hit)
@@ -19,11 +18,26 @@ function KillBrick:_onTouched(hit)
 	end
 end
 
+function KillBrick:_touchedLogic()
+	if self.Instance:IsA("BasePart") then
+		self._trove:Add(self.Instance.Touched:Connect(function(hit)
+			self:_onTouched(hit)
+		end))
+	end
+
+	for _, p in self.Instance:GetDescendants() do
+		if p:IsA("BasePart") then
+			self._trove:Add(p.Touched:Connect(function(hit)
+				self:_onTouched(hit)
+			end))
+		end
+	end
+end
+
 function KillBrick:Construct()
 	self._trove = Trove.new()
-	self._trove:Add(self.Instance.Touched:Connect(function(hit)
-		self:_onTouched(hit)
-	end))
+
+	self:_touchedLogic()
 end
 
 function KillBrick:Start() end

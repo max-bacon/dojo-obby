@@ -5,7 +5,7 @@ local Component = require(ReplicatedStorage.Packages.Component)
 local Trove = require(ReplicatedStorage.Packages.Trove)
 local Red = require(ReplicatedStorage.Packages.Red)
 
-local CheckpointReachedNet = Red.Server("CheckpointReached")
+local Remotes = Red.Server("Events")
 
 local StatsModule = require(ServerScriptService.Modules.StatsModule)
 
@@ -25,7 +25,7 @@ function Checkpoint:_onTouched(hit)
 		return
 	end
 
-	CheckpointReachedNet:Fire(Player)
+	Remotes:Fire(Player, "CheckpointReached")
 	StatsModule.set(Player, "Stage", self.Stage)
 end
 
@@ -33,9 +33,6 @@ function Checkpoint:Construct()
 	self._trove = Trove.new()
 
 	self.Stage = tonumber(self.Instance.Name:sub(11))
-	if not self.Stage then
-		error("Invalid checkpoint name for " .. self.Instance.Name)
-	end
 	self.Spawn = self.Instance.Spawn
 	if self.Stage == 0 then
 		return

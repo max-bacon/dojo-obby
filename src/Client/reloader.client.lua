@@ -1,3 +1,9 @@
+local enabled = true
+
+if not enabled then
+	return
+end
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local target = ReplicatedStorage:WaitForChild("FusionMaterial")
 
@@ -24,16 +30,13 @@ local ui: (state: State, components: { [string]: () -> () }) -> ()
 local maid = Trove.new()
 
 local function cleanupFunction(module, context): ()
-	print(module)
 	--context.originalModule:Destroy()
 end
 
 local function hotReload()
-	print(state, ui)
 	if not state or not ui then
 		return
 	end
-	print("Change")
 	maid:Clean()
 	maid:Add(ui(state(), components))
 end

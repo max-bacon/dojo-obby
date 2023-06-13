@@ -16,6 +16,7 @@ return function(state: State, components: { [string]: (...any) -> () })
 		Name = "Main",
 		[Fusion.Children] = {
 			components.CheckpointNotification(state.CheckpointTransparency),
+			components.Store(),
 		},
 	})
 end

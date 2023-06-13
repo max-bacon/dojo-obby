@@ -11,8 +11,6 @@ local Fusion = require(Packages.Fusion)
 
 local Images = require(ReplicatedStorage.Assets.Images).UI
 
-local instance
-
 local rotTime = 2
 local degPerSec = 360 / rotTime
 
@@ -23,7 +21,7 @@ return function(checkpointTransparency: Fusion.Value<number>)
 		rotTimer:set(os.clock())
 	end)
 
-	instance = Fusion.New("Frame")({
+	local instance = Fusion.New("Frame")({
 		Name = "CheckpointNotification",
 		BackgroundTransparency = 1,
 		Size = UDim2.fromScale(1, 1),
@@ -38,7 +36,7 @@ return function(checkpointTransparency: Fusion.Value<number>)
 				Rotation = Fusion.Computed(function()
 					return rotTimer:get() * degPerSec % 360
 				end),
-				Position = UDim2.fromScale(-0.3, 0.7),
+				Position = UDim2.fromScale(-0.3, 0.4),
 				Size = UDim2.fromScale(0.308, 1),
 				AnchorPoint = Vector2.new(0.5, 0.5),
 

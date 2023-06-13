@@ -4,7 +4,6 @@ lune lighting-extract.lua
 
 ]]
 
-
 local roblox = require("@lune/roblox")
 local fs = require("@lune/fs")
 
@@ -31,8 +30,8 @@ for _, model in ipairs(Models:GetChildren()) do
 			i = i + 1
 		until not isFile(save .. model.Name .. i)
 
-		roblox.writeModelFile(save .. model.Name .. i .. ".rbxmx", {model})
+		roblox.writeModelFile(save .. model.Name .. i .. ".rbxmx", { model })
 	else
-		roblox.writeModelFile(save .. model.Name .. ".rbxmx", {model})
+		roblox.writeModelFile(save .. model.Name .. ".rbxmx", { model })
 	end
 end

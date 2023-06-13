@@ -32,7 +32,7 @@ function StatsModule.initialize(player: Player)
 	level.Parent = leaderstats
 
 	local wins = Instance.new("IntValue")
-	level.Name = "Wins"
+	wins.Name = "Wins"
 	wins.Value = 0
 	wins.Parent = leaderstats
 

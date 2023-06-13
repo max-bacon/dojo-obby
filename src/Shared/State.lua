@@ -8,7 +8,7 @@ export type State = {
 }
 
 return function(): State
-	local checkpointTransparency = Fusion.Value(0)
+	local checkpointTransparency = Fusion.Value(1)
 	return {
 		CheckpointTransparency = checkpointTransparency,
 	}
