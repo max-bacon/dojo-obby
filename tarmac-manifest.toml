@@ -7,3 +7,13 @@ packable = false
 hash = "38b7e229fb4e32691db17aa0cdba83adafca3551b7c6f3d00bbdfd6801b86a2c"
 id = 13074066045
 packable = false
+
+[inputs."images/UI/SkipBackground.png"]
+hash = "6043d98609c8d0ad4b43187cf99b407eb048b44cbae5a0dfcb5ccae06b353d6a"
+id = 13764274301
+packable = false
+
+[inputs."images/UI/SkipText.png"]
+hash = "914cb5a5c5e50271cb194a46f76d331df3908a6a41aff4a1de4a62e12f32d1d5"
+id = 13764274398
+packable = false

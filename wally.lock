@@ -8,19 +8,19 @@ version = "0.2.0"
 dependencies = []
 
 [[package]]
+name = "evaera/cmdr"
+version = "1.11.0"
+dependencies = []
+
+[[package]]
 name = "evaera/promise"
 version = "4.0.0"
 dependencies = []
 
 [[package]]
-name = "firecam702/profileservice"
-version = "1.0.0"
-dependencies = []
-
-[[package]]
 name = "maxba/dojo-obby"
 version = "0.1.0"
-dependencies = [["Component", "sleitnick/component@2.4.6"], ["Fusion", "elttob/fusion@0.2.0"], ["Promise", "evaera/promise@4.0.0"], ["Red", "uncontained0/red@1.2.2"], ["Rewire", "sayhisam1/rewire@0.3.0"], ["Trove", "sleitnick/trove@0.5.0"]]
+dependencies = [["Cmdr", "evaera/cmdr@1.11.0"], ["Component", "sleitnick/component@2.4.6"], ["Fusion", "elttob/fusion@0.2.0"], ["Promise", "evaera/promise@4.0.0"], ["Red", "uncontained0/red@1.2.2"], ["Rewire", "sayhisam1/rewire@0.3.0"], ["Signal", "sleitnick/signal@1.5.0"], ["Trove", "sleitnick/trove@0.5.0"]]
 
 [[package]]
 name = "sayhisam1/rewire"

@@ -1,9 +1,7 @@
 local Player = game:GetService("Players").LocalPlayer
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
-
 local Packages = ReplicatedStorage.Packages
-
 local State = require(ReplicatedStorage.State)
 type State = State.State
 

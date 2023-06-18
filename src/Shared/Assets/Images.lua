@@ -3,5 +3,7 @@ return {
 	UI = {
 		CheckpointText = "rbxassetid://13118066777",
 		Katana = "rbxassetid://13074066045",
+		SkipBackground = "rbxassetid://13764274301",
+		SkipText = "rbxassetid://13764274398",
 	},
 }

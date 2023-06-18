@@ -1,5 +1,3 @@
---!strict
-
 local StatsModule = {}
 
 export type StatsArray = {

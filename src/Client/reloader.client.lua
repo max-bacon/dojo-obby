@@ -1,9 +1,3 @@
-local enabled = true
-
-if not enabled then
-	return
-end
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local target = ReplicatedStorage:WaitForChild("FusionMaterial")
 

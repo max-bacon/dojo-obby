@@ -11,7 +11,7 @@ local Fusion = require(Packages.Fusion)
 
 local Images = require(ReplicatedStorage.Assets.Images).UI
 
-return function(checkpointTransparency: Fusion.Value<number>)
+return function()
 
 
     

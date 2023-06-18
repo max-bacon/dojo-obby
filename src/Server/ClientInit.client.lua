@@ -1,14 +1,11 @@
-local enabled = false
-
-if not enabled then
-	return
-end
+--!nonstrict
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local MarketplaceService = game:GetService("MarketplaceService")
 local SharedPackages = ReplicatedStorage:WaitForChild("Packages")
--- local Players = game:GetService("Players")
+local Players = game:GetService("Players")
 
--- local player = Players.LocalPlayer
+local player = Players.LocalPlayer
 
 local Red = require(SharedPackages:WaitForChild("Red"))
 local Promise = require(SharedPackages:WaitForChild("Promise"))
@@ -20,30 +17,40 @@ local FusionMaterial = ReplicatedStorage:WaitForChild("FusionMaterial")
 local Tween = require(SharedModules:WaitForChild("Tween"))
 local Sound = require(SharedModules:WaitForChild("Sound"))
 
+local Robux = require(SharedModules:WaitForChild("Assets"):WaitForChild("Robux"))
+
 -- local ClientModules = player:WaitForChild("PlayerScripts"):WaitForChild("Modules")
 
-local Remotes = Red.Client("Events")
+local Remotes = Red.Client("Network")
 
 local State = require(ReplicatedStorage:WaitForChild("State"))()
 
 local UIComponents = {}
-for _, mod in FusionMaterial:GetChildren() do
-	UIComponents[mod.Name] = require(mod)
+require(FusionMaterial.CheckpointNotification)
+for _, mod: ModuleScript in {FusionMaterial:GetChildren()} do
+	UIComponents[mod.Name] = require(mod) :: any
 end
 
 local UI = Interface(State, UIComponents)
-local CheckpointNotification = UI.CheckpointNotification
+
+State.SkipClickedSignal:Connect(function()
+	MarketplaceService:PromptProductPurchase(player, Robux.Product.SkipStage)
+end)
 
 local CheckpointReachedPromise
-Remotes:On("CheckpointReached", function()
+Remotes:On("CheckpointReached", function(stage: number)
+	State.Stage:set(stage)
+
 	print("CheckpointReached")
-	if CheckpointReachedPromise then
-		return
-	end
+	local CheckpointNotification = UI:FindFirstChild("CheckpointNotification")
+	assert(CheckpointNotification ~= nil)
+	local Katana = CheckpointNotification:FindFirstChild("Katana")
+	local CheckpointSound = CheckpointNotification:FindFirstChildOfClass("Sound")
+	assert(Katana ~= nil and CheckpointSound ~= nil)
 
 	CheckpointReachedPromise = Promise.all({
 		Tween.new( -- flying katana
-			CheckpointNotification.Katana,
+			Katana,
 			TweenInfo.new(4, Enum.EasingStyle.Linear),
 			{ Position = UDim2.fromScale(1.3, 0.4) }
 		),
@@ -63,9 +70,9 @@ Remotes:On("CheckpointReached", function()
 			})
 
 			return Promise.all({
-				Promise.try(CheckpointNotification.CheckpointSound.Play, CheckpointNotification.CheckpointSound),
+				Promise.try(CheckpointSound.Play, CheckpointSound),
 				Tween.new(
-					CheckpointNotification.CheckpointSound,
+					CheckpointSound,
 					TweenInfo.new(2, Enum.EasingStyle.Linear),
 					{ Volume = 1 },
 					true
@@ -74,8 +81,8 @@ Remotes:On("CheckpointReached", function()
 		end),
 	})
 		:finally(function() -- cleanup
-			CheckpointNotification.Katana.Position = UDim2.fromScale(-0.3, 0.4)
-			CheckpointNotification.CheckpointSound:Stop()
+			Katana.Position = UDim2.fromScale(-0.3, 0.4)
+			CheckpointSound:Stop()
 			State.CheckpointTransparency:set(1)
 		end)
 		:catch(error)

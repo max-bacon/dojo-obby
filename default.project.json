@@ -17,11 +17,7 @@
     "ServerScriptService": {
       "$className": "ServerScriptService",
       "$ignoreUnknownInstances": true,
-      "$path": "src/Server",
-      "Packages": 
-      {
-        "$path": "ServerPackages"
-      }
+      "$path": "src/Server"
     },
 
     "ServerStorage": {
@@ -78,8 +74,12 @@
 				"ClockTime": 8.021,
 				"GeographicLatitude" : 48.184,
 				"TimeOfDay": "08:01:14",
+      
+				"ExposureCompensation": 0,
 
-				"ExposureCompensation": 0
+        "FogEnd": 500,
+        "FogStart": 0,
+        "FogColor": [0.9058823529411765, 0.9058823529411765, 0.9058823529411765]
 			}
 		}
   }

@@ -17,6 +17,7 @@ return function(state: State, components: { [string]: (...any) -> () })
 		[Fusion.Children] = {
 			components.CheckpointNotification(state.CheckpointTransparency),
 			components.Store(),
+			components.SkipButton(state.SkipClickedSignal, state.ScreenSize)
 		},
 	})
 end
