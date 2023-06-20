@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model42</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -32,18 +32,18 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-3148.5583</X>
-          <Y>681.3333</Y>
-          <Z>3.465732</Z>
-          <R00>0.70006627</R00>
-          <R01>0.42492843</R01>
-          <R02>-0.5738894</R02>
-          <R10>-0.25116634</R10>
-          <R11>0.8988426</R11>
-          <R12>0.35915416</R12>
-          <R20>0.66845167</R20>
-          <R21>-0.107290596</R21>
-          <R22>0.7359759</R22>
+          <X>-3117.1646</X>
+          <Y>684.54724</Y>
+          <Z>-7.8657694</Z>
+          <R00>0.7000649</R00>
+          <R01>0.42492872</R01>
+          <R02>-0.5738885</R02>
+          <R10>-0.25116587</R10>
+          <R11>0.8988443</R11>
+          <R12>0.35915428</R12>
+          <R20>0.6684514</R20>
+          <R21>-0.107290626</R21>
+          <R22>0.73597634</R22>
         </CFrame>
       </OptionalCoordinateFrame>
     </Properties>

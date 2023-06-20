@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model82</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -272,9 +272,9 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3004.6138</X>
-            <Y>645.12445</Y>
-            <Z>-353.8848</Z>
+            <X>-3003.3562</X>
+            <Y>645.80664</Y>
+            <Z>-354.9842</Z>
             <R00>-0.78800994</R00>
             <R01>0</R01>
             <R02>-0.6156613</R02>
@@ -320,18 +320,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-2987.3232</X>
-              <Y>615.2953</Y>
-              <Z>-351.88467</Z>
-              <R00>0.06975582</R00>
+              <X>-2991.4556</X>
+              <Y>645.8066</Y>
+              <Z>-354.01135</Z>
+              <R00>0.7071061</R00>
               <R01>0</R01>
-              <R02>0.9975635</R02>
+              <R02>0.70710695</R02>
               <R10>0</R10>
               <R11>0.99999994</R11>
               <R12>0</R12>
-              <R20>-0.9975635</R20>
+              <R20>-0.70710695</R20>
               <R21>0</R21>
-              <R22>0.06975582</R22>
+              <R22>0.7071061</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -1905,18 +1905,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-3020.5635</X>
-              <Y>615.2953</Y>
-              <Z>-354.8334</Z>
-              <R00>0.8290374</R00>
+              <X>-3017.5654</X>
+              <Y>645.80664</Y>
+              <Z>-356.08234</Z>
+              <R00>-0.78800994</R00>
               <R01>0</R01>
-              <R02>-0.5591921</R02>
+              <R02>-0.6156613</R02>
               <R10>0</R10>
               <R11>1</R11>
               <R12>0</R12>
-              <R20>0.5591921</R20>
+              <R20>0.6156613</R20>
               <R21>0</R21>
-              <R22>0.8290374</R22>
+              <R22>-0.78800994</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -3491,18 +3491,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-2998.189</X>
+            <X>-3014.6597</X>
             <Y>587.94415</Y>
-            <Z>-163.0595</Z>
-            <R00>0.99939024</R00>
+            <Z>-156.60373</Z>
+            <R00>0.7193398</R00>
             <R01>0</R01>
-            <R02>0.03490001</R02>
+            <R02>-0.6946575</R02>
             <R10>0</R10>
             <R11>0.99999994</R11>
             <R12>0</R12>
-            <R20>-0.03490001</R20>
+            <R20>0.6946575</R20>
             <R21>0</R21>
-            <R22>0.99939024</R22>
+            <R22>0.7193398</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -5173,8 +5173,8 @@
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
             <X>-3003.4697</X>
-            <Y>644.66016</Y>
-            <Z>-354.56998</Z>
+            <Y>644.6602</Y>
+            <Z>-354.57013</Z>
             <R00>-0.78800994</R00>
             <R01>-0.30783066</R01>
             <R02>-0.5331783</R02>
@@ -8678,8 +8678,8 @@
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
             <X>-3008.3494</X>
-            <Y>579.1725</Y>
-            <Z>-382.4374</Z>
+            <Y>579.17236</Y>
+            <Z>-382.43735</Z>
             <R00>0.73141325</R00>
             <R01>-0.34096724</R01>
             <R02>-0.59057254</R02>
@@ -8725,18 +8725,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-2996.7134</X>
+              <X>-3008.2793</X>
               <Y>578.4219</Y>
-              <Z>-385.7526</Z>
-              <R00>0.99757016</R00>
+              <Z>-382.17294</Z>
+              <R00>0.73141325</R00>
               <R01>0</R01>
-              <R02>-0.06966931</R02>
+              <R02>-0.6819345</R02>
               <R10>0</R10>
               <R11>1</R11>
               <R12>0</R12>
-              <R20>0.06966931</R20>
+              <R20>0.6819345</R20>
               <R21>0</R21>
-              <R22>0.99757016</R22>
+              <R22>0.73141325</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -9158,18 +9158,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-2995.5452</X>
-              <Y>665.76117</Y>
-              <Z>-386.83853</Z>
-              <R00>0.99757016</R00>
-              <R01>0</R01>
-              <R02>-0.06966931</R02>
+              <X>-3008.9912</X>
+              <Y>664.54803</Y>
+              <Z>-381.749</Z>
+              <R00>0.73141325</R00>
+              <R01>-0.34096724</R01>
+              <R02>-0.59057254</R02>
               <R10>0</R10>
-              <R11>1</R11>
-              <R12>0</R12>
-              <R20>0.06966931</R20>
-              <R21>0</R21>
-              <R22>0.99757016</R22>
+              <R11>0.8660254</R11>
+              <R12>-0.5</R12>
+              <R20>0.6819345</R20>
+              <R21>0.36570662</R21>
+              <R22>0.6334223</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -9688,18 +9688,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3020.5635</X>
-            <Y>615.2953</Y>
-            <Z>-354.8334</Z>
-            <R00>0.8290374</R00>
+            <X>-3023.6526</X>
+            <Y>553.38794</Y>
+            <Z>-351.95105</Z>
+            <R00>-0.78800994</R00>
             <R01>0</R01>
-            <R02>-0.5591921</R02>
+            <R02>-0.6156613</R02>
             <R10>0</R10>
             <R11>1</R11>
             <R12>0</R12>
-            <R20>0.5591921</R20>
+            <R20>0.6156613</R20>
             <R21>0</R21>
-            <R22>0.8290374</R22>
+            <R22>-0.78800994</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -11273,18 +11273,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3038.42</X>
+            <X>-3011.326</X>
             <Y>575.60803</Y>
-            <Z>-131.20976</Z>
-            <R00>0.945517</R00>
+            <Z>-126.79254</Z>
+            <R00>0.8660239</R00>
             <R01>0</R01>
-            <R02>0.3255675</R02>
+            <R02>-0.49999923</R02>
             <R10>0</R10>
             <R11>1</R11>
             <R12>0</R12>
-            <R20>-0.3255675</R20>
+            <R20>0.49999923</R20>
             <R21>0</R21>
-            <R22>0.945517</R22>
+            <R22>0.8660239</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -11321,18 +11321,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-3019.5007</X>
+              <X>-3011.3462</X>
               <Y>643.23944</Y>
-              <Z>-78.19888</Z>
-              <R00>0.945517</R00>
+              <Z>-90.958374</Z>
+              <R00>0.8660239</R00>
               <R01>0</R01>
-              <R02>0.3255675</R02>
+              <R02>-0.49999923</R02>
               <R10>0</R10>
               <R11>1</R11>
               <R12>0</R12>
-              <R20>-0.3255675</R20>
+              <R20>0.49999923</R20>
               <R21>0</R21>
-              <R22>0.945517</R22>
+              <R22>0.8660239</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -13866,18 +13866,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-2989.4644</X>
-              <Y>622.5631</Y>
-              <Z>-347.0663</Z>
-              <R00>-0.9335791</R00>
+              <X>-2992.0645</X>
+              <Y>623.93176</Y>
+              <Z>-346.23856</Z>
+              <R00>0.6560581</R00>
               <R01>0</R01>
-              <R02>-0.35836732</R02>
+              <R02>-0.7547082</R02>
               <R10>0</R10>
               <R11>1</R11>
               <R12>0</R12>
-              <R20>0.35836732</R20>
+              <R20>0.7547082</R20>
               <R21>0</R21>
-              <R22>-0.9335791</R22>
+              <R22>0.6560581</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -16987,18 +16987,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-2984.4875</X>
+              <X>-2979.0505</X>
               <Y>574.72314</Y>
-              <Z>-304.0811</Z>
-              <R00>-0.9925454</R00>
+              <Z>-310.25836</Z>
+              <R00>0.6560581</R00>
               <R01>0</R01>
-              <R02>0.121869415</R02>
+              <R02>-0.7547082</R02>
               <R10>0</R10>
               <R11>1</R11>
               <R12>0</R12>
-              <R20>-0.121869415</R20>
+              <R20>0.7547082</R20>
               <R21>0</R21>
-              <R22>-0.9925454</R22>
+              <R22>0.6560581</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -18572,18 +18572,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-3046.322</X>
+              <X>-3020.9434</X>
               <Y>574.72314</Y>
-              <Z>-68.52054</Z>
-              <R00>0.945517</R00>
+              <Z>-74.55635</Z>
+              <R00>0.8660239</R00>
               <R01>0</R01>
-              <R02>0.3255675</R02>
+              <R02>-0.49999923</R02>
               <R10>0</R10>
               <R11>1</R11>
               <R12>0</R12>
-              <R20>-0.3255675</R20>
+              <R20>0.49999923</R20>
               <R21>0</R21>
-              <R22>0.945517</R22>
+              <R22>0.8660239</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -21310,18 +21310,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3047.1277</X>
-            <Y>641.7434</Y>
-            <Z>-67.871735</Z>
-            <R00>0.945517</R00>
-            <R01>0.16278376</R01>
-            <R02>0.2819497</R02>
+            <X>-3021.3232</X>
+            <Y>642.2203</Y>
+            <Z>-73.86792</Z>
+            <R00>0.8660239</R00>
+            <R01>-0.24999961</R01>
+            <R02>-0.43301207</R02>
             <R10>0</R10>
             <R11>0.8660254</R11>
             <R12>-0.5</R12>
-            <R20>-0.3255675</R20>
-            <R21>0.4727585</R21>
-            <R22>0.8188417</R22>
+            <R20>0.49999923</R20>
+            <R21>0.43301195</R21>
+            <R22>0.7499987</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -21358,18 +21358,18 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-3047.1277</X>
-              <Y>641.7434</Y>
-              <Z>-67.871735</Z>
-              <R00>0.945517</R00>
-              <R01>0.16278376</R01>
-              <R02>0.2819497</R02>
+              <X>-3021.3232</X>
+              <Y>642.2203</Y>
+              <Z>-73.86792</Z>
+              <R00>0.8660239</R00>
+              <R01>-0.24999961</R01>
+              <R02>-0.43301207</R02>
               <R10>0</R10>
               <R11>0.8660254</R11>
               <R12>-0.5</R12>
-              <R20>-0.3255675</R20>
-              <R21>0.4727585</R21>
-              <R22>0.8188417</R22>
+              <R20>0.49999923</R20>
+              <R21>0.43301195</R21>
+              <R22>0.7499987</R22>
             </CFrame>
           </OptionalCoordinateFrame>
         </Properties>
@@ -23904,18 +23904,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-2990.586</X>
-            <Y>618.5479</Y>
-            <Z>-347.3489</Z>
-            <R00>0.19080877</R00>
+            <X>-2999.0508</X>
+            <Y>613.31464</Y>
+            <Z>-354.25824</Z>
+            <R00>0.6560581</R00>
             <R01>0</R01>
-            <R02>-0.9816257</R02>
+            <R02>-0.7547082</R02>
             <R10>0</R10>
             <R11>1</R11>
             <R12>0</R12>
-            <R20>0.9816257</R20>
+            <R20>0.7547082</R20>
             <R21>0</R21>
-            <R22>0.19080877</R22>
+            <R22>0.6560581</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>

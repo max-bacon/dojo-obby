@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model174</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -80,7 +80,7 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3430.7544</X>
+            <X>-3430.7542</X>
             <Y>620.48517</Y>
             <Z>94.56483</Z>
             <R00>0.000000011924881</R00>
@@ -1074,8 +1074,8 @@
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
               <X>-3430.6514</X>
-              <Y>624.4518</Y>
-              <Z>94.56173</Z>
+              <Y>624.45184</Y>
+              <Z>94.56172</Z>
               <R00>-0.70710707</R00>
               <R01>0.7071064</R01>
               <R02>0</R02>
@@ -1121,7 +1121,7 @@
             <BinaryString name="Tags"></BinaryString>
             <OptionalCoordinateFrame name="WorldPivotData">
               <CFrame>
-                <X>-3426.572</X>
+                <X>-3426.5718</X>
                 <Y>621.72955</Y>
                 <Z>94.60645</Z>
                 <R00>-0.70710707</R00>
@@ -1810,14 +1810,14 @@
             <BinaryString name="Tags"></BinaryString>
             <OptionalCoordinateFrame name="WorldPivotData">
               <CFrame>
-                <X>-3435.9485</X>
-                <Y>622.8518</Y>
+                <X>-3435.882</X>
+                <Y>622.83984</Y>
                 <Z>94.537544</Z>
-                <R00>0.034899354</R00>
-                <R01>0.99939084</R01>
+                <R00>0.70710665</R00>
+                <R01>0.7071069</R01>
                 <R02>0</R02>
-                <R10>-0.99939084</R10>
-                <R11>0.034899354</R11>
+                <R10>-0.7071069</R10>
+                <R11>0.70710665</R11>
                 <R12>0</R12>
                 <R20>0</R20>
                 <R21>0</R21>

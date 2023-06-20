@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model181</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -32,18 +32,18 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-3488.9946</X>
+          <X>-3487.046</X>
           <Y>676.7187</Y>
-          <Z>122.33107</Z>
-          <R00>0.37460706</R00>
+          <Z>120.83765</Z>
+          <R00>0.86602664</R00>
           <R01>0</R01>
-          <R02>0.92718506</R02>
+          <R02>0.5000007</R02>
           <R10>0</R10>
           <R11>1</R11>
           <R12>0</R12>
-          <R20>-0.92718506</R20>
+          <R20>-0.5000007</R20>
           <R21>0</R21>
-          <R22>0.37460706</R22>
+          <R22>0.86602664</R22>
         </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
@@ -80,18 +80,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3487.0493</X>
+            <X>-3487.049</X>
             <Y>676.1191</Y>
-            <Z>120.82875</Z>
-            <R00>0.8660264</R00>
+            <Z>120.8286</Z>
+            <R00>0.86602664</R00>
             <R01>0</R01>
-            <R02>0.5000006</R02>
+            <R02>0.5000007</R02>
             <R10>0</R10>
             <R11>1</R11>
             <R12>0</R12>
-            <R20>-0.5000006</R20>
+            <R20>-0.5000007</R20>
             <R21>0</R21>
-            <R22>0.8660264</R22>
+            <R22>0.86602664</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -2915,16 +2915,16 @@
           <CFrame>
             <X>-3487.0825</X>
             <Y>689.06537</Y>
-            <Z>120.77425</Z>
-            <R00>0.8660264</R00>
-            <R01>0.2500003</R01>
-            <R02>0.43301323</R02>
-            <R10>0</R10>
-            <R11>0.8660254</R11>
-            <R12>-0.5</R12>
-            <R20>-0.5000006</R20>
-            <R21>0.4330132</R21>
-            <R22>0.7500009</R22>
+            <Z>120.774185</Z>
+            <R00>0.86602664</R00>
+            <R01>0.25000033</R01>
+            <R02>0.43301326</R02>
+            <R10>0.000000014901161</R10>
+            <R11>0.8660253</R11>
+            <R12>-0.49999997</R12>
+            <R20>-0.5000007</R20>
+            <R21>0.43301326</R21>
+            <R22>0.7500011</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -5748,16 +5748,16 @@
           <CFrame>
             <X>-3487.0046</X>
             <Y>689.7017</Y>
-            <Z>120.858086</Z>
-            <R00>0.8660264</R00>
+            <Z>120.857994</Z>
+            <R00>0.86602664</R00>
             <R01>0</R01>
-            <R02>0.5000006</R02>
+            <R02>0.5000007</R02>
             <R10>0</R10>
             <R11>1</R11>
             <R12>0</R12>
-            <R20>-0.5000006</R20>
+            <R20>-0.5000007</R20>
             <R21>0</R21>
-            <R22>0.8660264</R22>
+            <R22>0.86602664</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>

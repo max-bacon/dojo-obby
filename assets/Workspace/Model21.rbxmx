@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model21</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -34,7 +34,7 @@
         <CFrame>
           <X>-2982.8794</X>
           <Y>626.66693</Y>
-          <Z>-255.2953</Z>
+          <Z>-255.29532</Z>
           <R00>0.99999994</R00>
           <R01>0</R01>
           <R02>0</R02>

@@ -13,12 +13,12 @@ local Signal = require(Packages.Signal)
 local Images = require(ReplicatedStorage.Assets.Images).UI
 
 local function calculateSliceScale(screenHeight: number)
-	local constant = 2700
+	local constant = 2700 -- screenSize/x = desiredScale (x == constant)
 
 	return screenHeight / constant
 end
 
-return function(skipClickedSignal: Signal.Signal<>, screenSize: Vector2)
+return function(skipClickedSignal: Signal.Signal<>, screenSize: Vector2, stage: Fusion.Value<number>)
 	local imageColor = Fusion.Value(Color3.fromRGB(0, 255, 0))
 
 	local instance = Fusion.New("ImageButton")({
@@ -32,6 +32,9 @@ return function(skipClickedSignal: Signal.Signal<>, screenSize: Vector2)
 		SliceScale = calculateSliceScale(screenSize.Y),
 		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
 		Image = Images.SkipBackground,
+		Enabled = Fusion.Computed(function()
+			return stage:get() < #workspace.Checkpoints:GetChildren() - 1
+		end),
 
 		[Fusion.OnEvent("MouseButton1Click")] = function()
 			skipClickedSignal:Fire()

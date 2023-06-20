@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model15</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -31,6 +31,20 @@
       <int64 name="SourceAssetId">-1</int64>
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
+        <CFrame>
+          <X>-3455.0823</X>
+          <Y>675.1503</Y>
+          <Z>106.66708</Z>
+          <R00>-0.49999556</R00>
+          <R01>0.22414161</R01>
+          <R02>-0.83651966</R02>
+          <R10>-0.43301103</R10>
+          <R11>0.7718161</R11>
+          <R12>0.46561936</R12>
+          <R20>0.750004</R20>
+          <R21>0.5950298</R21>
+          <R22>-0.28884888</R22>
+        </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
     <Item class="Model" referent="1">
@@ -66,18 +80,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3452.964</X>
-            <Y>672.19806</Y>
-            <Z>105.138626</Z>
-            <R00>0.47620353</R00>
-            <R01>-0.6809244</R01>
-            <R02>0.55639213</R02>
-            <R10>0.7074606</R10>
-            <R11>0.67246187</R11>
-            <R12>0.21747345</R12>
-            <R20>-0.5222355</R20>
-            <R21>0.2900639</R21>
-            <R22>0.8019558</R22>
+            <X>-3455.0823</X>
+            <Y>675.1503</Y>
+            <Z>106.66708</Z>
+            <R00>-0.49999556</R00>
+            <R01>0.22414161</R01>
+            <R02>-0.83651966</R02>
+            <R10>-0.43301103</R10>
+            <R11>0.7718161</R11>
+            <R12>0.46561936</R12>
+            <R20>0.750004</R20>
+            <R21>0.5950298</R21>
+            <R22>-0.28884888</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>
@@ -1308,9 +1322,9 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3449.061</X>
-            <Y>663.6083</Y>
-            <Z>101.35576</Z>
+            <X>-3449.6711</X>
+            <Y>663.5792</Y>
+            <Z>101.38069</Z>
             <R00>0.9743773</R00>
             <R01>0.00000006519258</R01>
             <R02>0.22491801</R02>

@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Ying And Yang</string>
+      <string name="Name">Ying And Yang6</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -32,9 +32,9 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-3375.253</X>
-          <Y>638.34656</Y>
-          <Z>-273.48444</Z>
+          <X>-3380.9968</X>
+          <Y>638.3465</Y>
+          <Z>-282.72562</Z>
           <R00>1</R00>
           <R01>0</R01>
           <R02>0</R02>

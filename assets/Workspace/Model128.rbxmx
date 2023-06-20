@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model128</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -32,18 +32,18 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-3475.3513</X>
-          <Y>579.1725</Y>
-          <Z>-217.01442</Z>
-          <R00>-0.0349869</R00>
-          <R01>0.4996939</R01>
-          <R02>0.8654951</R02>
+          <X>-3485.3518</X>
+          <Y>578.8201</Y>
+          <Z>-221.93733</Z>
+          <R00>-0.656125</R00>
+          <R01>0.3773261</R01>
+          <R02>0.653548</R02>
           <R10>0</R10>
           <R11>0.8660254</R11>
           <R12>-0.5</R12>
-          <R20>-0.9993878</R20>
-          <R21>-0.01749345</R21>
-          <R22>-0.03029944</R22>
+          <R20>-0.7546522</R20>
+          <R21>-0.3280625</R21>
+          <R22>-0.5682209</R22>
         </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
@@ -80,9 +80,9 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3485.9233</X>
+            <X>-3485.923</X>
             <Y>578.4219</Y>
-            <Z>-222.89818</Z>
+            <Z>-222.89804</Z>
             <R00>-0.656125</R00>
             <R01>0</R01>
             <R02>0.7546522</R02>
@@ -513,18 +513,18 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3487.5173</X>
-            <Y>665.76117</Y>
-            <Z>-222.95627</Z>
+            <X>-3485.0469</X>
+            <Y>663.39417</Y>
+            <Z>-222.20244</Z>
             <R00>-0.656125</R00>
-            <R01>0</R01>
-            <R02>0.7546522</R02>
+            <R01>0.3773261</R01>
+            <R02>0.653548</R02>
             <R10>0</R10>
-            <R11>1</R11>
-            <R12>0</R12>
+            <R11>0.8660254</R11>
+            <R12>-0.5</R12>
             <R20>-0.7546522</R20>
-            <R21>0</R21>
-            <R22>-0.656125</R22>
+            <R21>-0.3280625</R21>
+            <R22>-0.5682209</R22>
           </CFrame>
         </OptionalCoordinateFrame>
       </Properties>

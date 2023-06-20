@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model186</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -32,18 +32,18 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-3241.5933</X>
-          <Y>624.42206</Y>
-          <Z>158.33997</Z>
-          <R00>0.08491878</R00>
-          <R01>0.99616736</R01>
-          <R02>-0.02100879</R02>
-          <R10>-0.22074765</R10>
-          <R11>-0.0017515729</R11>
-          <R12>-0.97533643</R12>
+          <X>-3241.5935</X>
+          <Y>624.4219</Y>
+          <Z>158.34018</Z>
+          <R00>0.08491884</R00>
+          <R01>0.9961671</R01>
+          <R02>-0.021007113</R02>
+          <R10>-0.22074693</R10>
+          <R11>-0.0017500016</R11>
+          <R12>-0.9753298</R12>
           <R20>-0.9716278</R20>
-          <R21>0.087461546</R21>
-          <R22>0.21975286</R22>
+          <R21>0.08746116</R21>
+          <R22>0.21975215</R22>
         </CFrame>
       </OptionalCoordinateFrame>
     </Properties>
@@ -80,9 +80,9 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3241.1064</X>
-            <Y>625.8318</Y>
-            <Z>159.99602</Z>
+            <X>-3241.6045</X>
+            <Y>625.8326</Y>
+            <Z>159.95226</Z>
             <R00>-0.99616873</R00>
             <R01>0.021004781</R01>
             <R02>0.084901065</R02>
@@ -514,9 +514,9 @@
         <BinaryString name="Tags"></BinaryString>
         <OptionalCoordinateFrame name="WorldPivotData">
           <CFrame>
-            <X>-3241.7805</X>
-            <Y>623.9593</Y>
-            <Z>160.46191</Z>
+            <X>-3241.6074</X>
+            <Y>623.767</Y>
+            <Z>158.48773</Z>
             <R00>-0.99616706</R00>
             <R01>0.021007352</R01>
             <R02>0.084920734</R02>

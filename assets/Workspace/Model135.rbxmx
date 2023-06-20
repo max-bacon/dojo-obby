@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Model</string>
+      <string name="Name">Model135</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -34,7 +34,7 @@
         <CFrame>
           <X>-3009.1868</X>
           <Y>624.17566</Y>
-          <Z>-256.21188</Z>
+          <Z>-256.21185</Z>
           <R00>-0.16626589</R00>
           <R01>-0.4581175</R01>
           <R02>0.873203</R02>
@@ -338,7 +338,7 @@
           <CFrame>
             <X>-3009.0637</X>
             <Y>627.807</Y>
-            <Z>-254.25732</Z>
+            <Z>-254.25734</Z>
             <R00>-0.16626589</R00>
             <R01>-0.4581175</R01>
             <R02>0.873203</R02>
@@ -384,9 +384,9 @@
           <BinaryString name="Tags"></BinaryString>
           <OptionalCoordinateFrame name="WorldPivotData">
             <CFrame>
-              <X>-3009.1206</X>
-              <Y>627.10693</Y>
-              <Z>-254.44362</Z>
+              <X>-3009.1208</X>
+              <Y>627.107</Y>
+              <Z>-254.44353</Z>
               <R00>-0.16626589</R00>
               <R01>-0.4581175</R01>
               <R02>0.873203</R02>
@@ -1203,7 +1203,7 @@
             <CFrame>
               <X>-3009.0637</X>
               <Y>627.807</Y>
-              <Z>-254.25732</Z>
+              <Z>-254.25734</Z>
               <R00>-0.16626589</R00>
               <R01>-0.4581175</R01>
               <R02>0.873203</R02>

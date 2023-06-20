@@ -1,7 +1,7 @@
 <roblox version="4">
   <Item class="Model" referent="0">
     <Properties>
-      <string name="Name">Bush_TrainingCourse</string>
+      <string name="Name">Bush_TrainingCourse8</string>
       <BinaryString name="AttributesSerialize"></BinaryString>
       <token name="LevelOfDetail">0</token>
       <CoordinateFrame name="ModelMeshCFrame">
@@ -32,9 +32,9 @@
       <BinaryString name="Tags"></BinaryString>
       <OptionalCoordinateFrame name="WorldPivotData">
         <CFrame>
-          <X>-3427.9905</X>
-          <Y>623.49097</Y>
-          <Z>-201.51767</Z>
+          <X>-3427.4746</X>
+          <Y>623.4619</Y>
+          <Z>-201.84436</Z>
           <R00>-0.73137647</R00>
           <R01>-0.000000009749965</R01>
           <R02>-0.681973</R02>
