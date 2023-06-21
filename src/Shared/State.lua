@@ -8,7 +8,7 @@ local Signal = require(Packages.Signal)
 
 export type State = {
 	CheckpointTransparency: Fusion.Value<number>,
-	SkipClickedSignal: Signal.Signal<>,
+	SkipClickedSignal: Signal.Signal<...any>,
 	ScreenSize: Vector2,
 	Stage: Fusion.Value<number>
 }

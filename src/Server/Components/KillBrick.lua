@@ -1,3 +1,5 @@
+--!nonstrict
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Component = require(ReplicatedStorage.Packages.Component)

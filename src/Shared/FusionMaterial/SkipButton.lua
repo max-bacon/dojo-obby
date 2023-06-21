@@ -18,7 +18,7 @@ local function calculateSliceScale(screenHeight: number)
 	return screenHeight / constant
 end
 
-return function(skipClickedSignal: Signal.Signal<>, screenSize: Vector2, stage: Fusion.Value<number>)
+return function(skipClickedSignal: Signal.Signal<...any>, screenSize: Vector2, stage: Fusion.Value<number>)
 	local imageColor = Fusion.Value(Color3.fromRGB(0, 255, 0))
 
 	local instance = Fusion.New("ImageButton")({
@@ -32,7 +32,7 @@ return function(skipClickedSignal: Signal.Signal<>, screenSize: Vector2, stage: 
 		SliceScale = calculateSliceScale(screenSize.Y),
 		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
 		Image = Images.SkipBackground,
-		Enabled = Fusion.Computed(function()
+		Visible = Fusion.Computed(function()
 			return stage:get() < #workspace.Checkpoints:GetChildren() - 1
 		end),
 

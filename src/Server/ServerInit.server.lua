@@ -16,22 +16,19 @@ local PurchaseModule = require(Modules.PurchaseModule)
 local Components = {}
 
 for _, c in ServerScriptService.Components:GetChildren() do
-	Components[c.Name] = require(c)
+	Components[c.Name] = require(c) :: any
 end
 
 Players.PlayerAdded:Connect(function(player: Player)
 	StatsModule.initialize(player)
 
-    player.CharacterAdded:Connect(function(character: Model)
-        
-        SpawnModule.spawn(player, character)
-    end)
+	player.CharacterAdded:Connect(function(character: Model)
+		SpawnModule.spawn(player, character, true)
+	end)
 end)
 
 Players.PlayerRemoving:Connect(function(player: Player)
 	StatsModule.clean(player)
 end)
 
-Remotes:On("Sale", function(player: Player)
-
-end)
+Remotes:On("Sale", function(player: Player) end)

@@ -1,3 +1,5 @@
+--!nonstrict
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServerScriptService = game:GetService("ServerScriptService")
 
@@ -33,7 +35,8 @@ function Checkpoint:Construct()
 	self._trove = Trove.new()
 
 	self.Stage = tonumber(self.Instance.Name:sub(11))
-	self.Spawn = self.Instance.Spawn
+	self.Spawn = self.Instance:FindFirstChild("Spawn") or self.Instance:FindFirstChild("Teleport")
+	self.Teleport = self.Instance:FindFirstChild("Teleport")
 	if self.Stage == 0 then
 		return
 	end
