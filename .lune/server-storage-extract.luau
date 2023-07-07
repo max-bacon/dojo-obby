@@ -1,6 +1,6 @@
 --[[
 
-lune workspace-extract.lua
+lune server-storage-extract.luau
 
 ]]
 
@@ -8,13 +8,12 @@ local roblox = require("@lune/roblox")
 local fs = require("@lune/fs")
 
 local ignore = {
-	"Camera",
-	"Terrain",
+	"Packages",
 }
 
 local restrict = {}
 
-local save = "assets/Workspace/"
+local save = "assets/ServerStorage/"
 
 local game = roblox.readPlaceFile(".lune/map.rbxl")
 
@@ -36,7 +35,7 @@ local function isFile(name: string)
 	end
 end
 
-local Models = game.Workspace
+local Models = game.ServerStorage
 fs.writeDir(save)
 
 for _, model in ipairs(Models:GetChildren()) do

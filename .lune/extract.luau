@@ -1,6 +1,6 @@
 --[[
 
-lune extract.lua
+lune extract.luau
 
 ]]
 

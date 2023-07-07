@@ -1,6 +1,6 @@
 --[[
 
-lune lighting-extract.lua
+lune lighting-extract.luau
 
 ]]
 

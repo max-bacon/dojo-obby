@@ -8,6 +8,8 @@ temp/
 *.rbxlx.lock
 *.rbxl.lock
 
-BuildScripts/Build/
+BuildScripts/Build/*
+
+!BuildScripts/Build/.gitkeep
 
 !default.base.rbxl
