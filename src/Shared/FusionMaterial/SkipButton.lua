@@ -1,6 +1,4 @@
-local Player = game:GetService("Players").LocalPlayer
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local RunService = game:GetService("RunService")
 
 local Packages = ReplicatedStorage.Packages
 
@@ -22,7 +20,7 @@ return function(skipClickedSignal: Signal.Signal<...any>, screenSize: Vector2, s
 	local imageColor = Fusion.Value(Color3.fromRGB(0, 255, 0))
 
 	local instance = Fusion.New("ImageButton")({
-		Name = "Skip",
+		Name = "SkipButton",
 		Size = UDim2.fromScale(0.1, 0.1),
 		AnchorPoint = Vector2.new(1, 1),
 		Position = UDim2.fromScale(1, 1),
@@ -31,7 +29,7 @@ return function(skipClickedSignal: Signal.Signal<...any>, screenSize: Vector2, s
 		SliceCenter = Rect.new(18, 18, 1004, 320),
 		SliceScale = calculateSliceScale(screenSize.Y),
 		BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-		Image = Images.SkipBackground,
+		Image = Images.ButtonBackground,
 		Visible = Fusion.Computed(function()
 			return stage:get() < #workspace.Checkpoints:GetChildren() - 1
 		end),
@@ -50,7 +48,7 @@ return function(skipClickedSignal: Signal.Signal<...any>, screenSize: Vector2, s
 
 		[Fusion.Children] = {
 			Fusion.New("ImageLabel")({
-				Name = "SkipText",
+				Name = "Text",
 				Position = UDim2.fromScale(0.5, 0.5),
 				Size = UDim2.fromScale(0.8, 0.8),
 				Image = Images.SkipText,

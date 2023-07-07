@@ -16,8 +16,11 @@ return function(state: State, components: { [string]: (...any) -> () })
 		Name = "Main",
 		[Fusion.Children] = {
 			components.CheckpointNotification(state.CheckpointTransparency),
-			components.Store(),
-			components.SkipButton(state.SkipClickedSignal, state.ScreenSize, state.Stage)
+			components.SkipButton(state.SkipClickedSignal, state.ScreenSize, state.Stage),
+			components.SettingsFrame(),
+			components.SettingsButton(),
+			components.StoreFrame(),
+			components.StoreButton(state.StoreButtonVisible, {state.StoreFrameVisible, state.StoreButtonVisible, state.SkipButtonVisible}, state.ScreenSize),
 		},
 	})
 end

@@ -30,5 +30,3 @@ end)
 Players.PlayerRemoving:Connect(function(player: Player)
 	StatsModule.clean(player)
 end)
-
-Remotes:On("Sale", function(player: Player) end)

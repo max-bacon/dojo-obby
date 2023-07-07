@@ -10,11 +10,10 @@ local fs = require("@lune/fs")
 local ignore = {
 	"Camera",
 	"Packages",
-}
-
-local restrict = {
 	"Terrain",
 }
+
+local restrict = {}
 
 local game = roblox.readPlaceFile(".lune/map.rbxl")
 
@@ -27,16 +26,16 @@ local function check(name, checkArr)
 	return false
 end
 
-local function isFile(name)
+local function isFile(name: string)
 	-- print(name)
-	if fs.isFile(name .. ".rbxmx") then
+	if fs.isFile(name .. ".rbxm") then
 		return true
 	else
 		return false
 	end
 end
 
-local function main(save, loc)
+local function main(save: string, loc)
 	local Models = loc
 	fs.writeDir(save)
 
@@ -49,9 +48,9 @@ local function main(save, loc)
 					i = i + 1
 				until not isFile(save .. model.Name .. i)
 
-				roblox.writeModelFile(save .. model.Name .. i .. ".rbxmx", { model })
+				roblox.writeModelFile(save .. model.Name .. i .. ".rbxm", { model })
 			else
-				roblox.writeModelFile(save .. model.Name .. ".rbxmx", { model })
+				roblox.writeModelFile(save .. model.Name .. ".rbxm", { model })
 			end
 		end
 	end

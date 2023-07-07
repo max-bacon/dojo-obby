@@ -10,7 +10,7 @@ local PurchaseModule = {}
 local RobuxReactionModule = require(script.Parent.RobuxReactionModule)
 
 type Format = {
-	[number]: (Player) -> (boolean),
+	[number]: (Player) -> boolean,
 }
 
 local Gamepasses: Format = {
@@ -30,7 +30,7 @@ MarketplaceService.PromptGamePassPurchaseFinished:Connect(function(player, pass_
 	Gamepasses[pass_id](player)
 end)
 
-MarketplaceService.ProcessReceipt = function(receiptInfo: {[string]: any})
+MarketplaceService.ProcessReceipt = function(receiptInfo: { [string]: any })
 	local playerProductKey = receiptInfo.PlayerId .. "_" .. receiptInfo.PurchaseId
 	local purchased = false
 	local success, result, errorMessage
@@ -45,7 +45,7 @@ MarketplaceService.ProcessReceipt = function(receiptInfo: {[string]: any})
 		error("Data store error:" .. errorMessage)
 	end
 
-	-- Determine if the product was already granted by checking the data store 
+	-- Determine if the product was already granted by checking the data store
 
 	local success2, isPurchaseRecorded: any? = pcall(function()
 		return PurchaseHistoryStore:UpdateAsync(playerProductKey, function(alreadyPurchased): any
@@ -66,7 +66,14 @@ MarketplaceService.ProcessReceipt = function(receiptInfo: {[string]: any})
 			local success: any?, result: any? = pcall(handler, player)
 			-- If granting the product failed, do NOT record the purchase in datastores.
 			if not success or not result then
-				error("Failed to process a product purchase for ProductId: " .. tostring(receiptInfo.ProductId) .. " Player: " .. tostring(player) .. " Error: " .. tostring(result))
+				error(
+					"Failed to process a product purchase for ProductId: "
+						.. tostring(receiptInfo.ProductId)
+						.. " Player: "
+						.. tostring(player)
+						.. " Error: "
+						.. tostring(result)
+				)
 				return nil
 			end
 
@@ -81,7 +88,7 @@ MarketplaceService.ProcessReceipt = function(receiptInfo: {[string]: any})
 	elseif isPurchaseRecorded == nil then
 		-- Didn't update the value in data store.
 		return Enum.ProductPurchaseDecision.NotProcessedYet
-	else	
+	else
 		-- IMPORTANT: Tell Roblox that the game successfully handled the purchase
 		return Enum.ProductPurchaseDecision.PurchaseGranted
 	end

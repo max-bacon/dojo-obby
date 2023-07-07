@@ -1,3 +1,8 @@
+[inputs."images/UI/ButtonBackground.png"]
+hash = "6043d98609c8d0ad4b43187cf99b407eb048b44cbae5a0dfcb5ccae06b353d6a"
+id = 13832536719
+packable = false
+
 [inputs."images/UI/CheckpointText.png"]
 hash = "d44ae104b89ffbc2ad2cfe10945c0ce55c9d05a238263ad2f780a6bf1a7406ca"
 id = 13118066777
@@ -8,12 +13,17 @@ hash = "38b7e229fb4e32691db17aa0cdba83adafca3551b7c6f3d00bbdfd6801b86a2c"
 id = 13074066045
 packable = false
 
-[inputs."images/UI/SkipBackground.png"]
-hash = "6043d98609c8d0ad4b43187cf99b407eb048b44cbae5a0dfcb5ccae06b353d6a"
-id = 13764274301
+[inputs."images/UI/SettingsButton.png"]
+hash = "36d28ec2684ec1a74e5303a097c9ba2c67ab2340ef3bcfbbdb1fa6f820cc6117"
+id = 13824957462
 packable = false
 
 [inputs."images/UI/SkipText.png"]
 hash = "914cb5a5c5e50271cb194a46f76d331df3908a6a41aff4a1de4a62e12f32d1d5"
 id = 13764274398
+packable = false
+
+[inputs."images/UI/StoreButton.png"]
+hash = "07d170bb9afc2f9e50ce392814d66ce88dd1898bc312451266ae1603a3e72828"
+id = 13873153043
 packable = false

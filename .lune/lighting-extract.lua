@@ -11,8 +11,8 @@ local save = "assets/Lighting/"
 
 local game = roblox.readPlaceFile(".lune/map.rbxl")
 
-local function isFile(name)
-	if fs.isFile(name .. ".rbxmx") then
+local function isFile(name: string)
+	if fs.isFile(name .. ".rbxm") then
 		return true
 	else
 		return false
@@ -30,8 +30,8 @@ for _, model in ipairs(Models:GetChildren()) do
 			i = i + 1
 		until not isFile(save .. model.Name .. i)
 
-		roblox.writeModelFile(save .. model.Name .. i .. ".rbxmx", { model })
+		roblox.writeModelFile(save .. model.Name .. i .. ".rbxm", { model })
 	else
-		roblox.writeModelFile(save .. model.Name .. ".rbxmx", { model })
+		roblox.writeModelFile(save .. model.Name .. ".rbxm", { model })
 	end
 end

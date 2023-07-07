@@ -8,7 +8,7 @@ local Sound = {}
 
 function Sound.new(soundId: string, parent: Instance, props: { [string]: any }?)
 	return Promise.new(function(resolve, reject, onCancel)
-		local sound = parent:FindFirstChildOfClass("Sound") or Instance.new("Sound")
+		local sound: any = parent:FindFirstChildOfClass("Sound") or Instance.new("Sound")
 		sound.Parent = parent
 		sound.SoundId = Sounds[soundId] or soundId
 

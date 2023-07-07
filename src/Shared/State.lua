@@ -10,7 +10,12 @@ export type State = {
 	CheckpointTransparency: Fusion.Value<number>,
 	SkipClickedSignal: Signal.Signal<...any>,
 	ScreenSize: Vector2,
-	Stage: Fusion.Value<number>
+	Stage: Fusion.Value<number>,
+	StoreButtonVisible: Fusion.Value<boolean>,
+	SettingsButtonVisible: Fusion.Value<boolean>,
+	SkipButtonVisible: Fusion.Value<boolean>,
+	StoreFrameVisible: Fusion.Value<boolean>,
+	SettingsFrameVisible: Fusion.Value<boolean>,
 }
 
 return function(): State
@@ -23,6 +28,11 @@ return function(): State
 		CheckpointTransparency = checkpointTransparency,
 		SkipClickedSignal = skipClickedSignal,
 		ScreenSize = screenSize,
-		Stage = stage
+		Stage = stage,
+		StoreButtonVisible = Fusion.Value(true),
+		SettingsButtonVisible = Fusion.Value(true),
+		SkipButtonVisible = Fusion.Value(true),
+		StoreFrameVisible = Fusion.Value(false),
+		SettingsFrameVisible = Fusion.Value(false),
 	}
 end

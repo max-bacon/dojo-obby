@@ -7,7 +7,7 @@ local Component = require(ReplicatedStorage.Packages.Component)
 local Trove = require(ReplicatedStorage.Packages.Trove)
 local Red = require(ReplicatedStorage.Packages.Red)
 
-local Remotes = Red.Server("Events")
+local Network = Red.Server("Network")
 
 local StatsModule = require(ServerScriptService.Modules.StatsModule)
 
@@ -26,8 +26,7 @@ function Checkpoint:_onTouched(hit)
 	if StatsModule.get(Player, "Stage") >= self.Stage then
 		return
 	end
-
-	Remotes:Fire(Player, "CheckpointReached")
+	
 	StatsModule.set(Player, "Stage", self.Stage)
 end
 
