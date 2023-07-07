@@ -5,7 +5,9 @@ temp/
 /*.rbxlx
 /*.rbxl
 
-!default.base.rbxl
+*.rbxlx.lock
+*.rbxl.lock
 
-/*.rbxlx.lock
-/*.rbxl.lock
+BuildScripts/Build/
+
+!default.base.rbxl

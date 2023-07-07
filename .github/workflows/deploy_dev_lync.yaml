@@ -1,0 +1,26 @@
+name: Deploy Dev
+
+on:
+  push:
+    branches:
+    - dev
+
+jobs:
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - uses: ok-nick/setup-aftman@v0.3.0
+      name: Install Aftman
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - run: wally install
+    
+    - run: ./.github/shell/lync_build.sh
+
+    - run: rbxcloud experience publish -f ./BuildScripts/Build/Build.rbxl -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
