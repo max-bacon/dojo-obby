@@ -14,14 +14,23 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Install Node.js
+    uses: actions/setup-node@v3
+
+    - uses: actions/checkout@master
+      with:
+        name: Iron-Stag-Games/Lync
+        ref: refs/heads/release
+
     - uses: ok-nick/setup-aftman@v0.3.0
       name: Install Aftman
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Install Lync
+
+
     - run: wally install
-    
-    - run: echo dir
 
     - run: ./BuildScripts/Win_BuildOffline.bat
 
