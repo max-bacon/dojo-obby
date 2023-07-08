@@ -18,8 +18,6 @@ jobs:
 
     - name: Checkout repo
       uses: actions/checkout@v3
-      with:
-        path: main
 
     - name: Checkout Lync
       uses: actions/checkout@master
@@ -29,8 +27,6 @@ jobs:
 
     - run: Lync/Win_Install.bat
       name: Install Lync
-
-    - run: cd main
 
     - uses: ok-nick/setup-aftman@v0.3.0
       name: Install Aftman
