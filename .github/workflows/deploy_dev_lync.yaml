@@ -17,9 +17,7 @@ jobs:
     - name: Install Node.js
     uses: actions/setup-node@v3
 
-    - uses: actions/checkout@v3
-      with:
-        name: Iron-Stag-Games/Lync
+    
 
     - uses: ok-nick/setup-aftman@v0.3.0
       name: Install Aftman
