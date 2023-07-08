@@ -24,6 +24,7 @@ jobs:
       with:
         repository: Iron-Stag-Games/Lync
         path: Lync
+        ref: latest
 
     - run: dir -r
 
@@ -36,4 +37,4 @@ jobs:
 
     - run: node "Lync/Lync/index.js" default.project.json OFFLINE
 
-    - run: rbxcloud experience publish -f ./BuildScripts/Build/Build.rbxl -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
+    - run: rbxcloud experience publish -f BuildScripts/Build/Build.rbxl -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
