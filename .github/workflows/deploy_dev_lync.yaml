@@ -35,6 +35,6 @@ jobs:
 
     - run: wally install
 
-    - run: ./BuildScripts/Win_BuildOffline.bat
+    - run: node "../Lync/index.js" default.project.json OFFLINE
 
     - run: rbxcloud experience publish -f ./BuildScripts/Build/Build.rbxl -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
