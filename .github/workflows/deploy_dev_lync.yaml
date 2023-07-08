@@ -24,7 +24,6 @@ jobs:
       with:
         repository: Iron-Stag-Games/Lync
         path: Lync
-        ref: latest
 
     - run: dir -r
 
