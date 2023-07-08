@@ -30,6 +30,8 @@ jobs:
     - run: Lync/Win_Install.bat
       name: Install Lync
 
+    - run: cd main
+
     - uses: ok-nick/setup-aftman@v0.3.0
       name: Install Aftman
       with:
