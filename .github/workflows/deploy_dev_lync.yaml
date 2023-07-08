@@ -8,12 +8,14 @@ on:
 jobs:
 
   deploy:
-    - name: Install Node.js
-      uses: actions/setup-node@v3
-
     name: Deploy
     runs-on: windows-latest
     steps:
+
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+
     - name: Checkout repo
       uses: actions/checkout@v3
       with:
