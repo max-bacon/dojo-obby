@@ -13,11 +13,14 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
+      with:
+        path: main
 
     - name: Checkout Lync
       uses: actions/checkout@master
       with:
         repository: Iron-Stag-Games/Lync
+        path: Lync
 
     - name: Install Node.js
       uses: actions/setup-node@v3
@@ -27,10 +30,9 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
-    
-
-
     - run: wally install
+
+    - run: dir
 
     - run: ./BuildScripts/Win_BuildOffline.bat
 
