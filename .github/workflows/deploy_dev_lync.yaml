@@ -11,7 +11,7 @@ jobs:
     name: Deploy
     runs-on: windows-latest
     steps:
-    - run: dir -r
+    - run: dir
 
     - name: Install Node.js
       uses: actions/setup-node@v3
@@ -34,6 +34,6 @@ jobs:
 
     - run: wally install
 
-    - run: node "../Lync/Lync/index.js" default.project.json OFFLINE
+    - run: node "Lync/index.js" default.project.json OFFLINE
 
     - run: rbxcloud experience publish -f ./BuildScripts/Build/Build.rbxl -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
