@@ -11,8 +11,7 @@ jobs:
     name: Deploy
     runs-on: windows-latest
     steps:
-    - run: dir
-
+    
     - name: Install Node.js
       uses: actions/setup-node@v3
 
