@@ -25,8 +25,7 @@ jobs:
         repository: Iron-Stag-Games/Lync
         path: Lync
 
-    - run: Lync/Win_Install.bat
-      name: Install Lync
+    - run: dir -r
 
     - uses: ok-nick/setup-aftman@v0.3.0
       name: Install Aftman
