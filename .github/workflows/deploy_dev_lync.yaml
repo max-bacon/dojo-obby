@@ -16,12 +16,14 @@ jobs:
       with:
         path: main
 
+    
+
     - name: Checkout Lync
       uses: actions/checkout@master
       with:
         repository: Iron-Stag-Games/Lync
         path: Lync
-
+- run: dir
     - name: Install Node.js
       uses: actions/setup-node@v3
 
@@ -32,7 +34,7 @@ jobs:
 
     - run: wally install
 
-    - run: dir
+    
 
     - run: ./BuildScripts/Win_BuildOffline.bat
 
