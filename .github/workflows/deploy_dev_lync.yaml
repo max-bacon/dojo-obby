@@ -11,8 +11,14 @@ jobs:
     name: Deploy
     runs-on: windows-latest
     steps:
-    - name: Checkout code
+    - name: Checkout repo
       uses: actions/checkout@v3
+
+    - name: Checkout Lync
+      uses: actions/checkout@master
+      with:
+        name: Iron-Stag-Games/Lync
+        ref: refs/heads/release
 
     - name: Install Node.js
       uses: actions/setup-node@v3
@@ -22,7 +28,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Install Lync
+    
 
 
     - run: wally install
