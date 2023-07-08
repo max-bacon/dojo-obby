@@ -9,7 +9,7 @@ jobs:
 
   deploy:
     name: Deploy
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -21,6 +21,8 @@ jobs:
 
     - run: wally install
     
-    - run: ./.github/shell/lync_build.sh
+    - run: echo dir
+
+    - run: ./BuildScripts/Win_BuildOffline.bat
 
     - run: rbxcloud experience publish -f ./BuildScripts/Build/Build.rbxl -p ${{ secrets.DEV_PLACE_ID }} -u ${{ secrets.DEV_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}

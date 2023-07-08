@@ -30,10 +30,6 @@
 			"$path": "assets/Workspace",
 			"$properties": {
 				"Gravity": 196.2
-			},
-			"Terrain": {
-				"$terrainRegion": ["assets/TerrainRegion.rbxm", ["Vector3int16.new(-32000, -32000, -32000)"], true],
-				"$terrainMaterialColors": {}
 			}
 		},
 		"Lighting": {
