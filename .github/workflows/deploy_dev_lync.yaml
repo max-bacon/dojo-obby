@@ -11,7 +11,7 @@ jobs:
     name: Deploy
     runs-on: windows-latest
     steps:
-    
+
     - name: Install Node.js
       uses: actions/setup-node@v3
 
@@ -23,8 +23,6 @@ jobs:
       with:
         repository: Iron-Stag-Games/Lync
         path: Lync
-
-    - run: dir -r
 
     - uses: ok-nick/setup-aftman@v0.3.0
       name: Install Aftman

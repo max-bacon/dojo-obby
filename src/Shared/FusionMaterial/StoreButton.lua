@@ -16,7 +16,7 @@ local function calculateSliceScale(screenHeight: number)
 	return screenHeight / constant
 end
 
-return function(storeButtonVisible: Fusion.Value<boolean>, uiVisibleProperties: {Fusion.Value<boolean>}, screenSize: Vector2)
+return function(storeButtonVisible: Fusion.Value<boolean>, storeFrameVisible: Fusion.Value<boolean>, buttonVisibility: {Fusion.Value<boolean>}, screenSize: Vector2)
 	local startColor = Color3.fromRGB(0, 255, 0)
 	local endColor = Color3.fromRGB(0, 51, 0)
 	local imageColor = Fusion.Value(startColor)
@@ -35,10 +35,10 @@ return function(storeButtonVisible: Fusion.Value<boolean>, uiVisibleProperties: 
 		Visible = storeButtonVisible,
 
 		[Fusion.OnEvent("MouseButton1Click")] = function()
-			for _, v in uiVisibleProperties do
-				print(v)
+			for _, v in buttonVisibility do
 				v:set(not v:get())
 			end
+			storeFrameVisible:set(not storeFrameVisible:get())
 		end,
 
 		[Fusion.OnEvent("MouseEnter")] = function()
