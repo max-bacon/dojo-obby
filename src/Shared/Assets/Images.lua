@@ -3,6 +3,7 @@ return {
 	UI = {
 		ButtonBackground = "rbxassetid://13832536719",
 		CheckpointText = "rbxassetid://13118066777",
+		CloseButton = "rbxassetid://14026336892",
 		Katana = "rbxassetid://13074066045",
 		SettingsButton = "rbxassetid://13824957462",
 		SkipText = "rbxassetid://13764274398",

@@ -8,6 +8,11 @@ hash = "d44ae104b89ffbc2ad2cfe10945c0ce55c9d05a238263ad2f780a6bf1a7406ca"
 id = 13118066777
 packable = false
 
+[inputs."images/UI/CloseButton.png"]
+hash = "e9a775aeb870e2909bf406e2be59de82dfe7a8a56765404ae2d6d4b3bde527c0"
+id = 14026336892
+packable = false
+
 [inputs."images/UI/Katana.png"]
 hash = "38b7e229fb4e32691db17aa0cdba83adafca3551b7c6f3d00bbdfd6801b86a2c"
 id = 13074066045
