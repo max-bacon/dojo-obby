@@ -37,9 +37,14 @@ local function isFile(name: string)
 end
 
 local function main(save: string, loc)
-	fs.removeDir(save)
 	local Models = loc
 	fs.writeDir(save)
+
+	for _, entryName in fs.readDir(save) do
+		if fs.isFile(entryName) then
+			fs.removeFile(entryName)
+		end
+	end
 
 	for _, model in ipairs(Models:GetChildren()) do
 		print(model.Name)

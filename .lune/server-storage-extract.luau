@@ -36,9 +36,14 @@ local function isFile(name: string)
 	end
 end
 
-fs.removeDir(save)
 local Models = game.ServerStorage
 fs.writeDir(save)
+
+for _, entryName in fs.readDir(save) do
+	if fs.isFile(entryName) then
+		fs.removeFile(entryName)
+	end
+end
 
 for _, model in ipairs(Models:GetChildren()) do
 	print(model.Name)
