@@ -16,7 +16,8 @@ local restrict = {}
 
 local save = "assets/Workspace/"
 
-local game = roblox.readPlaceFile(".lune/map.rbxl")
+local placeFile = fs.readFile(".lune/map.rbxl")
+local game = roblox.deserializePlace(placeFile)
 
 local function check(name, checkArr)
 	for _, c in pairs(checkArr) do
@@ -36,6 +37,7 @@ local function isFile(name: string)
 	end
 end
 
+fs.removeDir(save)
 local Models = game.Workspace
 fs.writeDir(save)
 
@@ -48,9 +50,9 @@ for _, model in ipairs(Models:GetChildren()) do
 				i = i + 1
 			until not isFile(save .. model.Name .. i)
 
-			roblox.writeModelFile(save .. model.Name .. i .. ".rbxm", { model })
+			fs.writeFile(save .. model.Name .. i .. ".rbxm", roblox.serializeModel({ model }))
 		else
-			roblox.writeModelFile(save .. model.Name .. ".rbxm", { model })
+			fs.writeFile(save .. model.Name .. ".rbxm", roblox.serializeModel({ model }))
 		end
 	end
 end

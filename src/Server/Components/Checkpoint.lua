@@ -15,8 +15,8 @@ local Checkpoint = Component.new({
 	Tag = "Checkpoint",
 })
 
-function Checkpoint:_onTouched(hit)
-	local hum: Humanoid = hit.Parent:FindFirstChild("Humanoid")
+function Checkpoint:_onTouched(hit: BasePart)
+	local hum = hit.Parent:FindFirstChildOfClass("Humanoid")
 	if not hum then
 		return
 	end
@@ -26,7 +26,7 @@ function Checkpoint:_onTouched(hit)
 	if StatsModule.get(Player, "Stage") >= self.Stage then
 		return
 	end
-	
+
 	StatsModule.set(Player, "Stage", self.Stage)
 end
 

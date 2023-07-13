@@ -9,8 +9,9 @@ local KillBrick = Component.new({
 	Tag = "KillBrick",
 })
 
-function KillBrick:_onTouched(hit)
-	local hum: Humanoid = hit.Parent:FindFirstChild("Humanoid")
+function KillBrick:_onTouched(hit: BasePart)
+	local hum = hit.Parent:FindFirstChild("Humanoid")
+	assert(hum:IsA("Humanoid"))
 	if not hum then
 		return
 	end
@@ -20,7 +21,7 @@ function KillBrick:_onTouched(hit)
 	end
 end
 
-function KillBrick:_touchedLogic()
+function KillBrick:_initializeTouchedConnections()
 	if self.Instance:IsA("BasePart") then
 		self._trove:Add(self.Instance.Touched:Connect(function(hit)
 			self:_onTouched(hit)
@@ -39,7 +40,7 @@ end
 function KillBrick:Construct()
 	self._trove = Trove.new()
 
-	self:_touchedLogic()
+	self:_initializeTouchedConnections()
 end
 
 function KillBrick:Start() end

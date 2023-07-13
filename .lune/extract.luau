@@ -15,7 +15,8 @@ local ignore = {
 
 local restrict = {}
 
-local game = roblox.readPlaceFile(".lune/map.rbxl")
+local placeFile = fs.readFile(".lune/map.rbxl")
+local game = roblox.deserializePlace(placeFile)
 
 local function check(name, checkArr)
 	for _, c in pairs(checkArr) do
@@ -36,6 +37,7 @@ local function isFile(name: string)
 end
 
 local function main(save: string, loc)
+	fs.removeDir(save)
 	local Models = loc
 	fs.writeDir(save)
 
@@ -48,9 +50,9 @@ local function main(save: string, loc)
 					i = i + 1
 				until not isFile(save .. model.Name .. i)
 
-				roblox.writeModelFile(save .. model.Name .. i .. ".rbxm", { model })
+				fs.writeFile(save .. model.Name .. i .. ".rbxm", roblox.serializeModel({model}))
 			else
-				roblox.writeModelFile(save .. model.Name .. ".rbxm", { model })
+				fs.writeFile(save .. model.Name .. ".rbxm", roblox.serializeModel({model}))
 			end
 		end
 	end
