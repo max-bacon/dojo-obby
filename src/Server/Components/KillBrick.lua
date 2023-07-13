@@ -10,12 +10,13 @@ local KillBrick = Component.new({
 })
 
 function KillBrick:_onTouched(hit: BasePart)
+	assert(hit.Parent)
 	local hum = hit.Parent:FindFirstChild("Humanoid")
-	assert(hum:IsA("Humanoid"))
 	if not hum then
 		return
 	end
-
+	assert(hum:IsA("Humanoid"))
+	
 	if hum.Health > 0 then
 		hum:TakeDamage(hum.MaxHealth)
 	end

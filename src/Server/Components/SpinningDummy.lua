@@ -13,6 +13,7 @@ local SpinningDummy = Component.new({
 })
 
 function SpinningDummy:_onTouched(hit: BasePart)
+	assert(hit.Parent)
 	local hum = hit.Parent:FindFirstChild("Humanoid")
 	if not hum then
 		return
@@ -52,11 +53,24 @@ function SpinningDummy:Start()
 
 		while running do
 			local spins = math.random(1, 9)
-			local init = TweenService:Create(self.Instance.PrimaryPart, TweenInfo.new(1.5, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {CFrame = self.Instance.PrimaryPart.CFrame * CFrame.Angles(0, math.rad(-30), 0)})
+			local init = TweenService:Create(
+				self.Instance.PrimaryPart,
+				TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, -30, 0) }
+			)
 			init:Play()
-			init:Wait()
-			Promise.delay(.2):await()
-			local main = 
+			print("waiting 1 - ", spins)
+			init.Completed:Wait()
+			Promise.delay(0.2):await()
+			local first = TweenService:Create(
+				self.Instance.PrimaryPart,
+				TweenInfo.new(spins * 0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
+				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, 360 * spins + 30, 0) }
+			)
+			first:Play()
+			print("waiting 2 - ", spins)
+			first.Completed:Wait()
+			Promise.delay(2):await()
 		end
 	end).cancel)
 end
