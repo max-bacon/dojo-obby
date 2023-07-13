@@ -68,9 +68,11 @@ function SpinningDummy:Start()
 				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, 360 * spins + 30, 0) }
 			)
 			first:Play()
+			self.Active = true
 			print("waiting 2 - ", spins)
 			first.Completed:Wait()
 			Promise.delay(2):await()
+			self.Active = false
 		end
 	end).cancel)
 end
