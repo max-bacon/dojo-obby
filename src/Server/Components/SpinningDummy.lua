@@ -29,15 +29,19 @@ function SpinningDummy:_scanForTouchingParts()
 		if not self.Active then
 			return
 		end
-		for _, part in workspace:GetPartsInPart(self.Touch) do
-			self:_onTouched(part)
+		for _, touch in self.Instance.Hitboxes:GetChildren() do
+			if not touch:IsA("BasePart") then
+				continue
+			end
+			for _, part in workspace:GetPartsInPart(touch) do
+				self:_onTouched(part)
+			end
 		end
 	end))
 end
 
 function SpinningDummy:Construct()
 	self._trove = Trove.new()
-	self.Touch = self.Instance.Touch
 	self.Active = false
 
 	self:_scanForTouchingParts()
@@ -53,26 +57,26 @@ function SpinningDummy:Start()
 
 		while running do
 			local spins = math.random(1, 9)
+			local _signRandomFloat = math.random()
+			local sign = _signRandomFloat > 0.5 and 1 or -1
 			local init = TweenService:Create(
 				self.Instance.PrimaryPart,
 				TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
-				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, -30, 0) }
+				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, sign * 30, 0) }
 			)
 			init:Play()
-			print("waiting 1 - ", spins)
 			init.Completed:Wait()
 			Promise.delay(0.2):await()
-			local first = TweenService:Create(
+			self.Active = true
+			local main = TweenService:Create(
 				self.Instance.PrimaryPart,
 				TweenInfo.new(spins * 0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
-				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, 360 * spins + 30, 0) }
+				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, -sign * (360 * spins + 30), 0) }
 			)
-			first:Play()
-			self.Active = true
-			print("waiting 2 - ", spins)
-			first.Completed:Wait()
-			Promise.delay(2):await()
+			main:Play()
+			main.Completed:Wait()
 			self.Active = false
+			Promise.delay(2):await()
 		end
 	end).cancel)
 end

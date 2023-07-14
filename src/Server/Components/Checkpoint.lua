@@ -16,6 +16,7 @@ local Checkpoint = Component.new({
 })
 
 function Checkpoint:_onTouched(hit: BasePart)
+	assert(hit.Parent)
 	local hum = hit.Parent:FindFirstChildOfClass("Humanoid")
 	if not hum then
 		return
