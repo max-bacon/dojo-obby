@@ -1696,14 +1696,6 @@
 			],
 			"children": [
 				{
-					"name": "ClientInit",
-					"className": "LocalScript",
-					"filePaths": [
-						"src/Server/ClientInit.client.lua"
-					],
-					"children": []
-				},
-				{
 					"name": "Components",
 					"className": "Folder",
 					"filePaths": [
@@ -1778,6 +1770,14 @@
 					]
 				},
 				{
+					"name": "reloader",
+					"className": "LocalScript",
+					"filePaths": [
+						"src/Server/reloader.client.lua"
+					],
+					"children": []
+				},
+				{
 					"name": "ServerInit",
 					"className": "Script",
 					"filePaths": [
@@ -1821,6 +1821,14 @@
 					],
 					"children": [
 						{
+							"name": "ClientInit",
+							"className": "LocalScript",
+							"filePaths": [
+								"src/Client/ClientInit.client.lua"
+							],
+							"children": []
+						},
+						{
 							"name": "Components",
 							"className": "Folder",
 							"filePaths": [
@@ -1833,14 +1841,6 @@
 							"className": "Folder",
 							"filePaths": [
 								"src/Client/Modules"
-							],
-							"children": []
-						},
-						{
-							"name": "reloader",
-							"className": "LocalScript",
-							"filePaths": [
-								"src/Client/reloader.client.lua"
 							],
 							"children": []
 						}
@@ -1856,70 +1856,6 @@
 				"default.project.json"
 			],
 			"children": [
-				{
-					"name": "Bush_TrainingCourse",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse1",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse1.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse10",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse10.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse11",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse11.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse12",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse12.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse13",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse13.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse14",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse14.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse15",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse15.rbxm"
-					],
-					"children": []
-				},
 				{
 					"name": "Bush_TrainingCourse16",
 					"className": "Instance",
@@ -2533,70 +2469,6 @@
 					"className": "Instance",
 					"filePaths": [
 						"assets/Workspace/Model151.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model152",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model152.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model153",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model153.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model154",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model154.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model155",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model155.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model156",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model156.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model157",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model157.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model158",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model158.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model159",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model159.rbxm"
 					],
 					"children": []
 				},
@@ -3273,70 +3145,6 @@
 					"children": []
 				},
 				{
-					"name": "Model46",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model46.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model47",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model47.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model48",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model48.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model49",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model49.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model5",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model5.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model50",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model50.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model51",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model51.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model52",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model52.rbxm"
-					],
-					"children": []
-				},
-				{
 					"name": "Model53",
 					"className": "Instance",
 					"filePaths": [
@@ -3889,18 +3697,10 @@
 					"children": []
 				},
 				{
-					"name": "Ying And Yang6",
+					"name": "Bush_TrainingCourse",
 					"className": "Instance",
 					"filePaths": [
-						"assets/Workspace/Ying And Yang6.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Ying And Yang7",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Ying And Yang7.rbxm"
+						"assets/Workspace/Bush_TrainingCourse.rbxm"
 					],
 					"children": []
 				}

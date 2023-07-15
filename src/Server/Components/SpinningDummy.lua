@@ -57,8 +57,7 @@ function SpinningDummy:Start()
 
 		while running do
 			local spins = math.random(1, 9)
-			local _signRandomFloat = math.random()
-			local sign = _signRandomFloat > 0.5 and 1 or -1
+			local sign = math.random() > 0.5 and 1 or -1
 			local init = TweenService:Create(
 				self.Instance.PrimaryPart,
 				TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
