@@ -1711,6 +1711,14 @@
 							"children": []
 						},
 						{
+							"name": "FireMonsterWall",
+							"className": "ModuleScript",
+							"filePaths": [
+								"src/Server/Components/FireMonsterWall.lua"
+							],
+							"children": []
+						},
+						{
 							"name": "KillBrick",
 							"className": "ModuleScript",
 							"filePaths": [
@@ -1856,6 +1864,14 @@
 				"default.project.json"
 			],
 			"children": [
+				{
+					"name": "Bush_TrainingCourse15",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Bush_TrainingCourse15.rbxm"
+					],
+					"children": []
+				},
 				{
 					"name": "Bush_TrainingCourse16",
 					"className": "Instance",
@@ -2313,70 +2329,6 @@
 					"children": []
 				},
 				{
-					"name": "Model134",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model134.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model135",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model135.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model136",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model136.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model137",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model137.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model138",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model138.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model139",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model139.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model14",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model14.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model140",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model140.rbxm"
-					],
-					"children": []
-				},
-				{
 					"name": "Model141",
 					"className": "Instance",
 					"filePaths": [
@@ -2469,6 +2421,70 @@
 					"className": "Instance",
 					"filePaths": [
 						"assets/Workspace/Model151.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model152",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model152.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model153",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model153.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model154",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model154.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model155",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model155.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model156",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model156.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model157",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model157.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model158",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model158.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model159",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model159.rbxm"
 					],
 					"children": []
 				},
@@ -2833,78 +2849,6 @@
 					"children": []
 				},
 				{
-					"name": "Model20",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model20.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model200",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model200.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model201",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model201.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model202",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model202.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model203",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model203.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model204",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model204.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model205",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model205.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model206",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model206.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model207",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model207.rbxm"
-					],
-					"children": []
-				},
-				{
 					"name": "Model208",
 					"className": "Instance",
 					"filePaths": [
@@ -3141,6 +3085,70 @@
 					"className": "Instance",
 					"filePaths": [
 						"assets/Workspace/Model45.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model46",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model46.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model47",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model47.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model48",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model48.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model49",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model49.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model5",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model5.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model50",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model50.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model51",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model51.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model52",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model52.rbxm"
 					],
 					"children": []
 				},
@@ -3449,62 +3457,6 @@
 					"children": []
 				},
 				{
-					"name": "Model88",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model88.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model89",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model89.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model9",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model9.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model90",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model90.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model91",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model91.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model92",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model92.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model93",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model93.rbxm"
-					],
-					"children": []
-				},
-				{
 					"name": "Model94",
 					"className": "Instance",
 					"filePaths": [
@@ -3553,34 +3505,10 @@
 					"children": []
 				},
 				{
-					"name": "SpinningDummy",
+					"name": "Obstacles",
 					"className": "Instance",
 					"filePaths": [
-						"assets/Workspace/SpinningDummy.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "SpinningDummy1",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/SpinningDummy1.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "SpinningDummy2",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/SpinningDummy2.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "SpinningDummy3",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/SpinningDummy3.rbxm"
+						"assets/Workspace/Obstacles.rbxm"
 					],
 					"children": []
 				},
@@ -3697,10 +3625,50 @@
 					"children": []
 				},
 				{
-					"name": "Bush_TrainingCourse",
+					"name": "Ying And Yang6",
 					"className": "Instance",
 					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse.rbxm"
+						"assets/Workspace/Ying And Yang6.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Ying And Yang7",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Ying And Yang7.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model20",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model20.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model200",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model200.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model201",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model201.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model202",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model202.rbxm"
 					],
 					"children": []
 				}

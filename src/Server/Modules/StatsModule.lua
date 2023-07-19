@@ -22,12 +22,11 @@ end
 function StatsModule.increment(player: Player, stat: string, value: number?)
 	print("done incrememnting")
 	local statObj: ValueBase = Stats[player][stat]
-	
+
 	assert(statObj:IsA("IntValue") or statObj:IsA("NumberValue"))
 	local inc = value or 1
 
 	StatsModule.set(player, stat, StatsModule.get(player, stat) + inc)
-	
 end
 
 function StatsModule.initialize(player: Player)
@@ -37,7 +36,7 @@ function StatsModule.initialize(player: Player)
 
 	local level = Instance.new("IntValue")
 	level.Name = "Stage"
-	level.Value = 0
+	level.Value = 3
 	level.Parent = leaderstats
 
 	local wins = Instance.new("IntValue")

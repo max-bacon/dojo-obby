@@ -1,5 +1,3 @@
---!nonstrict
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
@@ -29,11 +27,11 @@ function SpinningDummy:_scanForTouchingParts()
 		if not self.Active then
 			return
 		end
-		for _, touch in self.Instance.Hitboxes:GetChildren() do
+		for _, touch in self.Instance.Hitboxes:GetDescendants() do
 			if not touch:IsA("BasePart") then
 				continue
 			end
-			for _, part in workspace:GetPartsInPart(touch) do
+			for _, part in workspace:GetPartsInPart(touch, self.OverlapParams) do
 				self:_onTouched(part)
 			end
 		end
@@ -41,8 +39,14 @@ function SpinningDummy:_scanForTouchingParts()
 end
 
 function SpinningDummy:Construct()
+	self.OverlapParams = OverlapParams.new()
+	self.OverlapParams.FilterType = Enum.RaycastFilterType.Exclude
+	self.OverlapParams.FilterDescendantsInstances = { self.Instance }
+
 	self._trove = Trove.new()
 	self.Active = false
+
+	self.Instance.Outline.Transparency = 1
 
 	self:_scanForTouchingParts()
 end
