@@ -30,6 +30,11 @@ local Network = Red.Client("Network")
 
 local State = require(ReplicatedStorage:WaitForChild("State"))()
 
+local Components = {}
+for _, c in player:WaitForChild("PlayerScripts"):WaitForChild("Components"):GetChildren() do
+	Components[c.Name] = require(c) :: any
+end
+
 local UIComponents = {}
 require(FusionMaterial.CheckpointNotification)
 for _, mod: ModuleScript in FusionMaterial:GetChildren() do
