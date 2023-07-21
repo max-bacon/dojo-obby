@@ -73,7 +73,7 @@ function SpinningDummy:Start()
 			self.Active = true
 			local main = TweenService:Create(
 				self.Instance.PrimaryPart,
-				TweenInfo.new(spins * 0.7, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut),
+				TweenInfo.new(spins * 0.7, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut),
 				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, -sign * (360 * spins + 30), 0) }
 			)
 			main:Play()

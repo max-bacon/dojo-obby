@@ -35,6 +35,8 @@ for _, c in player:WaitForChild("PlayerScripts"):WaitForChild("Components"):GetC
 	Components[c.Name] = require(c) :: any
 end
 
+local a: {number}
+
 local UIComponents = {}
 require(FusionMaterial.CheckpointNotification)
 for _, mod: ModuleScript in FusionMaterial:GetChildren() do
