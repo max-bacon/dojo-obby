@@ -85,21 +85,20 @@ function Lightning:Start()
 			local xzGoalUnrotatedVector = Vector2.new(math.random(), math.random()) * xzSizeVector -.5 * xzSizeVector + xzPartVector
 			local diffVector = xzGoalUnrotatedVector - xzPartVector
 
-			local betaX = yAngle * diffVector.X -- radians?
-			local betaZ = yAngle * diffVector.Y -- radians?
-			local xzGoal = xzPartVector + Vector2.new(math.cos(betaX) - math.sin(betaZ), math.cos(betaZ) + math.sin(betaX))
+			local beta = math.rad(yAngle)
+			local xzGoal = xzPartVector + Vector2.new(math.cos(beta) * diffVector.X - math.sin(beta) * diffVector.Y, math.cos(beta) * diffVector.Y + math.sin(beta) * diffVector.X)
 
 			local goal = Vector3.new(xzGoal.X, goalPart.Position.Y, xzGoal.Y)
 
 			local main = TweenService:Create(
 				self.Instance.PrimaryPart,
-				TweenInfo.new((xzPartVector - xzGoal).Magnitude * .5, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut),
-				{ Position = goal }
+				TweenInfo.new(.1 * (Vector2.new(self.Instance.PrimaryPart.Position.X, self.Instance.PrimaryPart.Position.Z) - xzGoal).Magnitude, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut),
+				{ CFrame = CFrame.new(goal) * CFrame.Angles(0, math.rad(25), math.rad(-90))}
 			)
 			main:Play()
 			main.Completed:Wait()
 
-			Promise.delay(1):await()
+			Promise.delay(3):await()
 		end
 	end).cancel)
 end
