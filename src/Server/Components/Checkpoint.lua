@@ -1,13 +1,8 @@
---!nonstrict
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServerScriptService = game:GetService("ServerScriptService")
 
 local Component = require(ReplicatedStorage.Packages.Component)
 local Trove = require(ReplicatedStorage.Packages.Trove)
-local Red = require(ReplicatedStorage.Packages.Red)
-
-local Network = Red.Server("Network")
 
 local StatsModule = require(ServerScriptService.Modules.StatsModule)
 
@@ -21,9 +16,9 @@ function Checkpoint:_onTouched(hit: BasePart)
 	if not hum then
 		return
 	end
-
+	
 	local Player = game:GetService("Players"):GetPlayerFromCharacter(hum.Parent)
-
+	
 	if StatsModule.get(Player, "Stage") >= self.Stage then
 		return
 	end
@@ -46,7 +41,7 @@ function Checkpoint:Construct()
 	self._trove:Add(self.Touch.Touched:Connect(function(hit)
 		self:_onTouched(hit)
 	end))
-end
+
 
 function Checkpoint:Start() end
 

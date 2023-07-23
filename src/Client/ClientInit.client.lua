@@ -1,5 +1,3 @@
---!nonstrict
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local MarketplaceService = game:GetService("MarketplaceService")
 local SharedPackages = ReplicatedStorage:WaitForChild("Packages")
@@ -34,8 +32,6 @@ local Components = {}
 for _, c in player:WaitForChild("PlayerScripts"):WaitForChild("Components"):GetChildren() do
 	Components[c.Name] = require(c) :: any
 end
-
-local a: {number}
 
 local UIComponents = {}
 require(FusionMaterial.CheckpointNotification)
