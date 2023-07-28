@@ -2,8 +2,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
-local Component = require(ReplicatedStorage.Packages.Component)
-local Promise = require(ReplicatedStorage.Packages.Promise)
+local Component = require(ReplicatedStorage.Packages.Component) :: any
+local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local FireMonsterWall = Component.new({

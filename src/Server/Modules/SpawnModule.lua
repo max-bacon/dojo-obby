@@ -12,7 +12,6 @@ function SpawnModule.spawn(player: Player, char: Model?, awaitChange: boolean?)
 	assert(character.PrimaryPart)
 	
 	if awaitChange then
-		print("wait")
 		character.PrimaryPart:GetPropertyChangedSignal("Position"):Wait()
 	end
 	local checkpoint = game.Workspace.Checkpoints["Checkpoint" .. tostring(StatsModule.get(player, "Stage"))]
@@ -20,8 +19,6 @@ function SpawnModule.spawn(player: Player, char: Model?, awaitChange: boolean?)
 	local spawn = checkpoint:FindFirstChild("Spawn") or checkpoint:FindFirstChild("Teleport")
 	wait()
 	character.PrimaryPart.CFrame = spawn.CFrame * CFrame.new(0, 2, 0)
-	print(spawn.CFrame:ToOrientation())
-	print(character.PrimaryPart.CFrame:ToOrientation())
 end
 
 return SpawnModule

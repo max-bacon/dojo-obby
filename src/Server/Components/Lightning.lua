@@ -2,8 +2,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
-local Component = require(ReplicatedStorage.Packages.Component)
-local Promise = require(ReplicatedStorage.Packages.Promise)
+local Component = require(ReplicatedStorage.Packages.Component) :: any
+local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local Lightning = Component.new({
@@ -84,7 +84,9 @@ function Lightning:Start()
 			local diffVector = xzGoalUnrotatedVector - xzPartVector
 
 			local beta = math.rad(yAngle)
-			local xzGoal = xzPartVector + Vector2.new(math.cos(beta) * diffVector.X - math.sin(beta) * diffVector.Y, math.cos(beta) * diffVector.Y + math.sin(beta) * diffVector.X)
+			local cosBeta = math.cos(beta)
+			local sinBeta = math.sin(beta)
+			local xzGoal = xzPartVector + Vector2.new(cosBeta * diffVector.X - sinBeta * diffVector.Y, cosBeta * diffVector.Y + sinBeta * diffVector.X)
 
 			local goal = Vector3.new(xzGoal.X, goalPart.Position.Y, xzGoal.Y)
 

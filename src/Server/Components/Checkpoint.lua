@@ -1,7 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServerScriptService = game:GetService("ServerScriptService")
 
-local Component = require(ReplicatedStorage.Packages.Component)
+local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local StatsModule = require(ServerScriptService.Modules.StatsModule)
@@ -41,7 +41,7 @@ function Checkpoint:Construct()
 	self._trove:Add(self.Touch.Touched:Connect(function(hit)
 		self:_onTouched(hit)
 	end))
-
+end
 
 function Checkpoint:Start() end
 
