@@ -1,3 +1,4 @@
+local CollectionService = game:GetService("CollectionService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
@@ -10,49 +11,15 @@ local SwingingAxe = Component.new({
 	Tag = "SwingingAxe",
 })
 
-function SwingingAxe:_onTouched(hit: BasePart)
-	assert(hit.Parent)
-	local hum = hit.Parent:FindFirstChild("Humanoid")
-	if not hum then
-		return
-	end
-	assert(hum:IsA("Humanoid"))
-	if hum.Health > 0 then
-		hum:TakeDamage(hum.MaxHealth)
-	end
-end
-
-function SwingingAxe:_scanForTouchingParts()
-	self._trove:Add(RunService.Heartbeat:Connect(function(dt: number)
-		for _, touch in self.Instance.Hitboxes:GetDescendants() do
-			if not touch:IsA("BasePart") then
-				continue
-			end
-			for _, part in workspace:GetPartsInPart(touch, self.OverlapParams) do
-				self:_onTouched(part)
-			end
-		end
-end))
-end
-
 function SwingingAxe:Construct()
-	self.OverlapParams = OverlapParams.new()
-	self.OverlapParams.FilterType = Enum.RaycastFilterType.Exclude
-	self.OverlapParams.FilterDescendantsInstances = { self.Instance }
-
 	self._trove = Trove.new()
-
-	self:_scanForTouchingParts()
 end
 
 function SwingingAxe:Start()
 	self._trove:Add(Promise.new(function(_, _, onCancel)
         local DELTA_ANGLE = 50
 
-        local direction: IntValue = self.Instance:FindFirstChild("Direction")
-        assert(direction and direction:IsA("IntValue"))
-        local sign = direction.Value
-        assert(sign == -1 or sign == 1, "Direction is not -1 or 1")
+        local sign = CollectionService:HasTag(self.Instance, "Left") and 1 or CollectionService:HasTag(self.Instance, "Right") and -1 or error("No left or right tag")
 
         self.Instance.PrimaryPart.CFrame = self.Instance.PrimaryPart.CFrame * CFrame.Angles(0, 0, math.rad(sign * DELTA_ANGLE))
 
