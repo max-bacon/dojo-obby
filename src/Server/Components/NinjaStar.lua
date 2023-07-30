@@ -7,6 +7,8 @@ local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
+local DELAY_TIME = 4
+
 local NinjaStar = Component.new({
 	Tag = "NinjaStar",
 })
@@ -16,18 +18,24 @@ function NinjaStar:Construct()
 end
 
 function NinjaStar:Start()
+    self.Instance.Star.Transparency = 1
+
 	self._trove:Add(Promise.new(function(_, _, onCancel)
-        self.Instance.PrimaryPart.CFrame = self.Instance.PrimaryPart.CFrame * CFrame.Angles(0, 0, math.rad(DELTA_ANGLE))
+		local running = true
 
-        local tween = TweenService:Create(
-            self.Instance.PrimaryPart,
-            TweenInfo.new(1.5, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true),
-            { CFrame = self.Instance.PrimaryPart.CFrame * CFrame.Angles(0, 0, math.rad(DELTA_ANGLE)) }
-        )
-        tween:Play()
+        Promise.delay(0.05):await()
 
-        if onCancel() then
-			tween:Cancel()
+		while running do
+            local clone = self.Instance:Clone()
+            clone.Star.Transparency = 0
+            CollectionService:RemoveTag(clone, "NinjaStar")
+            clone.Star.Anchored = false
+            clone.Parent = self.Instance.Parent
+            Promise.delay(1):await()
+		end
+
+		if onCancel() then
+			running = false
 		end
 	end).cancel)
 end

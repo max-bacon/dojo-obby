@@ -19,7 +19,7 @@ function SwingingAxe:Start()
 	self._trove:Add(Promise.new(function(_, _, onCancel)
         local DELTA_ANGLE = 50
 
-        local sign = CollectionService:HasTag(self.Instance, "Left") and 1 or CollectionService:HasTag(self.Instance, "Right") and -1 or error("No left or right tag")
+        local sign = CollectionService:HasTag(self.Instance, "1") and 1 or CollectionService:HasTag(self.Instance, "2") and -1 or error("No 1 or 2 tag")
 
         self.Instance.PrimaryPart.CFrame = self.Instance.PrimaryPart.CFrame * CFrame.Angles(0, 0, math.rad(sign * DELTA_ANGLE))
 

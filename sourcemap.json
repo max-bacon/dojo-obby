@@ -1751,6 +1751,14 @@
 							"children": []
 						},
 						{
+							"name": "NinjaStar",
+							"className": "ModuleScript",
+							"filePaths": [
+								"src/Server/Components/NinjaStar.lua"
+							],
+							"children": []
+						},
+						{
 							"name": "SpinningDummy",
 							"className": "ModuleScript",
 							"filePaths": [
@@ -1763,14 +1771,6 @@
 							"className": "ModuleScript",
 							"filePaths": [
 								"src/Server/Components/SwingingAxe.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "NinjaStar",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/NinjaStar.lua"
 							],
 							"children": []
 						}
@@ -1913,54 +1913,6 @@
 				"lync.project.json"
 			],
 			"children": [
-				{
-					"name": "Bush_TrainingCourse11",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse11.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse12",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse12.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse13",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse13.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse14",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse14.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse15",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse15.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse16",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse16.rbxm"
-					],
-					"children": []
-				},
 				{
 					"name": "Bush_TrainingCourse17",
 					"className": "Instance",
@@ -2402,62 +2354,6 @@
 					"children": []
 				},
 				{
-					"name": "Model140",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model140.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model141",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model141.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model142",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model142.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model143",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model143.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model144",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model144.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model145",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model145.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model146",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model146.rbxm"
-					],
-					"children": []
-				},
-				{
 					"name": "Model147",
 					"className": "Instance",
 					"filePaths": [
@@ -2890,66 +2786,114 @@
 					"children": []
 				},
 				{
+					"name": "Model199",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model199.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model2",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model2.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model20",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model20.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model200",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model200.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model201",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model201.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model202",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model202.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model203",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model203.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model204",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model204.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model205",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model205.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model206",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model206.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model207",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model207.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model209",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model209.rbxm"
+					],
+					"children": []
+				},
+				{
+					"name": "Model21",
+					"className": "Instance",
+					"filePaths": [
+						"assets/Workspace/Model21.rbxm"
+					],
+					"children": []
+				},
+				{
 					"name": "Model210",
 					"className": "Instance",
 					"filePaths": [
 						"assets/Workspace/Model210.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model22",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model22.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model23",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model23.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model24",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model24.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model25",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model25.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model26",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model26.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model27",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model27.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model28",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model28.rbxm"
 					],
 					"children": []
 				},
@@ -3462,70 +3406,6 @@
 					"className": "Instance",
 					"filePaths": [
 						"assets/Workspace/Model95.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model97",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model97.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model98",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model98.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model99",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model99.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Obstacles",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Obstacles.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Waterfall",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Waterfall.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Waterfall1",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Waterfall1.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Waterfall2",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Waterfall2.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Waterfall3",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Waterfall3.rbxm"
 					],
 					"children": []
 				},
