@@ -23,10 +23,13 @@ function NinjaStar:Start()
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true
 
-        Promise.delay(0.05):await()
+		local initialDelay = CollectionService:HasTag(self.Instance, "1") and 1.5 or CollectionService:HasTag(self.Instance, "2") and 1 or error("No 1 or 2 tag")
+		print(initialDelay)
+        Promise.delay(initialDelay):await()
 
 		while running do
             local clone = self.Instance:Clone()
+			clone.Name = "NinjaStarClone"
             clone.Star.Transparency = 0
             CollectionService:RemoveTag(clone, "NinjaStar")
             clone.Star.Anchored = false
