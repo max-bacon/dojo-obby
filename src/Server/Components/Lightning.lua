@@ -92,7 +92,7 @@ function Lightning:Start()
 
 			local main = TweenService:Create(
 				self.Instance.PrimaryPart,
-				TweenInfo.new(.1 * (Vector2.new(self.Instance.PrimaryPart.Position.X, self.Instance.PrimaryPart.Position.Z) - xzGoal).Magnitude, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut),
+				TweenInfo.new(.1 * (Vector2.new(self.Instance.PrimaryPart.Position.X, self.Instance.PrimaryPart.Position.Z) - xzGoal).Magnitude, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
 				{ CFrame = CFrame.new(goal) * CFrame.Angles(0, math.rad(25), math.rad(-90))}
 			)
 			main:Play()
