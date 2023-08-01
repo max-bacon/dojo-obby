@@ -36,7 +36,7 @@ function StatsModule.initialize(player: Player)
 
 	local level = Instance.new("IntValue")
 	level.Name = "Stage"
-	level.Value = 2
+	level.Value = 11
 	level.Parent = leaderstats
 
 	local wins = Instance.new("IntValue")

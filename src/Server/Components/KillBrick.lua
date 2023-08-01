@@ -14,9 +14,16 @@ function KillBrick:_onTouched(hit: BasePart)
 		return
 	end
 	assert(hum:IsA("Humanoid"))
-	
+
 	if hum.Health > 0 then
 		hum:TakeDamage(hum.MaxHealth)
+
+		if not self.Instance:FindFirstChild("KillSound") then
+			print(self.Instance:GetChildren(), self.Instance.Name)
+			return
+		end
+		print("sound")
+		self.Instance.KillSound:Play()
 	end
 end
 
