@@ -2,6 +2,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
+local EmitterMonster = require(script.Parent.EmitterMonster)
 local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
@@ -9,6 +10,10 @@ local Trove = require(ReplicatedStorage.Packages.Trove)
 local FireMonsterWall = Component.new({
 	Tag = "FireMonsterWall",
 })
+
+function FireMonsterWall:_getEmitterMonsterComponent(monster: Model)
+	return EmitterMonster:FromInstance(monster)
+end
 
 function FireMonsterWall:_onTouched(hit: BasePart)
 	assert(hit.Parent)
@@ -19,15 +24,6 @@ function FireMonsterWall:_onTouched(hit: BasePart)
 	assert(hum:IsA("Humanoid"))
 	if hum.Health > 0 then
 		hum:TakeDamage(hum.MaxHealth)
-	end
-end
-
-function FireMonsterWall:_setEmitters(value: boolean)
-	for _, emitPart: BasePart in self.Instance.Emitters:GetChildren() do
-		assert(emitPart:IsA("BasePart"))
-		local particleEmitter = emitPart:FindFirstChildOfClass("ParticleEmitter")
-		assert(particleEmitter)
-		particleEmitter.Enabled = value
 	end
 end
 
@@ -59,6 +55,9 @@ function FireMonsterWall:Construct()
 end
 
 function FireMonsterWall:Start()
+	self.FireMonsterBannerInstance = FireMonsterWall:_getEmitterMonsterComponent(self.Instance.FireMonsterBanner)
+	self.FireMonsterInstance = FireMonsterWall:_getEmitterMonsterComponent(self.Instance.FireMonster)
+
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true
 
@@ -68,10 +67,12 @@ function FireMonsterWall:Start()
 
 		while running do
 			self.Active = true
-			self:_setEmitters(true)
+			self.FireMonsterBannerInstance:setEmitter(true)
+			self.FireMonsterInstance:setEmitter(true)
 			Promise.delay(10):await()
 			self.Active = false
-			self:_setEmitters(false)
+			self.FireMonsterBannerInstance:setEmitter(false)
+			self.FireMonsterInstance:setEmitter(false)
 			Promise.delay(6):await()
 		end
 	end).cancel)

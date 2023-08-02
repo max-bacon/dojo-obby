@@ -52,6 +52,8 @@ function SpinningDummy:Construct()
 end
 
 function SpinningDummy:Start()
+	local TIME_PER_SPIN = .7
+
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true
 
@@ -60,25 +62,29 @@ function SpinningDummy:Start()
 		end
 
 		while running do
-			local spins = math.random(1, 9)
+			local spins = math.random(4, 9)
 			local sign = math.random() > 0.5 and 1 or -1
 			local init = TweenService:Create(
 				self.Instance.PrimaryPart,
-				TweenInfo.new(1, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+				TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.In),
 				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, sign * 30, 0) }
 			)
 			init:Play()
 			init.Completed:Wait()
 			Promise.delay(0.2):await()
-			self.Active = true
 			local main = TweenService:Create(
 				self.Instance.PrimaryPart,
-				TweenInfo.new(spins * 0.7, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut),
+				TweenInfo.new(spins * TIME_PER_SPIN, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
 				{ Orientation = self.Instance.PrimaryPart.Orientation + Vector3.new(0, -sign * (360 * spins + 30), 0) }
 			)
 			main:Play()
-			main.Completed:Wait()
-			self.Active = false
+			Promise.delay(0.5):await()
+			self.Active = true
+			Promise.new(function(resolve)
+				main.Completed:Connect(resolve)
+				task.wait(spins * TIME_PER_SPIN - 1)
+				self.Active = false
+			end):await()
 			Promise.delay(2):await()
 		end
 	end).cancel)

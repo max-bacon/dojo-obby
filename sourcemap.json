@@ -1863,6 +1863,14 @@
 								"src/Server/Components/SwingingAxe.lua"
 							],
 							"children": []
+						},
+						{
+							"name": "EmitterMonster",
+							"className": "ModuleScript",
+							"filePaths": [
+								"src/Server/Components/EmitterMonster.lua"
+							],
+							"children": []
 						}
 					]
 				},
