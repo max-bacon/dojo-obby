@@ -49,6 +49,10 @@ local CheckpointReachedPromise
 StageValue.Changed:Connect(function(value)
 	State.Stage:set(value)
 
+	if CheckpointReachedPromise then
+		CheckpointReachedPromise:cancel()
+	end
+
 	print("CheckpointReached")
 	local CheckpointNotification = UI:FindFirstChild("CheckpointNotification")
 	assert(CheckpointNotification ~= nil)
@@ -77,14 +81,9 @@ StageValue.Changed:Connect(function(value)
 				Volume = 0,
 				Name = "CheckpointSound",
 			})
-			
+			print("playing sound")
 			CheckpointSound:Play()
-			return Tween.new(
-					CheckpointSound,
-					TweenInfo.new(2, Enum.EasingStyle.Linear),
-					{ Volume = 1 },
-					true
-				)
+			return Tween.new(CheckpointSound, TweenInfo.new(2, Enum.EasingStyle.Linear), { Volume = 1 }, true)
 		end),
 	})
 		:finally(function() -- cleanup

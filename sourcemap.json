@@ -8,3859 +8,3859 @@
 		{
 			"name": "ReplicatedStorage",
 			"className": "ReplicatedStorage",
-			"filePaths": [
-				"src/Shared",
-				"lync.project.json"
-			],
 			"children": [
 				{
 					"name": "Packages",
 					"className": "Folder",
-					"filePaths": [
-						"Packages",
-						"lync.project.json"
-					],
 					"children": [
 						{
 							"name": "Cmdr",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Cmdr.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Component",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Component.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Fusion",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Fusion.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Promise",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Promise.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Red",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Red.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Rewire",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Rewire.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Shake",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Shake.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Signal",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Signal.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Trove",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"Packages/Trove.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "_Index",
 							"className": "Folder",
-							"filePaths": [
-								"Packages/_Index"
-							],
 							"children": [
 								{
 									"name": "elttob_fusion@0.2.0",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/elttob_fusion@0.2.0"
-									],
 									"children": [
 										{
 											"name": "fusion",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/elttob_fusion@0.2.0/fusion/src/init.lua",
-												"Packages/_Index/elttob_fusion@0.2.0/fusion/default.project.json"
-											],
 											"children": [
 												{
 													"name": "Animation",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation"
-													],
 													"children": [
 														{
 															"name": "getTweenRatio",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/getTweenRatio.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "lerpType",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/lerpType.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "packType",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/packType.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Spring",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/Spring.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "springCoefficients",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/springCoefficients.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "SpringScheduler",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/SpringScheduler.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Tween",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/Tween.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "TweenScheduler",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/TweenScheduler.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "unpackType",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation/unpackType.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Animation"
 													]
 												},
 												{
 													"name": "Colour",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Colour"
-													],
 													"children": [
 														{
 															"name": "Oklab",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Colour/Oklab.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Colour"
 													]
 												},
 												{
 													"name": "Dependencies",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Dependencies"
-													],
 													"children": [
 														{
 															"name": "captureDependencies",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Dependencies/captureDependencies.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "initDependency",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Dependencies/initDependency.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "sharedState",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Dependencies/sharedState.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "updateAll",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Dependencies/updateAll.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "useDependency",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Dependencies/useDependency.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Dependencies"
 													]
 												},
 												{
 													"name": "Instances",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances"
-													],
 													"children": [
 														{
 															"name": "applyInstanceProps",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/applyInstanceProps.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Children",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/Children.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Cleanup",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/Cleanup.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "defaultProps",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/defaultProps.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Hydrate",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/Hydrate.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "New",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/New.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "OnChange",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/OnChange.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "OnEvent",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/OnEvent.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Out",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/Out.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Ref",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances/Ref.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Instances"
 													]
 												},
 												{
 													"name": "Logging",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Logging"
-													],
 													"children": [
 														{
 															"name": "logError",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Logging/logError.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "logErrorNonFatal",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Logging/logErrorNonFatal.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "logWarn",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Logging/logWarn.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "messages",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Logging/messages.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "parseError",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Logging/parseError.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Logging"
 													]
 												},
 												{
 													"name": "PubTypes",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/PubTypes.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "State",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State"
-													],
 													"children": [
 														{
 															"name": "Computed",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State/Computed.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "ForKeys",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State/ForKeys.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "ForPairs",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State/ForPairs.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "ForValues",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State/ForValues.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Observer",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State/Observer.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "unwrap",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State/unwrap.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Value",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State/Value.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/State"
 													]
 												},
 												{
 													"name": "Types",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Types.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "Utility",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility"
-													],
 													"children": [
 														{
 															"name": "cleanup",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility/cleanup.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "doNothing",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility/doNothing.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "isSimilar",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility/isSimilar.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "needsDestruction",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility/needsDestruction.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "None",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility/None.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "restrictRead",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility/restrictRead.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "xtypeof",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility/xtypeof.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/elttob_fusion@0.2.0/fusion/src/Utility"
 													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/elttob_fusion@0.2.0/fusion/src/init.lua",
+												"Packages/_Index/elttob_fusion@0.2.0/fusion/default.project.json"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/elttob_fusion@0.2.0"
 									]
 								},
 								{
 									"name": "evaera_cmdr@1.11.0",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/evaera_cmdr@1.11.0"
-									],
 									"children": [
 										{
 											"name": "cmdr",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/init.lua",
-												"Packages/_Index/evaera_cmdr@1.11.0/cmdr/default.project.json"
-											],
 											"children": [
 												{
 													"name": "BuiltInCommands",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands"
-													],
 													"children": [
 														{
 															"name": "Admin",
 															"className": "Folder",
-															"filePaths": [
-																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin"
-															],
 															"children": [
 																{
 																	"name": "announce",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/announce.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "announceServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/announceServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "gotoPlace",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/gotoPlace.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "gotoPlaceServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/gotoPlaceServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "kick",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/kick.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "kickServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/kickServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "kill",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/kill.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "killServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/killServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "respawn",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/respawn.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "respawnServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/respawnServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "teleport",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/teleport.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "teleportServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin/teleportServer.lua"
-																	],
-																	"children": []
+																	]
 																}
+															],
+															"filePaths": [
+																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Admin"
 															]
 														},
 														{
 															"name": "Debug",
 															"className": "Folder",
-															"filePaths": [
-																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug"
-															],
 															"children": [
 																{
 																	"name": "blink",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/blink.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "fetch",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/fetch.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "fetchServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/fetchServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "getPlayerPlaceInstance",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstance.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "getPlayerPlaceInstanceServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstanceServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "position",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/position.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "thru",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/thru.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "uptime",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/uptime.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "uptimeServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/uptimeServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "version",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug/version.lua"
-																	],
-																	"children": []
+																	]
 																}
+															],
+															"filePaths": [
+																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Debug"
 															]
 														},
 														{
 															"name": "help",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/help.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Utility",
 															"className": "Folder",
-															"filePaths": [
-																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility"
-															],
 															"children": [
 																{
 																	"name": "alias",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/alias.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "bind",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/bind.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "clear",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/clear.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "echo",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/echo.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "edit",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/edit.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "history",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/history.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "hover",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/hover.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "jsonArrayDecode",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/jsonArrayDecode.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "jsonArrayEncode",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/jsonArrayEncode.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "len",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/len.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "math",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/math.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "pick",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/pick.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "rand",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/rand.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "replace",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/replace.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "resolve",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/resolve.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "run",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/run.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "runif",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/runif.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "runLines",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/runLines.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "unbind",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/unbind.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "var",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/var.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "varServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/varServer.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "varSet",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/varSet.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "varSetServer",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility/varSetServer.lua"
-																	],
-																	"children": []
+																	]
 																}
+															],
+															"filePaths": [
+																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands/Utility"
 															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInCommands"
 													]
 												},
 												{
 													"name": "BuiltInTypes",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes"
-													],
 													"children": [
 														{
 															"name": "BindableResource",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/BindableResource.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "BrickColor",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/BrickColor.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Color3",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Color3.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Command",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Command.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "ConditionFunction",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/ConditionFunction.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Duration",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Duration.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "MathOperator",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/MathOperator.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Player",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Player.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "PlayerId",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/PlayerId.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Primitives",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Primitives.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "StoredKey",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/StoredKey.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Team",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Team.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Type",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Type.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "URL",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/URL.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "UserInput",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/UserInput.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Vector",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes/Vector.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/BuiltInTypes"
 													]
 												},
 												{
 													"name": "CmdrClient",
 													"className": "ModuleScript",
-													"filePaths": [
-														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CmdrClient/init.lua"
-													],
 													"children": [
 														{
 															"name": "CmdrInterface",
 															"className": "ModuleScript",
-															"filePaths": [
-																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CmdrClient/CmdrInterface/init.lua"
-															],
 															"children": [
 																{
 																	"name": "AutoComplete",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CmdrClient/CmdrInterface/AutoComplete.lua"
-																	],
-																	"children": []
+																	]
 																},
 																{
 																	"name": "Window",
 																	"className": "ModuleScript",
+																	"children": [],
 																	"filePaths": [
 																		"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CmdrClient/CmdrInterface/Window.lua"
-																	],
-																	"children": []
+																	]
 																}
+															],
+															"filePaths": [
+																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CmdrClient/CmdrInterface/init.lua"
 															]
 														},
 														{
 															"name": "DefaultEventHandlers",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CmdrClient/DefaultEventHandlers.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CmdrClient/init.lua"
 													]
 												},
 												{
 													"name": "CreateGui",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/CreateGui.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "Initialize",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Initialize.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "Shared",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Shared"
-													],
 													"children": [
 														{
 															"name": "Argument",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Shared/Argument.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Command",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Shared/Command.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Dispatcher",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Shared/Dispatcher.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Registry",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Shared/Registry.lua"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Util",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Shared/Util.lua"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/Shared"
 													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/evaera_cmdr@1.11.0/cmdr/Cmdr/init.lua",
+												"Packages/_Index/evaera_cmdr@1.11.0/cmdr/default.project.json"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/evaera_cmdr@1.11.0"
 									]
 								},
 								{
 									"name": "evaera_promise@4.0.0",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/evaera_promise@4.0.0"
-									],
 									"children": [
 										{
 											"name": "promise",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/evaera_promise@4.0.0/promise/lib/init.lua",
-												"Packages/_Index/evaera_promise@4.0.0/promise/default.project.json"
-											],
 											"children": [
 												{
 													"name": "init.spec",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/evaera_promise@4.0.0/promise/lib/init.spec.lua"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/evaera_promise@4.0.0/promise/lib/init.lua",
+												"Packages/_Index/evaera_promise@4.0.0/promise/default.project.json"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/evaera_promise@4.0.0"
 									]
 								},
 								{
 									"name": "sayhisam1_rewire@0.3.0",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/sayhisam1_rewire@0.3.0"
-									],
 									"children": [
 										{
 											"name": "rewire",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/sayhisam1_rewire@0.3.0/rewire/src/init.lua",
-												"Packages/_Index/sayhisam1_rewire@0.3.0/rewire/default.project.json"
-											],
 											"children": [
 												{
 													"name": "Constants",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sayhisam1_rewire@0.3.0/rewire/src/Constants.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "HotReloader",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sayhisam1_rewire@0.3.0/rewire/src/HotReloader.lua"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/sayhisam1_rewire@0.3.0/rewire/src/init.lua",
+												"Packages/_Index/sayhisam1_rewire@0.3.0/rewire/default.project.json"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/sayhisam1_rewire@0.3.0"
 									]
 								},
 								{
 									"name": "sleitnick_component@2.4.6",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/sleitnick_component@2.4.6"
-									],
 									"children": [
 										{
 											"name": "component",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/sleitnick_component@2.4.6/component/init.lua"
-											],
 											"children": [
 												{
 													"name": "init.spec",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_component@2.4.6/component/init.spec.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "wally",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_component@2.4.6/component/wally.toml"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_component@2.4.6/component/init.lua"
 											]
 										},
 										{
 											"name": "Promise",
 											"className": "ModuleScript",
+											"children": [],
 											"filePaths": [
 												"Packages/_Index/sleitnick_component@2.4.6/Promise.lua"
-											],
-											"children": []
+											]
 										},
 										{
 											"name": "Signal",
 											"className": "ModuleScript",
+											"children": [],
 											"filePaths": [
 												"Packages/_Index/sleitnick_component@2.4.6/Signal.lua"
-											],
-											"children": []
+											]
 										},
 										{
 											"name": "Symbol",
 											"className": "ModuleScript",
+											"children": [],
 											"filePaths": [
 												"Packages/_Index/sleitnick_component@2.4.6/Symbol.lua"
-											],
-											"children": []
+											]
 										},
 										{
 											"name": "Trove",
 											"className": "ModuleScript",
+											"children": [],
 											"filePaths": [
 												"Packages/_Index/sleitnick_component@2.4.6/Trove.lua"
-											],
-											"children": []
+											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_component@2.4.6"
 									]
 								},
 								{
 									"name": "sleitnick_shake@0.1.7",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/sleitnick_shake@0.1.7"
-									],
 									"children": [
 										{
 											"name": "shake",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/sleitnick_shake@0.1.7/shake/init.lua"
-											],
 											"children": [
 												{
 													"name": "init.spec",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_shake@0.1.7/shake/init.spec.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "wally",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_shake@0.1.7/shake/wally.toml"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_shake@0.1.7/shake/init.lua"
 											]
 										},
 										{
 											"name": "Trove",
 											"className": "ModuleScript",
+											"children": [],
 											"filePaths": [
 												"Packages/_Index/sleitnick_shake@0.1.7/Trove.lua"
-											],
-											"children": []
+											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_shake@0.1.7"
 									]
 								},
 								{
 									"name": "sleitnick_signal@1.5.0",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/sleitnick_signal@1.5.0"
-									],
 									"children": [
 										{
 											"name": "signal",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/sleitnick_signal@1.5.0/signal/init.lua"
-											],
 											"children": [
 												{
 													"name": "init.spec",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_signal@1.5.0/signal/init.spec.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "wally",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_signal@1.5.0/signal/wally.toml"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_signal@1.5.0/signal/init.lua"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_signal@1.5.0"
 									]
 								},
 								{
 									"name": "sleitnick_symbol@2.0.1",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/sleitnick_symbol@2.0.1"
-									],
 									"children": [
 										{
 											"name": "symbol",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/sleitnick_symbol@2.0.1/symbol/init.lua"
-											],
 											"children": [
 												{
 													"name": "init.spec",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_symbol@2.0.1/symbol/init.spec.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "wally",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_symbol@2.0.1/symbol/wally.toml"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_symbol@2.0.1/symbol/init.lua"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_symbol@2.0.1"
 									]
 								},
 								{
 									"name": "sleitnick_trove@0.4.2",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/sleitnick_trove@0.4.2"
-									],
 									"children": [
 										{
 											"name": "trove",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/sleitnick_trove@0.4.2/trove/init.lua"
-											],
 											"children": [
 												{
 													"name": "init.spec",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_trove@0.4.2/trove/init.spec.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "wally",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_trove@0.4.2/trove/wally.toml"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_trove@0.4.2/trove/init.lua"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_trove@0.4.2"
 									]
 								},
 								{
 									"name": "sleitnick_trove@0.5.0",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/sleitnick_trove@0.5.0"
-									],
 									"children": [
 										{
 											"name": "trove",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/sleitnick_trove@0.5.0/trove/init.lua"
-											],
 											"children": [
 												{
 													"name": "init.spec",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_trove@0.5.0/trove/init.spec.lua"
-													],
-													"children": []
+													]
 												},
 												{
 													"name": "wally",
 													"className": "ModuleScript",
+													"children": [],
 													"filePaths": [
 														"Packages/_Index/sleitnick_trove@0.5.0/trove/wally.toml"
-													],
-													"children": []
+													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_trove@0.5.0/trove/init.lua"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_trove@0.5.0"
 									]
 								},
 								{
 									"name": "uncontained0_red@1.2.2",
 									"className": "Folder",
-									"filePaths": [
-										"Packages/_Index/uncontained0_red@1.2.2"
-									],
 									"children": [
 										{
 											"name": "red",
 											"className": "ModuleScript",
-											"filePaths": [
-												"Packages/_Index/uncontained0_red@1.2.2/red/lib/init.luau",
-												"Packages/_Index/uncontained0_red@1.2.2/red/default.project.json"
-											],
 											"children": [
 												{
 													"name": "Net",
 													"className": "ModuleScript",
-													"filePaths": [
-														"Packages/_Index/uncontained0_red@1.2.2/red/lib/Net/init.luau"
-													],
 													"children": [
 														{
 															"name": "Event",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Net/Event.luau"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Serdes",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Net/Serdes.luau"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/uncontained0_red@1.2.2/red/lib/Net/init.luau"
 													]
 												},
 												{
 													"name": "Util",
 													"className": "Folder",
-													"filePaths": [
-														"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util"
-													],
 													"children": [
 														{
 															"name": "Bin",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util/Bin.luau"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Clock",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util/Clock.luau"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Collection",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util/Collection.luau"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Promise",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util/Promise.luau"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Ratelimit",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util/Ratelimit.luau"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Signal",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util/Signal.luau"
-															],
-															"children": []
+															]
 														},
 														{
 															"name": "Spawn",
 															"className": "ModuleScript",
+															"children": [],
 															"filePaths": [
 																"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util/Spawn.luau"
-															],
-															"children": []
+															]
 														}
+													],
+													"filePaths": [
+														"Packages/_Index/uncontained0_red@1.2.2/red/lib/Util"
 													]
 												}
+											],
+											"filePaths": [
+												"Packages/_Index/uncontained0_red@1.2.2/red/lib/init.luau",
+												"Packages/_Index/uncontained0_red@1.2.2/red/default.project.json"
 											]
 										}
+									],
+									"filePaths": [
+										"Packages/_Index/uncontained0_red@1.2.2"
 									]
 								}
+							],
+							"filePaths": [
+								"Packages/_Index"
 							]
 						}
+					],
+					"filePaths": [
+						"Packages",
+						"lync.project.json"
 					]
 				},
 				{
 					"name": "Assets",
 					"className": "Folder",
-					"filePaths": [
-						"src/Shared/Assets"
-					],
 					"children": [
 						{
 							"name": "Images",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/Assets/Images.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Robux",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/Assets/Robux.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Sounds",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/Assets/Sounds.lua"
-							],
-							"children": []
+							]
 						}
+					],
+					"filePaths": [
+						"src/Shared/Assets"
 					]
 				},
 				{
 					"name": "Components",
 					"className": "Folder",
+					"children": [],
 					"filePaths": [
 						"src/Shared/Components"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "FusionMaterial",
 					"className": "Folder",
-					"filePaths": [
-						"src/Shared/FusionMaterial"
-					],
 					"children": [
 						{
 							"name": "CheckpointNotification",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/FusionMaterial/CheckpointNotification.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "SettingsButton",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/FusionMaterial/SettingsButton.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "SettingsFrame",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/FusionMaterial/SettingsFrame.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "SkipButton",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/FusionMaterial/SkipButton.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "StoreButton",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/FusionMaterial/StoreButton.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "StoreFrame",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/FusionMaterial/StoreFrame.lua"
-							],
-							"children": []
+							]
 						}
+					],
+					"filePaths": [
+						"src/Shared/FusionMaterial"
 					]
 				},
 				{
 					"name": "Interface",
 					"className": "ModuleScript",
+					"children": [],
 					"filePaths": [
 						"src/Shared/Interface.lua"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Modules",
 					"className": "Folder",
-					"filePaths": [
-						"src/Shared/Modules"
-					],
 					"children": [
 						{
 							"name": "Sound",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/Modules/Sound.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Tween",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Shared/Modules/Tween.lua"
-							],
-							"children": []
+							]
 						}
+					],
+					"filePaths": [
+						"src/Shared/Modules"
 					]
 				},
 				{
 					"name": "State",
 					"className": "ModuleScript",
+					"children": [],
 					"filePaths": [
 						"src/Shared/State.lua"
-					],
-					"children": []
+					]
 				}
+			],
+			"filePaths": [
+				"src/Shared",
+				"lync.project.json"
 			]
 		},
 		{
 			"name": "ServerScriptService",
 			"className": "ServerScriptService",
-			"filePaths": [
-				"src/Server",
-				"lync.project.json"
-			],
 			"children": [
 				{
 					"name": "Components",
 					"className": "Folder",
-					"filePaths": [
-						"src/Server/Components"
-					],
 					"children": [
 						{
 							"name": "Checkpoint",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Components/Checkpoint.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "Dynamite",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/Dynamite.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "EmitterMonster",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/EmitterMonster.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "KillBrick",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/KillBrick.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "Lightning",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/Lightning.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "MovingPlatforms",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/MovingPlatforms.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "NinjaStar",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/NinjaStar.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "SpinningDummy",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/SpinningDummy.lua"
-							],
-							"children": []
-						},
-						{
-							"name": "SwingingAxe",
-							"className": "ModuleScript",
-							"filePaths": [
-								"src/Server/Components/SwingingAxe.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "DashingStoneStatue",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Components/DashingStoneStatue.lua"
-							],
-							"children": []
+							]
 						},
 						{
-							"name": "SpinningYingYang",
+							"name": "Dynamite",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
-								"src/Server/Components/SpinningYingYang.lua"
-							],
-							"children": []
+								"src/Server/Components/Dynamite.lua"
+							]
 						},
 						{
-							"name": "WindMonsterObstacle",
+							"name": "EmitterMonster",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
-								"src/Server/Components/WindMonsterObstacle.lua"
-							],
-							"children": []
+								"src/Server/Components/EmitterMonster.lua"
+							]
 						},
 						{
 							"name": "FireMonsterObstacle",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Components/FireMonsterObstacle.lua"
-							],
-							"children": []
+							]
+						},
+						{
+							"name": "KillBrick",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/KillBrick.lua"
+							]
+						},
+						{
+							"name": "Lightning",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/Lightning.lua"
+							]
+						},
+						{
+							"name": "MovingPlatforms",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/MovingPlatforms.lua"
+							]
+						},
+						{
+							"name": "NinjaStar",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/NinjaStar.lua"
+							]
+						},
+						{
+							"name": "SpinningDummy",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/SpinningDummy.lua"
+							]
+						},
+						{
+							"name": "SpinningYingYang",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/SpinningYingYang.lua"
+							]
+						},
+						{
+							"name": "SwingingAxe",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/SwingingAxe.lua"
+							]
+						},
+						{
+							"name": "WindMonsterObstacle",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/WindMonsterObstacle.lua"
+							]
 						}
+					],
+					"filePaths": [
+						"src/Server/Components"
 					]
 				},
 				{
 					"name": "Modules",
 					"className": "Folder",
-					"filePaths": [
-						"src/Server/Modules"
-					],
 					"children": [
 						{
 							"name": "ComponentTimingModule",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Modules/ComponentTimingModule.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "PurchaseModule",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Modules/PurchaseModule.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "RobuxReactionModule",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Modules/RobuxReactionModule.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "SpawnModule",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Modules/SpawnModule.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "StatsModule",
 							"className": "ModuleScript",
+							"children": [],
 							"filePaths": [
 								"src/Server/Modules/StatsModule.lua"
-							],
-							"children": []
+							]
 						}
+					],
+					"filePaths": [
+						"src/Server/Modules"
 					]
 				},
 				{
 					"name": "reloader",
 					"className": "LocalScript",
+					"children": [],
 					"filePaths": [
 						"src/Server/reloader.client.lua"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "ServerInit",
 					"className": "Script",
+					"children": [],
 					"filePaths": [
 						"src/Server/ServerInit.server.lua"
-					],
-					"children": []
+					]
 				}
+			],
+			"filePaths": [
+				"src/Server",
+				"lync.project.json"
 			]
 		},
 		{
 			"name": "ServerStorage",
 			"className": "ServerStorage",
-			"filePaths": [
-				"assets/ServerStorage",
-				"lync.project.json"
-			],
 			"children": [
 				{
 					"name": "TagList",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/ServerStorage/TagList.rbxm"
-					],
-					"children": []
+					]
 				}
+			],
+			"filePaths": [
+				"assets/ServerStorage",
+				"lync.project.json"
 			]
 		},
 		{
 			"name": "StarterPlayer",
 			"className": "StarterPlayer",
-			"filePaths": [
-				"lync.project.json"
-			],
 			"children": [
 				{
 					"name": "StarterPlayerScripts",
 					"className": "Folder",
-					"filePaths": [
-						"src/Client",
-						"lync.project.json"
-					],
 					"children": [
 						{
 							"name": "ClientInit",
 							"className": "LocalScript",
+							"children": [],
 							"filePaths": [
 								"src/Client/ClientInit.client.lua"
-							],
-							"children": []
+							]
 						},
 						{
 							"name": "Components",
 							"className": "Folder",
-							"filePaths": [
-								"src/Client/Components"
-							],
 							"children": [
 								{
 									"name": "Dynamite",
 									"className": "ModuleScript",
+									"children": [],
 									"filePaths": [
 										"src/Client/Components/Dynamite.lua"
-									],
-									"children": []
+									]
 								},
 								{
 									"name": "LooseLog",
 									"className": "ModuleScript",
+									"children": [],
 									"filePaths": [
 										"src/Client/Components/LooseLog.lua"
-									],
-									"children": []
+									]
 								}
+							],
+							"filePaths": [
+								"src/Client/Components"
 							]
 						},
 						{
 							"name": "Modules",
 							"className": "Folder",
+							"children": [],
 							"filePaths": [
 								"src/Client/Modules"
-							],
-							"children": []
+							]
 						}
+					],
+					"filePaths": [
+						"src/Client",
+						"lync.project.json"
 					]
 				}
+			],
+			"filePaths": [
+				"lync.project.json"
 			]
 		},
 		{
 			"name": "Workspace",
 			"className": "Workspace",
-			"filePaths": [
-				"assets/Workspace",
-				"lync.project.json"
-			],
 			"children": [
 				{
 					"name": "Bush_TrainingCourse11",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse11.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse13",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse13.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Bush_TrainingCourse14",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse14.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse12",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse12.rbxm"
-					],
-					"children": []
+					]
+				},
+				{
+					"name": "Bush_TrainingCourse13",
+					"className": "Instance",
+					"children": [],
+					"filePaths": [
+						"assets/Workspace/Bush_TrainingCourse13.rbxm"
+					]
+				},
+				{
+					"name": "Bush_TrainingCourse14",
+					"className": "Instance",
+					"children": [],
+					"filePaths": [
+						"assets/Workspace/Bush_TrainingCourse14.rbxm"
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse15",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse15.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse16",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse16.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse17",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse17.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse18",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse18.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse19",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse19.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse2",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse2.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse3",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse3.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse4",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse4.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse5",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse5.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse6",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse6.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse7",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse7.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse8",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse8.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Bush_TrainingCourse9",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse9.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Checkpoints",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Checkpoints.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Extras",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Extras.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Hay Bale",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Hay Bale.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Hay Bale1",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Hay Bale1.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Hay Bale2",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Hay Bale2.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model1",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model1.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model10",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model10.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model100",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model100.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model101",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model101.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model102",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model102.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model103",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model103.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model104",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model104.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model105",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model105.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model106",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model106.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model107",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model107.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model108",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model108.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model109",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model109.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model11",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model11.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model110",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model110.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model111",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model111.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model112",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model112.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model113",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model113.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model114",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model114.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model115",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model115.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model116",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model116.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model117",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model117.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model118",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model118.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model119",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model119.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model12",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model12.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model120",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model120.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model121",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model121.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model122",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model122.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model123",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model123.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model124",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model124.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model125",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model125.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model126",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model126.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model127",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model127.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model128",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model128.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model129",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model129.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model13",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model13.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model130",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model130.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model131",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model131.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model132",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model132.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model133",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model133.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model134",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model134.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model135",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model135.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model136",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model136.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model137",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model137.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model138",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model138.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model139",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model139.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model14",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model14.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model140",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model140.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model141",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model141.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model142",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model142.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model143",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model143.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model144",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model144.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model145",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model145.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model146",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model146.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model147",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model147.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model148",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model148.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model149",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model149.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model150",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model150.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model15",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model15.rbxm"
-					],
-					"children": []
+					]
+				},
+				{
+					"name": "Model150",
+					"className": "Instance",
+					"children": [],
+					"filePaths": [
+						"assets/Workspace/Model150.rbxm"
+					]
 				},
 				{
 					"name": "Model151",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model151.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model152",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model152.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model153",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model153.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model154",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model154.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model155",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model155.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model156",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model156.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model157",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model157.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model158",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model158.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model159",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model159.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model16",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model16.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model160",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model160.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model161",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model161.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model162",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model162.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model163",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model163.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model165",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model165.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model166",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model166.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model167",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model167.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model168",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model168.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model169",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model169.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model17",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model17.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model170",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model170.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model1711",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model1711.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model172",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model172.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model173",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model173.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model175",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model175.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model177",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model177.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model178",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model178.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model179",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model179.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model18",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model18.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model180",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model180.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model181",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model181.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model183",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model183.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model184",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model184.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model185",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model185.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model186",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model186.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model189",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model189.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model19",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model19.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model190",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model190.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model191",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model191.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model192",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model192.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model193",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model193.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model194",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model194.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model197",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model197.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model198",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model198.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model199",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model199.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model2",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model2.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model20",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model20.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model200",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model200.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model201",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model201.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model203",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model203.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model204",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model204.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model205",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model205.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model206",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model206.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model207",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model207.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model21",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model21.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model210",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model210.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model211",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model211.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model22",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model22.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model23",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model23.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model24",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model24.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model25",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model25.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model26",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model26.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model28",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model28.rbxm"
-					],
-					"children": []
-				},
-				{
-					"name": "Model29",
-					"className": "Instance",
-					"filePaths": [
-						"assets/Workspace/Model29.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model27",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model27.rbxm"
-					],
-					"children": []
+					]
+				},
+				{
+					"name": "Model28",
+					"className": "Instance",
+					"children": [],
+					"filePaths": [
+						"assets/Workspace/Model28.rbxm"
+					]
+				},
+				{
+					"name": "Model29",
+					"className": "Instance",
+					"children": [],
+					"filePaths": [
+						"assets/Workspace/Model29.rbxm"
+					]
 				},
 				{
 					"name": "Model3",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model3.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model30",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model30.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model31",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model31.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model32",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model32.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model33",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model33.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model34",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model34.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model35",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model35.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model36",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model36.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model37",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model37.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model38",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model38.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model39",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model39.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model41",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model41.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model42",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model42.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model43",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model43.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model44",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model44.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model45",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model45.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model46",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model46.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model47",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model47.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model48",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model48.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model49",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model49.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model5",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model5.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model50",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model50.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model51",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model51.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model52",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model52.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model53",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model53.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model54",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model54.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model55",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model55.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model56",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model56.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model65",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model65.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model66",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model66.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model67",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model67.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model68",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model68.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model69",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model69.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model70",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model70.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model71",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model71.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model72",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model72.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model73",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model73.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model74",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model74.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model75",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model75.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model76",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model76.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model77",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model77.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model78",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model78.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model79",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model79.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model8",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model8.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model80",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model80.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model81",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model81.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model82",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model82.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model83",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model83.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model84",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model84.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model85",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model85.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model86",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model86.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model88",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model88.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model89",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model89.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model9",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model9.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model90",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model90.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model91",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model91.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model92",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model92.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model93",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model93.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model95",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model95.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model97",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model97.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model98",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model98.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Model99",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Model99.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Obstacles",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Obstacles.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall1",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall1.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall2",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall2.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall3",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall3.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall4",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall4.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall5",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall5.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall6",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall6.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Waterfall7",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Workspace/Waterfall7.rbxm"
-					],
-					"children": []
+					]
 				}
+			],
+			"filePaths": [
+				"assets/Workspace",
+				"lync.project.json"
 			]
 		},
 		{
 			"name": "Lighting",
 			"className": "Lighting",
-			"filePaths": [
-				"assets/Lighting",
-				"lync.project.json"
-			],
 			"children": [
 				{
 					"name": "Bloom",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/Bloom.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Blur",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/Blur.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "ColorCorrection",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/ColorCorrection.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "DepthOfField",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/DepthOfField.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "GhostColorCorrection",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/GhostColorCorrection.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "GhostColorCorrection_Jur",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/GhostColorCorrection_Jur.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "Sky",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/Sky.rbxm"
-					],
-					"children": []
+					]
 				},
 				{
 					"name": "SunRays",
 					"className": "Instance",
+					"children": [],
 					"filePaths": [
 						"assets/Lighting/SunRays.rbxm"
-					],
-					"children": []
+					]
 				}
+			],
+			"filePaths": [
+				"assets/Lighting",
+				"lync.project.json"
 			]
 		}
 	]

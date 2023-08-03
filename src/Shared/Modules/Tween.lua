@@ -30,6 +30,7 @@ function Tween.new(obj: Instance, info: TweenInfo, props: { [string]: any }, res
 
 		if
 			onCancel(function()
+				print("cancelling")
 				tween:Cancel()
 				if resetOnCancel then
 					applyProps(obj, oldProps)
