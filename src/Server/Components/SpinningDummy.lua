@@ -6,6 +6,8 @@ local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
+local TIME_PER_SPIN = .7
+
 local SpinningDummy = Component.new({
 	Tag = "SpinningDummy",
 })
@@ -52,7 +54,7 @@ function SpinningDummy:Construct()
 end
 
 function SpinningDummy:Start()
-	local TIME_PER_SPIN = .7
+	
 
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true

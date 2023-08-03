@@ -22,24 +22,7 @@ function Lightning:_onTouched(hit: BasePart)
 	end
 end
 
-function Lightning:_scanForTouchingParts()
-	self._trove:Add(RunService.Heartbeat:Connect(function(dt: number)
-		for _, touch in self.Instance.Hitboxes:GetDescendants() do
-			if not touch:IsA("BasePart") then
-				continue
-			end
-			for _, part in workspace:GetPartsInPart(touch, self.OverlapParams) do
-				self:_onTouched(part)
-			end
-		end
-	end))
-end
-
 function Lightning:Construct()
-	self.OverlapParams = OverlapParams.new()
-	self.OverlapParams.FilterType = Enum.RaycastFilterType.Exclude
-	self.OverlapParams.FilterDescendantsInstances = { self.Instance.Parent }
-
     self.Bounds = self.Instance.Parent.Bounds:GetChildren() :: {BasePart}
 
 	local totalArea = 0
@@ -54,7 +37,9 @@ function Lightning:Construct()
 
 	self._trove = Trove.new()
 
-	self:_scanForTouchingParts()
+	self._trove:Add(self.Instance.Hitbox.Touched:Connect(function(hit)
+		self:_onTouched(hit)
+	end))
 end
 
 function Lightning:Start()

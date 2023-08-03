@@ -8,16 +8,32 @@ local EmitterMonster = Component.new({
 })
 
 function EmitterMonster:setEmitter(value: boolean)
-	self._emitter.Enabled = value
+	for _, e: ParticleEmitter in self._emitters do
+		e.Enabled = value
+	end
 end
 
 function EmitterMonster:Construct()
 	self._trove = Trove.new()
 
-	local emitterSource: Instance = self.Instance:FindFirstChild("EmitterSource")
-	assert(emitterSource)
-	self._emitter = emitterSource:FindFirstChild("ParticleEmitter")
-	assert(self._emitter and self._emitter:IsA("ParticleEmitter"))
+	self._emitters = {} :: {ParticleEmitter}
+	for _, emitterSource in self.Instance:GetChildren() do
+		if not (emitterSource.Name == "EmitterSource") then
+			continue
+		end
+
+		for _, emitter in emitterSource:GetChildren() do
+			if emitter:IsA("ParticleEmitter") then
+				table.insert(self._emitters, emitter)
+			elseif emitter:IsA("Attachment") then
+				for _, emitter2 in emitter:GetChildren() do
+					table.insert(self._emitters, emitter2)
+				end
+			end
+
+			
+		end
+	end
 end
 
 function EmitterMonster:Start() end
