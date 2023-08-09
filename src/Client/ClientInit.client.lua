@@ -69,7 +69,8 @@ StageValue.Changed:Connect(function(value)
 		),
 
 		Promise
-			.try(State.CheckpointTransparency.set, State.CheckpointTransparency, 0) -- others
+			.resolve() -- others
+			:andThenCall(State.CheckpointTransparency.set, State.CheckpointTransparency, 0),
 			:andThen(function()
 				return Promise.delay(6)
 			end)
@@ -90,8 +91,7 @@ StageValue.Changed:Connect(function(value)
 			Katana.Position = UDim2.fromScale(-0.3, 0.4)
 			CheckpointSound:Stop()
 			State.CheckpointTransparency:set(1)
+			CheckpointReachedPromise = nil
 		end)
 		:catch(error)
-
-	CheckpointReachedPromise = nil
 end)

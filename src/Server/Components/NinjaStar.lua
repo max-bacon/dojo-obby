@@ -9,31 +9,31 @@ local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local DELAY_TIME = 4
 
-local NinjaStar = Component.new({
-	Tag = "NinjaStar",
+local NinjaStarObstacle = Component.new({
+	Tag = "NinjaStarObstacle",
 })
 
-function NinjaStar:Fire()
+function NinjaStarObstacle:Fire()
 	local clone = self.Instance:Clone()
-	clone.Name = "NinjaStarClone"
+	clone.Name = "NinjaStarObstacleClone"
 	clone.Star.Transparency = 0
-	CollectionService:RemoveTag(clone, "NinjaStar")
+	CollectionService:RemoveTag(clone, "NinjaStarObstacle")
 	clone.Star.Anchored = false
 	clone.Parent = self.Instance.Parent
 end
 
-function NinjaStar:Construct()
+function NinjaStarObstacle:Construct()
 	self._trove = Trove.new()
 
 	self.Instance.Star.Transparency = 1
 end
 
-function NinjaStar:Start()
+function NinjaStarObstacle:Start()
     
 end
 
-function NinjaStar:Stop()
+function NinjaStarObstacle:Stop()
 	self._trove:Clean()
 end
 
-return NinjaStar
+return NinjaStarObstacle

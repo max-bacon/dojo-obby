@@ -39,7 +39,7 @@
 				"Ambient": ["Color3.new(0, 0, 0)"],
 				"Brightness": 2,
 				"ColorShift_Bottom": ["Color3.new(0, 0, 0)"],
-				"ColorShift_Top": ["Color3.new(0.84705882352, 0.70588235294, 0.45490196078)"],
+				"ColorShift_Top": ["Color3.fromRGB(216, 180, 116)"],
 				"EnvironmentDiffuseScale": 1,
 				"EnvironmentSpecularScale": 1,
 				"GlobalShadows": true,
