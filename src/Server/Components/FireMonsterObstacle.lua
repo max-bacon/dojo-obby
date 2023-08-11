@@ -8,11 +8,11 @@ local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
-local FireMonsterWall = Component.new({
-	Tag = "FireMonsterWall",
+local FireMonsterObstacle = Component.new({
+	Tag = "FireMonsterObstacle",
 })
 
-function FireMonsterWall:_onTouched(hit: BasePart)
+function FireMonsterObstacle:_onTouched(hit: BasePart)
 	assert(hit.Parent)
 	local hum = hit.Parent:FindFirstChild("Humanoid")
 	if not hum then
@@ -24,7 +24,7 @@ function FireMonsterWall:_onTouched(hit: BasePart)
 	end
 end
 
-function FireMonsterWall:_scanForTouchingParts()
+function FireMonsterObstacle:_scanForTouchingParts()
 	self._trove:Add(RunService.Heartbeat:Connect(function(dt: number)
 		if not self.Active then
 			return
@@ -40,7 +40,7 @@ function FireMonsterWall:_scanForTouchingParts()
 	end))
 end
 
-function FireMonsterWall:setEmitters(value: boolean)
+function FireMonsterObstacle:setEmitters(value: boolean)
 	for _, monster: Instance in self._monsters do
 		local component = EmitterMonster:FromInstance(monster)
 		if not component then continue end
@@ -49,7 +49,7 @@ function FireMonsterWall:setEmitters(value: boolean)
 	end
 end
 
-function FireMonsterWall:Construct()
+function FireMonsterObstacle:Construct()
 	self.OverlapParams = OverlapParams.new()
 	self.OverlapParams.FilterType = Enum.RaycastFilterType.Exclude
 	self.OverlapParams.FilterDescendantsInstances = { self.Instance }
@@ -70,7 +70,7 @@ function FireMonsterWall:Construct()
 	self:_scanForTouchingParts()
 end
 
-function FireMonsterWall:Start()
+function FireMonsterObstacle:Start()
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true
 
@@ -89,8 +89,8 @@ function FireMonsterWall:Start()
 	end).cancel)
 end
 
-function FireMonsterWall:Stop()
+function FireMonsterObstacle:Stop()
 	self._trove:Clean()
 end
 
-return FireMonsterWall
+return FireMonsterObstacle

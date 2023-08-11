@@ -45,53 +45,60 @@ State.SkipClickedSignal:Connect(function()
 	MarketplaceService:PromptProductPurchase(player, Robux.Product.SkipStage)
 end)
 
-local CheckpointReachedPromise
-StageValue.Changed:Connect(function(value)
-	State.Stage:set(value)
-
-	if CheckpointReachedPromise then
-		CheckpointReachedPromise:cancel()
-	end
-
-	print("CheckpointReached")
+task.spawn(function()
 	local CheckpointNotification = UI:FindFirstChild("CheckpointNotification")
-	assert(CheckpointNotification ~= nil)
+	assert(CheckpointNotification)
+
 	local Katana = CheckpointNotification:FindFirstChild("Katana")
-	local CheckpointSound = Instance.new("Sound")
-	CheckpointSound.Name = "CheckpointSound"
-	assert(Katana ~= nil and CheckpointSound ~= nil and CheckpointSound:IsA("Sound"))
-	print("test")
-	CheckpointReachedPromise = Promise.all({
-		Tween.new( -- flying katana
-			Katana,
-			TweenInfo.new(4, Enum.EasingStyle.Linear),
-			{ Position = UDim2.fromScale(1.3, 0.4) }
-		),
+	assert(Katana and Katana:IsA("ImageLabel"))
 
-		Promise
-			.resolve() -- others
-			:andThenCall(State.CheckpointTransparency.set, State.CheckpointTransparency, 0),
-			:andThen(function()
-				return Promise.delay(6)
+	local CheckpointSound = CheckpointNotification:FindFirstChild("CheckpointSound")
+	assert(CheckpointSound and CheckpointSound:IsA("Sound"))
+
+	local CheckpointReachedPromise: any
+
+	StageValue.Changed:Connect(function(value)
+		State.Stage:set(value)
+
+		if CheckpointReachedPromise then
+			CheckpointReachedPromise:cancel()
+		end
+
+		print("CheckpointReached")
+
+		CheckpointReachedPromise = Promise.all({
+			Tween.new( -- flying katana
+				Katana,
+				TweenInfo.new(4, Enum.EasingStyle.Linear),
+				{ Position = UDim2.fromScale(1.3, 0.4) }
+			),
+
+			Promise
+				.resolve() -- others
+				:andThenCall(State.CheckpointTransparency.set, State.CheckpointTransparency, 0)
+				:andThen(function()
+					return Promise.delay(6)
+				end)
+				:andThenCall(State.CheckpointTransparency.set, State.CheckpointTransparency, 1),
+
+			Promise.resolve():andThen(function()
+				CheckpointSound.TimePosition = 9
+				CheckpointSound.Volume = 0
+
+				print("playing sound")
+				CheckpointSound:Play()
+				print(CheckpointSound.Playing)
+				return Tween.new(CheckpointSound, TweenInfo.new(2, Enum.EasingStyle.Linear), { Volume = 1 }, true)
+			end),
+		})
+			:finally(function() -- cleanup
+				print("done")
+				Katana.Position = UDim2.fromScale(-0.3, 0.4)
+				CheckpointSound:Stop()
+				CheckpointSound.Volume = 0
+				State.CheckpointTransparency:set(1)
+				CheckpointReachedPromise = nil
 			end)
-			:andThenCall(State.CheckpointTransparency.set, State.CheckpointTransparency, 1),
-
-		Promise.resolve():andThen(function()
-			Sound.new("Checkpoint", CheckpointNotification, {
-				TimePosition = 9,
-				Volume = 0,
-				Name = "CheckpointSound",
-			})
-			print("playing sound")
-			CheckpointSound:Play()
-			return Tween.new(CheckpointSound, TweenInfo.new(2, Enum.EasingStyle.Linear), { Volume = 1 }, true)
-		end),
-	})
-		:finally(function() -- cleanup
-			Katana.Position = UDim2.fromScale(-0.3, 0.4)
-			CheckpointSound:Stop()
-			State.CheckpointTransparency:set(1)
-			CheckpointReachedPromise = nil
-		end)
-		:catch(error)
+			:catch(error)
+	end)
 end)

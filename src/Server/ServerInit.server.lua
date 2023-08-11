@@ -13,7 +13,7 @@ local Modules = ServerScriptService.Modules
 
 local StatsModule = require(Modules.StatsModule)
 local SpawnModule = require(Modules.SpawnModule)
-local PurchaseModule = require(Modules.PurchaseModule)
+-- local PurchaseModule = require(Modules.PurchaseModule)
 local ComponentTimingModule = require(Modules.ComponentTimingModule)
 
 local Components = {}

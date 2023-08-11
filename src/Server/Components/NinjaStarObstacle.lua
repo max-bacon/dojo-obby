@@ -7,8 +7,6 @@ local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
-local DELAY_TIME = 4
-
 local NinjaStarObstacle = Component.new({
 	Tag = "NinjaStarObstacle",
 })

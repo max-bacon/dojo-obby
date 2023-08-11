@@ -44,6 +44,7 @@ function Tween.new(obj: Instance, info: TweenInfo, props: { [string]: any }, res
 
 		tween.Completed:Connect(resolve)
 		tween:Play()
+		print("playing tween")
 	end)
 end
 

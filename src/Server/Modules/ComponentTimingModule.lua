@@ -4,14 +4,14 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local ComponentTimingModule = {}
 
-function ComponentTimingModule._ninjaStar(component)
+function ComponentTimingModule._ninjaStar(component:any)
     return Promise.new(function()
         local function fire(collection: {any})
             for _, s in collection do
                 s:Fire()
             end
         end
-        repeat task.wait() until #component:GetAll() == #CollectionService:GetTagged("NinjaStar")
+        repeat task.wait() until #component:GetAll() == #CollectionService:GetTagged("NinjaStarObstacle")
     
         local NinjaStarComponentInstances = component:GetAll()
     
@@ -36,7 +36,7 @@ function ComponentTimingModule._ninjaStar(component)
 end
 
 function ComponentTimingModule.initialize(components: {[string]: any})
-    ComponentTimingModule._ninjaStar(components.NinjaStar)
+    ComponentTimingModule._ninjaStar(components.NinjaStarObstacle)
 end
 
 return ComponentTimingModule

@@ -1850,11 +1850,11 @@
 							]
 						},
 						{
-							"name": "NinjaStar",
+							"name": "NinjaStarObstacle",
 							"className": "ModuleScript",
 							"children": [],
 							"filePaths": [
-								"src/Server/Components/NinjaStar.lua"
+								"src/Server/Components/NinjaStarObstacle.lua"
 							]
 						},
 						{
@@ -2034,7 +2034,7 @@
 							"children": []
 						},
 						{
-							"name": "NinjaStar",
+							"name": "NinjaStarObstacle",
 							"className": "Configuration",
 							"filePaths": [],
 							"children": []
@@ -2383,19 +2383,2500 @@
 				},
 				{
 					"name": "Bush_TrainingCourse4",
-					"className": "Model",
+					"className": "Folder",
 					"children": [
 						{
-							"name": "LeafBlock",
-							"className": "UnionOperation",
+							"name": "Checkpoint1",
+							"className": "Model",
 							"filePaths": [],
-							"children": []
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
 						},
 						{
-							"name": "Main",
-							"className": "Part",
+							"name": "Checkpoint0",
+							"className": "Model",
 							"filePaths": [],
-							"children": []
+							"children": [
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "Checkpoint3",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint4",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint5",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint6",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint7",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint8",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint9",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint10",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint12",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint13",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint14",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint15",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint16",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint17",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint18",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint19",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint2",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint20",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Teleport",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint11",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
 						}
 					],
 					"filePaths": [
@@ -5043,6 +7524,18 @@
 							"filePaths": [],
 							"children": [
 								{
+									"name": "Attachment",
+									"className": "Attachment",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Beam",
+									"className": "Beam",
+									"filePaths": [],
+									"children": []
+								},
+								{
 									"name": "Decal",
 									"className": "Decal",
 									"filePaths": [],
@@ -5063,18 +7556,6 @@
 								{
 									"name": "ParticleEmitter",
 									"className": "ParticleEmitter",
-									"filePaths": [],
-									"children": []
-								},
-								{
-									"name": "Attachment",
-									"className": "Attachment",
-									"filePaths": [],
-									"children": []
-								},
-								{
-									"name": "Beam",
-									"className": "Beam",
 									"filePaths": [],
 									"children": []
 								}

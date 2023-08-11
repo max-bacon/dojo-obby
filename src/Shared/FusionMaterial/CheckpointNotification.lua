@@ -72,6 +72,12 @@ return function(checkpointTransparency: Fusion.Value<number>)
 				ImageTransparency = Fusion.Tween(checkpointTransparency),
 				ZIndex = 1,
 			}),
+
+			Fusion.New("Sound")({
+				Name = "CheckpointSound",
+				Volume = 0,
+				
+			})
 		},
 
 		[Fusion.Cleanup] = spinCon,
