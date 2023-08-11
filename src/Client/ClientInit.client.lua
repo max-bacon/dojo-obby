@@ -13,7 +13,6 @@ local SharedModules = ReplicatedStorage:WaitForChild("Modules")
 local Interface = require(ReplicatedStorage.Interface)
 local FusionMaterial = ReplicatedStorage:WaitForChild("FusionMaterial")
 local Tween = require(SharedModules:WaitForChild("Tween"))
-local Sound = require(SharedModules:WaitForChild("Sound"))
 
 local Robux = require(ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Robux"))
 
