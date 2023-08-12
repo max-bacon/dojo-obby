@@ -7,8 +7,8 @@ local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local MOVE_TIME = 5
-local MOVE_DELAY_TIME = 0.5
-local CHANGE_VELO_DELAY = 0.5
+local MOVE_DELAY_TIME = 6
+local CHANGE_VELO_DELAY = 3
 
 local MovingPlatform = Component.new({
 	Tag = "MovingPlatform",
@@ -17,11 +17,12 @@ local MovingPlatform = Component.new({
 function MovingPlatform:Construct()
 	self._trove = Trove.new()
 
-    self._assemblyVeloAlter = Vector3.new()
+	self._alignPos = self.Instance.PrimaryPart.AlignPosition
+	self._alignOrient = self.Instance.PrimaryPart.AlignOrientation
 end
 
 function MovingPlatform:Start()
-    --- Run the movement of the platform
+	--- Run the movement of the platform
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true
 
@@ -29,35 +30,23 @@ function MovingPlatform:Start()
 			running = false
 		end
 
-		self.Instance.PrimaryPart.CFrame = CFrame.new(self.Instance["1"].Position)
-			* self.Instance.PrimaryPart.CFrame.Rotation
+		self._alignOrient.CFrame = self.Instance.PrimaryPart.CFrame
 
-		local firstTween = TweenService:Create(
-			self.Instance.PrimaryPart,
-			TweenInfo.new(MOVE_TIME, Enum.EasingStyle.Linear),
-			{ CFrame = CFrame.new(self.Instance["2"].Position) * self.Instance.PrimaryPart.CFrame.Rotation }
-		)
-
-		local secondTween = TweenService:Create(
-			self.Instance.PrimaryPart,
-			TweenInfo.new(MOVE_TIME, Enum.EasingStyle.Linear),
-			{ CFrame = CFrame.new(self.Instance["1"].Position) * self.Instance.PrimaryPart.CFrame.Rotation }
-		)
+		self._alignPos.Position = self.Instance["1"].Position
+		self.Instance.PrimaryPart.Position = self._alignPos.Position
 
 		while running do
-			firstTween:Play()
-			firstTween.Completed:Wait()
+			self._alignPos.Position = self.Instance["2"].Position
 
 			task.wait(MOVE_DELAY_TIME)
 
-			secondTween:Play()
-			secondTween.Completed:Wait()
+			self._alignPos.Position = self.Instance["1"].Position
 
 			task.wait(MOVE_DELAY_TIME)
 		end
 	end).cancel)
 
-    --- Make it more difficult with random changes
+	--- Make it more difficult with random changes
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true
 
@@ -66,26 +55,8 @@ function MovingPlatform:Start()
 		end
 
 		while running do
-            self._assemblyVeloAlter = Vector3.new(math.random(1, 3), 0, math.random(1, 3))
-            task.wait(CHANGE_VELO_DELAY)
-		end
-	end).cancel)
-
-    --- Allow for the player to move with platform
-    self._trove:Add(Promise.new(function(_, _, onCancel)
-        local lastPos = self.Instance.PrimaryPart.Position
-
-		local con = RunService.Stepped:Connect(function(_, dt)
-            local currentPos = self.Instance.PrimaryPart.Position
-            local deltaPos = currentPos - lastPos
-
-            self.Instance.PrimaryPart.AssemblyLinearVelocity = deltaPos / dt + self._assemblyVeloAlter
-
-            lastPos = currentPos
-		end)
-
-        if onCancel() then
-			con:Disconnect()
+			self.Instance.PrimaryPart.AssemblyLinearVelocity = Vector3.new(math.random() > 0.5 and 3 or -3, 0, 0)
+			task.wait(CHANGE_VELO_DELAY)
 		end
 	end).cancel)
 end

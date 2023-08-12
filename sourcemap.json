@@ -1834,6 +1834,14 @@
 							]
 						},
 						{
+							"name": "MovingPlatform",
+							"className": "ModuleScript",
+							"children": [],
+							"filePaths": [
+								"src/Server/Components/MovingPlatform.lua"
+							]
+						},
+						{
 							"name": "MovingPlatforms",
 							"className": "ModuleScript",
 							"children": [],
@@ -1887,14 +1895,6 @@
 							"children": [],
 							"filePaths": [
 								"src/Server/Components/WindMonsterObstacle.lua"
-							]
-						},
-						{
-							"name": "MovingPlatform",
-							"className": "ModuleScript",
-							"children": [],
-							"filePaths": [
-								"src/Server/Components/MovingPlatform.lua"
 							]
 						}
 					],
@@ -2180,27 +2180,6 @@
 					]
 				},
 				{
-					"name": "Bush_TrainingCourse13",
-					"className": "Model",
-					"children": [
-						{
-							"name": "LeafBlock",
-							"className": "UnionOperation",
-							"filePaths": [],
-							"children": []
-						},
-						{
-							"name": "Main",
-							"className": "Part",
-							"filePaths": [],
-							"children": []
-						}
-					],
-					"filePaths": [
-						"assets/Workspace/Bush_TrainingCourse13.rbxm"
-					]
-				},
-				{
 					"name": "Bush_TrainingCourse12",
 					"className": "Model",
 					"children": [
@@ -2219,6 +2198,27 @@
 					],
 					"filePaths": [
 						"assets/Workspace/Bush_TrainingCourse12.rbxm"
+					]
+				},
+				{
+					"name": "Bush_TrainingCourse13",
+					"className": "Model",
+					"children": [
+						{
+							"name": "LeafBlock",
+							"className": "UnionOperation",
+							"filePaths": [],
+							"children": []
+						},
+						{
+							"name": "Main",
+							"className": "Part",
+							"filePaths": [],
+							"children": []
+						}
+					],
+					"filePaths": [
+						"assets/Workspace/Bush_TrainingCourse13.rbxm"
 					]
 				},
 				{
@@ -8307,6 +8307,69 @@
 					]
 				},
 				{
+					"name": "Model112",
+					"className": "Model",
+					"children": [
+						{
+							"name": "Part",
+							"className": "Part",
+							"filePaths": [],
+							"children": []
+						}
+					],
+					"filePaths": [
+						"assets/Workspace/Model112.rbxm"
+					]
+				},
+				{
+					"name": "Model113",
+					"className": "Model",
+					"children": [
+						{
+							"name": "Model",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Model1",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Part",
+											"className": "Part",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								},
+								{
+									"name": "Part",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "Model1",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Part",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								}
+							]
+						}
+					],
+					"filePaths": [
+						"assets/Workspace/Model113.rbxm"
+					]
+				},
+				{
 					"name": "Model114",
 					"className": "Model",
 					"children": [
@@ -9278,69 +9341,6 @@
 					]
 				},
 				{
-					"name": "Model112",
-					"className": "Model",
-					"children": [
-						{
-							"name": "Part",
-							"className": "Part",
-							"filePaths": [],
-							"children": []
-						}
-					],
-					"filePaths": [
-						"assets/Workspace/Model112.rbxm"
-					]
-				},
-				{
-					"name": "Model113",
-					"className": "Model",
-					"children": [
-						{
-							"name": "Model",
-							"className": "Model",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "Model1",
-									"className": "Model",
-									"filePaths": [],
-									"children": [
-										{
-											"name": "Part",
-											"className": "Part",
-											"filePaths": [],
-											"children": []
-										}
-									]
-								},
-								{
-									"name": "Part",
-									"className": "Part",
-									"filePaths": [],
-									"children": []
-								}
-							]
-						},
-						{
-							"name": "Model1",
-							"className": "Model",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "Part",
-									"className": "Part",
-									"filePaths": [],
-									"children": []
-								}
-							]
-						}
-					],
-					"filePaths": [
-						"assets/Workspace/Model113.rbxm"
-					]
-				},
-				{
 					"name": "Model149",
 					"className": "Model",
 					"children": [
@@ -9452,6 +9452,21 @@
 					]
 				},
 				{
+					"name": "Model152",
+					"className": "Model",
+					"children": [
+						{
+							"name": "MeshPart",
+							"className": "MeshPart",
+							"filePaths": [],
+							"children": []
+						}
+					],
+					"filePaths": [
+						"assets/Workspace/Model152.rbxm"
+					]
+				},
+				{
 					"name": "Model153",
 					"className": "Model",
 					"children": [
@@ -9496,21 +9511,6 @@
 					],
 					"filePaths": [
 						"assets/Workspace/Model153.rbxm"
-					]
-				},
-				{
-					"name": "Model152",
-					"className": "Model",
-					"children": [
-						{
-							"name": "MeshPart",
-							"className": "MeshPart",
-							"filePaths": [],
-							"children": []
-						}
-					],
-					"filePaths": [
-						"assets/Workspace/Model152.rbxm"
 					]
 				},
 				{
@@ -11751,6 +11751,53 @@
 					]
 				},
 				{
+					"name": "Model33",
+					"className": "Model",
+					"children": [
+						{
+							"name": "Model",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Union",
+									"className": "UnionOperation",
+									"filePaths": [],
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "Crate_TrainingCourse",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Part",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Mid",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Anchor",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								}
+							]
+						}
+					],
+					"filePaths": [
+						"assets/Workspace/Model33.rbxm"
+					]
+				},
+				{
 					"name": "Model34",
 					"className": "Model",
 					"children": [
@@ -11802,53 +11849,6 @@
 					],
 					"filePaths": [
 						"assets/Workspace/Model34.rbxm"
-					]
-				},
-				{
-					"name": "Model33",
-					"className": "Model",
-					"children": [
-						{
-							"name": "Model",
-							"className": "Model",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "Union",
-									"className": "UnionOperation",
-									"filePaths": [],
-									"children": []
-								}
-							]
-						},
-						{
-							"name": "Crate_TrainingCourse",
-							"className": "Model",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "Part",
-									"className": "Part",
-									"filePaths": [],
-									"children": []
-								},
-								{
-									"name": "Mid",
-									"className": "Part",
-									"filePaths": [],
-									"children": []
-								},
-								{
-									"name": "Anchor",
-									"className": "Part",
-									"filePaths": [],
-									"children": []
-								}
-							]
-						}
-					],
-					"filePaths": [
-						"assets/Workspace/Model33.rbxm"
 					]
 				},
 				{
@@ -16199,7 +16199,26 @@
 									"name": "Main",
 									"className": "Part",
 									"filePaths": [],
-									"children": []
+									"children": [
+										{
+											"name": "AlignOrientation",
+											"className": "AlignOrientation",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "AlignPosition",
+											"className": "AlignPosition",
+											"filePaths": [],
+											"children": []
+										},
+										{
+											"name": "Attachment",
+											"className": "Attachment",
+											"filePaths": [],
+											"children": []
+										}
+									]
 								}
 							]
 						}
@@ -16350,53 +16369,6 @@
 					]
 				},
 				{
-					"name": "Waterfall4",
-					"className": "Model",
-					"children": [
-						{
-							"name": "Source",
-							"className": "Part",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "Attachment",
-									"className": "Attachment",
-									"filePaths": [],
-									"children": []
-								}
-							]
-						},
-						{
-							"name": "Plunge",
-							"className": "Part",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "Attachment",
-									"className": "Attachment",
-									"filePaths": [],
-									"children": []
-								},
-								{
-									"name": "Mist",
-									"className": "ParticleEmitter",
-									"filePaths": [],
-									"children": []
-								}
-							]
-						},
-						{
-							"name": "Water",
-							"className": "Beam",
-							"filePaths": [],
-							"children": []
-						}
-					],
-					"filePaths": [
-						"assets/Workspace/Waterfall4.rbxm"
-					]
-				},
-				{
 					"name": "Waterfall3",
 					"className": "Model",
 					"children": [
@@ -16441,6 +16413,53 @@
 					],
 					"filePaths": [
 						"assets/Workspace/Waterfall3.rbxm"
+					]
+				},
+				{
+					"name": "Waterfall4",
+					"className": "Model",
+					"children": [
+						{
+							"name": "Source",
+							"className": "Part",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Attachment",
+									"className": "Attachment",
+									"filePaths": [],
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "Plunge",
+							"className": "Part",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Attachment",
+									"className": "Attachment",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Mist",
+									"className": "ParticleEmitter",
+									"filePaths": [],
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "Water",
+							"className": "Beam",
+							"filePaths": [],
+							"children": []
+						}
+					],
+					"filePaths": [
+						"assets/Workspace/Waterfall4.rbxm"
 					]
 				},
 				{
