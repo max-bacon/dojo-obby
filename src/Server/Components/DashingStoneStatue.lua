@@ -1,9 +1,6 @@
-local CollectionService = game:GetService("CollectionService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
-local EmitterMonster = require(script.Parent.EmitterMonster)
 local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
@@ -42,6 +39,8 @@ function DashingStoneStatue:Start()
 		if onCancel() then
 			running = false
 		end
+
+		self.Instance.StoneStatue.PrimaryPart.CFrame = CFrame.new(self.Instance["1"].Position) * self.Instance.StoneStatue.PrimaryPart.CFrame.Rotation
 
 		local startCFrame = self.Instance.StoneStatue.PrimaryPart.CFrame
 		local nextStopCFrame = CFrame.new(self.Instance["2"].Position) * startCFrame.Rotation

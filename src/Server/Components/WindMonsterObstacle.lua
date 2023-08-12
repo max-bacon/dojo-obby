@@ -9,48 +9,48 @@ local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
-local WindMonsterWall = Component.new({
-	Tag = "WindMonsterWall",
+local WindMonsterObstacle = Component.new({
+	Tag = "WindMonsterObstacle",
 })
 
-function WindMonsterWall:_onTouched(hit: BasePart, touch: BasePart)
+function WindMonsterObstacle:_onTouched(hit: BasePart, touch: BasePart)
 	assert(hit.Parent)
 	local hum = hit.Parent:FindFirstChildOfClass("Humanoid")
 	if not hum then
 		return
 	end
-    local char = hum.Parent
-    assert(char)
+	local char = hum.Parent
+	assert(char)
 
-    local player = Players:GetPlayerFromCharacter(char)
-    assert(player)
+	local player = Players:GetPlayerFromCharacter(char)
+	assert(player)
 
-    local hrp = char:FindFirstChild("HumanoidRootPart")
-    assert(hrp and hrp:IsA("BasePart"))
-    if hrp:FindFirstChild("Blow") then
-        return
-    end
+	local hrp = char:FindFirstChild("HumanoidRootPart")
+	assert(hrp and hrp:IsA("BasePart"))
+	if hrp:FindFirstChild("Blow") then
+		return
+	end
 
-    hum.Sit = true
-    
-    local attachment = Instance.new("Attachment")
-    attachment.Parent = hrp
+	hum.Sit = true
 
-    local linearVelo = Instance.new("LinearVelocity")
-    linearVelo.Name = "Blow"
-    linearVelo.MaxForce = 100000
-    linearVelo.Attachment0 = attachment
-    linearVelo.VectorVelocity = -touch.CFrame.LookVector * 100
-    linearVelo.Parent = hrp
-    task.wait(.1)
-    linearVelo.Enabled = false
+	local attachment = Instance.new("Attachment")
+	attachment.Parent = hrp
 
-    task.wait(1)
-    linearVelo:Destroy()
-    attachment:Destroy()
+	local linearVelo = Instance.new("LinearVelocity")
+	linearVelo.Name = "Blow"
+	linearVelo.MaxForce = 100000
+	linearVelo.Attachment0 = attachment
+	linearVelo.VectorVelocity = -touch.CFrame.LookVector * 100
+	linearVelo.Parent = hrp
+	task.wait(0.1)
+	linearVelo.Enabled = false
+
+	task.wait(1)
+	linearVelo:Destroy()
+	attachment:Destroy()
 end
 
-function WindMonsterWall:_scanForTouchingParts()
+function WindMonsterObstacle:_scanForTouchingParts()
 	self._trove:Add(RunService.Heartbeat:Connect(function(dt: number)
 		if not self.Active then
 			return
@@ -66,16 +66,18 @@ function WindMonsterWall:_scanForTouchingParts()
 	end))
 end
 
-function WindMonsterWall:setEmitters(value: boolean)
+function WindMonsterObstacle:setEmitters(value: boolean)
 	for _, monster: Instance in self._monsters do
 		local component = EmitterMonster:FromInstance(monster)
-		if not component then continue end
+		if not component then
+			continue
+		end
 
 		component:setEmitter(value)
 	end
 end
 
-function WindMonsterWall:Construct()
+function WindMonsterObstacle:Construct()
 	self.OverlapParams = OverlapParams.new()
 	self.OverlapParams.FilterType = Enum.RaycastFilterType.Exclude
 	self.OverlapParams.FilterDescendantsInstances = { self.Instance }
@@ -93,12 +95,12 @@ function WindMonsterWall:Construct()
 		end
 	end
 
-    self._blowing = {}
+	self._blowing = {}
 
 	self:_scanForTouchingParts()
 end
 
-function WindMonsterWall:Start()
+function WindMonsterObstacle:Start()
 	self._trove:Add(Promise.new(function(_, _, onCancel)
 		local running = true
 
@@ -117,8 +119,8 @@ function WindMonsterWall:Start()
 	end).cancel)
 end
 
-function WindMonsterWall:Stop()
+function WindMonsterObstacle:Stop()
 	self._trove:Clean()
 end
 
-return WindMonsterWall
+return WindMonsterObstacle
