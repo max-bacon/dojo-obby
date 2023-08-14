@@ -4143,130 +4143,6 @@
 							]
 						},
 						{
-							"name": "Checkpoint17",
-							"className": "Model",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "Touch",
-									"className": "Part",
-									"filePaths": [],
-									"children": []
-								},
-								{
-									"name": "Spawn",
-									"className": "SpawnLocation",
-									"filePaths": [],
-									"children": []
-								},
-								{
-									"name": "Arch",
-									"className": "Model",
-									"filePaths": [],
-									"children": [
-										{
-											"name": "Model",
-											"className": "Model",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "MeshPart",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": []
-												},
-												{
-													"name": "Model",
-													"className": "Model",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "Model",
-															"className": "Model",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "Texture",
-																	"className": "Part",
-																	"filePaths": [],
-																	"children": [
-																		{
-																			"name": "Texture",
-																			"className": "Texture",
-																			"filePaths": [],
-																			"children": []
-																		}
-																	]
-																}
-															]
-														},
-														{
-															"name": "Texture",
-															"className": "Part",
-															"filePaths": [],
-															"children": [
-																{
-																	"name": "Texture",
-																	"className": "Texture",
-																	"filePaths": [],
-																	"children": []
-																},
-																{
-																	"name": "Mesh",
-																	"className": "SpecialMesh",
-																	"filePaths": [],
-																	"children": []
-																}
-															]
-														}
-													]
-												},
-												{
-													"name": "trapezoid",
-													"className": "MeshPart",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "Weld",
-															"className": "Weld",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												}
-											]
-										},
-										{
-											"name": "splashparticle",
-											"className": "Part",
-											"filePaths": [],
-											"children": [
-												{
-													"name": "Attachment",
-													"className": "Attachment",
-													"filePaths": [],
-													"children": [
-														{
-															"name": "splash",
-															"className": "ParticleEmitter",
-															"filePaths": [],
-															"children": []
-														}
-													]
-												}
-											]
-										},
-										{
-											"name": "PackageLink",
-											"className": "PackageLink",
-											"filePaths": [],
-											"children": []
-										}
-									]
-								}
-							]
-						},
-						{
 							"name": "Checkpoint18",
 							"className": "Model",
 							"filePaths": [],
@@ -4515,6 +4391,130 @@
 							]
 						},
 						{
+							"name": "Checkpoint20",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
 							"name": "Checkpoint2",
 							"className": "Model",
 							"filePaths": [],
@@ -4639,7 +4639,7 @@
 							]
 						},
 						{
-							"name": "Checkpoint20",
+							"name": "Checkpoint21",
 							"className": "Model",
 							"filePaths": [],
 							"children": [
@@ -4764,6 +4764,130 @@
 						},
 						{
 							"name": "Checkpoint11",
+							"className": "Model",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "Touch",
+									"className": "Part",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Spawn",
+									"className": "SpawnLocation",
+									"filePaths": [],
+									"children": []
+								},
+								{
+									"name": "Arch",
+									"className": "Model",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "Model",
+											"className": "Model",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "MeshPart",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": []
+												},
+												{
+													"name": "Model",
+													"className": "Model",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Model",
+															"className": "Model",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Part",
+																	"filePaths": [],
+																	"children": [
+																		{
+																			"name": "Texture",
+																			"className": "Texture",
+																			"filePaths": [],
+																			"children": []
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"name": "Texture",
+															"className": "Part",
+															"filePaths": [],
+															"children": [
+																{
+																	"name": "Texture",
+																	"className": "Texture",
+																	"filePaths": [],
+																	"children": []
+																},
+																{
+																	"name": "Mesh",
+																	"className": "SpecialMesh",
+																	"filePaths": [],
+																	"children": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "trapezoid",
+													"className": "MeshPart",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "Weld",
+															"className": "Weld",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "splashparticle",
+											"className": "Part",
+											"filePaths": [],
+											"children": [
+												{
+													"name": "Attachment",
+													"className": "Attachment",
+													"filePaths": [],
+													"children": [
+														{
+															"name": "splash",
+															"className": "ParticleEmitter",
+															"filePaths": [],
+															"children": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Checkpoint17",
 							"className": "Model",
 							"filePaths": [],
 							"children": [
@@ -8755,21 +8879,6 @@
 					]
 				},
 				{
-					"name": "Model126",
-					"className": "Model",
-					"children": [
-						{
-							"name": "Union",
-							"className": "UnionOperation",
-							"filePaths": [],
-							"children": []
-						}
-					],
-					"filePaths": [
-						"assets/Workspace/Model126.rbxm"
-					]
-				},
-				{
 					"name": "Model127",
 					"className": "Model",
 					"children": [
@@ -8789,6 +8898,21 @@
 					],
 					"filePaths": [
 						"assets/Workspace/Model127.rbxm"
+					]
+				},
+				{
+					"name": "Model126",
+					"className": "Model",
+					"children": [
+						{
+							"name": "Union",
+							"className": "UnionOperation",
+							"filePaths": [],
+							"children": []
+						}
+					],
+					"filePaths": [
+						"assets/Workspace/Model126.rbxm"
 					]
 				},
 				{
@@ -16159,26 +16283,6 @@
 							]
 						},
 						{
-							"name": "SpinningYingYang",
-							"className": "Folder",
-							"filePaths": [],
-							"children": [
-								{
-									"name": "YingYang",
-									"className": "UnionOperation",
-									"filePaths": [],
-									"children": [
-										{
-											"name": "PackageLink",
-											"className": "PackageLink",
-											"filePaths": [],
-											"children": []
-										}
-									]
-								}
-							]
-						},
-						{
 							"name": "MovingPlatform",
 							"className": "Model",
 							"filePaths": [],
@@ -16215,6 +16319,26 @@
 										{
 											"name": "Attachment",
 											"className": "Attachment",
+											"filePaths": [],
+											"children": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "SpinningYingYang",
+							"className": "Folder",
+							"filePaths": [],
+							"children": [
+								{
+									"name": "YingYang",
+									"className": "UnionOperation",
+									"filePaths": [],
+									"children": [
+										{
+											"name": "PackageLink",
+											"className": "PackageLink",
 											"filePaths": [],
 											"children": []
 										}
