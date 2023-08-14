@@ -1,4 +1,4 @@
-name: Deploy Prod
+name: Deploy Prod (Lync)
 
 on:
   push:
@@ -9,18 +9,28 @@ jobs:
 
   deploy:
     name: Deploy
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-    - name: Checkout code
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+
+    - name: Checkout repo
       uses: actions/checkout@v3
+
+    - name: Checkout Lync
+      uses: actions/checkout@master
+      with:
+        repository: Iron-Stag-Games/Lync
+        path: Lync
 
     - uses: ok-nick/setup-aftman@v0.3.0
       name: Install Aftman
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-    
+
     - run: wally install
-    
-    - run: rojo build -o game.rbxlx
+
+    - run: node "Lync/Lync/index.js" lync.project.json OFFLINE
 
     - run: rbxcloud experience publish -f game.rbxlx -p ${{ secrets.PROD_PLACE_ID }} -u ${{ secrets.PROD_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}

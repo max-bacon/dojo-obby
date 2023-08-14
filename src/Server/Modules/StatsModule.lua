@@ -1,5 +1,3 @@
---!strict
-
 local StatsModule = {}
 
 export type StatsArray = {
@@ -21,6 +19,16 @@ function StatsModule.set(player: Player, stat: string, value: any)
 	data[stat].Value = value
 end
 
+function StatsModule.increment(player: Player, stat: string, value: number?)
+	print("done incrememnting")
+	local statObj: ValueBase = Stats[player][stat]
+
+	assert(statObj:IsA("IntValue") or statObj:IsA("NumberValue"))
+	local inc = value or 1
+
+	StatsModule.set(player, stat, StatsModule.get(player, stat) + inc)
+end
+
 function StatsModule.initialize(player: Player)
 	local leaderstats = Instance.new("Folder")
 	leaderstats.Name = "leaderstats"
@@ -32,7 +40,7 @@ function StatsModule.initialize(player: Player)
 	level.Parent = leaderstats
 
 	local wins = Instance.new("IntValue")
-	level.Name = "Wins"
+	wins.Name = "Wins"
 	wins.Value = 0
 	wins.Parent = leaderstats
 

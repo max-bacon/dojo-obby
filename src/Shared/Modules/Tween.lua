@@ -1,10 +1,9 @@
 -- Coupling of Tweens and Promises
 
 local Tween = {}
-Tween.__index = Tween
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Promise = require(ReplicatedStorage.Packages.Promise)
+local Promise = require(ReplicatedStorage:WaitForChild("Packages"):WaitForChild("Promise"))
 
 local TweenService = game:GetService("TweenService")
 
@@ -31,6 +30,7 @@ function Tween.new(obj: Instance, info: TweenInfo, props: { [string]: any }, res
 
 		if
 			onCancel(function()
+				print("cancelling")
 				tween:Cancel()
 				if resetOnCancel then
 					applyProps(obj, oldProps)
@@ -44,6 +44,7 @@ function Tween.new(obj: Instance, info: TweenInfo, props: { [string]: any }, res
 
 		tween.Completed:Connect(resolve)
 		tween:Play()
+		print("playing tween")
 	end)
 end
 
