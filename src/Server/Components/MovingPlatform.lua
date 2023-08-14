@@ -8,7 +8,6 @@ local Trove = require(ReplicatedStorage.Packages.Trove)
 
 local MOVE_TIME = 5
 local MOVE_DELAY_TIME = 6
-local CHANGE_VELO_DELAY = 3
 
 local MovingPlatform = Component.new({
 	Tag = "MovingPlatform",
