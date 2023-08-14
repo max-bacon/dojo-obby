@@ -33,4 +33,4 @@ jobs:
 
     - run: node "Lync/Lync/index.js" lync.project.json OFFLINE
 
-    - run: rbxcloud experience publish -f game.rbxlx -p ${{ secrets.PROD_PLACE_ID }} -u ${{ secrets.PROD_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
+    - run: rbxcloud experience publish -f BuildScripts/Build/Build.rbxl -p ${{ secrets.PROD_PLACE_ID }} -u ${{ secrets.PROD_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
