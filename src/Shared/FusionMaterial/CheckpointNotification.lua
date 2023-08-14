@@ -8,6 +8,7 @@ type State = State.State
 local Fusion = require(Packages.Fusion)
 
 local Images = require(ReplicatedStorage.Assets.Images).UI
+local Sounds = require(ReplicatedStorage.Assets.Sounds)
 
 local rotTime = 2
 local degPerSec = 360 / rotTime
@@ -76,7 +77,7 @@ return function(checkpointTransparency: Fusion.Value<number>)
 			Fusion.New("Sound")({
 				Name = "CheckpointSound",
 				Volume = 0,
-				
+				SoundId = Sounds.Checkpoint
 			})
 		},
 

@@ -13,6 +13,10 @@ local FireMonsterObstacle = Component.new({
 })
 
 function FireMonsterObstacle:_onTouched(hit: BasePart)
+	if not self.Active then
+		return
+	end
+
 	assert(hit.Parent)
 	local hum = hit.Parent:FindFirstChild("Humanoid")
 	if not hum then
@@ -24,20 +28,14 @@ function FireMonsterObstacle:_onTouched(hit: BasePart)
 	end
 end
 
-function FireMonsterObstacle:_scanForTouchingParts()
-	self._trove:Add(RunService.Heartbeat:Connect(function(dt: number)
-		if not self.Active then
-			return
+function FireMonsterObstacle:_initializeTouchedConnections()
+	for _, p in self.Instance.Hitboxes:GetDescendants() do
+		if p:IsA("BasePart") then
+			self._trove:Add(p.Touched:Connect(function(hit)
+				self:_onTouched(hit)
+			end))
 		end
-		for _, touch in self.Instance.Hitboxes:GetDescendants() do
-			if not touch:IsA("BasePart") then
-				continue
-			end
-			for _, part in workspace:GetPartsInPart(touch, self.OverlapParams) do
-				self:_onTouched(part)
-			end
-		end
-	end))
+	end
 end
 
 function FireMonsterObstacle:setEmitters(value: boolean)
@@ -50,10 +48,6 @@ function FireMonsterObstacle:setEmitters(value: boolean)
 end
 
 function FireMonsterObstacle:Construct()
-	self.OverlapParams = OverlapParams.new()
-	self.OverlapParams.FilterType = Enum.RaycastFilterType.Exclude
-	self.OverlapParams.FilterDescendantsInstances = { self.Instance }
-
 	self._trove = Trove.new()
 	self.Active = false
 
@@ -67,7 +61,7 @@ function FireMonsterObstacle:Construct()
 		end
 	end
 
-	self:_scanForTouchingParts()
+	self:_initializeTouchedConnections()
 end
 
 function FireMonsterObstacle:Start()

@@ -16,6 +16,10 @@ function Checkpoint:_onTouched(hit: BasePart)
 	if not hum then
 		return
 	end
+
+	if not (hum.Health > 0) then
+		return
+	end
 	
 	local Player = game:GetService("Players"):GetPlayerFromCharacter(hum.Parent)
 	

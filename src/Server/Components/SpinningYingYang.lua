@@ -7,7 +7,7 @@ local Component = require(ReplicatedStorage.Packages.Component) :: any
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
 local Trove = require(ReplicatedStorage.Packages.Trove)
 
-local TIME_PER_SPIN = 1
+local ANGULAR_VELO = Vector3.new(0, 5, 0)
 
 local SpinningYingYang = Component.new({
 	Tag = "SpinningYingYang",
@@ -15,6 +15,8 @@ local SpinningYingYang = Component.new({
 
 function SpinningYingYang:Construct()
 	self._trove = Trove.new()
+	self._alignPosition = self.Instance.AlignPosition
+	self._angVelo = self.Instance.AngularVelocity
 end
 
 function SpinningYingYang:Start()
@@ -22,16 +24,10 @@ function SpinningYingYang:Start()
 		or CollectionService:HasTag(self.Instance, "2") and -1
 		or error("No 1 or 2 tag")
 
-	local spinTween = TweenService:Create(
-		self.Instance,
-		TweenInfo.new(TIME_PER_SPIN, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, -1),
-		{ Rotation = directionSign * Vector3.new(0, 360, 0) }
-	)
-	spinTween:Play()
 
-	self._trove:Add(function()
-		spinTween:Cancel()
-	end)
+	self._alignPosition.Position = self.Instance.Position
+
+	self._angVelo.AngularVelocity = ANGULAR_VELO * directionSign
 end
 
 function SpinningYingYang:Stop()

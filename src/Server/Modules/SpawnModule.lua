@@ -18,7 +18,7 @@ function SpawnModule.spawn(player: Player, char: Model?, awaitChange: boolean?)
 
 	local spawn = checkpoint:FindFirstChild("Spawn") or checkpoint:FindFirstChild("Teleport")
 	wait()
-	character.PrimaryPart.CFrame = spawn.CFrame * CFrame.new(0, 2, 0)
+	character.PrimaryPart.CFrame = spawn.CFrame * CFrame.new(0, 3, 0)
 end
 
 return SpawnModule

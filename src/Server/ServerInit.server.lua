@@ -1,4 +1,5 @@
 local CollectionService = game:GetService("CollectionService")
+local PhysicsService = game:GetService("PhysicsService")
 local ServerScriptService = game:GetService("ServerScriptService")
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -22,10 +23,18 @@ for _, c in ServerScriptService.Components:GetChildren() do
 	Components[c.Name] = require(c) :: any
 end
 
+PhysicsService:RegisterCollisionGroup("PlayerCharacter")
+PhysicsService:CollisionGroupSetCollidable("PlayerCharacter", "PlayerCharacter", false)
+
 Players.PlayerAdded:Connect(function(player: Player)
 	StatsModule.initialize(player)
 
 	player.CharacterAdded:Connect(function(character: Model)
+		for _, p in character:GetChildren() do
+			if p:IsA("BasePart") then
+				p.CollisionGroup = "PlayerCharacter"
+			end
+		end
 		SpawnModule.spawn(player, character, true)
 	end)
 end)
