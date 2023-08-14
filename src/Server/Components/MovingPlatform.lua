@@ -45,20 +45,6 @@ function MovingPlatform:Start()
 			task.wait(MOVE_DELAY_TIME)
 		end
 	end).cancel)
-
-	--- Make it more difficult with random changes
-	self._trove:Add(Promise.new(function(_, _, onCancel)
-		local running = true
-
-		if onCancel() then
-			running = false
-		end
-
-		while running do
-			self.Instance.PrimaryPart.AssemblyLinearVelocity = Vector3.new(math.random() > 0.5 and 3 or -3, 0, 0)
-			task.wait(CHANGE_VELO_DELAY)
-		end
-	end).cancel)
 end
 
 function MovingPlatform:Stop()
