@@ -1,4 +1,5 @@
 local Debris = game:GetService("Debris")
+local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Promise = require(ReplicatedStorage.Packages.Promise) :: any
@@ -11,6 +12,9 @@ local Dynamite = Component.new({
 })
 
 function Dynamite:_onTouched(hit: BasePart)
+	if not hit:IsDescendantOf(Players.LocalPlayer.Character) then
+		return
+	end
 	if self._touchDebounce then
 		return
 	end

@@ -30,12 +30,12 @@ Players.PlayerAdded:Connect(function(player: Player)
 	StatsModule.initialize(player)
 
 	player.CharacterAdded:Connect(function(character: Model)
+		SpawnModule.spawn(player, character, true)
 		for _, p in character:GetChildren() do
 			if p:IsA("BasePart") then
 				p.CollisionGroup = "PlayerCharacter"
 			end
 		end
-		SpawnModule.spawn(player, character, true)
 	end)
 end)
 
