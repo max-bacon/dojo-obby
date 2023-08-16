@@ -28,12 +28,6 @@ function NinjaStarTool:_onTouched(hit: BasePart)
 end
 
 function NinjaStarTool:_initializeTouchedConnections()
-	if self.Instance:IsA("BasePart") then
-		self._trove:Add(self.Instance.Touched:Connect(function(hit)
-			self:_onTouched(hit)
-		end))
-	end
-
 	for _, p in self.Instance:GetDescendants() do
 		if p:IsA("BasePart") then
 			self._trove:Add(p.Touched:Connect(function(hit)

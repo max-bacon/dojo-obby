@@ -12,12 +12,13 @@ local Dynamite = Component.new({
 })
 
 function Dynamite:_onTouched(hit: BasePart)
-	if not hit:IsDescendantOf(Players.LocalPlayer.Character) then
+	if hit.Parent ~= Players.LocalPlayer.Character then
 		return
 	end
 	if self._touchDebounce then
 		return
 	end
+
 	self._touchDebounce = true
 
 	local camera = workspace.CurrentCamera
