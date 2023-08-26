@@ -1,36 +1,40 @@
-name: Deploy Prod (Lync)
+name: Deploy Dev
 
 on:
   push:
     branches:
-    - prod
+    - dev
+    paths:
+    - '.github/workflows/deploy_dev.yml'
+    - 'Lync/**'
+    - 'dojo-obby/**'
 
 jobs:
-
-  deploy:
-    name: Deploy
-    runs-on: windows-latest
+  test-build:
+    runs-on: ubuntu-latest
     steps:
 
-    - name: Install Node.js
-      uses: actions/setup-node@v3
-
-    - name: Checkout repo
-      uses: actions/checkout@v3
-
-    - name: Checkout Lync
+    - name: Download Repository
       uses: actions/checkout@master
-      with:
-        repository: Iron-Stag-Games/Lync
-        path: Lync
 
-    - uses: ok-nick/setup-aftman@v0.3.0
-      name: Install Aftman
+    - name: Extract Project
+      run: |
+        mv Lync/ ../LyncBinaries/
+        mv "dojo-obby/" ../temp/
+        rm -r *
+        mv -v ../temp/* ./
+
+    - name: Aftman Install
+      uses: ok-nick/setup-aftman@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Install Wally Packages
+      run: wally install
 
-    - run: wally install
+    - name: Build
+      run: |
+        ../LyncBinaries/lync-linux-x64 BUILD lync.project.json
 
-    - run: node "Lync/Lync/index.js" lync.project.json OFFLINE
-
-    - run: rbxcloud experience publish -f BuildScripts/Build/Build.rbxl -p ${{ secrets.PROD_PLACE_ID }} -u ${{ secrets.PROD_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
+    - name: Publish
+      run: rbxcloud experience publish -f "BuildScripts/Build/Build.rbxl" -p ${{ secrets.PLACE_ID }} -u ${{ secrets.EXPERIENCE_ID }} -t published -a ${{ secrets.API_KEY }}
