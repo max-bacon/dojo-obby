@@ -4,9 +4,6 @@ on:
   push:
     branches:
     - dev
-    # paths:
-    # - 'src/**'
-    # - 'wally.toml'
 
 jobs:
   test-build:

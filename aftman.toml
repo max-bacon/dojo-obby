@@ -3,12 +3,11 @@
 
 # To add a new tool, add an entry to this table.
 [tools]
-wally = "UpliftGames/wally@0.3.1"
-selene = "Kampfkarren/selene@0.23.1"
-stylua = "johnnymorganz/stylua@0.14.2"
-rbxcloud = "Sleitnick/rbxcloud@0.2.1"
+wally = "UpliftGames/wally@0.3.2"
+selene = "Kampfkarren/selene@0.25.0"
+stylua = "johnnymorganz/stylua@0.18.1"
+rbxcloud = "Sleitnick/rbxcloud@0.5.0"
 tarmac = "vorlias/tarmac@0.7.3"
 wally-package-types = "JohnnyMorganz/wally-package-types@1.2.1"
-rojo = "rojo-rbx/rojo@7.3.0"
 lune = "filiptibell/lune@0.7.7"
 lync = "Iron-Stag-Games/Lync@0.24.2"
