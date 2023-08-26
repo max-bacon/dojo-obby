@@ -1,39 +1,36 @@
-name: Deploy Dev
+name: Deploy Prod
 
 on:
   push:
     branches:
-    - dev
-    # paths:
-    # - 'src/**'
-    # - 'wally.toml'
+    - prod
 
 jobs:
-  test-build:
-    runs-on: ubuntu-latest
+
+  deploy:
+    name: Deploy
+    runs-on: windows-latest
     steps:
 
-    - name: Download Repository
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Checkout Lync
       uses: actions/checkout@master
+      with:
+        repository: Iron-Stag-Games/Lync
+        path: Lync
 
-    - name: Extract Project
-      run: |
-        mv Lync/ ../LyncBinaries/
-        mv "dojo-obby/" ../temp/
-        rm -r *
-        mv -v ../temp/* ./
-
-    - name: Aftman Install
-      uses: ok-nick/setup-aftman@main
+    - uses: ok-nick/setup-aftman@v0.3.0
+      name: Install Aftman
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Install Wally Packages
-      run: wally install
 
-    - name: Build
-      run: |
-        ../LyncBinaries/lync-linux-x64 BUILD lync.project.json
+    - run: wally install
 
-    - name: Publish
-      run: rbxcloud experience publish -f "BuildScripts/Build/Build.rbxl" -p ${{ secrets.PLACE_ID }} -u ${{ secrets.EXPERIENCE_ID }} -t published -a ${{ secrets.API_KEY }}
+    - run: node "Lync/Lync/index.js" lync.project.json OFFLINE
+
+    - run: rbxcloud experience publish -f BuildScripts/Build/Build.rbxl -p ${{ secrets.PROD_PLACE_ID }} -u ${{ secrets.PROD_UNIVERSE_ID }} -t published -a ${{ secrets.API_KEY }}
