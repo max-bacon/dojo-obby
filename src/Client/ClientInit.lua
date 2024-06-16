@@ -1,3 +1,4 @@
+--@localscript
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local MarketplaceService = game:GetService("MarketplaceService")
 local SharedPackages = ReplicatedStorage:WaitForChild("Packages")
@@ -15,7 +16,7 @@ local FusionMaterial = ReplicatedStorage:WaitForChild("FusionMaterial")
 local Tween = require(SharedModules:WaitForChild("Tween"))
 
 local Robux = require(ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Robux"))
-
+  
 local leaderstats = player:WaitForChild("leaderstats")
 local StageValue: NumberValue = leaderstats:WaitForChild("Stage")
 local WinsValue: NumberValue = leaderstats:WaitForChild("Wins")

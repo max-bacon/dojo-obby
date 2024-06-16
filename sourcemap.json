@@ -1335,7 +1335,7 @@
 									]
 								},
 								{
-									"name": "sleitnick_shake@0.1.7",
+									"name": "sleitnick_shake@1.1.0",
 									"className": "Folder",
 									"children": [
 										{
@@ -1347,7 +1347,7 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_shake@0.1.7/shake/init.spec.lua"
+														"Packages/_Index/sleitnick_shake@1.1.0/shake/init.spec.lua"
 													]
 												},
 												{
@@ -1355,25 +1355,17 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_shake@0.1.7/shake/wally.toml"
+														"Packages/_Index/sleitnick_shake@1.1.0/shake/wally.toml"
 													]
 												}
 											],
 											"filePaths": [
-												"Packages/_Index/sleitnick_shake@0.1.7/shake/init.lua"
-											]
-										},
-										{
-											"name": "Trove",
-											"className": "ModuleScript",
-											"children": [],
-											"filePaths": [
-												"Packages/_Index/sleitnick_shake@0.1.7/Trove.lua"
+												"Packages/_Index/sleitnick_shake@1.1.0/shake/init.lua"
 											]
 										}
 									],
 									"filePaths": [
-										"Packages/_Index/sleitnick_shake@0.1.7"
+										"Packages/_Index/sleitnick_shake@1.1.0"
 									]
 								},
 								{
@@ -1408,6 +1400,40 @@
 									],
 									"filePaths": [
 										"Packages/_Index/sleitnick_signal@1.5.0"
+									]
+								},
+								{
+									"name": "sleitnick_signal@2.0.1",
+									"className": "Folder",
+									"children": [
+										{
+											"name": "signal",
+											"className": "ModuleScript",
+											"children": [
+												{
+													"name": "init.spec",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_signal@2.0.1/signal/init.spec.lua"
+													]
+												},
+												{
+													"name": "wally",
+													"className": "ModuleScript",
+													"children": [],
+													"filePaths": [
+														"Packages/_Index/sleitnick_signal@2.0.1/signal/wally.toml"
+													]
+												}
+											],
+											"filePaths": [
+												"Packages/_Index/sleitnick_signal@2.0.1/signal/init.lua"
+											]
+										}
+									],
+									"filePaths": [
+										"Packages/_Index/sleitnick_signal@2.0.1"
 									]
 								},
 								{
@@ -1479,7 +1505,7 @@
 									]
 								},
 								{
-									"name": "sleitnick_trove@0.5.0",
+									"name": "sleitnick_trove@1.4.0",
 									"className": "Folder",
 									"children": [
 										{
@@ -1491,7 +1517,7 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_trove@0.5.0/trove/init.spec.lua"
+														"Packages/_Index/sleitnick_trove@1.4.0/trove/init.spec.lua"
 													]
 												},
 												{
@@ -1499,17 +1525,17 @@
 													"className": "ModuleScript",
 													"children": [],
 													"filePaths": [
-														"Packages/_Index/sleitnick_trove@0.5.0/trove/wally.toml"
+														"Packages/_Index/sleitnick_trove@1.4.0/trove/wally.toml"
 													]
 												}
 											],
 											"filePaths": [
-												"Packages/_Index/sleitnick_trove@0.5.0/trove/init.lua"
+												"Packages/_Index/sleitnick_trove@1.4.0/trove/init.lua"
 											]
 										}
 									],
 									"filePaths": [
-										"Packages/_Index/sleitnick_trove@0.5.0"
+										"Packages/_Index/sleitnick_trove@1.4.0"
 									]
 								},
 								{
@@ -1953,18 +1979,18 @@
 				},
 				{
 					"name": "reloader",
-					"className": "LocalScript",
+					"className": "ModuleScript",
 					"children": [],
 					"filePaths": [
-						"src/Server/reloader.client.lua"
+						"src/Server/reloader.lua"
 					]
 				},
 				{
 					"name": "ServerInit",
-					"className": "Script",
+					"className": "ModuleScript",
 					"children": [],
 					"filePaths": [
-						"src/Server/ServerInit.server.lua"
+						"src/Server/ServerInit.lua"
 					]
 				}
 			],
@@ -2105,10 +2131,10 @@
 					"children": [
 						{
 							"name": "ClientInit",
-							"className": "LocalScript",
+							"className": "ModuleScript",
 							"children": [],
 							"filePaths": [
-								"src/Client/ClientInit.client.lua"
+								"src/Client/ClientInit.lua"
 							]
 						},
 						{

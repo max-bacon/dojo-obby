@@ -2,6 +2,11 @@
 	"name": "dojo-obby",
 	"base": "default.base.rbxl",
 	"build": "BuildScripts/Build/Build.rbxl",
+	"port": 34873,
+	"sourcemapEnabled": {
+		"RBXM": true,
+		"RBXMX": true
+	},
   
 	"tree": {
 		"ReplicatedStorage": {
@@ -31,6 +36,7 @@
 			"$properties": {
 				"Gravity": 196.2
 			}
+
 		},
 		"Lighting": {
 			"$clearOnSync": true,
