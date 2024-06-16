@@ -20,7 +20,7 @@ for _, mod in target:GetChildren() do
 end
 
 local state
-local ui: (state: State, components: { [string]: () -> () }) -> (...any)
+local ui: (state: State, components: { [string]: () -> () }) -> ...any
 
 local maid = Trove.new()
 

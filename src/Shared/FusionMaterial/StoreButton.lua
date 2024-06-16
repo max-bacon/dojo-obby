@@ -16,7 +16,12 @@ local function calculateSliceScale(screenHeight: number)
 	return screenHeight / constant
 end
 
-return function(storeButtonVisible: Fusion.Value<boolean>, storeFrameVisible: Fusion.Value<boolean>, buttonVisibility: {Fusion.Value<boolean>}, screenSize: Vector2)
+return function(
+	storeButtonVisible: Fusion.Value<boolean>,
+	storeFrameVisible: Fusion.Value<boolean>,
+	buttonVisibility: { Fusion.Value<boolean> },
+	screenSize: Vector2
+)
 	local startColor = Color3.fromRGB(0, 255, 0)
 	local endColor = Color3.fromRGB(0, 51, 0)
 	local imageColor = Fusion.Value(startColor)
@@ -24,8 +29,8 @@ return function(storeButtonVisible: Fusion.Value<boolean>, storeFrameVisible: Fu
 	local instance = Fusion.New("ImageButton")({
 		Name = "StoreButton",
 		Size = UDim2.fromScale(0.1, 0.1),
-		AnchorPoint = Vector2.new(1, .5),
-		Position = UDim2.fromScale(1, .5),
+		AnchorPoint = Vector2.new(1, 0.5),
+		Position = UDim2.fromScale(1, 0.5),
 		ImageColor3 = Fusion.Tween(imageColor),
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(18, 18, 1004, 320),

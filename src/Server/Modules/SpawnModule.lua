@@ -10,7 +10,7 @@ function SpawnModule.spawn(player: Player, char: Model?, awaitChange: boolean?)
 	awaitChange = awaitChange or false
 	local character = char or player.Character or player.CharacterAdded:Wait()
 	assert(character.PrimaryPart)
-	
+
 	if awaitChange then
 		character.PrimaryPart:GetPropertyChangedSignal("Position"):Wait()
 	end

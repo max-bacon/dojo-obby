@@ -77,8 +77,8 @@ return function(checkpointTransparency: Fusion.Value<number>)
 			Fusion.New("Sound")({
 				Name = "CheckpointSound",
 				Volume = 0,
-				SoundId = Sounds.Checkpoint
-			})
+				SoundId = Sounds.Checkpoint,
+			}),
 		},
 
 		[Fusion.Cleanup] = spinCon,

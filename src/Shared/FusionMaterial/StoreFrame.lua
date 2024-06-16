@@ -28,9 +28,9 @@ return function(storeFrameVisible: Fusion.Value<boolean>, buttonVisibility: { Fu
 				BackgroundTransparency = 0.5,
 				BackgroundColor3 = Color3.fromRGB(255, 0, 0),
 				Visible = true,
-				Size = UDim2.fromScale(0.2, 0.1	),
+				Size = UDim2.fromScale(0.2, 0.1),
 				AnchorPoint = Vector2.new(1, 0),
-				Position = UDim2.fromScale(.975, 0.05),
+				Position = UDim2.fromScale(0.975, 0.05),
 				Image = Images.CloseButton,
 
 				[Fusion.OnEvent("MouseButton1Click")] = function()
@@ -46,11 +46,8 @@ return function(storeFrameVisible: Fusion.Value<boolean>, buttonVisibility: { Fu
 					}),
 					Fusion.New("UICorner")({}),
 				},
-
 			}),
-			Fusion.New("ScrollingFrame")({
-				
-			})
+			Fusion.New("ScrollingFrame")({}),
 		},
 	})
 
