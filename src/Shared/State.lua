@@ -23,7 +23,7 @@ return function(): State
 	local skipClickedSignal = Signal.new()
 	local screenSize = workspace.CurrentCamera.ViewportSize
 	local stage = Fusion.Value(0)
-	
+
 	return {
 		CheckpointTransparency = checkpointTransparency,
 		SkipClickedSignal = skipClickedSignal,

@@ -20,7 +20,7 @@ dependencies = []
 [[package]]
 name = "maxba/dojo-obby"
 version = "0.1.0"
-dependencies = [["Cmdr", "evaera/cmdr@1.11.0"], ["Component", "sleitnick/component@2.4.6"], ["Fusion", "elttob/fusion@0.2.0"], ["Promise", "evaera/promise@4.0.0"], ["Red", "uncontained0/red@1.2.2"], ["Rewire", "sayhisam1/rewire@0.3.0"], ["Shake", "sleitnick/shake@0.1.7"], ["Signal", "sleitnick/signal@1.5.0"], ["Trove", "sleitnick/trove@0.5.0"]]
+dependencies = [["Cmdr", "evaera/cmdr@1.11.0"], ["Component", "sleitnick/component@2.4.6"], ["Fusion", "elttob/fusion@0.2.0"], ["Promise", "evaera/promise@4.0.0"], ["Red", "uncontained0/red@1.2.2"], ["Rewire", "sayhisam1/rewire@0.3.0"], ["Shake", "sleitnick/shake@1.1.0"], ["Signal", "sleitnick/signal@2.0.1"], ["Trove", "sleitnick/trove@1.4.0"]]
 
 [[package]]
 name = "sayhisam1/rewire"
@@ -34,12 +34,17 @@ dependencies = [["Promise", "evaera/promise@4.0.0"], ["Signal", "sleitnick/signa
 
 [[package]]
 name = "sleitnick/shake"
-version = "0.1.7"
-dependencies = [["Trove", "sleitnick/trove@0.4.2"]]
+version = "1.1.0"
+dependencies = []
 
 [[package]]
 name = "sleitnick/signal"
 version = "1.5.0"
+dependencies = []
+
+[[package]]
+name = "sleitnick/signal"
+version = "2.0.1"
 dependencies = []
 
 [[package]]
@@ -54,7 +59,7 @@ dependencies = []
 
 [[package]]
 name = "sleitnick/trove"
-version = "0.5.0"
+version = "1.4.0"
 dependencies = []
 
 [[package]]

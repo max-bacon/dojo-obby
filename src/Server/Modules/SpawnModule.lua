@@ -10,7 +10,7 @@ function SpawnModule.spawn(player: Player, char: Model?, awaitChange: boolean?)
 	awaitChange = awaitChange or false
 	local character = char or player.Character or player.CharacterAdded:Wait()
 	assert(character.PrimaryPart)
-	
+
 	if awaitChange then
 		character.PrimaryPart:GetPropertyChangedSignal("Position"):Wait()
 	end
@@ -18,7 +18,7 @@ function SpawnModule.spawn(player: Player, char: Model?, awaitChange: boolean?)
 
 	local spawn = checkpoint:FindFirstChild("Spawn") or checkpoint:FindFirstChild("Teleport")
 	wait()
-	character.PrimaryPart.CFrame = spawn.CFrame * CFrame.new(0, 2, 0)
+	character.PrimaryPart.CFrame = spawn.CFrame * CFrame.new(0, 3, 0)
 end
 
 return SpawnModule

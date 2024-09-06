@@ -29,8 +29,9 @@ MarketplaceService.PromptGamePassPurchaseFinished:Connect(function(player, pass_
 
 	Gamepasses[pass_id](player)
 end)
-
+print("run")
 MarketplaceService.ProcessReceipt = function(receiptInfo: { [string]: any })
+	print("test")
 	local playerProductKey = receiptInfo.PlayerId .. "_" .. receiptInfo.PurchaseId
 	local purchased = false
 	local success, result, errorMessage

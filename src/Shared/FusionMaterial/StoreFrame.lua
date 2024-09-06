@@ -22,17 +22,19 @@ return function(storeFrameVisible: Fusion.Value<boolean>, buttonVisibility: { Fu
 			Fusion.New("UIAspectRatioConstraint")({
 				AspectRatio = 2,
 			}),
+			Fusion.New("UICorner")({}),
 			Fusion.New("ImageButton")({
+				Name = "ExitButton",
 				BackgroundTransparency = 0.5,
 				BackgroundColor3 = Color3.fromRGB(255, 0, 0),
 				Visible = true,
-				Size = UDim2.fromScale(0.2, 0.1	),
+				Size = UDim2.fromScale(0.2, 0.1),
 				AnchorPoint = Vector2.new(1, 0),
-				Position = UDim2.fromScale(.975, 0.05),
+				Position = UDim2.fromScale(0.975, 0.05),
+				Image = Images.CloseButton,
 
 				[Fusion.OnEvent("MouseButton1Click")] = function()
 					for _, v in buttonVisibility do
-						print(v)
 						v:set(not v:get())
 					end
 					storeFrameVisible:set(not storeFrameVisible:get())
@@ -45,6 +47,7 @@ return function(storeFrameVisible: Fusion.Value<boolean>, buttonVisibility: { Fu
 					Fusion.New("UICorner")({}),
 				},
 			}),
+			Fusion.New("ScrollingFrame")({}),
 		},
 	})
 
