@@ -1,3 +1,4 @@
+--@localscript
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local target = ReplicatedStorage:WaitForChild("FusionMaterial")
 
@@ -19,7 +20,7 @@ for _, mod in target:GetChildren() do
 end
 
 local state
-local ui: (state: State, components: { [string]: () -> () }) -> ()
+local ui: (state: State, components: { [string]: () -> () }) -> ...any
 
 local maid = Trove.new()
 
@@ -37,7 +38,7 @@ end
 
 hotReloader:listen(Interface, function(module)
 	ui = require(module) :: any
-
+	print(module)
 	hotReload()
 end, cleanupFunction)
 

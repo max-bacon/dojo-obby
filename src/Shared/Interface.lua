@@ -11,7 +11,7 @@ local FusionMaterial = ReplicatedStorage.FusionMaterial
 type State = State.State
 
 return function(state: State, components: { [string]: (...any) -> () })
-	local buttonVisibility = {state.SettingsButtonVisible, state.StoreButtonVisible, state.SkipButtonVisible}
+	local buttonVisibility = { state.SettingsButtonVisible, state.StoreButtonVisible, state.SkipButtonVisible }
 
 	return Fusion.New("ScreenGui")({
 		Parent = Player:WaitForChild("PlayerGui"),
@@ -22,7 +22,12 @@ return function(state: State, components: { [string]: (...any) -> () })
 			components.SettingsFrame(),
 			components.SettingsButton(),
 			components.StoreFrame(state.StoreFrameVisible, buttonVisibility),
-			components.StoreButton(state.StoreButtonVisible, state.StoreFrameVisible, buttonVisibility, state.ScreenSize),
+			components.StoreButton(
+				state.StoreButtonVisible,
+				state.StoreFrameVisible,
+				buttonVisibility,
+				state.ScreenSize
+			),
 		},
 	})
 end

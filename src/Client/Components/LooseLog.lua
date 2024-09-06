@@ -1,8 +1,9 @@
 local Debris = game:GetService("Debris")
+local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Promise = require(ReplicatedStorage.Packages.Promise)
-local Component = require(ReplicatedStorage:WaitForChild("Packages"):WaitForChild("Component"))
+local Component = require(ReplicatedStorage:WaitForChild("Packages"):WaitForChild("Component")) :: any
 local Trove = require(ReplicatedStorage:WaitForChild("Packages"):WaitForChild("Trove"))
 
 local LooseLog = Component.new({
@@ -10,6 +11,9 @@ local LooseLog = Component.new({
 })
 
 function LooseLog:_onTouched(hit: BasePart)
+	if not hit:IsDescendantOf(Players.LocalPlayer.Character) then
+		return
+	end
 	if self._touchDebounce then
 		return
 	end

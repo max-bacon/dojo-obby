@@ -1,8 +1,11 @@
 {
 	"name": "dojo-obby",
-	"base": "default.base.rbxl",
 	"build": "BuildScripts/Build/Build.rbxl",
-  
+	"port": 34873,
+	"sourcemapEnabled": {
+		"RBXM": true,
+		"RBXMX": true
+	},
 	"tree": {
 		"ReplicatedStorage": {
 			"$clearOnSync": true,
@@ -36,14 +39,22 @@
 			"$clearOnSync": true,
 			"$path": "assets/Lighting",
 			"$properties": {
-				"Ambient": ["Color3.new(0, 0, 0)"],
+				"Ambient": [
+					"Color3.new(0, 0, 0)"
+				],
 				"Brightness": 2,
-				"ColorShift_Bottom": ["Color3.new(0, 0, 0)"],
-				"ColorShift_Top": ["Color3.fromRGB(216, 180, 116)"],
+				"ColorShift_Bottom": [
+					"Color3.new(0, 0, 0)"
+				],
+				"ColorShift_Top": [
+					"Color3.fromRGB(216, 180, 116)"
+				],
 				"EnvironmentDiffuseScale": 1,
 				"EnvironmentSpecularScale": 1,
 				"GlobalShadows": true,
-				"OutdoorAmbient": ["Color3.new(0.46274509803, 0.5725490196, 0.7294117647)"],
+				"OutdoorAmbient": [
+					"Color3.new(0.46274509803, 0.5725490196, 0.7294117647)"
+				],
 				"ShadowSoftness": 0,
 				"ClockTime": 8.021,
 				"GeographicLatitude": 48.184,
@@ -51,7 +62,9 @@
 				"ExposureCompensation": 0,
 				"FogEnd": 500,
 				"FogStart": 0,
-				"FogColor": ["Color3.new(0.9058823529411765, 0.9058823529411765, 0.9058823529411765)"]
+				"FogColor": [
+					"Color3.new(0.9058823529411765, 0.9058823529411765, 0.9058823529411765)"
+				]
 			}
 		}
 	}

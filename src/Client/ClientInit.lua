@@ -1,3 +1,4 @@
+--@localscript
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local MarketplaceService = game:GetService("MarketplaceService")
 local SharedPackages = ReplicatedStorage:WaitForChild("Packages")
